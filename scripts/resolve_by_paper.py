@@ -102,8 +102,16 @@ def main():
             if g:
                 gb.add(g)
 
-    print(f"R1: {len(pmid_of)} papers to look up by PubMed cross-reference", file=sys.stderr)
+    # R1 resolved 0 of 246 papers on the first corpus: UniProt literature cross-refs
+    # exist mainly for older Swiss-Prot entries, and this benchmark deliberately targets
+    # papers too recent to be curated there. Kept, but off by default.
+    skip_r1 = os.environ.get("SKIP_R1", "1") == "1"
+    print(f"R1: {len(pmid_of)} papers"
+          + (" — SKIPPED (set SKIP_R1=0 to run)" if skip_r1 else " to look up by PubMed cross-reference"),
+          file=sys.stderr)
     by_paper = {}
+    if skip_r1:
+        pmid_of = {}
     for i, (pmcid, pmid) in enumerate(sorted(pmid_of.items()), 1):
         rec = by_pubmed(pmid)
         if rec:

@@ -26,7 +26,7 @@ COLUMNS = [
     "measurement_id", "benchmark_tier",
     # identity
     "enzyme_name", "uniprot_accession", "uniprot_protein_name", "organism", "ec_number",
-    "protein_id_luke_join", "sequence_length", "sequence_resolution", "reviewed_status_uniprot",
+    "protein_id_luke_join", "sequence_length", "sequence_completeness", "sequence_resolution", "reviewed_status_uniprot",
     "mutation", "is_wild_type",
     # substrate
     "substrate", "substrate_scope", "substrate_form",
@@ -37,7 +37,7 @@ COLUMNS = [
     # buffer + electrolyte
     "buffer_name", "buffer_conc_mM", "salt_species", "salt_conc_raw", "salt_conc_mM",
     "ion_species", "ion_charge", "mixed_electrolyte", "electrolyte_composition",
-    "salinity_raw", "salinity_g_per_L", "salinity_psu", "seawater_type",
+    "salinity_raw", "salinity_g_per_L", "salinity_psu", "salinity_source", "seawater_type",
     "ionic_strength_M", "ionic_strength_source", "additive", "additive_conc_mM",
     # exposure + assay
     "exposure_time_raw", "exposure_time_min", "assay_method", "assay_method_scope",

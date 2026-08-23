@@ -101,6 +101,17 @@
 "cutin": 2
 }
 },
+"PMC10102575": {
+"score": 19,
+"distinct": 3,
+"relevant": true,
+"hits": {
+"PBS-polymer": 1,
+"PLA": 2,
+"PHA/PHB": 16,
+"plastic": 5
+}
+},
 "PMC10107082": {
 "score": 24,
 "distinct": 6,
@@ -172,6 +183,30 @@
 "hits": {
 "PET": 9,
 "plastic": 1
+}
+},
+"PMC10209495": {
+"score": 2,
+"distinct": 1,
+"relevant": false,
+"hits": {
+"PET": 2,
+"plastic": 6
+}
+},
+"PMC10221676": {
+"score": 73,
+"distinct": 7,
+"relevant": true,
+"hits": {
+"polyester": 9,
+"PCL": 31,
+"PBS-polymer": 9,
+"PLA": 14,
+"PHA/PHB": 7,
+"PE/PS": 2,
+"cutin": 1,
+"plastic": 91
 }
 },
 "PMC10230146": {
@@ -271,6 +306,14 @@
 "PET": 4,
 "PBS-polymer": 2,
 "PHA/PHB": 1
+}
+},
+"PMC10386944": {
+"score": 5,
+"distinct": 1,
+"relevant": false,
+"hits": {
+"cutin": 5
 }
 },
 "PMC10418727": {
@@ -395,6 +438,21 @@
 "plastic": 3
 }
 },
+"PMC10599323": {
+"score": 488,
+"distinct": 7,
+"relevant": true,
+"hits": {
+"PET": 9,
+"polyester": 2,
+"PCL": 9,
+"PBS-polymer": 5,
+"PLA": 434,
+"PHA/PHB": 19,
+"PE/PS": 10,
+"plastic": 70
+}
+},
 "PMC10607142": {
 "score": 237,
 "distinct": 11,
@@ -497,6 +555,24 @@
 "polyester": 1
 }
 },
+"PMC10734441": {
+"score": 225,
+"distinct": 10,
+"relevant": true,
+"hits": {
+"PET": 8,
+"polyester": 19,
+"PCL": 60,
+"PBAT": 4,
+"PBS-polymer": 90,
+"PLA": 6,
+"PHA/PHB": 1,
+"polyurethane": 1,
+"PE/PS": 13,
+"cutin": 23,
+"plastic": 49
+}
+},
 "PMC10755280": {
 "score": 1,
 "distinct": 1,
@@ -504,6 +580,15 @@
 "hits": {
 "PET": 1,
 "plastic": 4
+}
+},
+"PMC10781878": {
+"score": 1,
+"distinct": 1,
+"relevant": false,
+"hits": {
+"PHA/PHB": 1,
+"plastic": 2
 }
 },
 "PMC10794672": {
@@ -525,6 +610,22 @@
 "plastic": 3
 }
 },
+"PMC10817984": {
+"score": 114,
+"distinct": 8,
+"relevant": true,
+"hits": {
+"PET": 8,
+"polyester": 38,
+"PCL": 3,
+"PBAT": 4,
+"PBS-polymer": 13,
+"PHA/PHB": 38,
+"PE/PS": 6,
+"cutin": 4,
+"plastic": 132
+}
+},
 "PMC10820491": {
 "score": 172,
 "distinct": 6,
@@ -537,6 +638,30 @@
 "nylon/polyamide": 1,
 "PE/PS": 7,
 "plastic": 29
+}
+},
+"PMC10821302": {
+"score": 8,
+"distinct": 2,
+"relevant": true,
+"hits": {
+"polyester": 1,
+"PHA/PHB": 7
+}
+},
+"PMC10844030": {
+"score": 218,
+"distinct": 7,
+"relevant": true,
+"hits": {
+"polyester": 8,
+"PBAT": 3,
+"PBS-polymer": 2,
+"PLA": 7,
+"PHA/PHB": 196,
+"nylon/polyamide": 1,
+"PE/PS": 1,
+"plastic": 59
 }
 },
 "PMC10851425": {
@@ -553,6 +678,15 @@
 "plastic": 27
 }
 },
+"PMC10868613": {
+"score": 17,
+"distinct": 1,
+"relevant": true,
+"hits": {
+"PHA/PHB": 17,
+"plastic": 1
+}
+},
 "PMC10869840": {
 "score": 234,
 "distinct": 6,
@@ -565,6 +699,19 @@
 "PE/PS": 1,
 "cutin": 2,
 "plastic": 21
+}
+},
+"PMC10882806": {
+"score": 25,
+"distinct": 5,
+"relevant": true,
+"hits": {
+"PET": 1,
+"PLA": 5,
+"PHA/PHB": 7,
+"nylon/polyamide": 5,
+"PE/PS": 7,
+"plastic": 81
 }
 },
 "PMC10884504": {
@@ -600,6 +747,17 @@
 "PE/PS": 1,
 "cutin": 2,
 "plastic": 30
+}
+},
+"PMC10941194": {
+"score": 17,
+"distinct": 3,
+"relevant": true,
+"hits": {
+"PLA": 2,
+"PHA/PHB": 12,
+"PE/PS": 3,
+"plastic": 8
 }
 },
 "PMC10941197": {
@@ -684,6 +842,20 @@
 "PBS-polymer": 1,
 "PLA": 1,
 "plastic": 17
+}
+},
+"PMC10970112": {
+"score": 305,
+"distinct": 6,
+"relevant": true,
+"hits": {
+"PET": 5,
+"polyester": 10,
+"PLA": 7,
+"PHA/PHB": 280,
+"nylon/polyamide": 1,
+"PE/PS": 2,
+"plastic": 52
 }
 },
 "PMC10973377": {
@@ -779,6 +951,20 @@
 "plastic": 98
 }
 },
+"PMC10992092": {
+"score": 42,
+"distinct": 6,
+"relevant": true,
+"hits": {
+"PET": 31,
+"BHET/MHET": 3,
+"polyester": 3,
+"PHA/PHB": 3,
+"PE/PS": 1,
+"cutin": 1,
+"plastic": 11
+}
+},
 "PMC10997104": {
 "score": 93,
 "distinct": 10,
@@ -866,6 +1052,14 @@
 "plastic": 3
 }
 },
+"PMC11051356": {
+"score": 0,
+"distinct": 0,
+"relevant": false,
+"hits": {
+"plastic": 1
+}
+},
 "PMC11052090": {
 "score": 364,
 "distinct": 8,
@@ -901,6 +1095,51 @@
 "hits": {
 "PET": 6,
 "plastic": 1
+}
+},
+"PMC11065330": {
+"score": 32,
+"distinct": 6,
+"relevant": true,
+"hits": {
+"PET": 14,
+"polyester": 1,
+"PLA": 9,
+"polyurethane": 1,
+"nylon/polyamide": 1,
+"cutin": 6,
+"plastic": 8
+}
+},
+"PMC11093266": {
+"score": 16,
+"distinct": 5,
+"relevant": true,
+"hits": {
+"PET": 2,
+"PCL": 6,
+"PLA": 3,
+"polyurethane": 2,
+"PE/PS": 3,
+"plastic": 49
+}
+},
+"PMC11099331": {
+"score": 81,
+"distinct": 10,
+"relevant": true,
+"hits": {
+"PET": 28,
+"BHET/MHET": 1,
+"polyester": 4,
+"PCL": 1,
+"PLA": 4,
+"PHA/PHB": 3,
+"polyurethane": 3,
+"nylon/polyamide": 2,
+"PE/PS": 34,
+"cutin": 1,
+"plastic": 232
 }
 },
 "PMC11118615": {
@@ -951,6 +1190,30 @@
 "plastic": 13
 }
 },
+"PMC11189586": {
+"score": 55,
+"distinct": 6,
+"relevant": true,
+"hits": {
+"PET": 28,
+"PCL": 2,
+"PLA": 1,
+"nylon/polyamide": 2,
+"PE/PS": 18,
+"cutin": 4,
+"plastic": 219
+}
+},
+"PMC11194452": {
+"score": 12,
+"distinct": 2,
+"relevant": true,
+"hits": {
+"PET": 3,
+"PE/PS": 9,
+"plastic": 164
+}
+},
 "PMC11196671": {
 "score": 76,
 "distinct": 5,
@@ -962,6 +1225,28 @@
 "polyurethane": 1,
 "cutin": 8,
 "plastic": 7
+}
+},
+"PMC11197920": {
+"score": 23,
+"distinct": 2,
+"relevant": true,
+"hits": {
+"polyester": 2,
+"PHA/PHB": 21,
+"plastic": 8
+}
+},
+"PMC11205638": {
+"score": 54,
+"distinct": 4,
+"relevant": true,
+"hits": {
+"PET": 31,
+"polyester": 3,
+"PE/PS": 17,
+"cutin": 3,
+"plastic": 177
 }
 },
 "PMC11205646": {
@@ -976,6 +1261,23 @@
 "PE/PS": 8,
 "cutin": 3,
 "plastic": 122
+}
+},
+"PMC11213754": {
+"score": 127,
+"distinct": 9,
+"relevant": true,
+"hits": {
+"PET": 18,
+"polyester": 5,
+"PCL": 89,
+"PBS-polymer": 2,
+"PLA": 2,
+"PHA/PHB": 1,
+"polyurethane": 3,
+"PE/PS": 4,
+"cutin": 3,
+"plastic": 96
 }
 },
 "PMC11220789": {
@@ -1017,6 +1319,24 @@
 "PE/PS": 1,
 "cutin": 1,
 "plastic": 2
+}
+},
+"PMC11240263": {
+"score": 566,
+"distinct": 10,
+"relevant": true,
+"hits": {
+"PET": 26,
+"polyester": 301,
+"PCL": 51,
+"PBAT": 17,
+"PBS-polymer": 43,
+"PLA": 49,
+"PHA/PHB": 25,
+"polyurethane": 11,
+"PE/PS": 36,
+"cutin": 7,
+"plastic": 65
 }
 },
 "PMC11241649": {
@@ -1089,6 +1409,17 @@
 "plastic": 27
 }
 },
+"PMC11278848": {
+"score": 47,
+"distinct": 3,
+"relevant": true,
+"hits": {
+"PET": 39,
+"polyester": 1,
+"PE/PS": 7,
+"plastic": 58
+}
+},
 "PMC11294652": {
 "score": 137,
 "distinct": 8,
@@ -1103,6 +1434,24 @@
 "PE/PS": 4,
 "cutin": 2,
 "plastic": 85
+}
+},
+"PMC11305568": {
+"score": 61,
+"distinct": 10,
+"relevant": true,
+"hits": {
+"PET": 11,
+"polyester": 4,
+"PCL": 3,
+"PBAT": 2,
+"PBS-polymer": 2,
+"PLA": 5,
+"PHA/PHB": 6,
+"polyurethane": 5,
+"PE/PS": 22,
+"cutin": 1,
+"plastic": 146
 }
 },
 "PMC11314448": {
@@ -1141,6 +1490,16 @@
 "plastic": 68
 }
 },
+"PMC11319602": {
+"score": 16,
+"distinct": 3,
+"relevant": true,
+"hits": {
+"PET": 5,
+"PBS-polymer": 10,
+"PE/PS": 1
+}
+},
 "PMC11332829": {
 "score": 149,
 "distinct": 2,
@@ -1160,6 +1519,19 @@
 "PE/PS": 19,
 "cutin": 2,
 "plastic": 1
+}
+},
+"PMC11358325": {
+"score": 40,
+"distinct": 5,
+"relevant": true,
+"hits": {
+"PET": 26,
+"polyester": 1,
+"PBS-polymer": 1,
+"nylon/polyamide": 4,
+"PE/PS": 8,
+"plastic": 63
 }
 },
 "PMC11372007": {
@@ -1203,6 +1575,23 @@
 "PE/PS": 32,
 "cutin": 43,
 "plastic": 122
+}
+},
+"PMC11434805": {
+"score": 144,
+"distinct": 9,
+"relevant": true,
+"hits": {
+"PET": 6,
+"polyester": 2,
+"PCL": 1,
+"PBAT": 5,
+"PBS-polymer": 9,
+"PLA": 95,
+"PHA/PHB": 9,
+"nylon/polyamide": 5,
+"PE/PS": 12,
+"plastic": 550
 }
 },
 "PMC11465579": {
@@ -1305,6 +1694,25 @@
 "PE/PS": 2,
 "cutin": 3,
 "plastic": 103
+}
+},
+"PMC11544908": {
+"score": 11,
+"distinct": 2,
+"relevant": true,
+"hits": {
+"PET": 5,
+"PBS-polymer": 6
+}
+},
+"PMC11556099": {
+"score": 7,
+"distinct": 2,
+"relevant": false,
+"hits": {
+"polyester": 1,
+"PHA/PHB": 6,
+"plastic": 1
 }
 },
 "PMC11573002": {
@@ -1411,6 +1819,26 @@
 "PE/PS": 1
 }
 },
+"PMC11665356": {
+"score": 0,
+"distinct": 0,
+"relevant": false,
+"hits": {}
+},
+"PMC11672146": {
+"score": 44,
+"distinct": 6,
+"relevant": true,
+"hits": {
+"PET": 11,
+"polyester": 2,
+"PLA": 3,
+"PHA/PHB": 17,
+"polyurethane": 10,
+"nylon/polyamide": 1,
+"plastic": 45
+}
+},
 "PMC11676845": {
 "score": 2,
 "distinct": 2,
@@ -1425,6 +1853,16 @@
 "distinct": 0,
 "relevant": false,
 "hits": {}
+},
+"PMC11681616": {
+"score": 4,
+"distinct": 2,
+"relevant": false,
+"hits": {
+"PET": 1,
+"polyester": 3,
+"plastic": 2
+}
 },
 "PMC11704408": {
 "score": 97,
@@ -1503,6 +1941,14 @@
 "polyester": 3,
 "cutin": 3,
 "plastic": 11
+}
+},
+"PMC11747546": {
+"score": 3,
+"distinct": 1,
+"relevant": false,
+"hits": {
+"PHA/PHB": 3
 }
 },
 "PMC11754424": {
@@ -1649,6 +2095,23 @@
 "relevant": false,
 "hits": {}
 },
+"PMC11856478": {
+"score": 124,
+"distinct": 9,
+"relevant": true,
+"hits": {
+"PET": 37,
+"polyester": 6,
+"PCL": 7,
+"PBAT": 3,
+"PLA": 8,
+"polyurethane": 2,
+"nylon/polyamide": 1,
+"PE/PS": 57,
+"cutin": 3,
+"plastic": 484
+}
+},
 "PMC11856541": {
 "score": 176,
 "distinct": 11,
@@ -1668,6 +2131,15 @@
 "plastic": 263
 }
 },
+"PMC11858081": {
+"score": 3,
+"distinct": 1,
+"relevant": false,
+"hits": {
+"PET": 3,
+"plastic": 1
+}
+},
 "PMC11874462": {
 "score": 127,
 "distinct": 7,
@@ -1683,12 +2155,34 @@
 "plastic": 25
 }
 },
+"PMC11875071": {
+"score": 0,
+"distinct": 0,
+"relevant": false,
+"hits": {}
+},
 "PMC11891729": {
 "score": 0,
 "distinct": 0,
 "relevant": false,
 "hits": {
 "plastic": 3
+}
+},
+"PMC11903806": {
+"score": 77,
+"distinct": 8,
+"relevant": true,
+"hits": {
+"PET": 4,
+"PCL": 1,
+"PBAT": 12,
+"PLA": 6,
+"PHA/PHB": 6,
+"polyurethane": 1,
+"nylon/polyamide": 2,
+"PE/PS": 45,
+"plastic": 207
 }
 },
 "PMC11911963": {
@@ -1740,6 +2234,19 @@
 "plastic": 77
 }
 },
+"PMC11922822": {
+"score": 107,
+"distinct": 5,
+"relevant": true,
+"hits": {
+"PET": 37,
+"polyester": 11,
+"PLA": 25,
+"nylon/polyamide": 25,
+"PE/PS": 9,
+"plastic": 89
+}
+},
 "PMC11944038": {
 "score": 57,
 "distinct": 6,
@@ -1770,6 +2277,17 @@
 "PE/PS": 12,
 "cutin": 2,
 "plastic": 117
+}
+},
+"PMC11945407": {
+"score": 16,
+"distinct": 3,
+"relevant": true,
+"hits": {
+"PET": 2,
+"nylon/polyamide": 10,
+"PE/PS": 4,
+"plastic": 108
 }
 },
 "PMC11946717": {
@@ -1804,6 +2322,32 @@
 "relevant": false,
 "hits": {
 "PET": 3
+}
+},
+"PMC11991626": {
+"score": 274,
+"distinct": 2,
+"relevant": true,
+"hits": {
+"polyester": 9,
+"PHA/PHB": 265,
+"plastic": 11
+}
+},
+"PMC11995698": {
+"score": 56,
+"distinct": 8,
+"relevant": true,
+"hits": {
+"PET": 3,
+"PCL": 1,
+"PBAT": 1,
+"PLA": 41,
+"PHA/PHB": 3,
+"polyurethane": 1,
+"nylon/polyamide": 1,
+"PE/PS": 5,
+"plastic": 144
 }
 },
 "PMC12002436": {
@@ -1881,7 +2425,29 @@
 "plastic": 61
 }
 },
+"PMC12054267": {
+"score": 0,
+"distinct": 0,
+"relevant": false,
+"hits": {}
+},
+"PMC12060690": {
+"score": 23,
+"distinct": 2,
+"relevant": true,
+"hits": {
+"polyester": 1,
+"PHA/PHB": 22,
+"plastic": 3
+}
+},
 "PMC12080928": {
+"score": 0,
+"distinct": 0,
+"relevant": false,
+"hits": {}
+},
+"PMC12089952": {
 "score": 0,
 "distinct": 0,
 "relevant": false,
@@ -1919,6 +2485,12 @@
 "PBS-polymer": 2,
 "plastic": 18
 }
+},
+"PMC12112387": {
+"score": 0,
+"distinct": 0,
+"relevant": false,
+"hits": {}
 },
 "PMC12113761": {
 "score": 2,
@@ -2118,6 +2690,12 @@
 "plastic": 41
 }
 },
+"PMC12211711": {
+"score": 0,
+"distinct": 0,
+"relevant": false,
+"hits": {}
+},
 "PMC12214560": {
 "score": 39,
 "distinct": 4,
@@ -2216,6 +2794,15 @@
 "relevant": false,
 "hits": {}
 },
+"PMC12275253": {
+"score": 18,
+"distinct": 2,
+"relevant": true,
+"hits": {
+"PET": 2,
+"polyurethane": 16
+}
+},
 "PMC12281858": {
 "score": 1,
 "distinct": 1,
@@ -2241,6 +2828,15 @@
 "nylon/polyamide": 12,
 "PE/PS": 32,
 "plastic": 320
+}
+},
+"PMC12299700": {
+"score": 2,
+"distinct": 1,
+"relevant": false,
+"hits": {
+"PE/PS": 2,
+"plastic": 2
 }
 },
 "PMC12301039": {
@@ -2319,6 +2915,24 @@
 "PBS-polymer": 1
 }
 },
+"PMC12339601": {
+"score": 768,
+"distinct": 10,
+"relevant": true,
+"hits": {
+"PET": 13,
+"polyester": 171,
+"PCL": 38,
+"PBAT": 4,
+"PBS-polymer": 21,
+"PLA": 58,
+"PHA/PHB": 452,
+"nylon/polyamide": 6,
+"PE/PS": 4,
+"cutin": 1,
+"plastic": 159
+}
+},
 "PMC12342026": {
 "score": 53,
 "distinct": 4,
@@ -2338,6 +2952,12 @@
 "hits": {
 "PHA/PHB": 3
 }
+},
+"PMC12343721": {
+"score": 0,
+"distinct": 0,
+"relevant": false,
+"hits": {}
 },
 "PMC12345228": {
 "score": 216,
@@ -2394,6 +3014,21 @@
 "plastic": 18
 }
 },
+"PMC12390159": {
+"score": 321,
+"distinct": 7,
+"relevant": true,
+"hits": {
+"PET": 1,
+"polyester": 6,
+"PBAT": 88,
+"PBS-polymer": 17,
+"PLA": 150,
+"PHA/PHB": 52,
+"PE/PS": 7,
+"plastic": 74
+}
+},
 "PMC12391287": {
 "score": 14,
 "distinct": 3,
@@ -2431,6 +3066,30 @@
 "nylon/polyamide": 26,
 "PE/PS": 4,
 "plastic": 9
+}
+},
+"PMC12401495": {
+"score": 1,
+"distinct": 1,
+"relevant": false,
+"hits": {
+"PHA/PHB": 1
+}
+},
+"PMC12401730": {
+"score": 264,
+"distinct": 8,
+"relevant": true,
+"hits": {
+"PET": 20,
+"polyester": 2,
+"PCL": 2,
+"PLA": 3,
+"PHA/PHB": 2,
+"polyurethane": 7,
+"nylon/polyamide": 10,
+"PE/PS": 218,
+"plastic": 165
 }
 },
 "PMC12405426": {
@@ -2539,6 +3198,18 @@
 "plastic": 17
 }
 },
+"PMC12442501": {
+"score": 109,
+"distinct": 4,
+"relevant": true,
+"hits": {
+"polyester": 1,
+"PBS-polymer": 2,
+"PLA": 1,
+"PHA/PHB": 105,
+"plastic": 10
+}
+},
 "PMC12445843": {
 "score": 187,
 "distinct": 10,
@@ -2555,6 +3226,15 @@
 "PE/PS": 21,
 "cutin": 3,
 "plastic": 154
+}
+},
+"PMC12446244": {
+"score": 1,
+"distinct": 1,
+"relevant": false,
+"hits": {
+"polyester": 1,
+"plastic": 2
 }
 },
 "PMC12453932": {
@@ -2674,6 +3354,17 @@
 "plastic": 4
 }
 },
+"PMC12487134": {
+"score": 322,
+"distinct": 3,
+"relevant": true,
+"hits": {
+"polyester": 1,
+"PHA/PHB": 320,
+"PE/PS": 1,
+"plastic": 17
+}
+},
 "PMC12489886": {
 "score": 4,
 "distinct": 2,
@@ -2697,6 +3388,25 @@
 "PE/PS": 3,
 "cutin": 5,
 "plastic": 101
+}
+},
+"PMC12502033": {
+"score": 273,
+"distinct": 11,
+"relevant": true,
+"hits": {
+"PET": 5,
+"BHET/MHET": 1,
+"polyester": 34,
+"PCL": 32,
+"PBAT": 20,
+"PBS-polymer": 4,
+"PLA": 65,
+"PHA/PHB": 90,
+"polyurethane": 4,
+"PE/PS": 16,
+"cutin": 2,
+"plastic": 85
 }
 },
 "PMC12503013": {
@@ -2759,6 +3469,14 @@
 "plastic": 19
 }
 },
+"PMC12533159": {
+"score": 0,
+"distinct": 0,
+"relevant": false,
+"hits": {
+"plastic": 1
+}
+},
 "PMC12537917": {
 "score": 10,
 "distinct": 3,
@@ -2800,6 +3518,23 @@
 "plastic": 245
 }
 },
+"PMC12557311": {
+"score": 78,
+"distinct": 9,
+"relevant": true,
+"hits": {
+"PET": 22,
+"BHET/MHET": 4,
+"polyester": 2,
+"PCL": 2,
+"PBS-polymer": 7,
+"PLA": 17,
+"PHA/PHB": 13,
+"polyurethane": 2,
+"PE/PS": 9,
+"plastic": 403
+}
+},
 "PMC12558382": {
 "score": 24,
 "distinct": 5,
@@ -2826,6 +3561,17 @@
 "PE/PS": 6,
 "cutin": 5,
 "plastic": 62
+}
+},
+"PMC12562956": {
+"score": 175,
+"distinct": 3,
+"relevant": true,
+"hits": {
+"PET": 164,
+"PE/PS": 9,
+"cutin": 2,
+"plastic": 61
 }
 },
 "PMC12566213": {
@@ -2855,6 +3601,14 @@
 "PLA": 141,
 "PHA/PHB": 1,
 "PE/PS": 3
+}
+},
+"PMC12586097": {
+"score": 1,
+"distinct": 1,
+"relevant": false,
+"hits": {
+"PE/PS": 1
 }
 },
 "PMC12599313": {
@@ -2966,6 +3720,12 @@
 "plastic": 21
 }
 },
+"PMC12617846": {
+"score": 0,
+"distinct": 0,
+"relevant": false,
+"hits": {}
+},
 "PMC12624734": {
 "score": 89,
 "distinct": 4,
@@ -3011,6 +3771,14 @@
 "nylon/polyamide": 3,
 "PE/PS": 14,
 "plastic": 227
+}
+},
+"PMC12654293": {
+"score": 1,
+"distinct": 1,
+"relevant": false,
+"hits": {
+"PBS-polymer": 1
 }
 },
 "PMC12654650": {
@@ -3120,6 +3888,12 @@
 "plastic": 1
 }
 },
+"PMC12724144": {
+"score": 0,
+"distinct": 0,
+"relevant": false,
+"hits": {}
+},
 "PMC12734273": {
 "score": 25,
 "distinct": 1,
@@ -3136,6 +3910,14 @@
 "hits": {
 "PET": 15,
 "PHA/PHB": 2
+}
+},
+"PMC12735803": {
+"score": 1,
+"distinct": 1,
+"relevant": false,
+"hits": {
+"PHA/PHB": 1
 }
 },
 "PMC12736776": {
@@ -3216,6 +3998,21 @@
 "PET": 4
 }
 },
+"PMC12780350": {
+"score": 164,
+"distinct": 7,
+"relevant": true,
+"hits": {
+"PET": 6,
+"polyester": 1,
+"PBAT": 1,
+"PLA": 147,
+"PHA/PHB": 4,
+"PE/PS": 3,
+"cutin": 2,
+"plastic": 55
+}
+},
 "PMC12785184": {
 "score": 0,
 "distinct": 0,
@@ -3262,6 +4059,17 @@
 "relevant": false,
 "hits": {
 "PE/PS": 2
+}
+},
+"PMC12791064": {
+"score": 223,
+"distinct": 3,
+"relevant": true,
+"hits": {
+"polyester": 3,
+"PHA/PHB": 218,
+"PE/PS": 2,
+"plastic": 17
 }
 },
 "PMC12804158": {
@@ -3314,6 +4122,16 @@
 "PE/PS": 13,
 "cutin": 1,
 "plastic": 145
+}
+},
+"PMC12824818": {
+"score": 142,
+"distinct": 2,
+"relevant": true,
+"hits": {
+"polyester": 1,
+"PHA/PHB": 141,
+"plastic": 13
 }
 },
 "PMC12838782": {
@@ -3428,6 +4246,12 @@
 "plastic": 3
 }
 },
+"PMC12882472": {
+"score": 0,
+"distinct": 0,
+"relevant": false,
+"hits": {}
+},
 "PMC12896513": {
 "score": 11,
 "distinct": 2,
@@ -3481,6 +4305,20 @@
 }
 },
 "PMC12900378": {
+"score": 0,
+"distinct": 0,
+"relevant": false,
+"hits": {}
+},
+"PMC12911915": {
+"score": 1,
+"distinct": 1,
+"relevant": false,
+"hits": {
+"PBS-polymer": 1
+}
+},
+"PMC12911934": {
 "score": 0,
 "distinct": 0,
 "relevant": false,
@@ -3601,6 +4439,22 @@
 "plastic": 1
 }
 },
+"PMC12943765": {
+"score": 0,
+"distinct": 0,
+"relevant": false,
+"hits": {}
+},
+"PMC12947685": {
+"score": 3,
+"distinct": 3,
+"relevant": false,
+"hits": {
+"PBS-polymer": 1,
+"PE/PS": 1,
+"cutin": 1
+}
+},
 "PMC12948830": {
 "score": 51,
 "distinct": 7,
@@ -3701,6 +4555,16 @@
 "plastic": 203
 }
 },
+"PMC12975503": {
+"score": 80,
+"distinct": 2,
+"relevant": true,
+"hits": {
+"polyester": 1,
+"PHA/PHB": 79,
+"plastic": 8
+}
+},
 "PMC12975738": {
 "score": 0,
 "distinct": 0,
@@ -3744,6 +4608,14 @@
 "PHA/PHB": 328,
 "nylon/polyamide": 1,
 "plastic": 6
+}
+},
+"PMC12994016": {
+"score": 1,
+"distinct": 1,
+"relevant": false,
+"hits": {
+"nylon/polyamide": 1
 }
 },
 "PMC13010533": {
@@ -3903,6 +4775,21 @@
 "plastic": 22
 }
 },
+"PMC13056782": {
+"score": 3,
+"distinct": 1,
+"relevant": false,
+"hits": {
+"PE/PS": 3,
+"plastic": 1
+}
+},
+"PMC13061102": {
+"score": 0,
+"distinct": 0,
+"relevant": false,
+"hits": {}
+},
 "PMC13067175": {
 "score": 343,
 "distinct": 11,
@@ -3933,6 +4820,19 @@
 "nylon/polyamide": 1,
 "PE/PS": 2,
 "plastic": 170
+}
+},
+"PMC13075205": {
+"score": 235,
+"distinct": 5,
+"relevant": true,
+"hits": {
+"polyester": 4,
+"PBS-polymer": 3,
+"PLA": 3,
+"PHA/PHB": 224,
+"PE/PS": 1,
+"plastic": 19
 }
 },
 "PMC13081001": {
@@ -3979,6 +4879,27 @@
 "plastic": 1
 }
 },
+"PMC13101641": {
+"score": 162,
+"distinct": 5,
+"relevant": true,
+"hits": {
+"polyester": 2,
+"PBS-polymer": 2,
+"PHA/PHB": 156,
+"nylon/polyamide": 1,
+"PE/PS": 1
+}
+},
+"PMC13107660": {
+"score": 1,
+"distinct": 1,
+"relevant": false,
+"hits": {
+"PHA/PHB": 1,
+"plastic": 1
+}
+},
 "PMC13118177": {
 "score": 4,
 "distinct": 2,
@@ -3995,6 +4916,21 @@
 "hits": {
 "PET": 6,
 "PBS-polymer": 2
+}
+},
+"PMC13123575": {
+"score": 0,
+"distinct": 0,
+"relevant": false,
+"hits": {}
+},
+"PMC13128282": {
+"score": 3,
+"distinct": 2,
+"relevant": false,
+"hits": {
+"PBS-polymer": 2,
+"PHA/PHB": 1
 }
 },
 "PMC13135583": {
@@ -4070,6 +5006,12 @@
 "plastic": 4
 }
 },
+"PMC13152184": {
+"score": 0,
+"distinct": 0,
+"relevant": false,
+"hits": {}
+},
 "PMC13154153": {
 "score": 21,
 "distinct": 2,
@@ -4092,6 +5034,19 @@
 "plastic": 9
 }
 },
+"PMC13163340": {
+"score": 58,
+"distinct": 5,
+"relevant": true,
+"hits": {
+"PET": 4,
+"polyester": 12,
+"PCL": 34,
+"PE/PS": 1,
+"cutin": 7,
+"plastic": 11
+}
+},
 "PMC13163572": {
 "score": 6,
 "distinct": 2,
@@ -4100,6 +5055,36 @@
 "PET": 2,
 "PBS-polymer": 4,
 "plastic": 1
+}
+},
+"PMC13163649": {
+"score": 5,
+"distinct": 1,
+"relevant": false,
+"hits": {
+"cutin": 5,
+"plastic": 2
+}
+},
+"PMC13164108": {
+"score": 0,
+"distinct": 0,
+"relevant": false,
+"hits": {
+"plastic": 3
+}
+},
+"PMC13165325": {
+"score": 93,
+"distinct": 5,
+"relevant": true,
+"hits": {
+"PET": 2,
+"polyester": 2,
+"PLA": 7,
+"PHA/PHB": 81,
+"PE/PS": 1,
+"plastic": 6
 }
 },
 "PMC13165661": {
@@ -4116,6 +5101,48 @@
 "PHA/PHB": 6,
 "PE/PS": 5,
 "plastic": 306
+}
+},
+"PMC13166967": {
+"score": 0,
+"distinct": 0,
+"relevant": false,
+"hits": {}
+},
+"PMC13168008": {
+"score": 4,
+"distinct": 2,
+"relevant": false,
+"hits": {
+"PBS-polymer": 2,
+"nylon/polyamide": 2
+}
+},
+"PMC13169983": {
+"score": 57,
+"distinct": 8,
+"relevant": true,
+"hits": {
+"PET": 12,
+"BHET/MHET": 1,
+"polyester": 1,
+"PLA": 1,
+"polyurethane": 4,
+"nylon/polyamide": 2,
+"PE/PS": 35,
+"cutin": 1,
+"plastic": 204
+}
+},
+"PMC13172421": {
+"score": 16,
+"distinct": 3,
+"relevant": true,
+"hits": {
+"PET": 10,
+"polyester": 3,
+"PE/PS": 3,
+"plastic": 16
 }
 },
 "PMC13185801": {
@@ -4149,6 +5176,25 @@
 "plastic": 104
 }
 },
+"PMC13194874": {
+"score": 13,
+"distinct": 5,
+"relevant": true,
+"hits": {
+"PET": 5,
+"polyester": 2,
+"PLA": 1,
+"PE/PS": 2,
+"cutin": 3,
+"plastic": 28
+}
+},
+"PMC13202888": {
+"score": 0,
+"distinct": 0,
+"relevant": false,
+"hits": {}
+},
 "PMC13208617": {
 "score": 243,
 "distinct": 4,
@@ -4174,6 +5220,31 @@
 "hits": {
 "PET": 1,
 "PBS-polymer": 3
+}
+},
+"PMC13209953": {
+"score": 85,
+"distinct": 8,
+"relevant": true,
+"hits": {
+"polyester": 3,
+"PBAT": 59,
+"PBS-polymer": 1,
+"PLA": 1,
+"PHA/PHB": 1,
+"nylon/polyamide": 8,
+"PE/PS": 10,
+"cutin": 2,
+"plastic": 38
+}
+},
+"PMC13210095": {
+"score": 1,
+"distinct": 1,
+"relevant": false,
+"hits": {
+"PE/PS": 1,
+"plastic": 1
 }
 },
 "PMC13210592": {
@@ -4241,6 +5312,14 @@
 "plastic": 3
 }
 },
+"PMC13224414": {
+"score": 0,
+"distinct": 0,
+"relevant": false,
+"hits": {
+"plastic": 2
+}
+},
 "PMC13227510": {
 "score": 257,
 "distinct": 10,
@@ -4259,12 +5338,31 @@
 "plastic": 88
 }
 },
+"PMC13230378": {
+"score": 4,
+"distinct": 3,
+"relevant": false,
+"hits": {
+"PET": 1,
+"BHET/MHET": 1,
+"polyurethane": 2,
+"plastic": 3
+}
+},
 "PMC13231656": {
 "score": 1,
 "distinct": 1,
 "relevant": false,
 "hits": {
 "cutin": 1
+}
+},
+"PMC13239326": {
+"score": 1,
+"distinct": 1,
+"relevant": false,
+"hits": {
+"PBS-polymer": 1
 }
 },
 "PMC13241884": {
@@ -4287,6 +5385,12 @@
 "cutin": 15
 }
 },
+"PMC13248737": {
+"score": 0,
+"distinct": 0,
+"relevant": false,
+"hits": {}
+},
 "PMC13254593": {
 "score": 4,
 "distinct": 2,
@@ -4306,6 +5410,26 @@
 "PLA": 12,
 "polyurethane": 4,
 "PE/PS": 7
+}
+},
+"PMC13259126": {
+"score": 40,
+"distinct": 3,
+"relevant": true,
+"hits": {
+"PCL": 1,
+"PLA": 38,
+"nylon/polyamide": 1,
+"plastic": 43
+}
+},
+"PMC13260240": {
+"score": 2,
+"distinct": 2,
+"relevant": false,
+"hits": {
+"PHA/PHB": 1,
+"nylon/polyamide": 1
 }
 },
 "PMC13261733": {
@@ -4345,11 +5469,27 @@
 "PBS-polymer": 2
 }
 },
+"PMC13271055": {
+"score": 6,
+"distinct": 1,
+"relevant": false,
+"hits": {
+"nylon/polyamide": 6
+}
+},
 "PMC13272253": {
 "score": 0,
 "distinct": 0,
 "relevant": false,
 "hits": {}
+},
+"PMC13272390": {
+"score": 1,
+"distinct": 1,
+"relevant": false,
+"hits": {
+"PET": 1
+}
 },
 "PMC13274763": {
 "score": 0,
@@ -4386,6 +5526,41 @@
 "plastic": 13
 }
 },
+"PMC13290954": {
+"score": 92,
+"distinct": 5,
+"relevant": true,
+"hits": {
+"polyester": 4,
+"PCL": 68,
+"PBS-polymer": 3,
+"PLA": 12,
+"nylon/polyamide": 5,
+"plastic": 4
+}
+},
+"PMC13291771": {
+"score": 15,
+"distinct": 5,
+"relevant": true,
+"hits": {
+"PET": 3,
+"BHET/MHET": 3,
+"PBS-polymer": 2,
+"polyurethane": 3,
+"PE/PS": 4,
+"plastic": 10
+}
+},
+"PMC13295505": {
+"score": 46,
+"distinct": 1,
+"relevant": true,
+"hits": {
+"PLA": 46,
+"plastic": 2
+}
+},
 "PMC13300036": {
 "score": 6,
 "distinct": 2,
@@ -4393,6 +5568,79 @@
 "hits": {
 "PET": 2,
 "PBS-polymer": 4
+}
+},
+"PMC13303272": {
+"score": 306,
+"distinct": 9,
+"relevant": true,
+"hits": {
+"PET": 3,
+"polyester": 8,
+"PCL": 1,
+"PLA": 231,
+"PHA/PHB": 10,
+"polyurethane": 2,
+"nylon/polyamide": 34,
+"PE/PS": 14,
+"cutin": 3,
+"plastic": 85
+}
+},
+"PMC13306724": {
+"score": 127,
+"distinct": 6,
+"relevant": true,
+"hits": {
+"PET": 101,
+"BHET/MHET": 16,
+"polyester": 2,
+"PLA": 1,
+"PHA/PHB": 1,
+"cutin": 6,
+"plastic": 8
+}
+},
+"PMC13311072": {
+"score": 97,
+"distinct": 8,
+"relevant": true,
+"hits": {
+"PET": 59,
+"BHET/MHET": 2,
+"polyester": 2,
+"PHA/PHB": 6,
+"polyurethane": 5,
+"nylon/polyamide": 1,
+"PE/PS": 21,
+"cutin": 1,
+"plastic": 114
+}
+},
+"PMC13313319": {
+"score": 2,
+"distinct": 1,
+"relevant": false,
+"hits": {
+"PHA/PHB": 2,
+"plastic": 2
+}
+},
+"PMC13315243": {
+"score": 1,
+"distinct": 1,
+"relevant": false,
+"hits": {
+"cutin": 1,
+"plastic": 2
+}
+},
+"PMC13315764": {
+"score": 1,
+"distinct": 1,
+"relevant": false,
+"hits": {
+"PLA": 1
 }
 },
 "PMC13315875": {
@@ -4404,6 +5652,46 @@
 "PLA": 2,
 "PHA/PHB": 1,
 "plastic": 12
+}
+},
+"PMC13316681": {
+"score": 136,
+"distinct": 11,
+"relevant": true,
+"hits": {
+"PET": 40,
+"BHET/MHET": 18,
+"polyester": 27,
+"PCL": 4,
+"PBAT": 12,
+"PBS-polymer": 1,
+"PLA": 9,
+"PHA/PHB": 2,
+"polyurethane": 2,
+"PE/PS": 18,
+"cutin": 3,
+"plastic": 75
+}
+},
+"PMC13319378": {
+"score": 270,
+"distinct": 4,
+"relevant": true,
+"hits": {
+"PET": 133,
+"PBAT": 131,
+"nylon/polyamide": 1,
+"PE/PS": 5,
+"plastic": 44
+}
+},
+"PMC13323952": {
+"score": 54,
+"distinct": 2,
+"relevant": true,
+"hits": {
+"PET": 14,
+"PHA/PHB": 40
 }
 },
 "PMC13323979": {
@@ -4420,6 +5708,43 @@
 "PE/PS": 1,
 "cutin": 14,
 "plastic": 96
+}
+},
+"PMC13325522": {
+"score": 89,
+"distinct": 5,
+"relevant": true,
+"hits": {
+"PET": 39,
+"polyester": 3,
+"nylon/polyamide": 44,
+"PE/PS": 1,
+"cutin": 2,
+"plastic": 31
+}
+},
+"PMC13325715": {
+"score": 1,
+"distinct": 1,
+"relevant": false,
+"hits": {
+"nylon/polyamide": 1
+}
+},
+"PMC13327627": {
+"score": 121,
+"distinct": 8,
+"relevant": true,
+"hits": {
+"PET": 26,
+"polyester": 3,
+"PBAT": 2,
+"PLA": 2,
+"PHA/PHB": 3,
+"polyurethane": 2,
+"PE/PS": 81,
+"cutin": 2,
+"plastic": 268
 }
 },
 "PMC4624153": {
@@ -4516,6 +5841,22 @@
 "plastic": 67
 }
 },
+"PMC6779837": {
+"score": 140,
+"distinct": 8,
+"relevant": true,
+"hits": {
+"PET": 47,
+"BHET/MHET": 16,
+"polyester": 24,
+"PCL": 26,
+"PLA": 2,
+"PHA/PHB": 2,
+"nylon/polyamide": 1,
+"cutin": 22,
+"plastic": 57
+}
+},
 "PMC7031157": {
 "score": 322,
 "distinct": 8,
@@ -4532,6 +5873,23 @@
 "plastic": 25
 }
 },
+"PMC7187450": {
+"score": 240,
+"distinct": 9,
+"relevant": true,
+"hits": {
+"PET": 6,
+"BHET/MHET": 31,
+"polyester": 60,
+"PCL": 21,
+"PBS-polymer": 16,
+"PLA": 7,
+"PHA/PHB": 93,
+"polyurethane": 3,
+"PE/PS": 3,
+"plastic": 15
+}
+},
 "PMC7568301": {
 "score": 176,
 "distinct": 7,
@@ -4545,6 +5903,41 @@
 "PE/PS": 5,
 "cutin": 12,
 "plastic": 21
+}
+},
+"PMC7619334": {
+"score": 169,
+"distinct": 9,
+"relevant": true,
+"hits": {
+"PET": 1,
+"polyester": 8,
+"PCL": 2,
+"PBS-polymer": 1,
+"PLA": 144,
+"PHA/PHB": 1,
+"polyurethane": 6,
+"PE/PS": 1,
+"cutin": 5,
+"plastic": 13
+}
+},
+"PMC7788598": {
+"score": 293,
+"distinct": 10,
+"relevant": true,
+"hits": {
+"PET": 6,
+"polyester": 61,
+"PCL": 59,
+"PBAT": 28,
+"PBS-polymer": 36,
+"PLA": 47,
+"PHA/PHB": 45,
+"polyurethane": 1,
+"nylon/polyamide": 2,
+"PE/PS": 8,
+"plastic": 105
 }
 },
 "PMC7806724": {
@@ -4577,6 +5970,23 @@
 "plastic": 94
 }
 },
+"PMC7830162": {
+"score": 176,
+"distinct": 9,
+"relevant": true,
+"hits": {
+"polyester": 8,
+"PCL": 5,
+"PBAT": 2,
+"PBS-polymer": 3,
+"PLA": 4,
+"PHA/PHB": 150,
+"nylon/polyamide": 1,
+"PE/PS": 2,
+"cutin": 1,
+"plastic": 69
+}
+},
 "PMC7936011": {
 "score": 2,
 "distinct": 1,
@@ -4584,6 +5994,22 @@
 "hits": {
 "PET": 2,
 "plastic": 1
+}
+},
+"PMC7998482": {
+"score": 103,
+"distinct": 8,
+"relevant": true,
+"hits": {
+"PET": 2,
+"polyester": 13,
+"PCL": 1,
+"PBS-polymer": 17,
+"PLA": 53,
+"PHA/PHB": 10,
+"PE/PS": 1,
+"cutin": 6,
+"plastic": 34
 }
 },
 "PMC8125656": {
@@ -4636,6 +6062,14 @@
 "plastic": 213
 }
 },
+"PMC8265113": {
+"score": 5,
+"distinct": 1,
+"relevant": false,
+"hits": {
+"PET": 5
+}
+},
 "PMC8326265": {
 "score": 73,
 "distinct": 5,
@@ -4662,6 +6096,37 @@
 "PHA/PHB": 2,
 "PE/PS": 2,
 "plastic": 18
+}
+},
+"PMC8503683": {
+"score": 195,
+"distinct": 6,
+"relevant": true,
+"hits": {
+"PET": 145,
+"BHET/MHET": 19,
+"polyester": 12,
+"PLA": 4,
+"PE/PS": 13,
+"cutin": 2,
+"plastic": 29
+}
+},
+"PMC8546865": {
+"score": 62,
+"distinct": 9,
+"relevant": true,
+"hits": {
+"PET": 17,
+"polyester": 4,
+"PBAT": 5,
+"PBS-polymer": 2,
+"PLA": 5,
+"PHA/PHB": 3,
+"polyurethane": 5,
+"PE/PS": 18,
+"cutin": 3,
+"plastic": 276
 }
 },
 "PMC8567236": {
@@ -4699,6 +6164,21 @@
 "PE/PS": 1,
 "cutin": 6,
 "plastic": 7
+}
+},
+"PMC8659741": {
+"score": 193,
+"distinct": 7,
+"relevant": true,
+"hits": {
+"polyester": 1,
+"PCL": 5,
+"PBAT": 5,
+"PBS-polymer": 5,
+"PLA": 7,
+"PHA/PHB": 167,
+"PE/PS": 3,
+"plastic": 22
 }
 },
 "PMC8733400": {
@@ -4904,6 +6384,25 @@
 "plastic": 92
 }
 },
+"PMC9152817": {
+"score": 44,
+"distinct": 3,
+"relevant": true,
+"hits": {
+"polyester": 1,
+"PCL": 1,
+"PHA/PHB": 42,
+"plastic": 12
+}
+},
+"PMC9195170": {
+"score": 2,
+"distinct": 1,
+"relevant": false,
+"hits": {
+"PET": 2
+}
+},
 "PMC9206389": {
 "score": 336,
 "distinct": 8,
@@ -4956,6 +6455,37 @@
 "PE/PS": 1,
 "cutin": 1,
 "plastic": 2
+}
+},
+"PMC9295099": {
+"score": 91,
+"distinct": 8,
+"relevant": true,
+"hits": {
+"PET": 13,
+"polyester": 8,
+"PCL": 4,
+"PLA": 4,
+"PHA/PHB": 1,
+"polyurethane": 7,
+"PE/PS": 51,
+"cutin": 3,
+"plastic": 92
+}
+},
+"PMC9303343": {
+"score": 202,
+"distinct": 7,
+"relevant": true,
+"hits": {
+"PET": 126,
+"BHET/MHET": 28,
+"polyester": 33,
+"PCL": 6,
+"PBS-polymer": 2,
+"PE/PS": 1,
+"cutin": 6,
+"plastic": 11
 }
 },
 "PMC9321771": {
@@ -5040,6 +6570,22 @@
 "PLA": 3
 }
 },
+"PMC9571400": {
+"score": 142,
+"distinct": 8,
+"relevant": true,
+"hits": {
+"polyester": 3,
+"PCL": 4,
+"PBAT": 5,
+"PBS-polymer": 107,
+"PLA": 3,
+"PHA/PHB": 16,
+"PE/PS": 2,
+"cutin": 2,
+"plastic": 53
+}
+},
 "PMC9596486": {
 "score": 32,
 "distinct": 3,
@@ -5070,6 +6616,14 @@
 "plastic": 244
 }
 },
+"PMC9606172": {
+"score": 9,
+"distinct": 1,
+"relevant": true,
+"hits": {
+"PET": 9
+}
+},
 "PMC9618317": {
 "score": 126,
 "distinct": 10,
@@ -5088,6 +6642,21 @@
 "plastic": 57
 }
 },
+"PMC9628828": {
+"score": 180,
+"distinct": 7,
+"relevant": true,
+"hits": {
+"polyester": 3,
+"PCL": 8,
+"PBAT": 4,
+"PBS-polymer": 4,
+"PLA": 6,
+"PHA/PHB": 154,
+"PE/PS": 1,
+"plastic": 25
+}
+},
 "PMC9632252": {
 "score": 272,
 "distinct": 7,
@@ -5101,6 +6670,24 @@
 "nylon/polyamide": 2,
 "PE/PS": 1,
 "plastic": 19
+}
+},
+"PMC9692586": {
+"score": 295,
+"distinct": 10,
+"relevant": true,
+"hits": {
+"PET": 99,
+"BHET/MHET": 14,
+"polyester": 20,
+"PCL": 2,
+"PBS-polymer": 2,
+"PHA/PHB": 73,
+"polyurethane": 21,
+"nylon/polyamide": 2,
+"PE/PS": 49,
+"cutin": 13,
+"plastic": 203
 }
 },
 "PMC9706006": {
@@ -5187,6 +6774,22 @@
 "plastic": 31
 }
 },
+"PMC9838310": {
+"score": 164,
+"distinct": 8,
+"relevant": true,
+"hits": {
+"PET": 52,
+"polyester": 26,
+"PCL": 5,
+"PLA": 3,
+"polyurethane": 7,
+"nylon/polyamide": 6,
+"PE/PS": 49,
+"cutin": 16,
+"plastic": 272
+}
+},
 "PMC9839772": {
 "score": 85,
 "distinct": 3,
@@ -5196,6 +6799,14 @@
 "BHET/MHET": 21,
 "cutin": 2,
 "plastic": 7
+}
+},
+"PMC9867634": {
+"score": 0,
+"distinct": 0,
+"relevant": false,
+"hits": {
+"plastic": 1
 }
 },
 "PMC9870871": {
@@ -5309,6 +6920,20 @@
 "PHA/PHB": 6,
 "PE/PS": 1,
 "plastic": 12
+}
+},
+"PMC9981674": {
+"score": 110,
+"distinct": 6,
+"relevant": true,
+"hits": {
+"PET": 48,
+"polyester": 6,
+"polyurethane": 3,
+"nylon/polyamide": 1,
+"PE/PS": 48,
+"cutin": 4,
+"plastic": 158
 }
 },
 "PMC9995157": {

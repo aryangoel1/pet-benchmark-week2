@@ -38,9 +38,9 @@ Of the indexed proteins, **31,426** are in Luke's `split_homology == train` and 
 
 | Screen | What it compares | Rows it fired on |
 |---|---|---|
-| S1 sequence identity | SHA-1 of the resolved sequence vs all indexed sequences | 127 |
-| S2 Luke join key | `protein_id` = `"P"+sha1(seq.upper().replace("*",""))[:12]` vs his split | 127 |
-| S3 UniProt accession | accession vs every accession in every prior dataset | 119 |
+| S1 sequence identity | SHA-1 of the resolved sequence vs all indexed sequences | 106 |
+| S2 Luke join key | `protein_id` = `"P"+sha1(seq.upper().replace("*",""))[:12]` vs his split | 106 |
+| S3 UniProt accession | accession vs every accession in every prior dataset | 99 |
 | S4 paper identity | PMCID/PMID vs every paper any prior dataset cites | 0 |
 | S5 measurement tuple | (protein, mutation, type, pH, T, value) vs 1.58 M fingerprints | 0 |
 | S6 PDB code | PDB codes named in the paper vs the S669 roster | 0 |
@@ -50,12 +50,12 @@ Of the indexed proteins, **31,426** are in Luke's `split_homology == train` and 
 
 | Verdict | Rows | Outcome |
 |---|---|---|
-| `DROP_TRAIN_OVERLAP` | 89 | protein sits in Luke's **training** split — deleted |
-| `DROP_DUPLICATE` | 5 | already present in a prior dataset — deleted |
+| `DROP_TRAIN_OVERLAP` | 82 | protein sits in Luke's **training** split — deleted |
+| `DROP_DUPLICATE` | 0 | already present in a prior dataset — deleted |
 | `DROP_INTERNAL_DUP` | 77 | duplicate within this build — deleted |
-| `KEEP_TIER_A` | 106 | appears in **no** prior dataset — shipped as the gold benchmark |
-| `KEEP_TIER_B` | 22 | protein is in Luke's **held-out test** split only — shipped, flagged |
-| `KEEP_NO_SEQUENCE` | 425 | real measurement, no sequence resolvable — shipped as conditions-only |
+| `KEEP_TIER_A` | 138 | appears in **no** prior dataset — shipped as the gold benchmark |
+| `KEEP_TIER_B` | 11 | protein is in Luke's **held-out test** split only — shipped, flagged |
+| `KEEP_NO_SEQUENCE` | 482 | real measurement, no sequence resolvable — shipped as conditions-only |
 
 ### Why paper-level exclusion matters
 
@@ -65,7 +65,7 @@ Screen S4 removes any article already mined by my Week-1 build (all 199 of them)
 ## Independence statement
 
 - **0** shipped rows carry a protein in `split_homology == "train"`.
-- **105** shipped rows carry a protein that appears in **none** of the seven datasets and **none** of Luke's data.
-- **21** rows are on proteins already inside Luke's held-out test split. They are not training contamination, but they are not novel either — they are tiered separately so they can be excluded with one filter.
-- **79** distinct source articles, none of which appears in any prior dataset.
+- **137** shipped rows carry a protein that appears in **none** of the seven datasets and **none** of Luke's data.
+- **11** rows are on proteins already inside Luke's held-out test split. They are not training contamination, but they are not novel either — they are tiered separately so they can be excluded with one filter.
+- **99** distinct source articles, none of which appears in any prior dataset.
 

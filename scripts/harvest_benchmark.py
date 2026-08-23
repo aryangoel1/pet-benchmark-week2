@@ -64,6 +64,20 @@ QUERY_AXES = [
     # --- newly characterised enzymes ----------------------------------------
     (f'{ENZ_WIDE} AND {POLY} AND ("novel" AND (characterization OR characterisation) AND (purified OR "recombinant"))', "new characterisation"),
     (f'{ENZ_WIDE} AND {POLY} AND (metagenome OR metagenomic OR "compost" OR "activated sludge")', "metagenomic"),
+    # --- salinity, targeted -------------------------------------------------
+    # The salinity axis stayed thin because papers report NaCl molarity rather than a
+    # salinity. These axes go after the studies that DO state one: marine degradation
+    # work, artificial-seawater assays, and halophilic enzyme characterisation.
+    (f'{ENZ_WIDE} AND {POLY} AND ("artificial seawater" OR "synthetic seawater" OR '
+     f'"seawater medium" OR "marine broth")', "artificial seawater"),
+    (f'{ENZ_WIDE} AND ("salinity" AND (activity OR stability) AND (esterase OR lipase OR '
+     f'cutinase OR hydrolase OR depolymerase))', "salinity vs activity"),
+    (f'{ENZ_WIDE} AND {POLY} AND ("g/L NaCl" OR "%% NaCl" OR "practical salinity" OR '
+     f'"PSU" OR "ppt salinity" OR "salt concentration ranging")', "salinity units"),
+    (f'{ENZ_WIDE} AND (halophilic OR haloarchaea OR Haloferax OR Halomonas OR '
+     f'Halobacterium) AND (esterase OR lipase OR cutinase OR "poly")', "haloarchaeal"),
+    (f'{ENZ_CORE} AND ("marine environment" OR "ocean" OR "seawater degradation" OR '
+     f'"marine plastic")', "marine PET"),
 ]
 
 # ---------------------------------------------------------------- vocabularies
@@ -380,7 +394,9 @@ def annotate(row, text, paper_ids):
     row["additive"] = row["additive"] or find_pattern(text, ADDITIVES)
     if re.search(r"seawater|sea water", text, re.I):
         row["seawater_type"] = "artificial" if re.search(r"artificial|synthetic", text, re.I) else "natural"
-    ms = re.search(rf"salinit\w*\s*(?:of|was|at|:|=)?\s*({NUM})\s*(%|ppt|PSU|psu|g/L|g/l)", text, re.I)
+    ms = (re.search(rf"salinit\w*\s*(?:of|was|at|:|=|to)?\s*({NUM})\s*(%|ppt|PSU|psu|g/L|g/l)", text, re.I)
+          or re.search(rf"({NUM})\s*(%|ppt|PSU|psu|g/L|g/l)\s*(?:\w+\s+){{0,3}}salinit", text, re.I)
+          or re.search(rf"salinit\w*[^.]{{0,40}}?({NUM})\s*(%|ppt|PSU|psu|g/L|g/l)", text, re.I))
     if ms:
         row["salinity_raw"] = f"{ms.group(1)} {ms.group(2)}"
     mi = re.search(rf"ionic strength\s*(?:of|was|at|:|=)?\s*({NUM})\s*(mM|M)?", text, re.I)
@@ -474,7 +490,11 @@ def rows_from_sentence(sent, paper, ids):
     salt = salt_formula(sent)
     has_sal = bool(re.search(r"salinit|seawater|sea water", sent, re.I))
     has_is = bool(re.search(r"ionic strength", sent, re.I))
-    if (ion or salt or has_sal or has_is):
+    # an explicit salinity with an activity outcome is a measurement even when no salt
+    # formula is named ("activity dropped to 40% at 3.5% salinity")
+    explicit_sal = bool(re.search(rf"salinit\w*[^.]{{0,40}}?({NUM})\s*(%|ppt|PSU|psu|g/L|g/l)|"
+                                  rf"({NUM})\s*(%|ppt|PSU|psu|g/L|g/l)[^.]{{0,25}}?salinit", sent, re.I))
+    if (ion or salt or has_sal or has_is or explicit_sal):
         conc, pct = CONC_RE.search(sent), PCT_RE.search(sent)
         if conc or has_sal or has_is:
             r = base_row(paper, "results text", sent)

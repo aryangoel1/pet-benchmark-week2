@@ -1,26 +1,26 @@
 {
  "exclusions": {
-  "BM6D559CA5B3": "growth optimum of the organism, not the enzyme's optimum",
-  "BMB81955329E": "growth optimum of the organism, not the enzyme's optimum",
   "BMD8385AF9BE": "growth optimum of the organism, not the enzyme's optimum",
   "BMF3D0C367AD": "growth optimum of the organism, not the enzyme's optimum",
+  "BM6D559CA5B3": "growth optimum of the organism, not the enzyme's optimum",
+  "BMB81955329E": "growth optimum of the organism, not the enzyme's optimum",
   "BM924C66FCDB": "the parsed cell holds a protein concentration, not an activity",
   "BM7E2FBACF02": "methods sentence listing the buffer ranges assayed, not a measured optimum",
-  "BM110D5CCDC6": "carbonic anhydrase CO2-hydration activity \u2014 not a plastic-degrading enzyme",
-  "BM2C832BBDFA": "carbonic anhydrase CO2-hydration activity \u2014 not a plastic-degrading enzyme",
-  "BM39947B2921": "carbonic anhydrase CO2-hydration activity \u2014 not a plastic-degrading enzyme",
-  "BM5AF061E26C": "carbonic anhydrase CO2-hydration activity \u2014 not a plastic-degrading enzyme",
-  "BM83E6C3221D": "carbonic anhydrase CO2-hydration activity \u2014 not a plastic-degrading enzyme",
-  "BM96E74B14E0": "carbonic anhydrase CO2-hydration activity \u2014 not a plastic-degrading enzyme",
-  "BMA2B2B11A60": "carbonic anhydrase CO2-hydration activity \u2014 not a plastic-degrading enzyme",
-  "BMAC0E53CD88": "carbonic anhydrase CO2-hydration activity \u2014 not a plastic-degrading enzyme",
-  "BMBB14D64E65": "carbonic anhydrase CO2-hydration activity \u2014 not a plastic-degrading enzyme",
   "BMC1CA61610B": "carbonic anhydrase CO2-hydration activity \u2014 not a plastic-degrading enzyme",
   "BMDDFC988B9A": "carbonic anhydrase CO2-hydration activity \u2014 not a plastic-degrading enzyme",
-  "BMDE6FB03F9F": "carbonic anhydrase CO2-hydration activity \u2014 not a plastic-degrading enzyme",
+  "BM2C832BBDFA": "carbonic anhydrase CO2-hydration activity \u2014 not a plastic-degrading enzyme",
+  "BM5AF061E26C": "carbonic anhydrase CO2-hydration activity \u2014 not a plastic-degrading enzyme",
+  "BM96E74B14E0": "carbonic anhydrase CO2-hydration activity \u2014 not a plastic-degrading enzyme",
+  "BM39947B2921": "carbonic anhydrase CO2-hydration activity \u2014 not a plastic-degrading enzyme",
+  "BMBB14D64E65": "carbonic anhydrase CO2-hydration activity \u2014 not a plastic-degrading enzyme",
+  "BMA2B2B11A60": "carbonic anhydrase CO2-hydration activity \u2014 not a plastic-degrading enzyme",
+  "BMAC0E53CD88": "carbonic anhydrase CO2-hydration activity \u2014 not a plastic-degrading enzyme",
+  "BM110D5CCDC6": "carbonic anhydrase CO2-hydration activity \u2014 not a plastic-degrading enzyme",
   "BME6BA4C2922": "carbonic anhydrase CO2-hydration activity \u2014 not a plastic-degrading enzyme",
+  "BMDE6FB03F9F": "carbonic anhydrase CO2-hydration activity \u2014 not a plastic-degrading enzyme",
+  "BM83E6C3221D": "carbonic anhydrase CO2-hydration activity \u2014 not a plastic-degrading enzyme",
   "BMBD460B4402": "carbohydrate-active enzyme (xylanase/cellulase/glucosidase), off-target",
-  "BME0F58069CD": "a target temperature the authors aimed at, not a measured value",
+  "BM8AC0FAEA87": "carbohydrate-active enzyme (xylanase/cellulase/glucosidase), off-target",
   "BM59FB3028CF": "salt tolerance of a strain, not of a purified enzyme"
  },
  "rules": {
@@ -42,11 +42,11 @@
   },
   "carbohydrate-active enzyme (xylanase/cellulase/glucosidase), off-target": {
    "found_reviewing": "BM001474",
-   "rows_removed": 1
+   "rows_removed": 2
   },
   "a target temperature the authors aimed at, not a measured value": {
    "found_reviewing": "BM001208",
-   "rows_removed": 1
+   "rows_removed": 0
   },
   "drug-delivery / prodrug release, not enzyme performance": {
    "found_reviewing": "(review sweep)",

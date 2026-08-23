@@ -16,60 +16,61 @@ tuning.
 
 | Metric | Count |
 |---|---|
-| **Measurements shipped** | **528** |
-| **Distinct source articles** | **79** |
-| Candidate rows removed by the overlap gate | 196 |
-| Tier A — appears in **no** prior dataset | 105 |
-| Tier B — protein in Luke's held-out **test** split only | 21 |
-| Tier C — conditions only, no sequence resolved | 402 |
+| **Measurements shipped** | **606** |
+| **Distinct source articles** | **99** |
+| Candidate rows removed by the overlap gate | 184 |
+| Tier A — appears in **no** prior dataset | 137 |
+| Tier B — protein in Luke's held-out **test** split only | 11 |
+| Tier C — conditions only, no sequence resolved | 458 |
 | Rows overlapping Luke's **training** split | **0** |
-| Entries re-verified against the original articles | 528 |
-| Distinct proteins with a sequence | 13 |
-| Distinct UniProt accessions | 15 |
+| Entries re-verified against the original articles | 606 |
+| Distinct proteins with a sequence | 16 |
+| Distinct UniProt accessions | 18 |
 
 ### Condition coverage
 
 | Axis | Rows |
 |---|---|
-| Temperature recorded | 199 |
-| pH recorded | 88 |
-| Temperature **and** pH on the same row | 34 |
-| **Electrolyte (any)** | **115** |
-| — named salt or metal ion | 115 |
-| — salinity / seawater | 0 |
-| — ionic strength (M) | 21 |
+| Temperature recorded | 234 |
+| pH recorded | 105 |
+| Temperature **and** pH on the same row | 43 |
+| **Electrolyte (any)** | **139** |
+| — named salt or metal ion | 139 |
+| — salinity / seawater | 1 |
+| — ionic strength (M) | 27 |
 | — mixed electrolyte | 2 |
-| Named buffer system | 37 |
-| Exposure / incubation time | 81 |
-| Assay method recorded | 169 |
-| Measurements on engineered variants | 16 |
-| Distinct ionic species | 15 |
+| Named buffer system | 47 |
+| Exposure / incubation time | 87 |
+| Assay method recorded | 173 |
+| Measurements on engineered variants | 17 |
+| Distinct ionic species | 17 |
 | Distinct salts | 16 |
 
-**Ions covered:** Na(+) (27), Ca(2+) (21), Mg(2+) (14), Cu(2+) (10), Zn(2+) (10), K(+) (7), Mn(2+) (6), Co(2+) (6), Fe(3+) (5), Fe(2+) (2), NH4(+) (2), Ba(2+) (2), Ni(2+) (1), Hg(2+) (1), Li(+) (1)
+**Ions covered:** Na(+) (33), Ca(2+) (23), Mg(2+) (16), Cu(2+) (11), Zn(2+) (11), K(+) (8), Mn(2+) (8), Co(2+) (7), Fe(3+) (6), Ni(2+) (5), Fe(2+) (3), NH4(+) (2), Ba(2+) (2), Pb(2+) (1), Ag(+) (1), Hg(2+) (1), Li(+) (1)
 
-**Salts covered:** NaCl (22), CaCl2 (9), MgCl2 (5), KCl (3), CuSO4 (2), CuCl2 (2), FeCl3 (2), CoCl2 (2), ZnSO4 (2), ZnCl2 (2), MnCl2 (1), NiCl2 (1), HgCl2 (1), MgSO4 (1), MnSO4 (1), BaCl2 (1)
+**Salts covered:** NaCl (28), CaCl2 (10), MgCl2 (5), KCl (3), CuSO4 (2), CuCl2 (2), FeCl3 (2), CoCl2 (2), ZnSO4 (2), ZnCl2 (2), MnCl2 (1), NiCl2 (1), HgCl2 (1), MgSO4 (1), MnSO4 (1), BaCl2 (1)
 
 ### Measurement types
 
 | Type | Rows |
 |---|---|
-| thermostability | 137 |
-| relative activity | 122 |
-| salt effect | 92 |
-| temperature optimum | 44 |
-| pH stability | 39 |
-| inhibition | 37 |
-| pH optimum | 31 |
-| kinetic constant | 14 |
-| specific activity | 11 |
+| thermostability | 152 |
+| relative activity | 130 |
+| salt effect | 111 |
+| temperature optimum | 59 |
+| pH stability | 45 |
+| inhibition | 41 |
+| pH optimum | 37 |
+| kinetic constant | 16 |
+| specific activity | 13 |
+| salinity effect | 1 |
 | ionic strength effect | 1 |
 
 ## Files
 
 | File | What it is |
 |---|---|
-| `pet_benchmark_v2.csv` | **Main deliverable** — 528 rows × 72 columns |
+| `pet_benchmark_v2.csv` | **Main deliverable** — 606 rows × 74 columns |
 | `pet_benchmark_v2.sqlite` | Same data, indexed, with the views `v_gold`, `v_sequence`, `v_temperature`, `v_ph`, `v_electrolyte`, `v_verified` |
 | `benchmark_sequences.fasta` | Every benchmark protein, header carries Luke's `protein_id` join key |
 | `OVERLAP_REPORT.md` | The audit trail — what was screened against what, and every verdict |
@@ -109,14 +110,14 @@ Seven screens fire per row (S1 sequence identity → S7 internal duplicate). The
 including which rule fired on which row, is in `OVERLAP_REPORT.md` and in the `overlap_rules_checked`
 column of the CSV.
 
-**Papers already mined are excluded before download.** All 418 articles here
+**Papers already mined are excluded before download.** All 558 articles here
 were checked against every PMID/PMCID in every prior dataset — including all 199 articles my Week-1
 build mined — *before* their full text was fetched. The same measurement therefore cannot re-enter
 under a different enzyme name.
 
 ## Verification
 
-550 entries were re-checked against a **freshly downloaded copy** of
+628 entries were re-checked against a **freshly downloaded copy** of
 their article. The harvest-time cache is never read during verification, so a corrupted cache cannot
 verify itself. An entry passes only when its recorded evidence is located in the fresh copy — verbatim
 for prose, cell-by-cell for tables — **and** the recorded standardized value is present in that text.
@@ -144,8 +145,8 @@ right direction — which an automated string match cannot establish.
 
 ## Sources
 
-418 open-access articles mined; 79 contributed a shipped row.
-Publication years: 2026 (140), 2025 (49), 2024 (69), 2023 (120), 2022 (116), 2021 (6), 2020 (2), 2018 (1).
+558 open-access articles mined; 99 contributed a shipped row.
+Publication years: 2026 (151), 2025 (57), 2024 (73), 2023 (122), 2022 (131), 2021 (43), 2020 (3), 2018 (1).
 Leading journals: .
 
 ## Handover rule
@@ -184,7 +185,7 @@ python3 scripts/manual_review_packet.py  # human review packet
   cannot consume them. They are shipped because the condition axes are still useful, and flagged so
   they are never counted as sequence-model test cases.
 - Extraction is pattern-based over article text and tables. That is why every row keeps its evidence
-  quote, why 550 entries were re-verified against fresh downloads, and
+  quote, why 628 entries were re-verified against fresh downloads, and
   why the manual review packet exists.
 - `mixed_electrolyte` is detected from salts co-named in the same sentence or table row; a paper that
   describes a buffer's composition elsewhere in the methods will not always be captured.

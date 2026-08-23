@@ -52,7 +52,16 @@ RULES = [
 
 
 def main():
-    rows = list(csv.DictReader(open(D("pet_benchmark_v2.csv"))))
+    # Read the UNFILTERED standardized rows, never the shipped CSV.
+    #
+    # Reading the shipped CSV creates a feedback loop that erases this file's own work:
+    # finalize.py removes these rows, so a re-run sees a CSV they are already absent from,
+    # matches nothing, writes an empty exclusion list, and the next finalize lets every
+    # rejected row straight back in. Screening the pre-filter set makes the pass idempotent.
+    src = D("data", "bench_std.json")
+    rows = json.load(open(src)) if os.path.exists(src) else list(
+        csv.DictReader(open(D("pet_benchmark_v2.csv"))))
+    print(f"screening {len(rows)} pre-filter rows from {os.path.basename(src)}", file=sys.stderr)
     out = {}
     per_rule = {}
     for found, reason, pred in RULES:
@@ -64,8 +73,11 @@ def main():
                 if pred(r):
                     out[r["measurement_id"]] = reason
                     n += 1
-            except Exception:
-                pass
+            except Exception as ex:
+                # never swallow silently — a broken predicate must be visible, not
+                # quietly reported as "0 rows flagged"
+                print(f"  !! rule for {found} raised {type(ex).__name__}: {ex}", file=sys.stderr)
+                break
         per_rule[reason] = {"found_reviewing": found, "rows_removed": n}
         print(f"  {n:>4}  {reason}   (found while reviewing {found})", file=sys.stderr)
 

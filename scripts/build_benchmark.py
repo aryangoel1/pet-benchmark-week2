@@ -115,6 +115,9 @@ def main():
     paper_rel = json.load(open(pr_path)) if os.path.exists(pr_path) else {}
     pm_path = os.path.join(ROOT, "data", "paper_methods.json")
     paper_meth = json.load(open(pm_path)) if os.path.exists(pm_path) else {}
+    cs_path = os.path.join(ROOT, "data", "curated_sequences.json")
+    curated = json.load(open(cs_path)) if os.path.exists(cs_path) else {"accepted": {}, "rejected": {}}
+    cur_ok, cur_no = curated["accepted"], curated["rejected"]
     seqs = json.load(open(IN_SEQ))
     by_acc, by_name = seqs["by_accession"], seqs["by_name"]
     p2 = os.path.join(ROOT, "data", "sequences_by_paper.json")
@@ -250,6 +253,15 @@ def main():
 
         m["salinity_raw"] = r.get("salinity_raw", "")
         gpl, psu = U.parse_salinity(r.get("salinity_raw", ""))
+        # For a NaCl solution the salinity IS the NaCl mass concentration, so a stated
+        # molarity converts to g/L exactly (58.44 g/mol). This is a unit conversion of a
+        # reported number, not an estimate, and is labelled as derived so it is never
+        # mistaken for a salinity the paper printed.
+        m["salinity_source"] = "reported in source" if gpl is not None else ""
+        if gpl is None and m["salt_species"] == "NaCl" and m["salt_conc_mM"] != "":
+            gpl = round(m["salt_conc_mM"] / 1000.0 * 58.44, 3)
+            psu = U.g_per_L_to_psu(gpl)
+            m["salinity_source"] = f"converted from {m['salt_conc_mM']} mM NaCl"
         m["salinity_g_per_L"] = gpl if gpl is not None else ""
         m["salinity_psu"] = psu if psu is not None else ""
         m["seawater_type"] = r.get("seawater_type", "")
@@ -350,6 +362,12 @@ def main():
         # NAME on the row has to do the work, and if it cannot, the row stays
         # unresolved rather than guessed.
         acc_rec, how = None, "unresolved"
+        # Hand-curated mappings win outright: they were decided by reading the article,
+        # which is the only way to tell a deposited enzyme from a cited homolog.
+        for entry in cur_ok.get(r.get("pmcid") or "", []):
+            if re.search(entry["enzyme_pattern"], m["enzyme_name"] or "", re.I):
+                acc_rec, how = entry["record"], "hand_curated_from_article"
+                break
         paper_accs = [a for a in (r.get("uniprot_in_text") or "").split(";") if a and a in by_acc]
         if len(paper_accs) == 1:
             acc_rec, how = by_acc[paper_accs[0]], "accession_unique_in_article"
@@ -397,8 +415,9 @@ def main():
             gbs = [g for g in (r.get("genbank_in_text") or "").split(";") if g and g in by_gb]
             if len(gbs) == 1:
                 acc_rec, how = by_gb[gbs[0]], "genbank_unique_in_article"
-        if acc_rec is None and m["enzyme_name"] and m["enzyme_name"] in by_name:
-            acc_rec, how = by_name[m["enzyme_name"]], "name_lookup"
+        # name_lookup is deliberately NOT used. Auditing it found accessions attached to
+        # articles that never mention them — a UniProt search on an enzyme name is not
+        # evidence about which protein a given paper actually assayed.
         # A table row that names its own organism must agree with the accession the
         # article-level resolution picked, or the row belongs to a different enzyme and
         # the attribution is dropped rather than shipped wrong.
@@ -410,7 +429,13 @@ def main():
             if org_genus and known and org_genus[0] not in known:
                 acc_rec, how = None, "unresolved_organism_conflict"
 
+        # hand-rejected mis-attributions (homologs the article merely compared against)
+        if acc_rec and acc_rec.get("accession") in cur_no.get(r.get("pmcid") or "", {}):
+            acc_rec, how = None, "rejected_on_manual_review_homolog"
+
         m["uniprot_accession"] = acc_rec["accession"] if acc_rec else ""
+        m["sequence_completeness"] = ("partial" if (acc_rec or {}).get("partial")
+                                      else ("complete" if acc_rec else ""))
         m["sequence"] = acc_rec["sequence"] if acc_rec else ""
         m["sequence_length"] = acc_rec["length"] if acc_rec else ""
         m["organism"] = acc_rec["organism"] if acc_rec else ""

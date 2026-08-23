@@ -1,0 +1,118 @@
+{
+ "accepted": {
+  "PMC12898461": [
+   {
+    "enzyme_pattern": "^Ces1-?ET$",
+    "record": {
+     "accession": "XPQ45698.1",
+     "entry_name": "",
+     "protein_name": "Ces1, partial",
+     "organism": "Thermus thermophilus",
+     "ec": "",
+     "sequence": "MHLLLLHGFTSHPVLTLGPLPERLKEAGFQVRQPALPGHGTRPEDLLKVRFQDWLLVAEEAYLELPEPRGVVGLSMGGLLAAHLAARHPTKTLVALAPAFALKNPLAPLAPYLHWLIPRFPGPPSIEDPELRKRNPNYPYFPTRAVLELLALMRKTPEVLPRVKAPALVVEAGKDRVVKGVDRYFALLGSPRKDYLVFPESGHDLLLDRDREAVARAVRDWLIASDNYLQAAA",
+     "length": 233,
+     "reviewed": "GenBank",
+     "partial": true
+    },
+    "justification": "Table A1: 'Ces1-ET  PV146438  XPQ45698.1' \u2014 the article's own deposit. The WP_ accessions in this paper are homology comparisons, not its enzymes."
+   },
+   {
+    "enzyme_pattern": "^Est1-?ET$",
+    "record": {
+     "accession": "XPQ45697.1",
+     "entry_name": "",
+     "protein_name": "Est1, partial",
+     "organism": "Thermus thermophilus",
+     "ec": "",
+     "sequence": "MKRLIALVLLFALALAQGLEAFWKAVEVPGGVCADGSPYRFYVSPGDPKKVVIDFQGGGACWDAATCGPESRTYRKRVDVQELYLAQGIYNRMSVANPFFGWTHVFVPYCTGDLHVGRATVDYGGFKVHHQGARNAQAARPLASSRNASLALEYVFRNHTNPERVFVTGCSAGAYGAVLWADKILATYRNAQIAVCGDAGVGVVTEDFPGFTVWNPRLPELPGLSSPPKVSEIYRALAQAYPKAVLAQYTTLLDGTQIYFYALMKKEAAPSEATAREWAVAAEREVGFPASEANYTYYLAPGSQHCILPRPELYTLKVGEVSFLDWLKALAQGKKPPRV",
+     "length": 339,
+     "reviewed": "GenBank",
+     "partial": true
+    },
+    "justification": "Table A1: 'Est1-ET  PV146437  XPQ45697.1' \u2014 the article's own deposit."
+   },
+   {
+    "enzyme_pattern": "^Plp1-?ET$",
+    "record": {
+     "accession": "XPQ45699.1",
+     "entry_name": "",
+     "protein_name": "Plp1",
+     "organism": "Thermus thermophilus",
+     "ec": "",
+     "sequence": "MRGLVLSGGGARGFAHIGALEVFLEAGLDFEVVAGASMGAIVGALFAAGKSPQEILEIARNTPWLGILGFSWREALFSRGRLRRYLAEHLPQDFADLKRKLVVTAVEVRSGRVVYLFQGDLVSAVLASAAHPLLLRPVRREGLLLFDGGVLDNLPVDAARFLGAEEVYAVDVTPERMADEAPRGLLALARRAVDLMQLHLTAVRLTLYAPEVYVKPSLPGVGIEDFRRLEEIVQAGREAARQALESRVGEGY",
+     "length": 252,
+     "reviewed": "GenBank",
+     "partial": false
+    },
+    "justification": "Table A1: 'Plp1-ET  PV146439  XPQ45699.1' \u2014 the article's own deposit."
+   }
+  ],
+  "PMC11651597": [
+   {
+    "enzyme_pattern": "^(?:LipA|lipase)?$",
+    "record": {
+     "accession": "AOT80658.1",
+     "entry_name": "",
+     "protein_name": "lipase",
+     "organism": "Bacillus licheniformis",
+     "ec": "",
+     "sequence": "MRRHSFLSILLICMLSVVSVFSFRPSAASAASHNPVVMVHGIGGADYNFIGIKSYLQSQGWTSSELYAINFIDKTGNNINNAPRLSEYIKRVLNQTGASKVDIVAHSMGGANTLYYIKNLDGADKVGHVVTLGGANRLVTNTAPQNDKISYTSIYSTSDYIVLNSLSKLDGANNVQISGVSHVGLLFSSKVNALIKDGLTASGK",
+     "length": 204,
+     "reviewed": "GenBank",
+     "partial": false
+    },
+    "justification": "'The lipase gene was cloned into the pGEM-T Easy vector, and its sequences were registered in GenBank (KU984433 and AOT80658).' AOT80658 is the protein deposit; CAB95850/ACB38749 in the same paper are homologs at 65-66% identity."
+   }
+  ],
+  "PMC8971842": [
+   {
+    "enzyme_pattern": "PCLase\\s*I\\b(?!I)",
+    "record": {
+     "accession": "WP_004373894.1",
+     "entry_name": "",
+     "protein_name": "MULTISPECIES: poly(ethylene terephthalate) hydrolase family protein",
+     "organism": "Pseudomonadaceae",
+     "ec": "",
+     "sequence": "MLDLKLGGLAAACLLVCSTALAAPLPDTPGAPFPAVANFDRSGPYATSNQSEGPSCRIYRPSNLGQGGVRHPVILWGNGTGTGPSTYAGLLSHWASHGFVVAAAETSNAGTGREMLACLDYLVRENDNPYGTYAGKLNTGRVGTSGHSQGGGGSIMAGQDTRVRTTAPIQPYTIGLGHDSASQRRQQGPMFLMSGGGDTIAIPYLNAQPVYLRANVPVFWGERRYVSHFEPVGDGGAYRGPSTAWFRFQLMDDQSARGTFYGTLCSLCSSLLWSVERRGF",
+     "length": 280,
+     "reviewed": "GenBank",
+     "partial": false
+    },
+    "justification": "'The peptide fingerprints showed that PCLase I had 100% similarity to a hypothetical protein (WP_004373894.1) from Pseudomonas mendocina ymp.' 100% fingerprint identity means this is the sequence assayed."
+   },
+   {
+    "enzyme_pattern": "PCLase\\s*II\\b",
+    "record": {
+     "accession": "WP_003239806.1",
+     "entry_name": "",
+     "protein_name": "triacylglycerol lipase",
+     "organism": "Ectopseudomonas hydrolytica",
+     "ec": "",
+     "sequence": "MKKNKTLLALCLGTGLLASGQTQAFWFGSSGYTQTKYPIVLGHGMLGFDSILGVDYWYGIPAALRRDGASVYVTEVSQLDTSEARGEQLLQQVEDIVAISGKGKVNLIGHSHGGPTTRYVAAVRPDLVASVTSVGAPHKGSATADFLKGISEGPAGPVATPVLVGIVNGLGALINFLSGSSSTTPQNALGSLESLNSEGAARFNAKFPQGIPTSACGEGAYSVNGVRYYSWSGTSPLTNVLDPSDLLLGASSLTFGSEANDGLVGRCSSRMGQVIRDNYRMNHLDEVNQTLGLTSLFETDPVTVYRQHANRLKNAGL",
+     "length": 317,
+     "reviewed": "GenBank",
+     "partial": false
+    },
+    "justification": "'...PCLase II had 100% similarity to a lactonizing lipase (WP_003239806.1) from the same strain.'"
+   }
+  ]
+ },
+ "rejected": {
+  "PMC10418727": {
+   "AAN81911.1": "Est30/AAN81911.1 is a COMPARISON: 'EaEst2 ... shows a high sequence similarity of 65.04% with Est30 (GenBank ID: AAN81911.1)'. 65% identity is a different protein; the article's enzyme is EaEst2."
+  },
+  "PMC11033240": {
+   "GAP38373.1": "GAP38373.1 is wild-type IsPETase, cited as the parent scaffold of DuraPETase. The rows measure DuraPETase variants, which differ from the parent by ~10 substitutions, so the wild-type sequence is the wrong label for them."
+  },
+  "PMC12767561": {
+   "P13398": "P13398 (ArcNylA) is the archetypal reference NylA used for percent-identity analysis. The article characterises NOVEL NylA sequences, not ArcNylA."
+  },
+  "PMC11196671": {
+   "G9BY57": "Attributed by enzyme-name lookup only; the accession appears nowhere in the article, so there is no evidence it is the protein assayed."
+  },
+  "PMC9839772": {
+   "G9BY57": "Attributed by enzyme-name lookup only; the accession appears nowhere in the article, and the article is about IsPETase variants, not leaf-branch compost cutinase."
+  }
+ },
+ "failed": []
+}
