@@ -6,7 +6,7 @@ The automated verifier confirms a value **is present** in the source. This packe
 
 ---
 
-### 1. `BM000022` — inhibition
+### 1. `BM74502EFF2A` — inhibition
 
 | Field | Recorded |
 |---|---|
@@ -15,19 +15,19 @@ The automated verifier confirms a value **is present** in the source. This packe
 | Organism | — |
 | Mutation | wild-type/unspecified |
 | Substrate | — |
-| Conditions | additive = glycerol |
+| Conditions | additive = Triton X-100 |
 | Assay | — |
-| **Value** | **97.9 % relative activity** |
+| **Value** | **0.0 % relative activity** |
 | Tier | C_conditions_only_no_sequence |
-| Source | PMC12741466 · 10.1016/j.isci.2025.114173 ·  2025 |
+| Source | PMC12898461 · 10.3390/ijms27031372 ·  2026 |
 
-**Recorded evidence:** Table in PMC12741466 — Table 2 :: Organic solvent=Glycerola | Residual activity (%)=97.9 ± 2.2
+**Recorded evidence:** Table in PMC12898461 — Table 4 :: =Triton x-100 | Relative Activity (%)=0 ± 3
 
 **In the article:** *(context not located — check manually)*
 
 ---
 
-### 2. `BM000516` — ionic strength effect
+### 2. `BM15C62C6E18` — ionic strength effect
 
 | Field | Recorded |
 |---|---|
@@ -35,9 +35,9 @@ The automated verifier confirms a value **is present** in the source. This packe
 | UniProt | AAB51445.1 (genbank_deposit_section_unique) |
 | Organism | Streptomyces sp. |
 | Mutation | wild-type/unspecified |
-| Substrate | — |
+| Substrate | olive oil |
 | Conditions | salt = NaCl @ 250.0 mM; ion = Na(+); I = 0.25 M (computed from 250.0 mM NaCl) |
-| Assay | — |
+| Assay | spectrophotometric p-nitrophenol release |
 | **Value** | **60.0 % relative activity** |
 | Tier | A_fully_independent |
 | Source | PMC10707221 · 10.3390/ijms242317071 ·  2023 |
@@ -48,49 +48,49 @@ The automated verifier confirms a value **is present** in the source. This packe
 
 ---
 
-### 3. `BM000153` — kinetic constant
+### 3. `BM53CFB4C04C` — kinetic constant
 
 | Field | Recorded |
 |---|---|
-| Enzyme | — |
-| UniProt | MYD18970.1 (genbank_unique_in_article) |
-| Organism | Rhodothermaceae bacterium |
+| Enzyme | Ces1-ET |
+| UniProt | — (unresolved) |
+| Organism | — |
 | Mutation | wild-type/unspecified |
 | Substrate | — |
 | Conditions | — |
-| Assay | — |
-| **Value** | **0.246 mM** |
-| Tier | A_fully_independent |
-| Source | PMC12720421 · 10.1002/pro.70402 ·  2026 |
+| Assay | spectrophotometric p-nitrophenol release |
+| **Value** | **0.25 mM** |
+| Tier | C_conditions_only_no_sequence |
+| Source | PMC12898461 · 10.3390/ijms27031372 ·  2026 |
 
-**Recorded evidence:** Table in PMC12720421 — TABLE 3 :: =Rp_EST | k cat (s−1)=12.0 ± 1.3 | K M (μM)=246 ± 72 | k cat/K M (s−1 M−1)=4.9 × 104
+**Recorded evidence:** Table in PMC12898461 — Table 3 :: Enzyme=Ces1-ET | Vmax(µmoles p-Nitrophenol/10 min)=15 ± 4 | Km (mM)=0.25 ±0.05
 
 **In the article:** *(context not located — check manually)*
 
 ---
 
-### 4. `BM000699` — pH optimum
+### 4. `BM7E25455D3E` — pH optimum
 
 | Field | Recorded |
 |---|---|
 | Enzyme | — |
-| UniProt | — (unresolved) |
-| Organism | — |
+| UniProt | P13398 (accession_unique_in_article) |
+| Organism | Paenarthrobacter ureafaciens |
 | Mutation | wild-type/unspecified |
-| Substrate | — |
-| Conditions | pH = 5.0 |
-| Assay | — |
-| **Value** | **5.0 pH** |
-| Tier | C_conditions_only_no_sequence |
-| Source | PMC11651597 · 10.1371/journal.pone.0314556 ·  2024 |
+| Substrate | nylon / polyamide |
+| Conditions | pH = 5.5; additive = Tween-80 |
+| Assay | HPLC/UPLC product release |
+| **Value** | **5.5 pH** |
+| Tier | B_in_luke_heldout_test_only |
+| Source | PMC12767561 · 10.1002/cssc.202501964 ·  2026 |
 
-**Recorded evidence:** The recombinant lipase exhibited activity across a wide pH spectrum, ranging from pH 5 to pH 9, with optimal activity observed at pH 7 (Fig 5A).
+**Recorded evidence:** TflNylA was most active against pNPH (>0.02 μmol·min−1·mg−1) between pH 5.5 and 8.5 and exhibited a bell‐shaped pH‐rate profile (Figure S7).
 
-**In the article:** …spite this, MLipA exhibits moderate thermolabile behavior, notably retaining activity at 35°C. Effect of pH on MLipA activity and stability The recombinant lipase exhibited activity across a wide pH spectrum, ranging from pH 5 to pH 9, with optimal activity observed at pH 7 ( Fig 5A ). It maintained high activity levels, retaining 93% of its activity at pH 6 and 82% at pH 8. However, its relative activities decreased significantly at pH 4 (11%) and pH 5 (45%). Beyond pH 9, a sharp decline in activity was observed, with relative activities of 46%, 22%, and 8% at pH 9, pH 10, and pH 11, respectively. 10.1371/journal.pone.0314556.g005 Fig 5 pH p…
+**In the article:** *(context not located — check manually)*
 
 ---
 
-### 5. `BM000603` — pH optimum
+### 5. `BM037C0E4939` — pH optimum
 
 | Field | Recorded |
 |---|---|
@@ -111,7 +111,7 @@ The automated verifier confirms a value **is present** in the source. This packe
 
 ---
 
-### 6. `BM000680` — pH stability
+### 6. `BMA6514460C1` — pH stability
 
 | Field | Recorded |
 |---|---|
@@ -119,41 +119,41 @@ The automated verifier confirms a value **is present** in the source. This packe
 | UniProt | — (unresolved) |
 | Organism | — |
 | Mutation | wild-type/unspecified |
-| Substrate | PHB |
-| Conditions | pH = 6.5; additive = Tween-80 |
-| Assay | — |
-| **Value** | **6.5 pH** |
+| Substrate | — |
+| Conditions | pH = 10.0; exposure = 30.0 min |
+| Assay | HPLC/UPLC product release |
+| **Value** | **10.0 pH** |
 | Tier | C_conditions_only_no_sequence |
-| Source | PMC13220297 · 10.1021/acs.jafc.6c02898 ·  2026 |
+| Source | PMC12960341 · 10.1007/s00253-026-13756-7 ·  2026 |
 
-**Recorded evidence:** The enzyme immobilized on PHB demonstrated greater stability at pH values between 5.0 and 6.0, whereas at pH 4.5 and pH 6.5, it retained approximately 50% of its activity.
+**Recorded evidence:** 1A) and retains over 90% activity after 30 min incubation at pH 10.0 (Fig.
 
-**In the article:** …ty results regarding the incubation of the invertase immobilized on PHB and SG functionalized with glutaraldehyde are presented in Figure . The enzyme immobilized on PHB demonstrated greater stability at pH values between 5.0 and 6.0, whereas at pH 4.5 and pH 6.5, it retained approximately 50% of its activity. On the other hand, the enzyme immobilized on SG presented its highest stability at pH 5.0 and an activity reduction of approximately 75% at pH 5.5 and pH 6.5, indicating a smaller pH stability range. 4 Stability of the invertase from B. tequilensis (PP6) immobilized on functionalized SG (■) and PHB (gray triangle) after 24 h of incubation at 4 °C at different pH values, with the maximum enzymati…
+**In the article:** *(context not located — check manually)*
 
 ---
 
-### 7. `BM001342` — relative activity
+### 7. `BM96A7ED48E0` — relative activity
 
 | Field | Recorded |
 |---|---|
 | Enzyme | — |
-| UniProt | QIT07223.1 (genbank_unique_in_article) |
-| Organism | Lysinibacillus sp. |
+| UniProt | — (unresolved) |
+| Organism | — |
 | Mutation | wild-type/unspecified |
 | Substrate | — |
 | Conditions | — |
 | Assay | — |
-| **Value** | **100.0 % relative activity** |
-| Tier | A_fully_independent |
-| Source | PMC9452428 · 10.1007/s11274-022-03402-5 ·  2022 |
+| **Value** | **72.85 % relative activity** |
+| Tier | C_conditions_only_no_sequence |
+| Source | PMC10146132 · 10.3390/microorganisms11040989 ·  2023 |
 
-**Recorded evidence:** Table in PMC9452428 — Table 2 :: Effector=Control* | Residual activity (%) at=100.00
+**Recorded evidence:** Table in PMC10146132 — Table 3 :: Metal Ions and Organic Compounds=Li+ | Relative Activity/(%)=72.85 ± 6.96
 
 **In the article:** *(context not located — check manually)*
 
 ---
 
-### 8. `BM000087` — relative activity
+### 8. `BMA361B4A612` — relative activity
 
 | Field | Recorded |
 |---|---|
@@ -162,40 +162,19 @@ The automated verifier confirms a value **is present** in the source. This packe
 | Organism | — |
 | Mutation | wild-type/unspecified |
 | Substrate | — |
-| Conditions | ion = Mg(2+) |
-| Assay | — |
-| **Value** | **102.0 % relative activity** |
+| Conditions | ion = Mn(2+) |
+| Assay | spectrophotometric p-nitrophenol release |
+| **Value** | **126.0 % relative activity** |
 | Tier | C_conditions_only_no_sequence |
 | Source | PMC12896513 · 10.3390/biology15030276 ·  2026 |
 
-**Recorded evidence:** Table in PMC12896513 — Table 2 :: Metal Ion=Mg2+ | Concentration=10 mM | Residual Activity, %=102 ± 3
+**Recorded evidence:** Table in PMC12896513 — Table 2 :: Metal Ion=Mn2+ | Concentration=10 mM | Residual Activity, %=126 ± 5
 
 **In the article:** *(context not located — check manually)*
 
 ---
 
-### 9. `BM000854` — salt effect
-
-| Field | Recorded |
-|---|---|
-| Enzyme | PHAZ |
-| UniProt | — (unresolved) |
-| Organism | — |
-| Mutation | wild-type/unspecified |
-| Substrate | — |
-| Conditions | salt = MgCl2; ion = Mg(2+) |
-| Assay | — |
-| **Value** | **89.0 % relative activity** |
-| Tier | C_conditions_only_no_sequence |
-| Source | PMC4624153 · 10.1007/s13205-015-0287-4 ·  2015 |
-
-**Recorded evidence:** Table in PMC4624153 — Table 2 :: Reagent=MgCl2 | Relative activity (%)=89
-
-**In the article:** *(context not located — check manually)*
-
----
-
-### 10. `BM000105` — specific activity
+### 9. `BM39E97B634A` — salt effect
 
 | Field | Recorded |
 |---|---|
@@ -203,20 +182,62 @@ The automated verifier confirms a value **is present** in the source. This packe
 | UniProt | — (unresolved) |
 | Organism | — |
 | Mutation | wild-type/unspecified |
-| Substrate | 4-Nitrophenyl myristate (C14) |
+| Substrate | PCL |
+| Conditions | ion = K(+) |
+| Assay | — |
+| **Value** | **10.0 mM** |
+| Tier | C_conditions_only_no_sequence |
+| Source | PMC12741466 · 10.1016/j.isci.2025.114173 ·  2025 |
+
+**Recorded evidence:** These findings show that K+ and Mn2+ promote PCLase0801 activity, while Cu2+, 10 mM Fe2+, and 10 mM Fe3+ significantly inhibited it.
+
+**In the article:** *(context not located — check manually)*
+
+---
+
+### 10. `BM8648FCE309` — specific activity
+
+| Field | Recorded |
+|---|---|
+| Enzyme | — |
+| UniProt | — (unresolved) |
+| Organism | — |
+| Mutation | wild-type/unspecified |
+| Substrate | 4-Nitrophenyl butyrate (C4) |
 | Conditions | — |
-| Assay | — |
-| **Value** | **51.0 U/mg (as reported)** |
+| Assay | spectrophotometric p-nitrophenol release |
+| **Value** | **39.0 U/mg (as reported)** |
 | Tier | C_conditions_only_no_sequence |
 | Source | PMC12896513 · 10.3390/biology15030276 ·  2026 |
 
-**Recorded evidence:** Table in PMC12896513 — Table 3 :: Substrate=4-Nitrophenyl myristate (C14) | Abbreviation=pNPM | Specific Activity, U/mg=51 ± 1
+**Recorded evidence:** Table in PMC12896513 — Table 3 :: Substrate=4-Nitrophenyl butyrate (C4) | Abbreviation=pNPB | Specific Activity, U/mg=39 ± 2
 
 **In the article:** *(context not located — check manually)*
 
 ---
 
-### 11. `BM000567` — temperature optimum
+### 11. `BM6E32E848BD` — temperature optimum
+
+| Field | Recorded |
+|---|---|
+| Enzyme | PhaZ |
+| UniProt | P26495 (accession_unique_in_article) |
+| Organism | Ectopseudomonas oleovorans |
+| Mutation | wild-type/unspecified |
+| Substrate | — |
+| Conditions | T = 45.0 °C; pH = 8.0; buffer = MES |
+| Assay | — |
+| **Value** | **45.0 degrees Celsius** |
+| Tier | A_fully_independent |
+| Source | PMC10003648 · 10.3390/ijms24054501 ·  2023 |
+
+**Recorded evidence:** The LIP3 and PhaZ enzymes were active in a pH range of 4.0 to 10.0 with optimal activity at pH 8 and 45–50 °C.
+
+**In the article:** … active site, whereas LIP4 and PhaZ have eight β-sheets and a catalytic triad, Ser180-His307-Asp277 and Ser102-His248-Asp221, respectively. The LIP3 and PhaZ enzymes were active in a pH range of 4.0 to 10.0 with optimal activity at pH 8 and 45-50 °C. This is consistent with the range reported for nPHAmcl depolymerase from P. putida KT2442 (pH 7.0 to 10.5) [ 29 ], as well as the lipase of P. aeruginosa MB 5001, which was reported to have a maximum esterase activity at pH 8.0 and 55 °C [ 30 ]. Similar to lipases from the psychrophilic Pseudomonas fluorescens strain AFT 36 [ 31 ] and Pseudomonas sp. with pH optima ranging from 6 to 9 [ 32 ] and lipases from Pseudom…
+
+---
+
+### 12. `BM38707D2B7F` — thermostability
 
 | Field | Recorded |
 |---|---|
@@ -224,41 +245,20 @@ The automated verifier confirms a value **is present** in the source. This packe
 | UniProt | — (unresolved) |
 | Organism | — |
 | Mutation | wild-type/unspecified |
-| Substrate | — |
-| Conditions | T = 40.0 °C; pH = 8.0 |
+| Substrate | PLA |
+| Conditions | T = 65.0 °C; additive = Tween-80 |
 | Assay | — |
-| **Value** | **40.0 degrees Celsius** |
+| **Value** | **65.0 degrees Celsius** |
 | Tier | C_conditions_only_no_sequence |
-| Source | PMC9104356 · 10.3390/molecules27092999 ·  2022 |
+| Source | PMC10255859 · 10.3390/polym15112439 ·  2023 |
 
-**Recorded evidence:** BaAXE showed optimal activity at pH 8 and 40 °C.
+**Recorded evidence:** Although at both 37 °C and 65 °C the end-point activity curves followed the same trend of increased proteinase K activity as concentration increased, there were statistically significant differences in relative A610 values observed between many of the proteinase K concentrations data observed in both the residual bioplastic and supernatant sample.
 
-**In the article:** …of the mean (SEM). 2.3. Biochemical Properties The biochemical properties of BaAXE were investigated in assays with 4-NPA as the substrate. BaAXE showed optimal activity at pH 8 and 40 °C. The km, kcat, and kcat/km (catalytic efficiency) values were calculated as 0.43 mM, 122.4 s -1 , and 282 mM -1 s -1 , respectively. A thermostability assay showed that the BaAXE retained around 40% activity after incubating the enzyme for 2 h at 40-100 °C but showed no clear activity at acidic pHs. At pH 7 and 9, BaAXE retained over 80% activity after incubating the enzyme for 4 h ( Figure 5 ). Figure 5 Biochemical …
-
----
-
-### 12. `BM000520` — thermostability
-
-| Field | Recorded |
-|---|---|
-| Enzyme | — |
-| UniProt | AAB51445.1 (genbank_deposit_section_unique) |
-| Organism | Streptomyces sp. |
-| Mutation | wild-type/unspecified |
-| Substrate | — |
-| Conditions | T = 70.0 °C |
-| Assay | — |
-| **Value** | **70.0 degrees Celsius** |
-| Tier | A_fully_independent |
-| Source | PMC10707221 · 10.3390/ijms242317071 ·  2023 |
-
-**Recorded evidence:** However, its thermostability was clearly enhanced when protein concentration was increased approximately 25-fold (19 µg/mL), allowing the enzyme to maintain 60% residual activity after incubation at temperatures above 70 °C.
-
-**In the article:** …y poor thermal stability at low protein concentrations (0.72 µg/mL) since residual enzyme activity was strongly decreased from 35 to 60 °C. However, its thermostability was clearly enhanced when protein concentration was increased approximately 25-fold (19 µg/mL), allowing the enzyme to maintain 60% residual activity after incubation at temperatures above 70 °C. Figure 5 Thermal stability of Se LipC. ( A ) Effect of temperature on Se LipC stability using different enzyme concentrations and activity assays. ( B ) Thermal inactivation kinetics of Se LipC at 45 °C using different enzyme concentrations and activity assays; inset: the decrease in enzyme activity followed exponential regression (first-order…
+**In the article:** …f the difference in 37 °C vs. 65 °C incubation temperatures at higher concentrations of 1000 μg/mL and 4000 μg/mL proteinase K ( p < 0.05). Although at both 37 °C and 65 °C the end-point activity curves followed the same trend of increased proteinase K activity as concentration increased, there were statistically significant differences in relative A 610 values observed between many of the proteinase K concentrations data observed in both the residual bioplastic and supernatant sample. As such, the incubation temperature of 37 °C appears to be superior for the proteinase K-mediated degradation of commercially available bioplastic relative to higher temperatures of 65 °C. This is significant as it demo…
 
 ---
 
-### 13. `BM000160` — thermostability
+### 13. `BM281585599B` — thermostability
 
 | Field | Recorded |
 |---|---|
@@ -268,7 +268,7 @@ The automated verifier confirms a value **is present** in the source. This packe
 | Mutation | S184P/R186S |
 | Substrate | PLA |
 | Conditions | T = 60.0 °C; ion = Ca(2+); exposure = 3.1 min |
-| Assay | — |
+| Assay | HPLC/UPLC product release |
 | **Value** | **60.0 degrees Celsius** |
 | Tier | B_in_luke_heldout_test_only |
 | Source | PMC9321771 · 10.1002/cssc.202102750 ·  2022 |
@@ -279,7 +279,7 @@ The automated verifier confirms a value **is present** in the source. This packe
 
 ---
 
-### 14. `BM000716` — inhibition
+### 14. `BM5C38B4C699` — inhibition
 
 | Field | Recorded |
 |---|---|
@@ -287,20 +287,20 @@ The automated verifier confirms a value **is present** in the source. This packe
 | UniProt | — (unresolved) |
 | Organism | — |
 | Mutation | wild-type/unspecified |
-| Substrate | — |
+| Substrate | polycaprolactone (PCL) |
 | Conditions | additive = ethanol |
 | Assay | — |
-| **Value** | **-0.24 U/mg (as reported)** |
+| **Value** | **96.6 % relative activity** |
 | Tier | C_conditions_only_no_sequence |
-| Source | PMC11651597 · 10.1371/journal.pone.0314556 ·  2024 |
+| Source | PMC8971842 · 10.3389/fbioe.2022.835847 ·  2022 |
 
-**Recorded evidence:** Table in PMC11651597 — Table 2 :: =Ethanol | Relative Activity (%)=-0.24
+**Recorded evidence:** Table in PMC8971842 — TABLE 3 :: Organic solvent=Ethanol | Residual activity (%)=96.60 ± 0.80
 
 **In the article:** *(context not located — check manually)*
 
 ---
 
-### 15. `BM000147` — kinetic constant
+### 15. `BM2A123B165E` — kinetic constant
 
 | Field | Recorded |
 |---|---|
@@ -308,20 +308,20 @@ The automated verifier confirms a value **is present** in the source. This packe
 | UniProt | MYD18970.1 (genbank_unique_in_article) |
 | Organism | Rhodothermaceae bacterium |
 | Mutation | wild-type/unspecified |
-| Substrate | — |
+| Substrate | PBAT |
 | Conditions | — |
-| Assay | — |
-| **Value** | **0.194 mM** |
+| Assay | spectrophotometric p-nitrophenol release |
+| **Value** | **0.419 mM** |
 | Tier | A_fully_independent |
 | Source | PMC12720421 · 10.1002/pro.70402 ·  2026 |
 
-**Recorded evidence:** Table in PMC12720421 — TABLE 3 :: =AlinE4 | k cat (s−1)=15.0 ± 1.4 | K M (μM)=194 ± 55 | k cat/K M (s−1 M−1)=7.7 × 104
+**Recorded evidence:** Table in PMC12720421 — TABLE 3 :: =shMt_EST | k cat (s−1)=53.2 ± 4.4 | K M (μM)=419 ± 78 | k cat/K M (s−1 M−1)=1.3 × 105
 
 **In the article:** *(context not located — check manually)*
 
 ---
 
-### 16. `BM000004` — pH optimum
+### 16. `BMD363C6A8E6` — pH optimum
 
 | Field | Recorded |
 |---|---|
@@ -342,7 +342,7 @@ The automated verifier confirms a value **is present** in the source. This packe
 
 ---
 
-### 17. `BM000071` — pH stability
+### 17. `BM355F56FDED` — pH stability
 
 | Field | Recorded |
 |---|---|
@@ -351,19 +351,19 @@ The automated verifier confirms a value **is present** in the source. This packe
 | Organism | — |
 | Mutation | wild-type/unspecified |
 | Substrate | — |
-| Conditions | T = 40.0 °C; pH = 7.0; buffer = sodium phosphate (50.0 mM) |
+| Conditions | pH = 9.0 |
 | Assay | — |
-| **Value** | **7.0 pH** |
+| **Value** | **9.0 pH** |
 | Tier | C_conditions_only_no_sequence |
-| Source | PMC12896513 · 10.3390/biology15030276 ·  2026 |
+| Source | PMC10146132 · 10.3390/microorganisms11040989 ·  2023 |
 
-**Recorded evidence:** The residual activity was then measured at 40 °C in 50 mM sodium phosphate-buffered solution (pH 7.0).
+**Recorded evidence:** When pH > 8.0, the enzyme activity began to decrease, but about 90% of the enzyme activity was retained when pH = 9.0.
 
-**In the article:** …lyse the thermal stability, the enzyme extract was pre-incubated for 5 h at 40, 50, 60 or 70 °C in 50 mM Tris-HCl buffer solution (pH 7.0). The residual activity was then measured at 40 °C in 50 mM sodium phosphate-buffered solution (pH 7.0). The results were expressed as a percentage of the activity of the extract not subjected to thermal incubation. All experiments were performed in triplicate. 2.9. Effect of Metal Ions and Detergents on Esterase Activity The effect of metal ions on esterase activity was determined using the following ions: Ca 2+ , Mg 2+ , Mn 2+ , Cu 2+ , Zn 2+ , and Fe 2+ . The effect of the metal ions, the reducing agents β-mercaptoe…
+**In the article:** …tivity. When pH was 4.0-7.0, the enzyme activity increased with the increase of pH. When pH = 8.0, the enzyme activity reached the highest. When pH > 8.0, the enzyme activity began to decrease, but about 90% of the enzyme activity was retained when pH = 9.0. When pH > 9.0, the enzyme activity decreased sharply. When pH 10.0, less than 50% of the enzyme activity was retained. As for the pH stability of KoFAE, it can be seen in Figure 4 D that the enzyme activity was less stable when pH was 3.0 to 5.0, the enzyme activity was lost when pH was 3.0, and the stability was less than 50% when pH was 4.0 to 5.0. A pH of 6.0~10.0 had good stability, the retained enzyme activity …
 
 ---
 
-### 18. `BM000849` — relative activity
+### 18. `BM36229E04AC` — relative activity
 
 | Field | Recorded |
 |---|---|
@@ -373,18 +373,18 @@ The automated verifier confirms a value **is present** in the source. This packe
 | Mutation | wild-type/unspecified |
 | Substrate | — |
 | Conditions | — |
-| Assay | — |
-| **Value** | **100.0 % relative activity** |
+| Assay | spectrophotometric p-nitrophenol release |
+| **Value** | **87.0 % relative activity** |
 | Tier | C_conditions_only_no_sequence |
 | Source | PMC4624153 · 10.1007/s13205-015-0287-4 ·  2015 |
 
-**Recorded evidence:** Table in PMC4624153 — Table 2 :: Reagent=Control | Relative activity (%)=100
+**Recorded evidence:** Table in PMC4624153 — Table 2 :: Reagent=Cd(NO3)2 | Relative activity (%)=87
 
 **In the article:** *(context not located — check manually)*
 
 ---
 
-### 19. `BM000203` — relative activity
+### 19. `BMDDF8F750C0` — relative activity
 
 | Field | Recorded |
 |---|---|
@@ -395,248 +395,38 @@ The automated verifier confirms a value **is present** in the source. This packe
 | Substrate | — |
 | Conditions | salt = NaCl; ion = Na(+) |
 | Assay | — |
-| **Value** | **100.0 % relative activity** |
+| **Value** | **1.0 % relative activity** |
 | Tier | C_conditions_only_no_sequence |
 | Source | PMC12898461 · 10.3390/ijms27031372 ·  2026 |
 
-**Recorded evidence:** Table in PMC12898461 — Table 5 :: [NaCl] (M)=0 | Relative Activity (%)=100 ± 0
+**Recorded evidence:** Table in PMC12898461 — Table 5 :: [NaCl] (M)=Ces1-ET | Relative Activity (%)=Est1-ET
 
 **In the article:** *(context not located — check manually)*
 
 ---
 
-### 20. `BM001491` — salt effect
+### 20. `BMB2EA3BA8D7` — salt effect
 
 | Field | Recorded |
 |---|---|
-| Enzyme | — |
+| Enzyme | Est1 |
 | UniProt | — (unresolved) |
 | Organism | — |
 | Mutation | wild-type/unspecified |
 | Substrate | — |
-| Conditions | ion = Co(2+) |
+| Conditions | buffer = MES (2.0 mM); salt = ZnSO4 @ 2.0 mM; ion = Zn(2+); I = 0.008 M (computed from 2.0 mM ZnSO4) |
 | Assay | — |
-| **Value** | **78.17 % relative activity** |
+| **Value** | **8.0 % relative activity** |
 | Tier | C_conditions_only_no_sequence |
-| Source | PMC10146132 · 10.3390/microorganisms11040989 ·  2023 |
+| Source | PMC12898461 · 10.3390/ijms27031372 ·  2026 |
 
-**Recorded evidence:** Table in PMC10146132 — Table 3 :: Metal Ions and Organic Compounds=Co2+ | Relative Activity/(%)=78.17 ± 4.48
+**Recorded evidence:** In the presence of 2mM ZnSO4, all enzymes showed an increase in relative activity, with Ces1-ET increasing by 8%, Est1-ET by 38%, and Plp1-ET by 18%.
 
 **In the article:** *(context not located — check manually)*
 
 ---
 
-### 21. `BM000106` — specific activity
-
-| Field | Recorded |
-|---|---|
-| Enzyme | — |
-| UniProt | — (unresolved) |
-| Organism | — |
-| Mutation | wild-type/unspecified |
-| Substrate | 4-Nitrophenyl palmitate (C16) |
-| Conditions | — |
-| Assay | — |
-| **Value** | **45.0 U/mg (as reported)** |
-| Tier | C_conditions_only_no_sequence |
-| Source | PMC12896513 · 10.3390/biology15030276 ·  2026 |
-
-**Recorded evidence:** Table in PMC12896513 — Table 3 :: Substrate=4-Nitrophenyl palmitate (C16) | Abbreviation=pNPP | Specific Activity, U/mg=45 ± 4
-
-**In the article:** *(context not located — check manually)*
-
----
-
-### 22. `BM000338` — temperature optimum
-
-| Field | Recorded |
-|---|---|
-| Enzyme | — |
-| UniProt | — (unresolved) |
-| Organism | — |
-| Mutation | wild-type/unspecified |
-| Substrate | BHET |
-| Conditions | T = 50.0 °C; buffer = MES |
-| Assay | — |
-| **Value** | **50.0 degrees Celsius** |
-| Tier | C_conditions_only_no_sequence |
-| Source | PMC9764356 · 10.1021/acscatal.2c03772 ·  2022 |
-
-**Recorded evidence:** Thus, 50 °C appeared to be the optimal temperature for BHET hydrolysis by both enzymes.
-
-**In the article:** …55 °C, the considerably lower total substrate conversion levels with both enzymes exclude this temperature as the ideal reaction condition. Thus, 50 °C appeared to be the optimal temperature for BHET hydrolysis by both enzymes. Next, we performed the enzymatic hydrolysis of MHET at 50 °C. At the same substrate concentration of 2 mM, more than twofold TPA was released from MHET compared to BHET with both enzymes. TfCa WA yielded 3.3-fold and 2.6-fold more TPA from the hydrolysis of BHET and MHET than TfCa wt, respectively. Finally, we compared the rates of TPA release as a result of the enzymatic hydrolysis of MHET at various concentrations…
-
----
-
-### 23. `BM000683` — thermostability
-
-| Field | Recorded |
-|---|---|
-| Enzyme | — |
-| UniProt | — (unresolved) |
-| Organism | — |
-| Mutation | wild-type/unspecified |
-| Substrate | PHB |
-| Conditions | T = 4.0 °C; exposure = 1440.0 min |
-| Assay | — |
-| **Value** | **4.0 degrees Celsius** |
-| Tier | C_conditions_only_no_sequence |
-| Source | PMC13220297 · 10.1021/acs.jafc.6c02898 ·  2026 |
-
-**Recorded evidence:** Stability of the invertase from B. tequilensis (PP6) immobilized on functionalized SG (■) and PHB (gray triangle) after 24 h of incubation at 4 °C at different pH values, with the maximum enzymatic activity of 2.30 U/g.
-
-**In the article:** …highest stability at pH 5.0 and an activity reduction of approximately 75% at pH 5.5 and pH 6.5, indicating a smaller pH stability range. 4 Stability of the invertase from B. tequilensis (PP6) immobilized on functionalized SG (■) and PHB (gray triangle) after 24 h of incubation at 4 °C at different pH values, with the maximum enzymatic activity of 2.30 U/g. Immobilization tends to protect the structure of the enzyme from the effects of pH; thus, higher pH stability favors storage and industrial applications. As observed for thermal stability, the samples immobilized on functionalized PHB presented a similar stability to that of the soluble enzyme; therefore, this support may be offering a favorable en…
-
----
-
-### 24. `BM000866` — inhibition
-
-| Field | Recorded |
-|---|---|
-| Enzyme | PHAZ |
-| UniProt | — (unresolved) |
-| Organism | — |
-| Mutation | wild-type/unspecified |
-| Substrate | — |
-| Conditions | additive = EDTA |
-| Assay | — |
-| **Value** | **59.0 % relative activity** |
-| Tier | C_conditions_only_no_sequence |
-| Source | PMC4624153 · 10.1007/s13205-015-0287-4 ·  2015 |
-
-**Recorded evidence:** Table in PMC4624153 — Table 2 :: Reagent=EDTA | Relative activity (%)=59
-
-**In the article:** *(context not located — check manually)*
-
----
-
-### 25. `BM000152` — kinetic constant
-
-| Field | Recorded |
-|---|---|
-| Enzyme | — |
-| UniProt | MYD18970.1 (genbank_unique_in_article) |
-| Organism | Rhodothermaceae bacterium |
-| Mutation | wild-type/unspecified |
-| Substrate | — |
-| Conditions | — |
-| Assay | — |
-| **Value** | **0.419 mM** |
-| Tier | A_fully_independent |
-| Source | PMC12720421 · 10.1002/pro.70402 ·  2026 |
-
-**Recorded evidence:** Table in PMC12720421 — TABLE 3 :: =shMt_EST | k cat (s−1)=53.2 ± 4.4 | K M (μM)=419 ± 78 | k cat/K M (s−1 M−1)=1.3 × 105
-
-**In the article:** *(context not located — check manually)*
-
----
-
-### 26. `BM001504` — pH optimum
-
-| Field | Recorded |
-|---|---|
-| Enzyme | — |
-| UniProt | — (unresolved) |
-| Organism | — |
-| Mutation | wild-type/unspecified |
-| Substrate | — |
-| Conditions | pH = 8.0 |
-| Assay | — |
-| **Value** | **8.0 pH** |
-| Tier | C_conditions_only_no_sequence |
-| Source | PMC10385968 · 10.3390/molecules28145410 ·  2023 |
-
-**Recorded evidence:** The optimal pH for EstD04 activity was pH 8.
-
-**In the article:** …ity of EstD04, measured by the tolerance of the enzyme to different temperatures, dropped drastically between 50 °C to 70 °C ( Figure 6 B). The optimal pH for EstD04 activity was pH 8. Finally, we also demonstrated the pH stability (or tolerance) of EstD04 esterase by measuring its enzymatic activity after pre-incubation with buffers of various pH values ( Figure 6 C). EstD04 exhibited favorable pH stability between pH 8 to pH 11, in which the enzyme retained at least 80% activity. The maximal stability was maintained at pH 10 ( Figure 6 C), suggesting that this enzyme could be an alkaline lipolyt…
-
----
-
-### 27. `BM001489` — pH stability
-
-| Field | Recorded |
-|---|---|
-| Enzyme | — |
-| UniProt | — (unresolved) |
-| Organism | — |
-| Mutation | wild-type/unspecified |
-| Substrate | — |
-| Conditions | pH = 6.0 |
-| Assay | — |
-| **Value** | **6.0 pH** |
-| Tier | C_conditions_only_no_sequence |
-| Source | PMC10146132 · 10.3390/microorganisms11040989 ·  2023 |
-
-**Recorded evidence:** A pH of 6.0~10.0 had good stability, the retained enzyme activity was more than 60%, and pH 8.0, the best stability of enzyme activity, could retain about 80% of enzyme activity.
-
-**In the article:** …ss stable when pH was 3.0 to 5.0, the enzyme activity was lost when pH was 3.0, and the stability was less than 50% when pH was 4.0 to 5.0. A pH of 6.0~10.0 had good stability, the retained enzyme activity was more than 60%, and pH 8.0, the best stability of enzyme activity, could retain about 80% of enzyme activity. Shu et al. screened the FAE activity gene estF27 from the soil metagenic library, which also showed good activity at pH 8, and its stability could preserve 80% of the enzyme activity at pH 8 [ 24 ]. Zhang et al. studied Bi76, a protein with FAE activity from B. intestinalis . It has good activity and stability at pH 5.5, but the FAE enzyme activity is less than 10% at pH 8.0 [ 25 ]. This …
-
----
-
-### 28. `BM000094` — relative activity
-
-| Field | Recorded |
-|---|---|
-| Enzyme | — |
-| UniProt | — (unresolved) |
-| Organism | — |
-| Mutation | wild-type/unspecified |
-| Substrate | — |
-| Conditions | additive = beta-mercaptoethanol |
-| Assay | — |
-| **Value** | **37.0 % relative activity** |
-| Tier | C_conditions_only_no_sequence |
-| Source | PMC12896513 · 10.3390/biology15030276 ·  2026 |
-
-**Recorded evidence:** Table in PMC12896513 — Table 2 :: Metal Ion=β-Mercaptoethanol | Concentration=10 mM | Residual Activity, %=37 ± 1
-
-**In the article:** *(context not located — check manually)*
-
----
-
-### 29. `BM000086` — relative activity
-
-| Field | Recorded |
-|---|---|
-| Enzyme | — |
-| UniProt | — (unresolved) |
-| Organism | — |
-| Mutation | wild-type/unspecified |
-| Substrate | — |
-| Conditions | ion = Ca(2+) |
-| Assay | — |
-| **Value** | **52.0 % relative activity** |
-| Tier | C_conditions_only_no_sequence |
-| Source | PMC12896513 · 10.3390/biology15030276 ·  2026 |
-
-**Recorded evidence:** Table in PMC12896513 — Table 2 :: Metal Ion=Ca2+ | Concentration=10 mM | Residual Activity, %=52 ± 6
-
-**In the article:** *(context not located — check manually)*
-
----
-
-### 30. `BM001498` — salt effect
-
-| Field | Recorded |
-|---|---|
-| Enzyme | — |
-| UniProt | — (unresolved) |
-| Organism | — |
-| Mutation | wild-type/unspecified |
-| Substrate | — |
-| Conditions | ion = Mn(2+) |
-| Assay | — |
-| **Value** | **60.33 % relative activity** |
-| Tier | C_conditions_only_no_sequence |
-| Source | PMC10146132 · 10.3390/microorganisms11040989 ·  2023 |
-
-**Recorded evidence:** Table in PMC10146132 — Table 3 :: Metal Ions and Organic Compounds=Mn2+ | Relative Activity/(%)=60.33 ± 6.73
-
-**In the article:** *(context not located — check manually)*
-
----
-
-### 31. `BM000102` — specific activity
+### 21. `BMCF6A28B065` — specific activity
 
 | Field | Recorded |
 |---|---|
@@ -646,7 +436,7 @@ The automated verifier confirms a value **is present** in the source. This packe
 | Mutation | wild-type/unspecified |
 | Substrate | 4-Nitrophenyl octanoate (C8) |
 | Conditions | — |
-| Assay | — |
+| Assay | spectrophotometric p-nitrophenol release |
 | **Value** | **44.0 U/mg (as reported)** |
 | Tier | C_conditions_only_no_sequence |
 | Source | PMC12896513 · 10.3390/biology15030276 ·  2026 |
@@ -657,7 +447,7 @@ The automated verifier confirms a value **is present** in the source. This packe
 
 ---
 
-### 32. `BM001123` — temperature optimum
+### 22. `BM10FE78B273` — temperature optimum
 
 | Field | Recorded |
 |---|---|
@@ -666,40 +456,19 @@ The automated verifier confirms a value **is present** in the source. This packe
 | Organism | — |
 | Mutation | wild-type/unspecified |
 | Substrate | — |
-| Conditions | T = 10.0 °C |
-| Assay | — |
-| **Value** | **10.0 degrees Celsius** |
-| Tier | C_conditions_only_no_sequence |
-| Source | PMC12428281 · 10.3390/ijms26178141 ·  2025 |
-
-**Recorded evidence:** The activity of DehpH increased in the temperature range of 10 °C to 30 °C and showed maximum activity at 30 °C (Figure 4C).
-
-**In the article:** …hpH almost lost all of its activity under pH 3.0, while DehpH retained more than 70.0% residual activity under pH 7.0 to 9.0 ( Figure 4 B). The activity of DehpH increased in the temperature range of 10 °C to 30 °C and showed maximum activity at 30 °C ( Figure 4 C). Subsequently, the activity of DehpH decreased in the temperature range from 30 °C to 80 °C, and DehpH almost lost its activity under 80 °C. The thermostability experiment showed that the activity of DehpH decreased with the increasing of the incubation time, and the higher the temperature, the greater the loss of activity ( Figure 4 D). After 5 h incubation, approximately 64.0% of…
-
----
-
-### 33. `BM001396` — thermostability
-
-| Field | Recorded |
-|---|---|
-| Enzyme | DuraPETase |
-| UniProt | GAP38373.1 (genbank_deposit_section_unique) |
-| Organism | Pseudideonella sakaiensis |
-| Mutation | wild-type/unspecified |
-| Substrate | — |
-| Conditions | T = 50.0 °C |
+| Conditions | T = 50.0 °C; pH = 7.0; buffer = MES |
 | Assay | — |
 | **Value** | **50.0 degrees Celsius** |
-| Tier | B_in_luke_heldout_test_only |
-| Source | PMC11033240 · 10.1007/s00253-024-13144-z ·  2024 |
+| Tier | C_conditions_only_no_sequence |
+| Source | PMC10607177 · 10.3390/ijms242015452 ·  2023 |
 
-**Recorded evidence:** Overall, the changes in activity at 50 °C and 52 °C reflect the observed changes in thermostability.
+**Recorded evidence:** Furthermore, depolymerase enzymes produced by two of our A. fumigatus isolates exhibited optimal activity at pH 7 and a temperature of 50 °C, while the depolymerase of the third Aspergillus strain demonstrated peak efficiency at pH 5 and a temperature of 40 °C.
 
-**In the article:** …d 52 °C to see how the enzymes performed at the optimum temperature of the original DuraPETase (50 °C) and slightly above this temperature. Overall, the changes in activity at 50 °C and 52 °C reflect the observed changes in thermostability. DuraPETase S223Y —which showed the strongest increase in T m —showed practically identical PET degradation rates at 50 °C compared to the original DuraPETase but was approx. ten percent more active at 52 °C. Similarly, a better performance at 52 °C was also recorded for one of the other two more thermostable variants, DuraPETase S42M . For the third stable variant, DuraPETase S61M , the same tendency was observed at…
+**In the article:** …termediates [ 6 ]. In the current study, the four fungal isolates showed depolymerase activities of 0.032, 0.014, 0.032 and 0.024 U/mL/min. Furthermore, depolymerase enzymes produced by two of our A . fumigatus isolates exhibited optimal activity at pH 7 and a temperature of 50 °C, while the depolymerase of the third Aspergillus strain demonstrated peak efficiency at pH 5 and a temperature of 40 °C. It is worth noting that a previous study indicated that the enzymatic degradation of polyethylene terephthalate is limited to 50 °C (around 5% degradation), and degradation increases with higher temperatures…
 
 ---
 
-### 34. `BM000821` — inhibition
+### 23. `BM1F4F1C5F0D` — thermostability
 
 | Field | Recorded |
 |---|---|
@@ -708,19 +477,250 @@ The automated verifier confirms a value **is present** in the source. This packe
 | Organism | — |
 | Mutation | wild-type/unspecified |
 | Substrate | — |
-| Conditions | additive = Tween-80 |
+| Conditions | T = 80.0 °C |
 | Assay | — |
-| **Value** | **86.8 % relative activity** |
+| **Value** | **80.0 degrees Celsius** |
+| Tier | C_conditions_only_no_sequence |
+| Source | PMC13118911 · 10.3390/microorganisms14040856 ·  2026 |
+
+**Recorded evidence:** The results showed that at 80 °C the yeast-secreted wild-type laccase lost nearly all enzymatic activity, whereas the secreted quadruple mutant retained over 70% relative activity and maintained substantial AFB1 degradation capacity (Figure 6a,b).
+
+**In the article:** … a Feed Matrix The purified yeast culture supernatant was co-incubated with AFB1 (5 μg/mL) for 24 h across a temperature range of 40-90 °C. The results showed that at 80 °C the yeast-secreted wild-type laccase lost nearly all enzymatic activity, whereas the secreted quadruple mutant retained over 70% relative activity and maintained substantial AFB1 degradation capacity ( Figure 6 a,b). Under identical reaction conditions, the AFB1 degradation rate of the yeast-expressed mutant was slightly lower than that of the laccase purified from the E. coli expression system. The HPLC method used for AFB 1 quantification in feed samples exhibited excellent linearity over the range of 1-200 μg/kg, with the calibr…
+
+---
+
+### 24. `BMB8FF4666E2` — inhibition
+
+| Field | Recorded |
+|---|---|
+| Enzyme | — |
+| UniProt | — (unresolved) |
+| Organism | — |
+| Mutation | wild-type/unspecified |
+| Substrate | polycaprolactone (PCL) |
+| Conditions | additive = methanol |
+| Assay | — |
+| **Value** | **84.5 % relative activity** |
 | Tier | C_conditions_only_no_sequence |
 | Source | PMC8971842 · 10.3389/fbioe.2022.835847 ·  2022 |
 
-**Recorded evidence:** Table in PMC8971842 — TABLE 3 :: Organic solvent=Tween-80 | Residual activity (%)=86.80 ± 0.20
+**Recorded evidence:** Table in PMC8971842 — TABLE 3 :: Organic solvent=Methanol | Residual activity (%)=84.50 ± 0.49
 
 **In the article:** *(context not located — check manually)*
 
 ---
 
-### 35. `BM001367` — kinetic constant
+### 25. `BM66F7D267C4` — kinetic constant
+
+| Field | Recorded |
+|---|---|
+| Enzyme | — |
+| UniProt | — (unresolved) |
+| Organism | — |
+| Mutation | wild-type/unspecified |
+| Substrate | PHB |
+| Conditions | — |
+| Assay | — |
+| **Value** | **2.4 g/L** |
+| Tier | C_conditions_only_no_sequence |
+| Source | PMC13220297 · 10.1021/acs.jafc.6c02898 ·  2026 |
+
+**Recorded evidence:** Table in PMC13220297 — 3 :: support=PHB | V max (U/g)=0.40 ± 0.02 | K m (g/L)=2.40 ± 0.92 | R 2=0.77
+
+**In the article:** *(context not located — check manually)*
+
+---
+
+### 26. `BM85EC0EEFF2` — pH optimum
+
+| Field | Recorded |
+|---|---|
+| Enzyme | — |
+| UniProt | — (unresolved) |
+| Organism | — |
+| Mutation | S3C |
+| Substrate | — |
+| Conditions | pH = 7.5 |
+| Assay | — |
+| **Value** | **7.5 pH** |
+| Tier | C_conditions_only_no_sequence |
+| Source | PMC11270687 · 10.1021/acsomega.4c04843 ·  2024 |
+
+**Recorded evidence:** The optimal activity was at pH 7.5 (Figure S3C).
+
+**In the article:** *(context not located — check manually)*
+
+---
+
+### 27. `BME3583FB244` — pH stability
+
+| Field | Recorded |
+|---|---|
+| Enzyme | — |
+| UniProt | AAN81911.1 (genbank_unique_in_article) |
+| Organism | Geobacillus stearothermophilus |
+| Mutation | wild-type/unspecified |
+| Substrate | — |
+| Conditions | pH = 7.0 |
+| Assay | — |
+| **Value** | **7.0 pH** |
+| Tier | A_fully_independent |
+| Source | PMC10418727 · 10.3390/ijms241512022 ·  2023 |
+
+**Recorded evidence:** EaEst2 showed its maximal activity at pH 7.0, whereas only ~40% of its maximal activity was retained at pH 8.0 (Figure 2C).
+
+**In the article:** *(context not located — check manually)*
+
+---
+
+### 28. `BM2711BE4D62` — relative activity
+
+| Field | Recorded |
+|---|---|
+| Enzyme | PHAZ |
+| UniProt | — (unresolved) |
+| Organism | — |
+| Mutation | wild-type/unspecified |
+| Substrate | — |
+| Conditions | — |
+| Assay | spectrophotometric p-nitrophenol release |
+| **Value** | **37.0 % relative activity** |
+| Tier | C_conditions_only_no_sequence |
+| Source | PMC4624153 · 10.1007/s13205-015-0287-4 ·  2015 |
+
+**Recorded evidence:** Table in PMC4624153 — Table 2 :: Reagent=NAM | Relative activity (%)=37
+
+**In the article:** *(context not located — check manually)*
+
+---
+
+### 29. `BM9FD79D27CE` — relative activity
+
+| Field | Recorded |
+|---|---|
+| Enzyme | — |
+| UniProt | — (unresolved) |
+| Organism | — |
+| Mutation | wild-type/unspecified |
+| Substrate | — |
+| Conditions | salt = CaCl2 @ 1.0 mM; ion = Ca(2+); I = 0.003 M (computed from 1.0 mM CaCl2) |
+| Assay | — |
+| **Value** | **158.0 % relative activity** |
+| Tier | C_conditions_only_no_sequence |
+| Source | PMC9065602 · 10.3389/fbioe.2022.854298 ·  2022 |
+
+**Recorded evidence:** Table in PMC9065602 — TABLE 5 :: Modulators/reagents=CaCl2 | Final concentration=1 mM | Relative activity (%)=158 ± 3.5
+
+**In the article:** *(context not located — check manually)*
+
+---
+
+### 30. `BM62BB52217D` — salt effect
+
+| Field | Recorded |
+|---|---|
+| Enzyme | PHAZ |
+| UniProt | — (unresolved) |
+| Organism | — |
+| Mutation | wild-type/unspecified |
+| Substrate | — |
+| Conditions | salt = HgCl2; ion = Hg(2+) |
+| Assay | spectrophotometric p-nitrophenol release |
+| **Value** | **18.0 % relative activity** |
+| Tier | C_conditions_only_no_sequence |
+| Source | PMC4624153 · 10.1007/s13205-015-0287-4 ·  2015 |
+
+**Recorded evidence:** Table in PMC4624153 — Table 2 :: Reagent=HgCl2 | Relative activity (%)=18
+
+**In the article:** *(context not located — check manually)*
+
+---
+
+### 31. `BM3DA2D9C580` — specific activity
+
+| Field | Recorded |
+|---|---|
+| Enzyme | IsPETase-Ec |
+| UniProt | — (unresolved) |
+| Organism | — |
+| Mutation | wild-type/unspecified |
+| Substrate | MHET |
+| Conditions | — |
+| Assay | — |
+| **Value** | **1.0 U/mg (as reported)** |
+| Tier | C_conditions_only_no_sequence |
+| Source | PMC9839772 · 10.1038/s42003-023-04413-0 ·  2023 |
+
+**Recorded evidence:** Table in PMC9839772 — Table 1 :: Enzyme=IsPETase-Ec | TPA (mM)=0.0023 ± 0.0004 | MHET (mM)=0.0039 ± 0.0004 | Percentage of TPA (%)=36.84 ± 1.72 | specific activity (U/mg)=1.0 ± 0.17
+
+**In the article:** *(context not located — check manually)*
+
+---
+
+### 32. `BM8CAF350BEE` — temperature optimum
+
+| Field | Recorded |
+|---|---|
+| Enzyme | — |
+| UniProt | — (unresolved) |
+| Organism | — |
+| Mutation | wild-type/unspecified |
+| Substrate | — |
+| Conditions | T = 37.0 °C |
+| Assay | — |
+| **Value** | **37.0 degrees Celsius** |
+| Tier | C_conditions_only_no_sequence |
+| Source | PMC11055803 · 10.1007/s10529-024-03467-2 ·  2024 |
+
+**Recorded evidence:** 2011), but they exhibit maximum activity at 37 °C.
+
+**In the article:** *(context not located — check manually)*
+
+---
+
+### 33. `BM97C81309AD` — thermostability
+
+| Field | Recorded |
+|---|---|
+| Enzyme | — |
+| UniProt | GAP38373.1 (genbank_deposit_section_unique) |
+| Organism | Pseudideonella sakaiensis |
+| Mutation | wild-type/unspecified |
+| Substrate | PET |
+| Conditions | T = 30.0 °C; exposure = 8640.0 min |
+| Assay | HPLC/UPLC product release |
+| **Value** | **30.0 degrees Celsius** |
+| Tier | B_in_luke_heldout_test_only |
+| Source | PMC10975908 · 10.3390/molecules29061338 ·  2024 |
+
+**Recorded evidence:** For most of the variants with improved thermostability, the PET degradation product concentration gradually increased at 30 °C for 6 days.
+
+**In the article:** …ETase WT could be maintained for 5 days at 30 °C, whereas the degradation activity was completely lost within 1 day at 40 °C ( Figure S3 ). For most of the variants with improved thermostability, the PET degradation product concentration gradually increased at 30 °C for 6 days. Consequently, the PET degradation product concentrations of the PETase D186N and PETase D186H were 1.86- and 1.35-fold higher than that of PETase WT after 6 days, respectively ( Figure 3 b). At 40 °C, the product concentrations of the PETase D186N and PETase D186H rapidly increased in the first 3 days ( Figure S3 ), and the product concentrations were 3.69- and 3.43-fold higher than that of PETase WT after 6 days, r…
+
+---
+
+### 34. `BMCF8FEFE346` — inhibition
+
+| Field | Recorded |
+|---|---|
+| Enzyme | — |
+| UniProt | — (unresolved) |
+| Organism | — |
+| Mutation | wild-type/unspecified |
+| Substrate | polycaprolactone (PCL) |
+| Conditions | additive = methanol |
+| Assay | — |
+| **Value** | **96.2 % relative activity** |
+| Tier | C_conditions_only_no_sequence |
+| Source | PMC12741466 · 10.1016/j.isci.2025.114173 ·  2025 |
+
+**Recorded evidence:** Table in PMC12741466 — Table 2 :: Organic solvent=Methanola | Residual activity (%)=96.2 ± 0.5
+
+**In the article:** *(context not located — check manually)*
+
+---
+
+### 35. `BM44C5D6BB1D` — kinetic constant
 
 | Field | Recorded |
 |---|---|
@@ -741,28 +741,175 @@ The automated verifier confirms a value **is present** in the source. This packe
 
 ---
 
-### 36. `BM001332` — pH optimum
+### 36. `BMBF693ED6C8` — pH optimum
 
 | Field | Recorded |
 |---|---|
 | Enzyme | — |
-| UniProt | QIT07223.1 (genbank_unique_in_article) |
-| Organism | Lysinibacillus sp. |
+| UniProt | — (unresolved) |
+| Organism | — |
 | Mutation | wild-type/unspecified |
-| Substrate | — |
-| Conditions | pH = 8.0 |
-| Assay | — |
-| **Value** | **8.0 pH** |
-| Tier | A_fully_independent |
-| Source | PMC9452428 · 10.1007/s11274-022-03402-5 ·  2022 |
+| Substrate | PLA |
+| Conditions | pH = 3.5 |
+| Assay | spectrophotometric p-nitrophenol release |
+| **Value** | **3.5 pH** |
+| Tier | C_conditions_only_no_sequence |
+| Source | PMC13035632 · 10.1007/s00253-026-13788-z ·  2026 |
 
-**Recorded evidence:** The optimum pH for enzyme activity was realized at pH 8.0 (Fig.
+**Recorded evidence:** LipC displayed optimal activity at pH 3.5.
 
-**In the article:** …H (s) from 5.0 to 12.0. Significant differences ( P < 0.05) were evidenced among values of enzyme activity over the tested range of pH (s). The optimum pH for enzyme activity was realized at pH 8.0 (Fig. 7 A). Pertaining to pH stability, the purified EstRag exhibited 100, 100, and 93.41% stability for 24 h at pH (s) 8.0, 9.0, and 10.0, respectively (Fig. 7 B). EstRag stability decreased significantly ( P < 0.05) at pH(s) less than 8.0 and greater than 10.0. Regarding the enzyme-temperature profile, an appreciable enzyme activity with significant differences at P < 0.05 was remarked over a wide range of temperatures …
+**In the article:** … assay conditions Effect of pH on enzyme activity and stability The influence of pH on LipC activity and stability is presented in Fig. 3 . LipC displayed optimal activity at pH 3.5. However, its stability at this pH was limited, with approximately 30% residual activity after 24 h incubation. In contrast, the enzyme exhibited significantly higher stability in the pH range of 4.0-6.0, retaining more than 70% of its initial activity after incubation at pH 4.0 for 24 h. Fig. 3 Effects of pH on the catalytic activity (●) and pH stability (■) of LipC. For activity determination, reactions were perfor…
 
 ---
 
-### 37. `BM000846` — pH stability
+### 37. `BMF8D20A14F6` — pH stability
+
+| Field | Recorded |
+|---|---|
+| Enzyme | — |
+| UniProt | — (unresolved) |
+| Organism | — |
+| Mutation | wild-type/unspecified |
+| Substrate | tributyrin |
+| Conditions | pH = 11.0; additive = Tween-80 |
+| Assay | — |
+| **Value** | **11.0 pH** |
+| Tier | C_conditions_only_no_sequence |
+| Source | PMC10385968 · 10.3390/molecules28145410 ·  2023 |
+
+**Recorded evidence:** EstD04 exhibited favorable pH stability between pH 8 to pH 11, in which the enzyme retained at least 80% activity.
+
+**In the article:** …(or tolerance) of EstD04 esterase by measuring its enzymatic activity after pre-incubation with buffers of various pH values ( Figure 6 C). EstD04 exhibited favorable pH stability between pH 8 to pH 11, in which the enzyme retained at least 80% activity. The maximal stability was maintained at pH 10 ( Figure 6 C), suggesting that this enzyme could be an alkaline lipolytic enzyme. By using the optimal conditions for its function, we analyzed the kinetics of EstD04 for the hydrolysis of C 4 substrates at 40 °C and pH 8. The K m , V max , and k cat values were determined as 0.488 ± 0.001 mM, 64.4 ± 0.9 μMmin -1 , and 3.01 × 10 3 ± 40 s -1 , respectively. The enzyme eff…
+
+---
+
+### 38. `BMC6308C5276` — relative activity
+
+| Field | Recorded |
+|---|---|
+| Enzyme | — |
+| UniProt | — (unresolved) |
+| Organism | — |
+| Mutation | wild-type/unspecified |
+| Substrate | — |
+| Conditions | — |
+| Assay | — |
+| **Value** | **8.5 % relative activity** |
+| Tier | C_conditions_only_no_sequence |
+| Source | PMC12898461 · 10.3390/ijms27031372 ·  2026 |
+
+**Recorded evidence:** Table in PMC12898461 — Table A3 :: Relative Activity (%)=8.5
+
+**In the article:** *(context not located — check manually)*
+
+---
+
+### 39. `BM4A855AEF24` — relative activity
+
+| Field | Recorded |
+|---|---|
+| Enzyme | — |
+| UniProt | — (unresolved) |
+| Organism | — |
+| Mutation | wild-type/unspecified |
+| Substrate | — |
+| Conditions | salt = NaCl; ion = Na(+) |
+| Assay | — |
+| **Value** | **50.0 % relative activity** |
+| Tier | C_conditions_only_no_sequence |
+| Source | PMC12898461 · 10.3390/ijms27031372 ·  2026 |
+
+**Recorded evidence:** Table in PMC12898461 — Table 5 :: [NaCl] (M)=2.5 | Relative Activity (%)=50 ± 9
+
+**In the article:** *(context not located — check manually)*
+
+---
+
+### 40. `BM7186543F77` — salt effect
+
+| Field | Recorded |
+|---|---|
+| Enzyme | — |
+| UniProt | — (unresolved) |
+| Organism | — |
+| Mutation | wild-type/unspecified |
+| Substrate | — |
+| Conditions | ion = Li(+) |
+| Assay | — |
+| **Value** | **0.0 % relative activity** |
+| Tier | C_conditions_only_no_sequence |
+| Source | PMC12898461 · 10.3390/ijms27031372 ·  2026 |
+
+**Recorded evidence:** Table in PMC12898461 — Table 4 :: =Lithium dodecyl sulfate (LDS) | Relative Activity (%)=0 ± 1
+
+**In the article:** *(context not located — check manually)*
+
+---
+
+### 41. `BMBC3CF1571B` — specific activity
+
+| Field | Recorded |
+|---|---|
+| Enzyme | — |
+| UniProt | — (unresolved) |
+| Organism | — |
+| Mutation | wild-type/unspecified |
+| Substrate | 4-Nitrophenyl decanoate (C10) |
+| Conditions | — |
+| Assay | spectrophotometric p-nitrophenol release |
+| **Value** | **60.0 U/mg (as reported)** |
+| Tier | C_conditions_only_no_sequence |
+| Source | PMC12896513 · 10.3390/biology15030276 ·  2026 |
+
+**Recorded evidence:** Table in PMC12896513 — Table 3 :: Substrate=4-Nitrophenyl decanoate (C10) | Abbreviation=pNPD | Specific Activity, U/mg=60 ± 2
+
+**In the article:** *(context not located — check manually)*
+
+---
+
+### 42. `BMB87C70B995` — temperature optimum
+
+| Field | Recorded |
+|---|---|
+| Enzyme | — |
+| UniProt | — (unresolved) |
+| Organism | — |
+| Mutation | wild-type/unspecified |
+| Substrate | PBAT |
+| Conditions | T = 42.0 °C |
+| Assay | — |
+| **Value** | **42.0 degrees Celsius** |
+| Tier | C_conditions_only_no_sequence |
+| Source | PMC11813363 · 10.4014/jmb.2408.08051 ·  2024 |
+
+**Recorded evidence:** JO01 was isolated at 42°C; however, based on the temperature optimization for degradation, it showed optimal growth and activity with 46% PBAT degradation at 30°C (Fig.
+
+**In the article:** …ilarity ( Fig. 1B ). Bacillus toyonensis is a gram-positive, spore-forming bacterium [ 24 , 25 ] that produces PHA. Initially, Bacillus sp. JO01 was isolated at 42°C; however, based on the temperature optimization for degradation, it showed optimal growth and activity with 46% PBAT degradation at 30°C ( Fig. 1A ). All the following experiments were performed at 30°C. Evaluation of Bacillus sp. JO01 for PBAT Degradation To compare the degradability of Bacillus sp. JO01 for the various types of bioplastics, a clear-zone test was conducted using LB agar plates containing PBAT, PCL, P(HB- co -4HB), PBS, PHB, and PLA. After 14 days of incubation, a clear zone was formed on all plastic plates, except for th…
+
+---
+
+### 43. `BMF893680158` — thermostability
+
+| Field | Recorded |
+|---|---|
+| Enzyme | — |
+| UniProt | — (unresolved) |
+| Organism | — |
+| Mutation | wild-type/unspecified |
+| Substrate | — |
+| Conditions | T = 90.0 °C |
+| Assay | — |
+| **Value** | **90.0 degrees Celsius** |
+| Tier | C_conditions_only_no_sequence |
+| Source | PMC12766707 · 10.34133/research.1054 ·  2026 |
+
+**Recorded evidence:** Remarkably, all 3 EDOs retained catalytic activity at 90 °C (Fig.
+
+**In the article:** …71 to 1012). Thermophilic EDO 1371 displayed the highest catalytic efficiency at 60 °C, while EDOs 1012 and 1028 were most active at 70 °C. Remarkably, all 3 EDOs retained catalytic activity at 90 °C (Fig. S3 ). Circular dichroism spectroscopy showed no obvious changes in secondary structure from 30 to 90 °C in the 200- to 210-nm range (Fig. S4 ). These findings laid the groundwork for investigating EDO thermostability and developing rational engineering strategies. Next, we assessed the environmental adaptability of all 13 purified EDOs (Fig. S5 ) under varying temperature, pH, and salinity conditions (Fig. 1 B to D)…
+
+---
+
+### 44. `BM2E104B5207` — inhibition
 
 | Field | Recorded |
 |---|---|
@@ -771,181 +918,34 @@ The automated verifier confirms a value **is present** in the source. This packe
 | Organism | — |
 | Mutation | wild-type/unspecified |
 | Substrate | — |
-| Conditions | T = 55.0 °C; pH = 4.0; exposure = 60.0 min |
-| Assay | — |
-| **Value** | **4.0 pH** |
+| Conditions | additive = SDS |
+| Assay | spectrophotometric p-nitrophenol release |
+| **Value** | **16.0 % relative activity** |
 | Tier | C_conditions_only_no_sequence |
 | Source | PMC4624153 · 10.1007/s13205-015-0287-4 ·  2015 |
 
-**Recorded evidence:** The enzyme was stable at pH 4.0, 5.0 and 6.0 and 55 °C for 1 h with a residual activity of almost 70–80 %.Fig.
-
-**In the article:** …ctivity for P. expansum PHB depolymerase was detected between pH 4.0 and 6.0, the highest being at pH 5.0 (Fig. 2 ) and at 50 °C (Fig. 3 ). The enzyme was stable at pH 4.0, 5.0 and 6.0 and 55 °C for 1 h with a residual activity of almost 70-80 %. Fig. 2 pH optima of P. expansum PHB depolymerase activity Fig. 3 Temperature optima of P. expansum PHB depolymerase activity Furthermore, the kinetic parameters of PhaZ Pen for PHB hydrolysis were also determined. The apparent K m and V max values were 1.04 μg/mL and 4.5 μg/min, respectively (Fig. 4 ). The kinetic parameters of recombinant PHAZ sa of Streptomyces ascomycinicus for PHB hydrolysis dete…
-
----
-
-### 38. `BM001200` — relative activity
-
-| Field | Recorded |
-|---|---|
-| Enzyme | — |
-| UniProt | — (unresolved) |
-| Organism | — |
-| Mutation | wild-type/unspecified |
-| Substrate | — |
-| Conditions | — |
-| Assay | — |
-| **Value** | **100.0 % relative activity** |
-| Tier | C_conditions_only_no_sequence |
-| Source | PMC10725956 · 10.3389/fmicb.2023.1304233 ·  2023 |
-
-**Recorded evidence:** Table in PMC10725956 — Table 1 :: Cations=Control | Relative activity (%) a=100
+**Recorded evidence:** Table in PMC4624153 — Table 2 :: Reagent=SDS | Relative activity (%)=16
 
 **In the article:** *(context not located — check manually)*
 
 ---
 
-### 39. `BM000089` — relative activity
+### 45. `BM26212CCF03` — kinetic constant
 
 | Field | Recorded |
 |---|---|
-| Enzyme | — |
-| UniProt | — (unresolved) |
-| Organism | — |
-| Mutation | wild-type/unspecified |
-| Substrate | — |
-| Conditions | ion = Cu(2+) |
-| Assay | — |
-| **Value** | **0.0 % relative activity** |
-| Tier | C_conditions_only_no_sequence |
-| Source | PMC12896513 · 10.3390/biology15030276 ·  2026 |
-
-**Recorded evidence:** Table in PMC12896513 — Table 2 :: Metal Ion=Cu2+ | Concentration=10 mM | Residual Activity, %=0
-
-**In the article:** *(context not located — check manually)*
-
----
-
-### 40. `BM001500` — salt effect
-
-| Field | Recorded |
-|---|---|
-| Enzyme | — |
-| UniProt | — (unresolved) |
-| Organism | — |
-| Mutation | wild-type/unspecified |
-| Substrate | — |
-| Conditions | ion = Ca(2+) |
-| Assay | — |
-| **Value** | **55.56 % relative activity** |
-| Tier | C_conditions_only_no_sequence |
-| Source | PMC10146132 · 10.3390/microorganisms11040989 ·  2023 |
-
-**Recorded evidence:** Table in PMC10146132 — Table 3 :: Metal Ions and Organic Compounds=Ca2+ | Relative Activity/(%)=55.56 ± 5.21
-
-**In the article:** *(context not located — check manually)*
-
----
-
-### 41. `BM000107` — specific activity
-
-| Field | Recorded |
-|---|---|
-| Enzyme | — |
-| UniProt | — (unresolved) |
-| Organism | — |
-| Mutation | wild-type/unspecified |
-| Substrate | 4-Nitrophenyl stearate (C18) |
-| Conditions | — |
-| Assay | — |
-| **Value** | **31.0 U/mg (as reported)** |
-| Tier | C_conditions_only_no_sequence |
-| Source | PMC12896513 · 10.3390/biology15030276 ·  2026 |
-
-**Recorded evidence:** Table in PMC12896513 — Table 3 :: Substrate=4-Nitrophenyl stearate (C18) | Abbreviation=pNPS | Specific Activity, U/mg=31 ± 16
-
-**In the article:** *(context not located — check manually)*
-
----
-
-### 42. `BM000006` — temperature optimum
-
-| Field | Recorded |
-|---|---|
-| Enzyme | — |
-| UniProt | — (unresolved) |
-| Organism | — |
-| Mutation | wild-type/unspecified |
-| Substrate | PCL |
-| Conditions | T = 45.0 °C; exposure = 480.0 min |
-| Assay | — |
-| **Value** | **45.0 degrees Celsius** |
-| Tier | C_conditions_only_no_sequence |
-| Source | PMC12741466 · 10.1016/j.isci.2025.114173 ·  2025 |
-
-**Recorded evidence:** The optimal reaction system for ε-caprolactone ring-opening polymerization catalyzed by PCLase0801 consisted of 25 mg of enzyme powder, a temperature set at 45°C, a duration of 8 h, hexane as the solvent, and a water activity of 0.11 (details are provided in the Supplementary Materials, Figure S2–S6 and Tables S1 and S2).
-
-**In the article:** …increase the conversion of monomers in the catalytic synthesis of PCL, we optimized key parameters in the enzymatic polymerization process. The optimal reaction system for ε-caprolactone ring-opening polymerization catalyzed by PCLase0801 consisted of 25 mg of enzyme powder, a temperature set at 45°C, a duration of 8 h, hexane as the solvent, and a water activity of 0.11 (details are provided in the Supplementary Materials, Figure S2-S6 and Tables S1 and S2 ). The reaction system for ε-caprolactone ring-opening polymerization reported by Li and Ma et al. was at 80°C-90°C and the reaction time was 72 h, 34 , 35 other lipases even require more than 10 days. 20 Compared with other reported enzyme catalys…
-
----
-
-### 43. `BM001102` — thermostability
-
-| Field | Recorded |
-|---|---|
-| Enzyme | — |
-| UniProt | — (unresolved) |
-| Organism | — |
-| Mutation | wild-type/unspecified |
-| Substrate | — |
-| Conditions | T = 60.0 °C |
-| Assay | — |
-| **Value** | **60.0 degrees Celsius** |
-| Tier | C_conditions_only_no_sequence |
-| Source | PMC13118911 · 10.3390/microorganisms14040856 ·  2026 |
-
-**Recorded evidence:** Enzyme activity measurements across 40–90 °C showed that wild-type B10 laccase began to lose activity substantially at 60 °C, retained only minimal residual activity at 80 °C, and was completely inactivated at 90 °C (Figure 2c).
-
-**In the article:** … and successfully expressed and purified in E. coli BL21(DE3), with SDS-PAGE showing a single band at approximately 35 kDa ( Figure 2 a,b). Enzyme activity measurements across 40-90 °C showed that wild-type B10 laccase began to lose activity substantially at 60 °C, retained only minimal residual activity at 80 °C, and was completely inactivated at 90 °C ( Figure 2 c). By contrast, all seven single-site variants showed enhanced thermostability at elevated temperatures. Among these variants, the R196C mutant showed the best overall performance, displaying the highest absolute activity between 50 and 60 °C and retaining more than 96% of its relative activity after a 10 min heat treatment at 80 °C. In sub…
-
----
-
-### 44. `BM000713` — inhibition
-
-| Field | Recorded |
-|---|---|
-| Enzyme | — |
-| UniProt | — (unresolved) |
-| Organism | — |
-| Mutation | wild-type/unspecified |
-| Substrate | — |
-| Conditions | additive = DMSO |
-| Assay | — |
-| **Value** | **-1.22 U/mg (as reported)** |
-| Tier | C_conditions_only_no_sequence |
-| Source | PMC11651597 · 10.1371/journal.pone.0314556 ·  2024 |
-
-**Recorded evidence:** Table in PMC11651597 — Table 2 :: =DMSO | Relative Activity (%)=-1.22
-
-**In the article:** *(context not located — check manually)*
-
----
-
-### 45. `BM000174` — kinetic constant
-
-| Field | Recorded |
-|---|---|
-| Enzyme | Ces1-ET |
+| Enzyme | Plp1-ET |
 | UniProt | — (unresolved) |
 | Organism | — |
 | Mutation | wild-type/unspecified |
 | Substrate | — |
 | Conditions | — |
 | Assay | spectrophotometric p-nitrophenol release |
-| **Value** | **0.25 mM** |
+| **Value** | **0.3 mM** |
 | Tier | C_conditions_only_no_sequence |
 | Source | PMC12898461 · 10.3390/ijms27031372 ·  2026 |
 
-**Recorded evidence:** Table in PMC12898461 — Table 3 :: Enzyme=Ces1-ET | Vmax(µmoles p-Nitrophenol/10 min)=15 ± 4 | Km (mM)=0.25 ±0.05
+**Recorded evidence:** Table in PMC12898461 — Table 3 :: Enzyme=Plp1-ET | Vmax(µmoles p-Nitrophenol/10 min)=18 ± 4 | Km (mM)=0.30 ± 0.05
 
 **In the article:** *(context not located — check manually)*
 

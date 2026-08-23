@@ -1,7 +1,7 @@
 {
  "results": [
   {
-   "measurement_id": "BM000650",
+   "measurement_id": "BM94ACC9E0C2",
    "pmcid": "PMC10003648",
    "doi": "10.3390/ijms24054501",
    "pubmed_id": "36901931",
@@ -26,7 +26,7 @@
    "quote": "LIP3 and PhaZ retained more than 50% of their activity over a pH range from 7.0 to 9.0, with PhaZ showing higher relative activity at pH 8.0\u201310.0."
   },
   {
-   "measurement_id": "BM000239",
+   "measurement_id": "BM7506C5EB7E",
    "pmcid": "PMC10046884",
    "doi": "10.3390/biotech12010023",
    "pubmed_id": "36975313",
@@ -51,7 +51,7 @@
    "quote": "The lipase from strain 7 had a typical forthe thermophilic enzymes temperature range of activity\u2014from 45 \u00b0C to 65 \u00b0C with an optimum at 55 \u00b0C, 80% relative activity at 60 \u00b0C and 40% at 65 \u00b0C."
   },
   {
-   "measurement_id": "BM000537",
+   "measurement_id": "BM3B94347C23",
    "pmcid": "PMC10076380",
    "doi": "10.1038/s41467-023-37415-x",
    "pubmed_id": "37019924",
@@ -76,7 +76,7 @@
    "quote": "LCC variant Y127G showed an increased thermostability by 2.3 \u00b0C, while the residual activity dropped to 67%6."
   },
   {
-   "measurement_id": "BM001482",
+   "measurement_id": "BMC70FCE9C42",
    "pmcid": "PMC10146132",
    "doi": "10.3390/microorganisms11040989",
    "pubmed_id": "37110412",
@@ -101,7 +101,7 @@
    "quote": "When the temperature was higher than 45 \u00b0C, the stability of the enzyme activity decreased sharply."
   },
   {
-   "measurement_id": "BM000823",
+   "measurement_id": "BM9DD54D4438",
    "pmcid": "PMC10146679",
    "doi": "10.3390/molecules28083528",
    "pubmed_id": "37110762",
@@ -126,7 +126,7 @@
    "quote": "At pH 7.0, the activity of BbPETaseCD increased from 30 \u00b0C to 40 \u00b0C, and then decreased when the temperature increased to 50 \u00b0C, indicating the poor stability of BbPETaseCD at high temperature."
   },
   {
-   "measurement_id": "BM000917",
+   "measurement_id": "BMF55653451F",
    "pmcid": "PMC10255859",
    "doi": "10.3390/polym15112439",
    "pubmed_id": "37299238",
@@ -151,7 +151,7 @@
    "quote": "Consistent with the previous residual bioplastic analysis, we observed statistically significant differences in proteinase K activity between the relative A610 as a result of the difference in 37 \u00b0C vs."
   },
   {
-   "measurement_id": "BM000497",
+   "measurement_id": "BMEFAE64621F",
    "pmcid": "PMC10284027",
    "doi": "10.1016/j.checat.2022.11.004",
    "pubmed_id": "37350932",
@@ -176,7 +176,7 @@
    "quote": "At 60\u00b0C, the enzymes denatured rapidly, causing an increase in \u03c0 and a considerably lower hydrolysis performance at the A-W interface than when incubated at lower temperatures (Figure 6B)."
   },
   {
-   "measurement_id": "BM001501",
+   "measurement_id": "BM995ADE90C3",
    "pmcid": "PMC10385968",
    "doi": "10.3390/molecules28145410",
    "pubmed_id": "37513282",
@@ -201,7 +201,7 @@
    "quote": "As shown in Figure 6B, EstD04 exhibited optimal enzymatic activity at 40 \u00b0C."
   },
   {
-   "measurement_id": "BM000500",
+   "measurement_id": "BME3583FB244",
    "pmcid": "PMC10418727",
    "doi": "10.3390/ijms241512022",
    "pubmed_id": "37569396",
@@ -226,7 +226,7 @@
    "quote": "EaEst2 showed its maximal activity at pH 7.0, whereas only ~40% of its maximal activity was retained at pH 8.0 (Figure 2C)."
   },
   {
-   "measurement_id": "BM000112",
+   "measurement_id": "BM5CEB85B517",
    "pmcid": "PMC10495362",
    "doi": "10.1038/s42004-023-00998-z",
    "pubmed_id": "37697032",
@@ -251,7 +251,7 @@
    "quote": "5PET46 degrades PET polymer.PET46\u2019s PET-degrading ability was assayed at 60 \u00b0C and compared to the IsPETase and the LCC at their respective temperature optima (30 \u00b0C and 50 \u00b0C; a)."
   },
   {
-   "measurement_id": "BM000488",
+   "measurement_id": "BMD383875C20",
    "pmcid": "PMC10607177",
    "doi": "10.3390/ijms242015452",
    "pubmed_id": "37895132",
@@ -276,7 +276,7 @@
    "quote": "The depolymerase enzymes produced by the Aspergillus fumigatus strains exhibited higher activity at 50 \u00b0C, whereas the enzyme from Malassezia sp. displayed its peak activity at 40 \u00b0C."
   },
   {
-   "measurement_id": "BM000513",
+   "measurement_id": "BM4464247939",
    "pmcid": "PMC10707221",
    "doi": "10.3390/ijms242317071",
    "pubmed_id": "38069394",
@@ -301,7 +301,7 @@
    "quote": "The lipase was found to be most active at pH 8.5; its activity was greatly reduced when pH was lower than 6.5, and it exhibited very low (<5%) of the optimal activity at pH 10.0 (Figure 4A)."
   },
   {
-   "measurement_id": "BM001195",
+   "measurement_id": "BMD5F78D9D4A",
    "pmcid": "PMC10725956",
    "doi": "10.3389/fmicb.2023.1304233",
    "pubmed_id": "38111649",
@@ -326,7 +326,7 @@
    "quote": "LipB retained high activity in a broad temperature range (from 20\u00b0C to 60\u00b0C) and exhibited the maximum activity at 50\u00b0C."
   },
   {
-   "measurement_id": "BM000562",
+   "measurement_id": "BMA5827E959E",
    "pmcid": "PMC10869840",
    "doi": "10.1038/s41467-024-45662-9",
    "pubmed_id": "38360963",
@@ -351,7 +351,7 @@
    "quote": "The yellow area represents the optimal melting temperature range for PET hydrolases to enable efficient depolymerization at 65 \u00b0C."
   },
   {
-   "measurement_id": "BM000372",
+   "measurement_id": "BM68EB133872",
    "pmcid": "PMC10904013",
    "doi": "10.3389/fbioe.2024.1349010",
    "pubmed_id": "38425995",
@@ -376,7 +376,7 @@
    "quote": "Their residual enzyme activities were assayed at 37\u00b0C using pNP-C8 as substrate as described above."
   },
   {
-   "measurement_id": "BM000360",
+   "measurement_id": "BMFE76762A46",
    "pmcid": "PMC10927764",
    "doi": "10.1007/s11356-024-32481-0",
    "pubmed_id": "38393574",
@@ -401,7 +401,7 @@
    "quote": "Since TPA constitutes an important part of the degradation products, the optimal conditions for the measurement of the mixture were the buffer with pH 3.54 in combination with freeze or heat drying, as the sensitivity was very high for the 3 products in this case."
   },
   {
-   "measurement_id": "BM000687",
+   "measurement_id": "BM97C81309AD",
    "pmcid": "PMC10975908",
    "doi": "10.3390/molecules29061338",
    "pubmed_id": "38542974",
@@ -426,7 +426,7 @@
    "quote": "For most of the variants with improved thermostability, the PET degradation product concentration gradually increased at 30 \u00b0C for 6 days."
   },
   {
-   "measurement_id": "BM001395",
+   "measurement_id": "BM1B700BACF2",
    "pmcid": "PMC11033240",
    "doi": "10.1007/s00253-024-13144-z",
    "pubmed_id": "38643427",
@@ -451,7 +451,7 @@
    "quote": "The activity was tested at 50 \u00b0C and 52 \u00b0C to see how the enzymes performed at the optimum temperature of the original DuraPETase (50 \u00b0C) and slightly above this temperature."
   },
   {
-   "measurement_id": "BM000342",
+   "measurement_id": "BMD86AA157B7",
    "pmcid": "PMC11055803",
    "doi": "10.1007/s10529-024-03467-2",
    "pubmed_id": "38416309",
@@ -476,7 +476,7 @@
    "quote": "ANCUT1 showed maximum activity at 60 \u00b0C and presented significant activity even at 70 \u00b0C, showing a residual activity above 70% (Fig."
   },
   {
-   "measurement_id": "BM000607",
+   "measurement_id": "BM6748BC16C2",
    "pmcid": "PMC11196671",
    "doi": "10.1038/s41598-024-64938-0",
    "pubmed_id": "38914665",
@@ -501,7 +501,7 @@
    "quote": "LCC-A2 demonstrated the highest activity on amorphous film (aFilm) at 70 and 60 \u00b0C."
   },
   {
-   "measurement_id": "BM000725",
+   "measurement_id": "BM5150C8F9D6",
    "pmcid": "PMC11220789",
    "doi": "10.1021/acssuschemeng.4c00915",
    "pubmed_id": "38966237",
@@ -526,7 +526,7 @@
    "quote": "The temperature of incubation (30, 40, 50, 55, 65, and 70 \u00b0C), time of reaction (6, 12, 18, 24, 48, 72, and 96 h), and substrate loading (6.0, 12.0, and 18.0 mg) were also tested for the hydrolysis of PEF (powder, amorphous film, and 32% crystalline film) to identify optimized conditions."
   },
   {
-   "measurement_id": "BM000249",
+   "measurement_id": "BMB0123E5BB5",
    "pmcid": "PMC11270687",
    "doi": "10.1021/acsomega.4c04843",
    "pubmed_id": "39072070",
@@ -551,7 +551,7 @@
    "quote": "We further monitored the long-term stability of PD3, PD5, and PD8 by storing them at 37 or 42 \u00b0C and periodically checked their activities at 37 \u00b0C."
   },
   {
-   "measurement_id": "BM000560",
+   "measurement_id": "BMBB1517CA0E",
    "pmcid": "PMC11390488",
    "doi": "10.1038/s41586-024-07891-2",
    "pubmed_id": "39232160",
@@ -576,7 +576,7 @@
    "quote": "Their catalytic activities increased with higher NaCl concentrations and reached their peak performance at 4.5 M or 5.3 M NaCl at 37 \u00b0C."
   },
   {
-   "measurement_id": "BM000406",
+   "measurement_id": "BMFAB6DCB606",
    "pmcid": "PMC11611003",
    "doi": "10.1016/j.engmic.2022.100020",
    "pubmed_id": "39628843",
@@ -601,7 +601,7 @@
    "quote": "The optimum conditions showed that at 30\u00b0C, pH 7.0 (BHET as substrate) or pH 8.0 (PET film as substrate), SbPETase showed the highest activity (Fig."
   },
   {
-   "measurement_id": "BM000692",
+   "measurement_id": "BMD9700A5587",
    "pmcid": "PMC11651597",
    "doi": "10.1371/journal.pone.0314556",
    "pubmed_id": "39689112",
@@ -626,7 +626,7 @@
    "quote": "During this time, samples were periodically taken, their activity was tested at 35\u00b0C, and the remaining activity (%) was calculated."
   },
   {
-   "measurement_id": "BM001309",
+   "measurement_id": "BMC1CA61610B",
    "pmcid": "PMC11723331",
    "doi": "10.3390/plants14010055",
    "pubmed_id": "39795314",
@@ -651,7 +651,7 @@
    "quote": "As seen in the insert in Figure 1C, the addition of Zn2+ strongly decreased the CA activity of rCAH3 with an achievement of 50% at ~0.255 mM ZnSO4."
   },
   {
-   "measurement_id": "BM000523",
+   "measurement_id": "BMFBE3CCEF35",
    "pmcid": "PMC11724889",
    "doi": "10.1038/s41467-025-55944-5",
    "pubmed_id": "39799136",
@@ -676,7 +676,7 @@
    "quote": "At 70 \u00b0C, the residual activity of the positive mutants was higher than that of the wild type, indicating that the positive mutant exhibited greater stability (Supplementary Fig."
   },
   {
-   "measurement_id": "BM000223",
+   "measurement_id": "BM0DD7EB00EA",
    "pmcid": "PMC11782994",
    "doi": "10.3389/fbioe.2024.1520680",
    "pubmed_id": "39898275",
@@ -701,7 +701,7 @@
    "quote": "The most suitable environment proved to be KPO, for which the highest activity of 152.5 U/mg was found on 100 mM KPO pH 8 and 60\u00b0C (Supplementary Figure S3, ESI)."
   },
   {
-   "measurement_id": "BM001109",
+   "measurement_id": "BMB87C70B995",
    "pmcid": "PMC11813363",
    "doi": "10.4014/jmb.2408.08051",
    "pubmed_id": "39894468",
@@ -726,7 +726,7 @@
    "quote": "JO01 was isolated at 42\u00b0C; however, based on the temperature optimization for degradation, it showed optimal growth and activity with 46% PBAT degradation at 30\u00b0C (Fig."
   },
   {
-   "measurement_id": "BM000594",
+   "measurement_id": "BMB86BE59C99",
    "pmcid": "PMC12115826",
    "doi": "10.3390/toxins17050253",
    "pubmed_id": "40423336",
@@ -751,7 +751,7 @@
    "quote": "The optimal conditions for gossypol degradation were found to be 30 \u00b0C, pH 5.0, and 90 min."
   },
   {
-   "measurement_id": "BM000052",
+   "measurement_id": "BM15D14042BF",
    "pmcid": "PMC12188634",
    "doi": "10.1021/acssuschemeng.5c03378",
    "pubmed_id": "40575345",
@@ -776,7 +776,7 @@
    "quote": "To determine the optimum conditions for PLA depolymerization by Savinase, reactions were incubated at 30 \u00b0C, 35 \u00b0C, 40 \u00b0C, 42 \u00b0C, 47 \u00b0C, and 50 \u00b0C, with pH values of 5.5, 7, 8.5, 10, and 11."
   },
   {
-   "measurement_id": "BM000049",
+   "measurement_id": "BMDEBDC8C5DC",
    "pmcid": "PMC12241367",
    "doi": "10.1038/s41598-025-09100-0",
    "pubmed_id": "40634484",
@@ -801,7 +801,7 @@
    "quote": "Culturing with post-consumer plastic yielded lower enzyme activity, potentially due to suboptimal enzymatic reaction conditions (i.e., 37 \u00b0C)37 since performed at P. tricornutum growth condition (i.e., 21 \u00b0C)38."
   },
   {
-   "measurement_id": "BM000390",
+   "measurement_id": "BMBA5030DF95",
    "pmcid": "PMC12334762",
    "doi": "10.1038/s41598-025-14331-2",
    "pubmed_id": "40781260",
@@ -826,7 +826,7 @@
    "quote": "Nepenthesin-1 showed an esterase activity on p-NPB of 794 U\u2219mg\u2212 1 and retained circa 20% of the activity after 72 h incubation at 37 \u00b0C (Table S7, ESI)."
   },
   {
-   "measurement_id": "BM000111",
+   "measurement_id": "BM21E28B08D3",
    "pmcid": "PMC12345228",
    "doi": "10.1128/mbio.00335-25",
    "pubmed_id": "40586621",
@@ -851,7 +851,7 @@
    "quote": "To confirm that the ability of C. rosea to degrade PCL is not limited to PCL emulsions, we fabricated PCL films by melting the polymer in a 70\u00b0C water bath and compressing it with glass, resulting in rectangular films measuring approximately 10 \u00d7 20 mm and weighing close to 0.1 g."
   },
   {
-   "measurement_id": "BM000728",
+   "measurement_id": "BM489D0BEF80",
    "pmcid": "PMC12421990",
    "doi": "10.1039/d5gc03560k",
    "pubmed_id": "40937156",
@@ -876,7 +876,7 @@
    "quote": "The thermostability of the amidases from pQR3139, pQR3141, and pQR3144 was explored at higher temperature (50 \u00b0C and 60 \u00b0C) using purified enzymes (at 0.5 mg mL\u22121). pQR3139 and pQR3144 appeared to have poor reactivities above 37 \u00b0C, while pQR3141 at 50 \u00b0C achieved a conversion to 1d and MDA of 63% c"
   },
   {
-   "measurement_id": "BM001119",
+   "measurement_id": "BME71810CC95",
    "pmcid": "PMC12428281",
    "doi": "10.3390/ijms26178141",
    "pubmed_id": "40943065",
@@ -901,7 +901,7 @@
    "quote": "The results indicated that the optimal pH was 8.0, and DehpH showed relatively high activity ranging from pH 6.0 to pH 9.0."
   },
   {
-   "measurement_id": "BM001373",
+   "measurement_id": "BMCA55C702C5",
    "pmcid": "PMC12439366",
    "doi": "10.1186/s12934-025-02833-7",
    "pubmed_id": "40958124",
@@ -926,7 +926,7 @@
    "quote": "The dual melting points of the films offer interesting properties as a smart, multifunctional material, which softens or becomes permeable at moderate heat (~ 45 \u00b0C), ideal for controlled release or thermal responsiveness, and retains structural integrity up to ~ 170 \u00b0C, allowing robust handling or "
   },
   {
-   "measurement_id": "BM000260",
+   "measurement_id": "BM74972D747A",
    "pmcid": "PMC12504323",
    "doi": "10.1007/s00253-025-13605-z",
    "pubmed_id": "41055782",
@@ -951,7 +951,7 @@
    "quote": "In contrast, S184F displayed improved thermal tolerance, about 51% \u00b1 7% of its activity at 37 \u00b0C and 35% \u00b1 19% at 45 \u00b0C, suggesting a slightly enhanced stability under elevated temperatures."
   },
   {
-   "measurement_id": "BM000405",
+   "measurement_id": "BMC4F44C9CC3",
    "pmcid": "PMC12624734",
    "doi": "10.1021/acsestengg.5c00272",
    "pubmed_id": "41262865",
@@ -976,7 +976,7 @@
    "quote": "Therefore, an onset of enzyme denaturation above 70 \u00b0C ensures enzyme stability throughout the reaction time, while promoting efficient PET hydrolysis. , N-glycosylation is known to enhance thermal stability of proteins, which was also observed in the current study for both PHL7 and PHL7mut3."
   },
   {
-   "measurement_id": "BM000121",
+   "measurement_id": "BM6EFBDA1EA0",
    "pmcid": "PMC12720421",
    "doi": "10.1002/pro.70402",
    "pubmed_id": "41427655",
@@ -1001,7 +1001,7 @@
    "quote": "Although PpEST and St_EST both showed 30% residual activity at 99\u00b0C when purified but not in whole\u2010cell assays, St_EST was excluded from further analysis due to poor purification yields."
   },
   {
-   "measurement_id": "BM000004",
+   "measurement_id": "BMD363C6A8E6",
    "pmcid": "PMC12741466",
    "doi": "10.1016/j.isci.2025.114173",
    "pubmed_id": "41458911",
@@ -1026,7 +1026,7 @@
    "quote": "The optimal pH for PCLase0801 activity was determined to be 8.0, with relatively high enzyme activity maintained between pH 7.0 and 9.0 (Figure 3C)."
   },
   {
-   "measurement_id": "BM000472",
+   "measurement_id": "BM70F76D9485",
    "pmcid": "PMC12766707",
    "doi": "10.34133/research.1054",
    "pubmed_id": "41498113",
@@ -1051,7 +1051,7 @@
    "quote": "Thermophilic EDO 1371 displayed the highest catalytic efficiency at 60 \u00b0C, while EDOs 1012 and 1028 were most active at 70 \u00b0C."
   },
   {
-   "measurement_id": "BM000751",
+   "measurement_id": "BM60E20E768C",
    "pmcid": "PMC12766730",
    "doi": "10.1021/jacs.5c17598",
    "pubmed_id": "41392458",
@@ -1076,7 +1076,7 @@
    "quote": "The half-life of quinone release was decreased from 101 \u00b1 7 h for 4 to 1.86 \u00b1 0.06 h for 25 at pH 5."
   },
   {
-   "measurement_id": "BM000384",
+   "measurement_id": "BM653B69188A",
    "pmcid": "PMC12767561",
    "doi": "10.1002/cssc.202501964",
    "pubmed_id": "41340193",
@@ -1101,7 +1101,7 @@
    "quote": "Hence, pH optimum and stability assays for TflNylA were conducted at elevated temperature (65\u00b0C), slightly below the T m, to prolong the active lifetime of the protein."
   },
   {
-   "measurement_id": "BM000915",
+   "measurement_id": "BM59FB3028CF",
    "pmcid": "PMC12844253",
    "doi": "10.3390/microorganisms14010231",
    "pubmed_id": "41597749",
@@ -1126,7 +1126,7 @@
    "quote": "The broad salt tolerance range (0\u201310%) is likely a critical survival characteristic, enabling the strain to withstand periods of high salinity induced by extreme evaporation in surface soils, while the lower optimum salinity for growth suggests that its competitive advantage and active metabolic sta"
   },
   {
-   "measurement_id": "BM000270",
+   "measurement_id": "BM94177DCDAA",
    "pmcid": "PMC12860643",
    "doi": "10.1016/j.isci.2025.114621",
    "pubmed_id": "41630917",
@@ -1151,7 +1151,7 @@
    "quote": "Both variants also retained activity at 40\u00b0C and showed significantly higher activity at 60\u00b0C (Table S4)."
   },
   {
-   "measurement_id": "BM000001",
+   "measurement_id": "BM539CC031EB",
    "pmcid": "PMC12871986",
    "doi": "10.1371/journal.pone.0341623",
    "pubmed_id": "41637386",
@@ -1176,7 +1176,7 @@
    "quote": "The model predicted maximum biodegradation at pH 7.5, 1.25 g/L NH\u2084NO\u2083, and 0.55% PET-MP, achieving 11.15% efficiency compared to 6.09% under non-optimized conditions (pH 7.0, 1.0 g/L NH\u2084NO\u2083, 1.0% PET-MP)."
   },
   {
-   "measurement_id": "BM000069",
+   "measurement_id": "BM7EDDB0F663",
    "pmcid": "PMC12896513",
    "doi": "10.3390/biology15030276",
    "pubmed_id": "41677747",
@@ -1201,7 +1201,7 @@
    "quote": "The residual activity was then measured in 50 mM sodium phosphate buffer at pH 7.0."
   },
   {
-   "measurement_id": "BM000161",
+   "measurement_id": "BM026E177681",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -1226,7 +1226,7 @@
    "quote": "The temperature profile of Ces1-ET activity was maintained above 50% between 40 and 70 \u00b0C, with an optimum at 60 \u00b0C, but retained less than 20% activity at 90 \u00b0C."
   },
   {
-   "measurement_id": "BM000378",
+   "measurement_id": "BMB5878B96B1",
    "pmcid": "PMC12960341",
    "doi": "10.1007/s00253-026-13756-7",
    "pubmed_id": "41781769",
@@ -1251,7 +1251,7 @@
    "quote": "Residual enzyme activity was then measured by incubating the enzyme with MFA at 30 \u00b0C for 10 min."
   },
   {
-   "measurement_id": "BM000393",
+   "measurement_id": "BM673FBEEA75",
    "pmcid": "PMC13027841",
    "doi": "10.3390/md24030115",
    "pubmed_id": "41892974",
@@ -1276,7 +1276,7 @@
    "quote": "As shown in Figure 7I, both enzymes displayed optimal activity (\u226580%) at 10\u2013200 mM CaCl2."
   },
   {
-   "measurement_id": "BM000276",
+   "measurement_id": "BMBF693ED6C8",
    "pmcid": "PMC13035632",
    "doi": "10.1007/s00253-026-13788-z",
    "pubmed_id": "41904273",
@@ -1301,7 +1301,7 @@
    "quote": "LipC displayed optimal activity at pH 3.5."
   },
   {
-   "measurement_id": "BM000907",
+   "measurement_id": "BM44DA9B1565",
    "pmcid": "PMC13050008",
    "doi": "10.1186/s12934-026-02969-0",
    "pubmed_id": "41761242",
@@ -1326,7 +1326,7 @@
    "quote": "Regarding pH optimization, all three ulvan lyases displayed maximum activity at pH 8.0 in 50 mM Tris-HCl buffer, indicating a preference for slightly alkaline conditions (Fig."
   },
   {
-   "measurement_id": "BM001099",
+   "measurement_id": "BM7BBCB60562",
    "pmcid": "PMC13118911",
    "doi": "10.3390/microorganisms14040856",
    "pubmed_id": "42075253",
@@ -1351,7 +1351,7 @@
    "quote": "For thermostability analysis, purified laccase was incubated for 10 min in water baths preset at 40, 50, 60, 70, 80, and 90 \u00b0C, rapidly cooled, and the residual activity was subsequently measured; the highest activity obtained under the optimal condition was defined as 100%, and the remaining values"
   },
   {
-   "measurement_id": "BM001467",
+   "measurement_id": "BM77710F7652",
    "pmcid": "PMC13216420",
    "doi": "10.1007/s42770-026-01974-0",
    "pubmed_id": "42201450",
@@ -1376,7 +1376,7 @@
    "quote": "In contrast, P. polonicum xylanolytic activity displayed a clear optimum at 40 \u00b0C (Fig."
   },
   {
-   "measurement_id": "BM000679",
+   "measurement_id": "BMC0FC218AB8",
    "pmcid": "PMC13220297",
    "doi": "10.1021/acs.jafc.6c02898",
    "pubmed_id": "42144900",
@@ -1401,7 +1401,7 @@
    "quote": "The enzyme immobilized on PHB demonstrated greater stability at pH values between 5.0 and 6.0, whereas at pH 4.5 and pH 6.5, it retained approximately 50% of its activity."
   },
   {
-   "measurement_id": "BM000340",
+   "measurement_id": "BME948DB4347",
    "pmcid": "PMC13323979",
    "doi": "10.1038/s41467-026-72354-3",
    "pubmed_id": "42034609",
@@ -1426,7 +1426,7 @@
    "quote": "The results revealed that PS lipase (PS) and FM-10 lipase (FM-10) exhibited the best catalytic and hydrolytic activity with optimal reaction conditions of T = 40-55 \u00b0C and pH = 6.8 (Supplementary Figs."
   },
   {
-   "measurement_id": "BM000843",
+   "measurement_id": "BM9F55E67F23",
    "pmcid": "PMC4624153",
    "doi": "10.1007/s13205-015-0287-4",
    "pubmed_id": "28324398",
@@ -1451,7 +1451,7 @@
    "quote": "To study the effect of metal ions on PHB depolymerase activity, 0.08 mL of each of the metal ion solutions (1 mM) was mixed with the enzyme\u2013buffer system (4 mL containing 1 \u03bcg enzyme and 300 \u03bcg PHB) along with the blank and incubated at 50 \u00b0C (optimum assay temperature) for 1 h."
   },
   {
-   "measurement_id": "BM000621",
+   "measurement_id": "BM4BB8888136",
    "pmcid": "PMC5881046",
    "doi": "10.1128/aem.02773-17",
    "pubmed_id": "29427431",
@@ -1476,7 +1476,7 @@
    "quote": "Remarkably, PET2 retained 80% of its relative activity at 90\u00b0C after incubation for >5 h."
   },
   {
-   "measurement_id": "BM000760",
+   "measurement_id": "BMB81955329E",
    "pmcid": "PMC7031157",
    "doi": "10.3389/fmicb.2020.00114",
    "pubmed_id": "32117139",
@@ -1501,7 +1501,7 @@
    "quote": "To assess activity, bacterial cells were transferred with a sterile toothpick to the plates and incubated at the respective optimal growth temperature for 1\u20133 days, or purified enzymes were dissolved in 100 mM potassium phosphate buffer pH 7.4 and directly applied to the plates."
   },
   {
-   "measurement_id": "BM001326",
+   "measurement_id": "BMD46762BAE1",
    "pmcid": "PMC7806724",
    "doi": "10.1038/s41598-020-79031-5",
    "pubmed_id": "33441590",
@@ -1526,7 +1526,7 @@
    "quote": "Note that 50 mM NaCl was added because we found it to be the optimal salt concentration for maximum enzyme activity."
   },
   {
-   "measurement_id": "BM000461",
+   "measurement_id": "BMA6415FE4D0",
    "pmcid": "PMC8621346",
    "doi": "10.3390/polym13223884",
    "pubmed_id": "34833182",
@@ -1551,7 +1551,7 @@
    "quote": "The activity half-life, t1/2, of the S136EPETase variant displays a 2.4-fold increase when measured at 45\u00b0C, suggesting that this variant is actually improved in terms of thermostability when compared to IsPETase (Figure 1b)."
   },
   {
-   "measurement_id": "BM001208",
+   "measurement_id": "BME0F58069CD",
    "pmcid": "PMC8745736",
    "doi": "10.3390/ijms23010264",
    "pubmed_id": "35008691",
@@ -1576,7 +1576,7 @@
    "quote": "With the aim to improve thermal stability and to prevent thermal inactivation during PET biodegradation at temperatures > 30 \u00b0C, the S121E and D186H substitutions were introduced by site-directed mutagenesis in the F238A-\u0394IsPET variant (Figure 1C), producing the S121E/D186H/F238A-\u0394IsPET variant (nam"
   },
   {
-   "measurement_id": "BM000267",
+   "measurement_id": "BM1671E041AB",
    "pmcid": "PMC8767016",
    "doi": "10.3389/fmicb.2021.803896",
    "pubmed_id": "35069509",
@@ -1601,7 +1601,7 @@
    "quote": "The optimal temperature of PET30 is 30\u00b0C, but 80% activity was observed at 20\u00b0C and between 40 and 50\u00b0C (Figure 3B)."
   },
   {
-   "measurement_id": "BM000803",
+   "measurement_id": "BM69A31C05F7",
    "pmcid": "PMC8971842",
    "doi": "10.3389/fbioe.2022.835847",
    "pubmed_id": "35372294",
@@ -1626,7 +1626,7 @@
    "quote": "The two PCL-degrading enzymes were moderately stable at temperatures up to 50\u00b0C."
   },
   {
-   "measurement_id": "BM000369",
+   "measurement_id": "BM6DEF540AD7",
    "pmcid": "PMC9039725",
    "doi": "10.3389/fmicb.2022.888343",
    "pubmed_id": "35495686",
@@ -1651,7 +1651,7 @@
    "quote": "Cut190*SS, a variant generated by combined mutation (Q138A/D250C-E296C/Q13H/N202H), increased the thermostability of Cut190* from 63 to 70\u00b0C, with a three-fold increase in PET film degradation."
   },
   {
-   "measurement_id": "BM000538",
+   "measurement_id": "BMAA92A60806",
    "pmcid": "PMC9065602",
    "doi": "10.3389/fbioe.2022.854298",
    "pubmed_id": "35519608",
@@ -1676,7 +1676,7 @@
    "quote": "Moreover, thermal inactivation experiments showed that the LIP1retained nearly 70% activity for 24 h at 45\u00b0C (Figure 7C)."
   },
   {
-   "measurement_id": "BM000567",
+   "measurement_id": "BMA3AAF6B915",
    "pmcid": "PMC9104356",
    "doi": "10.3390/molecules27092999",
    "pubmed_id": "35566348",
@@ -1701,7 +1701,7 @@
    "quote": "BaAXE showed optimal activity at pH 8 and 40 \u00b0C."
   },
   {
-   "measurement_id": "BM000160",
+   "measurement_id": "BM281585599B",
    "pmcid": "PMC9321771",
    "doi": "10.1002/cssc.202102750",
    "pubmed_id": "35315974",
@@ -1726,7 +1726,7 @@
    "quote": "The combination of Ca2+ and sucrose played an important stabilizing role in Cut190 S184P/R186S, helping the enzyme keep 25 % of residual activity after 96 h at 60 \u00b0C as observed in Figure 6, without interfering with the coupled assay (Figure S5)."
   },
   {
-   "measurement_id": "BM000928",
+   "measurement_id": "BMFF3661370B",
    "pmcid": "PMC9350882",
    "doi": "10.3389/fbioe.2022.930140",
    "pubmed_id": "35935485",
@@ -1751,7 +1751,7 @@
    "quote": "Relative to the Ples enzymatic activity observed at 30\u00b0C, the Ples retained most of their activity when the incubation temperature was reduced to 20\u00b0C."
   },
   {
-   "measurement_id": "BM001374",
+   "measurement_id": "BMCD8C2682BF",
    "pmcid": "PMC9361285",
    "doi": "10.1021/acscatal.2c02275",
    "pubmed_id": "35966606",
@@ -1776,7 +1776,7 @@
    "quote": "We investigated enzymatic PET degradation at 72 \u00b0C because it is the optimal temperature for the hydrolysis of amorphized PET waste by the reference enzyme LCC ICCG.5 Empirical data have shown that the Tm of a PET hydrolase is usually at least 12 \u00b0C higher than its Topt.5,11,13,17 Hence, biocatalyst"
   },
   {
-   "measurement_id": "BM001332",
+   "measurement_id": "BM95627C2801",
    "pmcid": "PMC9452428",
    "doi": "10.1007/s11274-022-03402-5",
    "pubmed_id": "36070019",
@@ -1801,7 +1801,7 @@
    "quote": "The optimum pH for enzyme activity was realized at pH 8.0 (Fig."
   },
   {
-   "measurement_id": "BM001129",
+   "measurement_id": "BM21257AC755",
    "pmcid": "PMC9709933",
    "doi": "10.1039/d2ra06138d",
    "pubmed_id": "36545586",
@@ -1826,7 +1826,7 @@
    "quote": "At 22 \u00b0C, the maximum activity (2.2 U mL\u22121) of esterase enzyme was obtained (Fig."
   },
   {
-   "measurement_id": "BM000334",
+   "measurement_id": "BM3E4F7952C7",
    "pmcid": "PMC9764356",
    "doi": "10.1021/acscatal.2c03772",
    "pubmed_id": "36570084",
@@ -1851,7 +1851,7 @@
    "quote": "The data determined at 4 \u00b0C were used as reference values to define 100% residual activity."
   },
   {
-   "measurement_id": "BM000602",
+   "measurement_id": "BM2646680E59",
    "pmcid": "PMC9772341",
    "doi": "10.1038/s41467-022-35237-x",
    "pubmed_id": "36543766",
@@ -1876,7 +1876,7 @@
    "quote": "For the four enzymes that exhibited optimal or near optimal activity at pH 6.0 (102, 611, 702, 715), we further extended the pH screen."
   },
   {
-   "measurement_id": "BM001394",
+   "measurement_id": "BM7381943283",
    "pmcid": "PMC9795927",
    "doi": "10.1111/febs.16554",
    "pubmed_id": "35694902",
@@ -1901,7 +1901,7 @@
    "quote": "EH7 showed maximal activity at 50 \u00b0C (Fig."
   },
   {
-   "measurement_id": "BM000235",
+   "measurement_id": "BM837DB27EC1",
    "pmcid": "PMC9805092",
    "doi": "10.1186/s12934-022-02007-9",
    "pubmed_id": "36587193",
@@ -1926,7 +1926,7 @@
    "quote": "5A, enzymatic activity was optimal for all the chimeras at pH 7.5."
   },
   {
-   "measurement_id": "BM000578",
+   "measurement_id": "BM22A78C98C1",
    "pmcid": "PMC9839772",
    "doi": "10.1038/s42003-023-04413-0",
    "pubmed_id": "36639437",
@@ -1951,7 +1951,7 @@
    "quote": "Its activity decreased dramatically at 60 and 70 \u00b0C, retaining less than 20% of the activity after 2 h (Fig."
   },
   {
-   "measurement_id": "BM000063",
+   "measurement_id": "BM3A60CD58D5",
    "pmcid": "PMC9870871",
    "doi": "10.1038/s41598-023-27780-4",
    "pubmed_id": "36690710",
@@ -1976,7 +1976,7 @@
    "quote": "(b) Percentage residual activities of IsPETse-WT, -Spy, -Dimer, and -Cat after heating for increasing lengths of time at 50 \u00b0C."
   },
   {
-   "measurement_id": "BM000499",
+   "measurement_id": "BM218C37F6EB",
    "pmcid": "PMC9963400",
    "doi": "10.3390/microorganisms11020328",
    "pubmed_id": "36838293",
@@ -2001,7 +2001,7 @@
    "quote": "As we have shown before, FsCut displayed the highest activity in a range of polymers and maintained more than 50% of its activity after incubation at 37 \u00b0C, which renders it in a good candidate to be heterologous expressed in a bacterial platform for in vivo studies."
   },
   {
-   "measurement_id": "BM000651",
+   "measurement_id": "BME732B05FC1",
    "pmcid": "PMC10003648",
    "doi": "10.3390/ijms24054501",
    "pubmed_id": "36901931",
@@ -2026,7 +2026,7 @@
    "quote": "However, LIP4 retained more activity (>80%) atpH 5.0\u20136.0 compared with activity at an alkaline pH 8.0\u201310.0 (<40%)."
   },
   {
-   "measurement_id": "BM000241",
+   "measurement_id": "BMAAE131A47B",
    "pmcid": "PMC10046884",
    "doi": "10.3390/biotech12010023",
    "pubmed_id": "36975313",
@@ -2052,7 +2052,7 @@
    "quote": "Table in PMC10046884 \u2014 Table 2 :: Metal Ions (5 mM)=Control | Relative Activity (%)=100 | Detergents, Inhibitors (5 mM)=Control | Relative Activity (%)=100"
   },
   {
-   "measurement_id": "BM001484",
+   "measurement_id": "BM12277C7C33",
    "pmcid": "PMC10146132",
    "doi": "10.3390/microorganisms11040989",
    "pubmed_id": "37110412",
@@ -2077,7 +2077,7 @@
    "quote": "When the temperature increased from 45 \u00b0C to 50 \u00b0C, the stability decreased slowly, and more than 60% of the enzyme activity still remained."
   },
   {
-   "measurement_id": "BM000824",
+   "measurement_id": "BMAD704A1BA4",
    "pmcid": "PMC10146679",
    "doi": "10.3390/molecules28083528",
    "pubmed_id": "37110762",
@@ -2102,7 +2102,7 @@
    "quote": "At pH 7.0, the activity of BbPETaseCD increased from 30 \u00b0C to 40 \u00b0C, and then decreased when the temperature increased to 50 \u00b0C, indicating the poor stability of BbPETaseCD at high temperature."
   },
   {
-   "measurement_id": "BM000919",
+   "measurement_id": "BM38707D2B7F",
    "pmcid": "PMC10255859",
    "doi": "10.3390/polym15112439",
    "pubmed_id": "37299238",
@@ -2127,7 +2127,7 @@
    "quote": "Although at both 37 \u00b0C and 65 \u00b0C the end-point activity curves followed the same trend of increased proteinase K activity as concentration increased, there were statistically significant differences in relative A610 values observed between many of the proteinase K concentrations data observed in bot"
   },
   {
-   "measurement_id": "BM000498",
+   "measurement_id": "BM1C5213D870",
    "pmcid": "PMC10284027",
    "doi": "10.1016/j.checat.2022.11.004",
    "pubmed_id": "37350932",
@@ -2152,7 +2152,7 @@
    "quote": "This is a rather low deactivation energy barrier for enzymes, but the unfolding energy of cutinases with PET degrading activity is even lower.56 Based on the model, the optimum temperature for PET degradation with IsPETaseTM is 40\u00b0C, which coincides with the onset of the Tg of the ultrathin PET Lang"
   },
   {
-   "measurement_id": "BM001502",
+   "measurement_id": "BMED739A32FB",
    "pmcid": "PMC10385968",
    "doi": "10.3390/molecules28145410",
    "pubmed_id": "37513282",
@@ -2177,7 +2177,7 @@
    "quote": "Moreover, between 20 \u00b0C and 40 \u00b0C, the enzyme was stable and retained over 82% activity."
   },
   {
-   "measurement_id": "BM000501",
+   "measurement_id": "BM8D124B9FCE",
    "pmcid": "PMC10418727",
    "doi": "10.3390/ijms241512022",
    "pubmed_id": "37569396",
@@ -2202,7 +2202,7 @@
    "quote": "EaEst2 showed its maximal activity at pH 7.0, whereas only ~40% of its maximal activity was retained at pH 8.0 (Figure 2C)."
   },
   {
-   "measurement_id": "BM000113",
+   "measurement_id": "BM745FD931FA",
    "pmcid": "PMC10495362",
    "doi": "10.1038/s42004-023-00998-z",
    "pubmed_id": "37697032",
@@ -2227,7 +2227,7 @@
    "quote": "The highest activity was observed at 70 \u00b0C, while at 90 \u00b0C only 10% residual activity was detectable."
   },
   {
-   "measurement_id": "BM000490",
+   "measurement_id": "BMBA85386E7A",
    "pmcid": "PMC10607177",
    "doi": "10.3390/ijms242015452",
    "pubmed_id": "37895132",
@@ -2252,7 +2252,7 @@
    "quote": "The effect of 1 mM (CaCl2, KCl, MgSO4) and 1% v/v Tween 80 showed a non-significant difference in the depolymerase activity among Aspergillus strains, However, the presence of FeCl3 significantly enhanced the depolymerase activity in the case of Aspergillus fumigatus (isolates F1 and F4)."
   },
   {
-   "measurement_id": "BM000514",
+   "measurement_id": "BM4E1ACC14B4",
    "pmcid": "PMC10707221",
    "doi": "10.3390/ijms242317071",
    "pubmed_id": "38069394",
@@ -2277,7 +2277,7 @@
    "quote": "Results show that the activity of SeLipC was abruptly decreased after incubation at pH 10.0, whereas it was stable when incubated at pH values ranging from 5.0 to 9.5 (Figure 4A)."
   },
   {
-   "measurement_id": "BM001196",
+   "measurement_id": "BMD61488A87C",
    "pmcid": "PMC10725956",
    "doi": "10.3389/fmicb.2023.1304233",
    "pubmed_id": "38111649",
@@ -2302,7 +2302,7 @@
    "quote": "LipB retained high activity in a broad temperature range (from 20\u00b0C to 60\u00b0C) and exhibited the maximum activity at 50\u00b0C."
   },
   {
-   "measurement_id": "BM000563",
+   "measurement_id": "BM0AE60102E1",
    "pmcid": "PMC10869840",
    "doi": "10.1038/s41467-024-45662-9",
    "pubmed_id": "38360963",
@@ -2327,7 +2327,7 @@
    "quote": "The active mutations at the W104 positions on M2 reduced the stability even further, with Tm values ranging from 71.5 \u00b0C to 75.5 \u00b0C."
   },
   {
-   "measurement_id": "BM000375",
+   "measurement_id": "BMFAAC3D8AE6",
    "pmcid": "PMC10904013",
    "doi": "10.3389/fbioe.2024.1349010",
    "pubmed_id": "38425995",
@@ -2352,7 +2352,7 @@
    "quote": "However, the thermal stability of M4 has been significantly improved, and its thermal inactivation half-life at 40\u00b0C is about 1.5 h longer than that of jmPE13, which is about 1.5 times that of jmPE13."
   },
   {
-   "measurement_id": "BM000688",
+   "measurement_id": "BM15B2B269A0",
    "pmcid": "PMC10975908",
    "doi": "10.3390/molecules29061338",
    "pubmed_id": "38542974",
@@ -2377,7 +2377,7 @@
    "quote": "This phenomenon was attributed to the higher thermostability of PETaseD186A (Tm = 58.42 \u00b0C) than PETaseD186H (Figure 3a) and the significantly higher activity of PETaseD186A than PETaseD186V (Figure 2)."
   },
   {
-   "measurement_id": "BM001396",
+   "measurement_id": "BMEC1F12BE34",
    "pmcid": "PMC11033240",
    "doi": "10.1007/s00253-024-13144-z",
    "pubmed_id": "38643427",
@@ -2402,7 +2402,7 @@
    "quote": "Overall, the changes in activity at 50 \u00b0C and 52 \u00b0C reflect the observed changes in thermostability."
   },
   {
-   "measurement_id": "BM000343",
+   "measurement_id": "BMB1062BE0B2",
    "pmcid": "PMC11055803",
    "doi": "10.1007/s10529-024-03467-2",
    "pubmed_id": "38416309",
@@ -2427,7 +2427,7 @@
    "quote": "ANCUT1 showed maximum activity at 60 \u00b0C and presented significant activity even at 70 \u00b0C, showing a residual activity above 70% (Fig."
   },
   {
-   "measurement_id": "BM000726",
+   "measurement_id": "BMA6B22E199C",
    "pmcid": "PMC11220789",
    "doi": "10.1021/acssuschemeng.4c00915",
    "pubmed_id": "38966237",
@@ -2452,7 +2452,7 @@
    "quote": "Other thermostable cutinases, such as Thc_cut1 and HiC, also exhibited higher depolymerization at 65 \u00b0C than 50 \u00b0C.1 After the effect of temperature was investigated, the time of incubation of the enzymes with PEF material was considered."
   },
   {
-   "measurement_id": "BM000250",
+   "measurement_id": "BM87B4F8D322",
    "pmcid": "PMC11270687",
    "doi": "10.1021/acsomega.4c04843",
    "pubmed_id": "39072070",
@@ -2477,7 +2477,7 @@
    "quote": "We further monitored the long-term stability of PD3, PD5, and PD8 by storing them at 37 or 42 \u00b0C and periodically checked their activities at 37 \u00b0C."
   },
   {
-   "measurement_id": "BM000407",
+   "measurement_id": "BM845CAE36B3",
    "pmcid": "PMC11611003",
    "doi": "10.1016/j.engmic.2022.100020",
    "pubmed_id": "39628843",
@@ -2502,7 +2502,7 @@
    "quote": "The optimum conditions showed that at 30\u00b0C, pH 7.0 (BHET as substrate) or pH 8.0 (PET film as substrate), SbPETase showed the highest activity (Fig."
   },
   {
-   "measurement_id": "BM000695",
+   "measurement_id": "BM952884735E",
    "pmcid": "PMC11651597",
    "doi": "10.1371/journal.pone.0314556",
    "pubmed_id": "39689112",
@@ -2527,7 +2527,7 @@
    "quote": "But as the temperature rose over 40\u00b0C, there was a noticeable drop in MLipA\u2019s stability, and the enzyme lost up to 90% of its enzymatic activity."
   },
   {
-   "measurement_id": "BM001310",
+   "measurement_id": "BMDDFC988B9A",
    "pmcid": "PMC11723331",
    "doi": "10.3390/plants14010055",
    "pubmed_id": "39795314",
@@ -2552,7 +2552,7 @@
    "quote": "The maximum residual activity of rCAH3 was clearly detected at pH 9.0, in spite of the fact that the relative decrease in the CA activity of rCAH3 over time was the least, at pH 10.0 (Figure 3B)."
   },
   {
-   "measurement_id": "BM000224",
+   "measurement_id": "BM7F64B2576A",
    "pmcid": "PMC11782994",
    "doi": "10.3389/fbioe.2024.1520680",
    "pubmed_id": "39898275",
@@ -2577,7 +2577,7 @@
    "quote": "The most suitable environment proved to be KPO, for which the highest activity of 152.5 U/mg was found on 100 mM KPO pH 8 and 60\u00b0C (Supplementary Figure S3, ESI)."
   },
   {
-   "measurement_id": "BM000595",
+   "measurement_id": "BMDDBDC51F4A",
    "pmcid": "PMC12115826",
    "doi": "10.3390/toxins17050253",
    "pubmed_id": "40423336",
@@ -2602,7 +2602,7 @@
    "quote": "The optimal conditions for gossypol degradation were found to be 30 \u00b0C, pH 5.0, and 90 min."
   },
   {
-   "measurement_id": "BM000053",
+   "measurement_id": "BM9F5746819C",
    "pmcid": "PMC12188634",
    "doi": "10.1021/acssuschemeng.5c03378",
    "pubmed_id": "40575345",
@@ -2627,7 +2627,7 @@
    "quote": "The optimum conditions for the PLA-degrading activity of Savinase were determined to be pH 8.5 and 42 \u00b0C (Figure B,C)."
   },
   {
-   "measurement_id": "BM000050",
+   "measurement_id": "BMED346E4024",
    "pmcid": "PMC12241367",
    "doi": "10.1038/s41598-025-09100-0",
    "pubmed_id": "40634484",
@@ -2652,7 +2652,7 @@
    "quote": "In the case of C. reinhardtii producing PHL7, the optimal culture temperature (~ 25 \u00b0C39) differs significantly from the optimal temperature for PHL7 activity on PET (~ 70 \u00b0C19)."
   },
   {
-   "measurement_id": "BM000729",
+   "measurement_id": "BMED5E46E473",
    "pmcid": "PMC12421990",
    "doi": "10.1039/d5gc03560k",
    "pubmed_id": "40937156",
@@ -2677,7 +2677,7 @@
    "quote": "The thermostability of the amidases from pQR3139, pQR3141, and pQR3144 was explored at higher temperature (50 \u00b0C and 60 \u00b0C) using purified enzymes (at 0.5 mg mL\u22121). pQR3139 and pQR3144 appeared to have poor reactivities above 37 \u00b0C, while pQR3141 at 50 \u00b0C achieved a conversion to 1d and MDA of 63% c"
   },
   {
-   "measurement_id": "BM001120",
+   "measurement_id": "BM47946FE1B3",
    "pmcid": "PMC12428281",
    "doi": "10.3390/ijms26178141",
    "pubmed_id": "40943065",
@@ -2702,7 +2702,7 @@
    "quote": "After incubation at 4 \u00b0C under different pH for 1 h, the activity of DehpH decreased significantly under acid conditions (pH 3.0 to 6.0), and DehpH almost lost all of its activity under pH 3.0, while DehpH retained more than 70.0% residual activity under pH 7.0 to 9.0 (Figure 4B)."
   },
   {
-   "measurement_id": "BM000261",
+   "measurement_id": "BM2D81503A6D",
    "pmcid": "PMC12504323",
    "doi": "10.1007/s00253-025-13605-z",
    "pubmed_id": "41055782",
@@ -2727,7 +2727,7 @@
    "quote": "In contrast, S184F displayed improved thermal tolerance, about 51% \u00b1 7% of its activity at 37 \u00b0C and 35% \u00b1 19% at 45 \u00b0C, suggesting a slightly enhanced stability under elevated temperatures."
   },
   {
-   "measurement_id": "BM000125",
+   "measurement_id": "BM1473E0F049",
    "pmcid": "PMC12720421",
    "doi": "10.1002/pro.70402",
    "pubmed_id": "41427655",
@@ -2752,7 +2752,7 @@
    "quote": "Although CD spectroscopy indicated that shRp_EST remained largely folded up to 95\u00b0C after a 1 min heating step, it showed markedly lower residual activity after 10 min at 99\u00b0C."
   },
   {
-   "measurement_id": "BM000005",
+   "measurement_id": "BM39E97B634A",
    "pmcid": "PMC12741466",
    "doi": "10.1016/j.isci.2025.114173",
    "pubmed_id": "41458911",
@@ -2777,7 +2777,7 @@
    "quote": "These findings show that K+ and Mn2+ promote PCLase0801 activity, while Cu2+, 10 mM Fe2+, and 10 mM Fe3+ significantly inhibited it."
   },
   {
-   "measurement_id": "BM000473",
+   "measurement_id": "BMF893680158",
    "pmcid": "PMC12766707",
    "doi": "10.34133/research.1054",
    "pubmed_id": "41498113",
@@ -2802,7 +2802,7 @@
    "quote": "Remarkably, all 3 EDOs retained catalytic activity at 90 \u00b0C (Fig."
   },
   {
-   "measurement_id": "BM000752",
+   "measurement_id": "BM8A91832EAE",
    "pmcid": "PMC12766730",
    "doi": "10.1021/jacs.5c17598",
    "pubmed_id": "41392458",
@@ -2827,7 +2827,7 @@
    "quote": "On the contrary, the poor reactivity of deactivated fluorine-substituted compounds, linked to the very low stability of the forming para-quinone methide intermediate (vide infra), precluded locating a stationary point (i.e., a TS) in the PES of derivatives 3c and 3d, and a high-energy TS could be op"
   },
   {
-   "measurement_id": "BM000385",
+   "measurement_id": "BM7E25455D3E",
    "pmcid": "PMC12767561",
    "doi": "10.1002/cssc.202501964",
    "pubmed_id": "41340193",
@@ -2852,7 +2852,7 @@
    "quote": "TflNylA was most active against pNPH (>0.02 \u03bcmol\u00b7min\u22121\u00b7mg\u22121) between pH 5.5 and 8.5 and exhibited a bell\u2010shaped pH\u2010rate profile (Figure S7)."
   },
   {
-   "measurement_id": "BM000271",
+   "measurement_id": "BM61DD65BE7A",
    "pmcid": "PMC12860643",
    "doi": "10.1016/j.isci.2025.114621",
    "pubmed_id": "41630917",
@@ -2877,7 +2877,7 @@
    "quote": "Both variants also retained activity at 40\u00b0C and showed significantly higher activity at 60\u00b0C (Table S4)."
   },
   {
-   "measurement_id": "BM000002",
+   "measurement_id": "BM3839963246",
    "pmcid": "PMC12871986",
    "doi": "10.1371/journal.pone.0341623",
    "pubmed_id": "41637386",
@@ -2902,7 +2902,7 @@
    "quote": "The mesophilic operating conditions (37 \u00b0C) and optimized degradation efficiency of 11.15% demonstrate practical potential for PET-MP bioremediation in temperate environments where energy-intensive thermophilic treatments would be less feasible."
   },
   {
-   "measurement_id": "BM000070",
+   "measurement_id": "BM43A7E54ACA",
    "pmcid": "PMC12896513",
    "doi": "10.3390/biology15030276",
    "pubmed_id": "41677747",
@@ -2927,7 +2927,7 @@
    "quote": "The residual activity was then measured at 40 \u00b0C in 50 mM sodium phosphate-buffered solution (pH 7.0)."
   },
   {
-   "measurement_id": "BM000162",
+   "measurement_id": "BMEB71E66EC5",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -2952,7 +2952,7 @@
    "quote": "The temperature profile of Ces1-ET activity was maintained above 50% between 40 and 70 \u00b0C, with an optimum at 60 \u00b0C, but retained less than 20% activity at 90 \u00b0C."
   },
   {
-   "measurement_id": "BM000379",
+   "measurement_id": "BM8A4F230105",
    "pmcid": "PMC12960341",
    "doi": "10.1007/s00253-026-13756-7",
    "pubmed_id": "41781769",
@@ -2977,7 +2977,7 @@
    "quote": "Further biochemical characterization using MFA as a model substrate revealed that CaFaeA exhibits maximal activity at pH 8.0 (Fig."
   },
   {
-   "measurement_id": "BM000910",
+   "measurement_id": "BMBCA38FE11D",
    "pmcid": "PMC13050008",
    "doi": "10.1186/s12934-026-02969-0",
    "pubmed_id": "41761242",
@@ -3002,7 +3002,7 @@
    "quote": "PmUL40 displayed the highest NaCl tolerance among the three enzymes, with maximum activity at 250 mM NaCl."
   },
   {
-   "measurement_id": "BM001101",
+   "measurement_id": "BM77510282F7",
    "pmcid": "PMC13118911",
    "doi": "10.3390/microorganisms14040856",
    "pubmed_id": "42075253",
@@ -3027,7 +3027,7 @@
    "quote": "Enzyme activity measurements across 40\u201390 \u00b0C showed that wild-type B10 laccase began to lose activity substantially at 60 \u00b0C, retained only minimal residual activity at 80 \u00b0C, and was completely inactivated at 90 \u00b0C (Figure 2c)."
   },
   {
-   "measurement_id": "BM001474",
+   "measurement_id": "BMBD460B4402",
    "pmcid": "PMC13216420",
    "doi": "10.1007/s42770-026-01974-0",
    "pubmed_id": "42201450",
@@ -3052,7 +3052,7 @@
    "quote": "Regarding the pH effect on carbohydrate-active enzymes secreted by the three isolates, T. harzianum displayed peak xylanase activity at pH 6, with approximately 50% of maximum activity observed at more acidic pH values (4 and 5) (Fig."
   },
   {
-   "measurement_id": "BM000680",
+   "measurement_id": "BM3A1A41F1DA",
    "pmcid": "PMC13220297",
    "doi": "10.1021/acs.jafc.6c02898",
    "pubmed_id": "42144900",
@@ -3077,7 +3077,7 @@
    "quote": "The enzyme immobilized on PHB demonstrated greater stability at pH values between 5.0 and 6.0, whereas at pH 4.5 and pH 6.5, it retained approximately 50% of its activity."
   },
   {
-   "measurement_id": "BM000341",
+   "measurement_id": "BM6CC5D054EB",
    "pmcid": "PMC13323979",
    "doi": "10.1038/s41467-026-72354-3",
    "pubmed_id": "42034609",
@@ -3102,7 +3102,7 @@
    "quote": "The results revealed that PS lipase (PS) and FM-10 lipase (FM-10) exhibited the best catalytic and hydrolytic activity with optimal reaction conditions of T = 40-55 \u00b0C and pH = 6.8 (Supplementary Figs."
   },
   {
-   "measurement_id": "BM000844",
+   "measurement_id": "BM168196487C",
    "pmcid": "PMC4624153",
    "doi": "10.1007/s13205-015-0287-4",
    "pubmed_id": "28324398",
@@ -3127,7 +3127,7 @@
    "quote": "The optimum enzyme activity for P. expansum PHB depolymerase was detected between pH 4.0 and 6.0, the highest being at pH 5.0 (Fig."
   },
   {
-   "measurement_id": "BM000761",
+   "measurement_id": "BMA969767B54",
    "pmcid": "PMC7031157",
    "doi": "10.3389/fmicb.2020.00114",
    "pubmed_id": "32117139",
@@ -3152,7 +3152,7 @@
    "quote": "The reduced activity of the variants was accompanied by a decrease in melting temperature of about 5\u201310\u00b0C (Supplementary Table S2) in comparison to the wild type enzyme (Tm at about 51\u00b0C), indicating a destabilizing effect of the mutations."
   },
   {
-   "measurement_id": "BM001209",
+   "measurement_id": "BMF2DB692A9A",
    "pmcid": "PMC8745736",
    "doi": "10.3390/ijms23010264",
    "pubmed_id": "35008691",
@@ -3177,7 +3177,7 @@
    "quote": "The stability of the TS-\u0394IsPET variant was further enhanced (~8-fold) by the presence of 10% glycerol (Tm = 57.4 \u00b0C; inactivation rate of 0.010 \u00b1 0.002 h\u22121) (Figure 4C)."
   },
   {
-   "measurement_id": "BM000268",
+   "measurement_id": "BME5BD162048",
    "pmcid": "PMC8767016",
    "doi": "10.3389/fmicb.2021.803896",
    "pubmed_id": "35069509",
@@ -3202,7 +3202,7 @@
    "quote": "In contrast to that, PET27 shows a better activity at higher temperatures with an optimum at 40\u00b0C and even 45% activity at 90\u00b0C."
   },
   {
-   "measurement_id": "BM000804",
+   "measurement_id": "BM90B4B978BB",
    "pmcid": "PMC8971842",
    "doi": "10.3389/fbioe.2022.835847",
    "pubmed_id": "35372294",
@@ -3227,7 +3227,7 @@
    "quote": "However, when the temperature increased to 60\u00b0C, the activity of PCLase I was almost lost after 2 h of incubation, whereas PCLase II retained more than 80% of the enzymatic activity (Figure 2B)."
   },
   {
-   "measurement_id": "BM000540",
+   "measurement_id": "BM5DC2BD5F22",
    "pmcid": "PMC9065602",
    "doi": "10.3389/fbioe.2022.854298",
    "pubmed_id": "35519608",
@@ -3252,7 +3252,7 @@
    "quote": "The enzymes were stable at 30\u00b0C for at least 2 months of incubation and retained nearly 100% of their activities for minimum 4 months at 4\u00b0C.Sequence analysis of LIP1 and LIP2 was performed to analyze thermophilic properties in relation to their amino acid sequence (Table 4)."
   },
   {
-   "measurement_id": "BM000568",
+   "measurement_id": "BM501B8B50BC",
    "pmcid": "PMC9104356",
    "doi": "10.3390/molecules27092999",
    "pubmed_id": "35566348",
@@ -3277,7 +3277,7 @@
    "quote": "BaAXE showed optimal activity at pH 8 and 40 \u00b0C."
   },
   {
-   "measurement_id": "BM000929",
+   "measurement_id": "BM4E4AB5D7D8",
    "pmcid": "PMC9350882",
    "doi": "10.3389/fbioe.2022.930140",
    "pubmed_id": "35935485",
@@ -3302,7 +3302,7 @@
    "quote": "Relative to the Ples enzymatic activity observed at 30\u00b0C, the Ples retained most of their activity when the incubation temperature was reduced to 20\u00b0C."
   },
   {
-   "measurement_id": "BM001333",
+   "measurement_id": "BMD908692221",
    "pmcid": "PMC9452428",
    "doi": "10.1007/s11274-022-03402-5",
    "pubmed_id": "36070019",
@@ -3327,7 +3327,7 @@
    "quote": "Whereas the optimal activity was achieved at 35 \u00b0C (Fig."
   },
   {
-   "measurement_id": "BM001130",
+   "measurement_id": "BM34B34E9978",
    "pmcid": "PMC9709933",
    "doi": "10.1039/d2ra06138d",
    "pubmed_id": "36545586",
@@ -3352,7 +3352,7 @@
    "quote": "The results exhibited that purified esterase enzyme showed very good stability up to 100 \u00b0C and retained 40% activity for 1 h at 100 \u00b0C (Fig."
   },
   {
-   "measurement_id": "BM000335",
+   "measurement_id": "BMEB676A41E6",
    "pmcid": "PMC9764356",
    "doi": "10.1021/acscatal.2c03772",
    "pubmed_id": "36570084",
@@ -3377,7 +3377,7 @@
    "quote": "The highest activity was achieved with the mutant TfCaI69W/V376A, which had a 3.3-fold higher activity on BHET than TfCa wt at 45 \u00b0C and is designated as TfCa WA in the following descriptions."
   },
   {
-   "measurement_id": "BM000603",
+   "measurement_id": "BM037C0E4939",
    "pmcid": "PMC9772341",
    "doi": "10.1038/s41467-022-35237-x",
    "pubmed_id": "36543766",
@@ -3402,7 +3402,7 @@
    "quote": "For enzymes with peak activity at pH 6.0, an extended pH screening assay was performed using 2.9% loading by mass of amorphous PET film (Goodfellow) and 10 \u00b5g enzyme of interest (0.7 mg enzyme/g PET enzyme loading) in polypropylene tubes containing 100 mM NaCl and 50 mM citrate (pH 5.5 and pH 5.0) o"
   },
   {
-   "measurement_id": "BM000579",
+   "measurement_id": "BMC799308547",
    "pmcid": "PMC9839772",
    "doi": "10.1038/s42003-023-04413-0",
    "pubmed_id": "36639437",
@@ -3427,7 +3427,7 @@
    "quote": "The enzyme activity at 50 \u00b0C was set to 100%. b The effect of the temperature on the stability of partial-deglyco IsPETase-Pp."
   },
   {
-   "measurement_id": "BM000066",
+   "measurement_id": "BMEE272B0BB7",
    "pmcid": "PMC9870871",
    "doi": "10.1038/s41598-023-27780-4",
    "pubmed_id": "36690710",
@@ -3452,7 +3452,7 @@
    "quote": "The linear WT enzyme employed in the patent retained only 10% activity after 10 min at 50 \u00b0C, whereas 23% conserved activity was conserved by IsPETase-WT after 20 min of incubation at the same temperature in this work."
   },
   {
-   "measurement_id": "BM000653",
+   "measurement_id": "BMF679C7AB36",
    "pmcid": "PMC10003648",
    "doi": "10.3390/ijms24054501",
    "pubmed_id": "36901931",
@@ -3477,7 +3477,7 @@
    "quote": "LIP3, LIP4, and PhaZ were optimally active at 45 \u00b0C to 50 \u00b0C and retained more than 70% activity when the reaction was performed at 55 \u00b0C (Figure 6B)."
   },
   {
-   "measurement_id": "BM000242",
+   "measurement_id": "BMFE7F64248C",
    "pmcid": "PMC10046884",
    "doi": "10.3390/biotech12010023",
    "pubmed_id": "36975313",
@@ -3503,7 +3503,7 @@
    "quote": "Table in PMC10046884 \u2014 Table 2 :: Metal Ions (5 mM)=Ca2+ | Relative Activity (%)=106.7 | Detergents, Inhibitors (5 mM)=EDTA disodium salt | Relative Activity (%)=0"
   },
   {
-   "measurement_id": "BM001485",
+   "measurement_id": "BM355F56FDED",
    "pmcid": "PMC10146132",
    "doi": "10.3390/microorganisms11040989",
    "pubmed_id": "37110412",
@@ -3528,7 +3528,7 @@
    "quote": "When pH > 8.0, the enzyme activity began to decrease, but about 90% of the enzyme activity was retained when pH = 9.0."
   },
   {
-   "measurement_id": "BM000825",
+   "measurement_id": "BM06A72D7AB0",
    "pmcid": "PMC10146679",
    "doi": "10.3390/molecules28083528",
    "pubmed_id": "37110762",
@@ -3553,7 +3553,7 @@
    "quote": "At pH 7.0, the activity of BbPETaseCD increased from 30 \u00b0C to 40 \u00b0C, and then decreased when the temperature increased to 50 \u00b0C, indicating the poor stability of BbPETaseCD at high temperature."
   },
   {
-   "measurement_id": "BM001503",
+   "measurement_id": "BM06A34D2910",
    "pmcid": "PMC10385968",
    "doi": "10.3390/molecules28145410",
    "pubmed_id": "37513282",
@@ -3578,7 +3578,7 @@
    "quote": "Moreover, between 20 \u00b0C and 40 \u00b0C, the enzyme was stable and retained over 82% activity."
   },
   {
-   "measurement_id": "BM000502",
+   "measurement_id": "BM05CF64A034",
    "pmcid": "PMC10418727",
    "doi": "10.3390/ijms241512022",
    "pubmed_id": "37569396",
@@ -3603,7 +3603,7 @@
    "quote": "In addition, the activity of EaEst2 was highly stable up to 37 \u00b0C after 1 h incubation (Figure 3B)."
   },
   {
-   "measurement_id": "BM000114",
+   "measurement_id": "BMBF7817F7D9",
    "pmcid": "PMC10495362",
    "doi": "10.1038/s42004-023-00998-z",
    "pubmed_id": "37697032",
@@ -3628,7 +3628,7 @@
    "quote": "The highest activity was observed at 70 \u00b0C, while at 90 \u00b0C only 10% residual activity was detectable."
   },
   {
-   "measurement_id": "BM000491",
+   "measurement_id": "BMFED25FD18C",
    "pmcid": "PMC10607177",
    "doi": "10.3390/ijms242015452",
    "pubmed_id": "37895132",
@@ -3653,7 +3653,7 @@
    "quote": "A remarkable reduction in the depolymerase activity was consistently detected upon treatment with 1 mM EDTA or KCl in the case of Malassezia sp., as shown in Figure 4b."
   },
   {
-   "measurement_id": "BM000515",
+   "measurement_id": "BME79FD50DC7",
    "pmcid": "PMC10707221",
    "doi": "10.3390/ijms242317071",
    "pubmed_id": "38069394",
@@ -3678,7 +3678,7 @@
    "quote": "On the other hand, the purified enzyme displayed the highest activity at 60 \u00b0C (Figure 4B) but declined abruptly at temperatures above 70 \u00b0C."
   },
   {
-   "measurement_id": "BM001197",
+   "measurement_id": "BMCC0196A346",
    "pmcid": "PMC10725956",
    "doi": "10.3389/fmicb.2023.1304233",
    "pubmed_id": "38111649",
@@ -3703,7 +3703,7 @@
    "quote": "As to the temperature stability, LipB retained about 60% of activity after an incubation at 35\u00b0C or 45\u00b0C for 60 min."
   },
   {
-   "measurement_id": "BM000564",
+   "measurement_id": "BM332DAF4563",
    "pmcid": "PMC10869840",
    "doi": "10.1038/s41467-024-45662-9",
    "pubmed_id": "38360963",
@@ -3728,7 +3728,7 @@
    "quote": "The active mutations at the W104 positions on M2 reduced the stability even further, with Tm values ranging from 71.5 \u00b0C to 75.5 \u00b0C."
   },
   {
-   "measurement_id": "BM000689",
+   "measurement_id": "BM34A8632A19",
    "pmcid": "PMC10975908",
    "doi": "10.3390/molecules29061338",
    "pubmed_id": "38542974",
@@ -3753,7 +3753,7 @@
    "quote": "Therefore, it could be concluded that the higher product concentrations of PETaseD186N and PETaseD186H than the wild type at both 30 and 40 \u00b0C, especially for PETaseD186N, were mainly attributed to the superimposed effects of higher activity and thermostability."
   },
   {
-   "measurement_id": "BM001397",
+   "measurement_id": "BM96D16D6D3A",
    "pmcid": "PMC11033240",
    "doi": "10.1007/s00253-024-13144-z",
    "pubmed_id": "38643427",
@@ -3778,7 +3778,7 @@
    "quote": "Overall, the changes in activity at 50 \u00b0C and 52 \u00b0C reflect the observed changes in thermostability."
   },
   {
-   "measurement_id": "BM000346",
+   "measurement_id": "BMF2FE995DB3",
    "pmcid": "PMC11055803",
    "doi": "10.1007/s10529-024-03467-2",
    "pubmed_id": "38416309",
@@ -3803,7 +3803,7 @@
    "quote": "The pure enzyme retains its activity after 3 h at pH 10 above 85%, but its activity decreases to below 50%."
   },
   {
-   "measurement_id": "BM000727",
+   "measurement_id": "BMBB24C4B768",
    "pmcid": "PMC11220789",
    "doi": "10.1021/acssuschemeng.4c00915",
    "pubmed_id": "38966237",
@@ -3828,7 +3828,7 @@
    "quote": "Other thermostable cutinases, such as Thc_cut1 and HiC, also exhibited higher depolymerization at 65 \u00b0C than 50 \u00b0C.1 After the effect of temperature was investigated, the time of incubation of the enzymes with PEF material was considered."
   },
   {
-   "measurement_id": "BM000255",
+   "measurement_id": "BM85EC0EEFF2",
    "pmcid": "PMC11270687",
    "doi": "10.1021/acsomega.4c04843",
    "pubmed_id": "39072070",
@@ -3853,7 +3853,7 @@
    "quote": "The optimal activity was at pH 7.5 (Figure S3C)."
   },
   {
-   "measurement_id": "BM000696",
+   "measurement_id": "BM79B7F430B5",
    "pmcid": "PMC11651597",
    "doi": "10.1371/journal.pone.0314556",
    "pubmed_id": "39689112",
@@ -3878,7 +3878,7 @@
    "quote": "It retained more than 90% activity after 16 h and 74% after 24 h, with a calculated half-life of 56 h under 30\u00b0C."
   },
   {
-   "measurement_id": "BM001311",
+   "measurement_id": "BM2C832BBDFA",
    "pmcid": "PMC11723331",
    "doi": "10.3390/plants14010055",
    "pubmed_id": "39795314",
@@ -3903,7 +3903,7 @@
    "quote": "The maximum residual activity of rCAH3 was clearly detected at pH 9.0, in spite of the fact that the relative decrease in the CA activity of rCAH3 over time was the least, at pH 10.0 (Figure 3B)."
   },
   {
-   "measurement_id": "BM000225",
+   "measurement_id": "BMA2A3E78DB5",
    "pmcid": "PMC11782994",
    "doi": "10.3389/fbioe.2024.1520680",
    "pubmed_id": "39898275",
@@ -3928,7 +3928,7 @@
    "quote": "In particular, while the stability of HiC at 50\u00b0C was retained >10% for the whole experiment (owing to various additives and stabilizers in the commercial formulation), Thb at the same temperature was barely active at 48 h, maintaining a low basal activity until 72 h when compared with the initial o"
   },
   {
-   "measurement_id": "BM000054",
+   "measurement_id": "BM37E9907878",
    "pmcid": "PMC12188634",
    "doi": "10.1021/acssuschemeng.5c03378",
    "pubmed_id": "40575345",
@@ -3953,7 +3953,7 @@
    "quote": "The optimum conditions for the PLA-degrading activity of Savinase were determined to be pH 8.5 and 42 \u00b0C (Figure B,C)."
   },
   {
-   "measurement_id": "BM000051",
+   "measurement_id": "BM7501276D74",
    "pmcid": "PMC12241367",
    "doi": "10.1038/s41598-025-09100-0",
    "pubmed_id": "40634484",
@@ -3978,7 +3978,7 @@
    "quote": "The cells were cultured in this configuration at a stable temperature of 25 \u00b0C with constant illumination at 80 \u03bcmol photons/m2s and agitated at 150 rpm on a rotary shaker for ten days or until the cell cultures had degraded and penetrated the sPU film."
   },
   {
-   "measurement_id": "BM001121",
+   "measurement_id": "BME7E3DA9213",
    "pmcid": "PMC12428281",
    "doi": "10.3390/ijms26178141",
    "pubmed_id": "40943065",
@@ -4003,7 +4003,7 @@
    "quote": "After incubation at 4 \u00b0C under different pH for 1 h, the activity of DehpH decreased significantly under acid conditions (pH 3.0 to 6.0), and DehpH almost lost all of its activity under pH 3.0, while DehpH retained more than 70.0% residual activity under pH 7.0 to 9.0 (Figure 4B)."
   },
   {
-   "measurement_id": "BM000262",
+   "measurement_id": "BM2750791E32",
    "pmcid": "PMC12504323",
    "doi": "10.1007/s00253-025-13605-z",
    "pubmed_id": "41055782",
@@ -4029,7 +4029,7 @@
    "quote": "Table in PMC12504323 \u2014 Table 2 :: =p-nitrophenyl acetate | Relative activity (%)=86.4 \u00b1 1.4"
   },
   {
-   "measurement_id": "BM000127",
+   "measurement_id": "BM6342EDE532",
    "pmcid": "PMC12720421",
    "doi": "10.1002/pro.70402",
    "pubmed_id": "41427655",
@@ -4054,7 +4054,7 @@
    "quote": "This temperature was selected as all enzymes, except Pmt_EST, retained residual activity after heating at 45\u00b0C (Figure S2)."
   },
   {
-   "measurement_id": "BM000006",
+   "measurement_id": "BM61F89D8BD3",
    "pmcid": "PMC12741466",
    "doi": "10.1016/j.isci.2025.114173",
    "pubmed_id": "41458911",
@@ -4079,7 +4079,7 @@
    "quote": "The optimal reaction system for \u03b5-caprolactone ring-opening polymerization catalyzed by PCLase0801 consisted of 25 mg of enzyme powder, a temperature set at 45\u00b0C, a duration of 8 h, hexane as the solvent, and a water activity of 0.11 (details are provided in the Supplementary Materials, Figure S2\u2013S6"
   },
   {
-   "measurement_id": "BM000474",
+   "measurement_id": "BM43D0E59366",
    "pmcid": "PMC12766707",
    "doi": "10.34133/research.1054",
    "pubmed_id": "41498113",
@@ -4104,7 +4104,7 @@
    "quote": "Importantly, the L57F/V107F/A229F mutant retained ~90% of its maximal catalytic activity at 70 \u00b0C, representing a 1.23-fold increase over that of the WT (Fig."
   },
   {
-   "measurement_id": "BM000386",
+   "measurement_id": "BMBBE2518932",
    "pmcid": "PMC12767561",
    "doi": "10.1002/cssc.202501964",
    "pubmed_id": "41340193",
@@ -4129,7 +4129,7 @@
    "quote": "As such, kinetic stability assays were conducted using the TflNylA\u2010catalyzed hydrolysis of pNPH that demonstrated that the protein remained largely active over 8 h of incubation at 55\u00b0C and 60\u00b0C (Figure S8)."
   },
   {
-   "measurement_id": "BM000272",
+   "measurement_id": "BMD8385AF9BE",
    "pmcid": "PMC12860643",
    "doi": "10.1016/j.isci.2025.114621",
    "pubmed_id": "41630917",
@@ -4154,7 +4154,7 @@
    "quote": "At 37\u00b0C, the optimal growth temperature of E. coli, OmpAm exhibited the highest activity among the engineered proteins, reaching 2,738 \u00b1 7 \u03bcmol min\u22121 g\u22121."
   },
   {
-   "measurement_id": "BM000071",
+   "measurement_id": "BM4FD5205F58",
    "pmcid": "PMC12896513",
    "doi": "10.3390/biology15030276",
    "pubmed_id": "41677747",
@@ -4179,7 +4179,7 @@
    "quote": "The residual activity was then measured at 40 \u00b0C in 50 mM sodium phosphate-buffered solution (pH 7.0)."
   },
   {
-   "measurement_id": "BM000163",
+   "measurement_id": "BM637F2110DA",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -4204,7 +4204,7 @@
    "quote": "Est1-ET exhibited more than 70% activity between 60 and 80 \u00b0C, with optimal activity at 80 \u00b0C."
   },
   {
-   "measurement_id": "BM000380",
+   "measurement_id": "BMA6514460C1",
    "pmcid": "PMC12960341",
    "doi": "10.1007/s00253-026-13756-7",
    "pubmed_id": "41781769",
@@ -4229,7 +4229,7 @@
    "quote": "1A) and retains over 90% activity after 30 min incubation at pH 10.0 (Fig."
   },
   {
-   "measurement_id": "BM001102",
+   "measurement_id": "BMBE95C1CB93",
    "pmcid": "PMC13118911",
    "doi": "10.3390/microorganisms14040856",
    "pubmed_id": "42075253",
@@ -4254,7 +4254,7 @@
    "quote": "Enzyme activity measurements across 40\u201390 \u00b0C showed that wild-type B10 laccase began to lose activity substantially at 60 \u00b0C, retained only minimal residual activity at 80 \u00b0C, and was completely inactivated at 90 \u00b0C (Figure 2c)."
   },
   {
-   "measurement_id": "BM000683",
+   "measurement_id": "BM0C2E81DE96",
    "pmcid": "PMC13220297",
    "doi": "10.1021/acs.jafc.6c02898",
    "pubmed_id": "42144900",
@@ -4279,7 +4279,7 @@
    "quote": "Stability of the invertase from B. tequilensis (PP6) immobilized on functionalized SG (\u25a0) and PHB (gray triangle) after 24 h of incubation at 4 \u00b0C at different pH values, with the maximum enzymatic activity of 2.30 U/g."
   },
   {
-   "measurement_id": "BM000845",
+   "measurement_id": "BM31C0BAD528",
    "pmcid": "PMC4624153",
    "doi": "10.1007/s13205-015-0287-4",
    "pubmed_id": "28324398",
@@ -4304,7 +4304,7 @@
    "quote": "The enzyme was stable at pH 4.0, 5.0 and 6.0 and 55 \u00b0C for 1 h with a residual activity of almost 70\u201380 %.Fig."
   },
   {
-   "measurement_id": "BM000762",
+   "measurement_id": "BM712AA556EA",
    "pmcid": "PMC7031157",
    "doi": "10.3389/fmicb.2020.00114",
    "pubmed_id": "32117139",
@@ -4329,7 +4329,7 @@
    "quote": "The reduced activity of the variants was accompanied by a decrease in melting temperature of about 5\u201310\u00b0C (Supplementary Table S2) in comparison to the wild type enzyme (Tm at about 51\u00b0C), indicating a destabilizing effect of the mutations."
   },
   {
-   "measurement_id": "BM000269",
+   "measurement_id": "BM097BED1F73",
    "pmcid": "PMC8767016",
    "doi": "10.3389/fmicb.2021.803896",
    "pubmed_id": "35069509",
@@ -4354,7 +4354,7 @@
    "quote": "Concerning the optimal pH, PET27 was most active between pH 7\u20138 and PET30 between pH 6-8 when tested in 0.1 M potassium phosphate (Figure 3C)."
   },
   {
-   "measurement_id": "BM000805",
+   "measurement_id": "BME8E31FAE60",
    "pmcid": "PMC8971842",
    "doi": "10.3389/fbioe.2022.835847",
    "pubmed_id": "35372294",
@@ -4379,7 +4379,7 @@
    "quote": "PCLase I and PCLase II were stable at pH conditions ranging from 6.0 to 12.0, and PCLase I showed remarkable stability at pH 12.0 with activity of approximately 100% (Figure 2D)."
   },
   {
-   "measurement_id": "BM000541",
+   "measurement_id": "BM00626D4241",
    "pmcid": "PMC9065602",
    "doi": "10.3389/fbioe.2022.854298",
    "pubmed_id": "35519608",
@@ -4404,7 +4404,7 @@
    "quote": "The enzymes were stable at 30\u00b0C for at least 2 months of incubation and retained nearly 100% of their activities for minimum 4 months at 4\u00b0C.Sequence analysis of LIP1 and LIP2 was performed to analyze thermophilic properties in relation to their amino acid sequence (Table 4)."
   },
   {
-   "measurement_id": "BM000569",
+   "measurement_id": "BM9D2F87A068",
    "pmcid": "PMC9104356",
    "doi": "10.3390/molecules27092999",
    "pubmed_id": "35566348",
@@ -4429,7 +4429,7 @@
    "quote": "A thermostability assay showed that the BaAXE retained around 40% activity after incubating the enzyme for 2 h at 40\u2013100 \u00b0C but showed no clear activity at acidic pHs."
   },
   {
-   "measurement_id": "BM000930",
+   "measurement_id": "BM3D2911174F",
    "pmcid": "PMC9350882",
    "doi": "10.3389/fbioe.2022.930140",
    "pubmed_id": "35935485",
@@ -4454,7 +4454,7 @@
    "quote": "The activity was comparable to the activity of an engineered high-thermal stability variant of IsPETase, namely DuraPETase, and its variants incubated at 60\u00b0C, which indicates that Ple629 has enhanced degradation capabilities towards PET-NP."
   },
   {
-   "measurement_id": "BM001334",
+   "measurement_id": "BM4B7B986C47",
    "pmcid": "PMC9452428",
    "doi": "10.1007/s11274-022-03402-5",
    "pubmed_id": "36070019",
@@ -4479,7 +4479,7 @@
    "quote": "EstRag full activity (100%) was retained after 90 min of preincubation at temperatures ranging from 5 to 30 \u00b0C (Fig."
   },
   {
-   "measurement_id": "BM001131",
+   "measurement_id": "BM48FF785EC9",
    "pmcid": "PMC9709933",
    "doi": "10.1039/d2ra06138d",
    "pubmed_id": "36545586",
@@ -4504,7 +4504,7 @@
    "quote": "The enzyme retained more than 95% activity after incubation of 4 h at 50 \u00b0C and 60 \u00b0C."
   },
   {
-   "measurement_id": "BM000336",
+   "measurement_id": "BM5896AA9DC4",
    "pmcid": "PMC9764356",
    "doi": "10.1021/acscatal.2c03772",
    "pubmed_id": "36570084",
@@ -4529,7 +4529,7 @@
    "quote": "Although TfCa WA has a lower Tm (60.3 \u00b0C) than TfCa wt (64.5 \u00b0C) (Table S2), its relative residual activities after 1 h incubation at 45, 50, and 55 \u00b0C were comparable to those of TfCa wt (Figure 3B)."
   },
   {
-   "measurement_id": "BM000604",
+   "measurement_id": "BM3A4FF0E21E",
    "pmcid": "PMC9772341",
    "doi": "10.1038/s41467-022-35237-x",
    "pubmed_id": "36543766",
@@ -4554,7 +4554,7 @@
    "quote": "For enzymes with peak activity at pH 6.0, an extended pH screening assay was performed using 2.9% loading by mass of amorphous PET film (Goodfellow) and 10 \u00b5g enzyme of interest (0.7 mg enzyme/g PET enzyme loading) in polypropylene tubes containing 100 mM NaCl and 50 mM citrate (pH 5.5 and pH 5.0) o"
   },
   {
-   "measurement_id": "BM000580",
+   "measurement_id": "BM61759953DC",
    "pmcid": "PMC9839772",
    "doi": "10.1038/s42003-023-04413-0",
    "pubmed_id": "36639437",
@@ -4579,7 +4579,7 @@
    "quote": "55 \u00b0C indicates the residual activity after incubated at 55 \u00b0C for 1 h."
   },
   {
-   "measurement_id": "BM000067",
+   "measurement_id": "BMEF73875580",
    "pmcid": "PMC9870871",
    "doi": "10.1038/s41598-023-27780-4",
    "pubmed_id": "36690710",
@@ -4604,7 +4604,7 @@
    "quote": "However, at 70 \u00b0C, above the known optimal reaction temperature of DuraPETase (60 \u00b0C)52, all four DuraPETase variants exhibited minimal degradation activity."
   },
   {
-   "measurement_id": "BM000654",
+   "measurement_id": "BM49CA522F32",
    "pmcid": "PMC10003648",
    "doi": "10.3390/ijms24054501",
    "pubmed_id": "36901931",
@@ -4629,7 +4629,7 @@
    "quote": "LIP3, LIP4, and PhaZ were optimally active at 45 \u00b0C to 50 \u00b0C and retained more than 70% activity when the reaction was performed at 55 \u00b0C (Figure 6B)."
   },
   {
-   "measurement_id": "BM000243",
+   "measurement_id": "BME661A5B7EE",
    "pmcid": "PMC10046884",
    "doi": "10.3390/biotech12010023",
    "pubmed_id": "36975313",
@@ -4655,7 +4655,7 @@
    "quote": "Table in PMC10046884 \u2014 Table 2 :: Metal Ions (5 mM)=Mg2+ | Relative Activity (%)=93.3 | Detergents, Inhibitors (5 mM)=SDS | Relative Activity (%)=4.5"
   },
   {
-   "measurement_id": "BM001486",
+   "measurement_id": "BM7E8AC1F540",
    "pmcid": "PMC10146132",
    "doi": "10.3390/microorganisms11040989",
    "pubmed_id": "37110412",
@@ -4680,7 +4680,7 @@
    "quote": "When pH 10.0, less than 50% of the enzyme activity was retained."
   },
   {
-   "measurement_id": "BM000827",
+   "measurement_id": "BM6A6E3B1927",
    "pmcid": "PMC10146679",
    "doi": "10.3390/molecules28083528",
    "pubmed_id": "37110762",
@@ -4705,7 +4705,7 @@
    "quote": "At both 40 \u00b0C and 50 \u00b0C, the residual activity of the N364C/D418C variant was higher than that of the BbPETaseCD (Figure 2a,b)."
   },
   {
-   "measurement_id": "BM001504",
+   "measurement_id": "BMBE4B247046",
    "pmcid": "PMC10385968",
    "doi": "10.3390/molecules28145410",
    "pubmed_id": "37513282",
@@ -4730,7 +4730,7 @@
    "quote": "The optimal pH for EstD04 activity was pH 8."
   },
   {
-   "measurement_id": "BM000503",
+   "measurement_id": "BMDEA62F08EC",
    "pmcid": "PMC10418727",
    "doi": "10.3390/ijms241512022",
    "pubmed_id": "37569396",
@@ -4755,7 +4755,7 @@
    "quote": "Approximately \u221270% of its initial activity was retained after exposure to 50 \u00b0C for 60 min."
   },
   {
-   "measurement_id": "BM000115",
+   "measurement_id": "BMB8B8558C40",
    "pmcid": "PMC10495362",
    "doi": "10.1038/s42004-023-00998-z",
    "pubmed_id": "37697032",
@@ -4780,7 +4780,7 @@
    "quote": "However, it also retained high activities (50%) at pH 5 (Fig."
   },
   {
-   "measurement_id": "BM000492",
+   "measurement_id": "BMF3D0C367AD",
    "pmcid": "PMC10607177",
    "doi": "10.3390/ijms242015452",
    "pubmed_id": "37895132",
@@ -4805,7 +4805,7 @@
    "quote": "Our data revealed that the optimum conditions for Malassezia growth were 40 \u00b0C and pH 4, while the optimum conditions for depolymerase enzyme activity were 50 \u00b0C and pH 5."
   },
   {
-   "measurement_id": "BM000516",
+   "measurement_id": "BM15C62C6E18",
    "pmcid": "PMC10707221",
    "doi": "10.3390/ijms242317071",
    "pubmed_id": "38069394",
@@ -4830,7 +4830,7 @@
    "quote": "Likewise, SeLipC was sensitive to high ionic strength (I) as the enzyme lost 60% of its activity at 250 mM NaCl, while it was almost deactivated at salt concentrations higher than 500 mM (Figure 4C)."
   },
   {
-   "measurement_id": "BM001198",
+   "measurement_id": "BMEA7683C088",
    "pmcid": "PMC10725956",
    "doi": "10.3389/fmicb.2023.1304233",
    "pubmed_id": "38111649",
@@ -4855,7 +4855,7 @@
    "quote": "As to the temperature stability, LipB retained about 60% of activity after an incubation at 35\u00b0C or 45\u00b0C for 60 min."
   },
   {
-   "measurement_id": "BM000565",
+   "measurement_id": "BM37D6EEB76B",
    "pmcid": "PMC10869840",
    "doi": "10.1038/s41467-024-45662-9",
    "pubmed_id": "38360963",
@@ -4880,7 +4880,7 @@
    "quote": "We added the stabilizing variants to the M2 variant using a stepwise combining strategy and resulted in a BhrPETase M6 variant (BhrPETaseH218S/F222I/A209R/D238K/A251C/A281C), which exhibited a restored melting temperature of 97 \u00b0C without sacrificing activity."
   },
   {
-   "measurement_id": "BM000347",
+   "measurement_id": "BM8CAF350BEE",
    "pmcid": "PMC11055803",
    "doi": "10.1007/s10529-024-03467-2",
    "pubmed_id": "38416309",
@@ -4905,7 +4905,7 @@
    "quote": "2011), but they exhibit maximum activity at 37 \u00b0C."
   },
   {
-   "measurement_id": "BM000699",
+   "measurement_id": "BMDFDCB2C50A",
    "pmcid": "PMC11651597",
    "doi": "10.1371/journal.pone.0314556",
    "pubmed_id": "39689112",
@@ -4930,7 +4930,7 @@
    "quote": "The recombinant lipase exhibited activity across a wide pH spectrum, ranging from pH 5 to pH 9, with optimal activity observed at pH 7 (Fig 5A)."
   },
   {
-   "measurement_id": "BM001312",
+   "measurement_id": "BM5AF061E26C",
    "pmcid": "PMC11723331",
    "doi": "10.3390/plants14010055",
    "pubmed_id": "39795314",
@@ -4955,7 +4955,7 @@
    "quote": "Surprisingly, these results were contrary to those obtained previously during the study of rCAH3 pH-stability at 4 \u00b0C, when a much greater decrease in CA activity was observed after incubation at pH 6.0 (Figure 3)."
   },
   {
-   "measurement_id": "BM001123",
+   "measurement_id": "BM81DA0959E9",
    "pmcid": "PMC12428281",
    "doi": "10.3390/ijms26178141",
    "pubmed_id": "40943065",
@@ -4980,7 +4980,7 @@
    "quote": "The activity of DehpH increased in the temperature range of 10 \u00b0C to 30 \u00b0C and showed maximum activity at 30 \u00b0C (Figure 4C)."
   },
   {
-   "measurement_id": "BM000263",
+   "measurement_id": "BM1D6C39A2B4",
    "pmcid": "PMC12504323",
    "doi": "10.1007/s00253-025-13605-z",
    "pubmed_id": "41055782",
@@ -5006,7 +5006,7 @@
    "quote": "Table in PMC12504323 \u2014 Table 2 :: =p-nitrophenyl propionate | Relative activity (%)=96.0 \u00b1 2.2"
   },
   {
-   "measurement_id": "BM000129",
+   "measurement_id": "BM9168821A27",
    "pmcid": "PMC12720421",
    "doi": "10.1002/pro.70402",
    "pubmed_id": "41427655",
@@ -5031,7 +5031,7 @@
    "quote": "At 70\u00b0C, while Rp_EST and shRp_EST (both with T m >95\u00b0C) retained similar activity over 96 h as at 40\u00b0C, other enzymes showed only limited activity in the first 24 h, with no further product accumulation afterwards."
   },
   {
-   "measurement_id": "BM000011",
+   "measurement_id": "BMEF92ACB10C",
    "pmcid": "PMC12741466",
    "doi": "10.1016/j.isci.2025.114173",
    "pubmed_id": "41458911",
@@ -5057,7 +5057,7 @@
    "quote": "Table in PMC12741466 \u2014 Table 1 :: Metal ions=KCl | Residual activity (%)=102 \u00b1 0.9"
   },
   {
-   "measurement_id": "BM000387",
+   "measurement_id": "BMCD870545F3",
    "pmcid": "PMC12767561",
    "doi": "10.1002/cssc.202501964",
    "pubmed_id": "41340193",
@@ -5082,7 +5082,7 @@
    "quote": "As such, kinetic stability assays were conducted using the TflNylA\u2010catalyzed hydrolysis of pNPH that demonstrated that the protein remained largely active over 8 h of incubation at 55\u00b0C and 60\u00b0C (Figure S8)."
   },
   {
-   "measurement_id": "BM000072",
+   "measurement_id": "BME50151456E",
    "pmcid": "PMC12896513",
    "doi": "10.3390/biology15030276",
    "pubmed_id": "41677747",
@@ -5107,7 +5107,7 @@
    "quote": "The rEST-24 esterase exhibited maximum activity at pH 7.0 only, whereas rEST-28 exhibited maximum activity at pH 6.0\u20137.0 (Figure 2a)."
   },
   {
-   "measurement_id": "BM000164",
+   "measurement_id": "BMD804EA4E81",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -5132,7 +5132,7 @@
    "quote": "At 90 \u00b0C, Est1-ET retained approximately 50% activity."
   },
   {
-   "measurement_id": "BM000381",
+   "measurement_id": "BM00E72F189C",
    "pmcid": "PMC12960341",
    "doi": "10.1007/s00253-026-13756-7",
    "pubmed_id": "41781769",
@@ -5157,7 +5157,7 @@
    "quote": "1C), although its thermal stability was limited, with activity decreasing sharply at elevated temperatures and retaining only 26% at 60 \u00b0C (Fig."
   },
   {
-   "measurement_id": "BM001103",
+   "measurement_id": "BMB99DFF6DBB",
    "pmcid": "PMC13118911",
    "doi": "10.3390/microorganisms14040856",
    "pubmed_id": "42075253",
@@ -5182,7 +5182,7 @@
    "quote": "Among these variants, the R196C mutant showed the best overall performance, displaying the highest absolute activity between 50 and 60 \u00b0C and retaining more than 96% of its relative activity after a 10 min heat treatment at 80 \u00b0C."
   },
   {
-   "measurement_id": "BM000685",
+   "measurement_id": "BM66F7D267C4",
    "pmcid": "PMC13220297",
    "doi": "10.1021/acs.jafc.6c02898",
    "pubmed_id": "42144900",
@@ -5208,7 +5208,7 @@
    "quote": "Table in PMC13220297 \u2014 3 :: support=PHB | V max (U/g)=0.40 \u00b1 0.02 | K m (g/L)=2.40 \u00b1 0.92 | R 2=0.77"
   },
   {
-   "measurement_id": "BM000846",
+   "measurement_id": "BM0CC453F3E1",
    "pmcid": "PMC4624153",
    "doi": "10.1007/s13205-015-0287-4",
    "pubmed_id": "28324398",
@@ -5233,7 +5233,7 @@
    "quote": "The enzyme was stable at pH 4.0, 5.0 and 6.0 and 55 \u00b0C for 1 h with a residual activity of almost 70\u201380 %.Fig."
   },
   {
-   "measurement_id": "BM000806",
+   "measurement_id": "BM48EA4AE607",
    "pmcid": "PMC8971842",
    "doi": "10.3389/fbioe.2022.835847",
    "pubmed_id": "35372294",
@@ -5258,7 +5258,7 @@
    "quote": "The results showed that 1 mM of Mg2+ and Ca2+ significantly enhanced the activity of the two PCL-degrading enzymes."
   },
   {
-   "measurement_id": "BM000542",
+   "measurement_id": "BM2CA06BD695",
    "pmcid": "PMC9065602",
    "doi": "10.3389/fbioe.2022.854298",
    "pubmed_id": "35519608",
@@ -5283,7 +5283,7 @@
    "quote": "When the effect of cations and other compounds was examined (Table 5), it was found that 1 mM MgSO4, or 10 mM EDTA did not affect the enzyme activity, but the enzyme activity of LIP1 was increased by 50% in the presence of 1 mM CaCl2.The activity of LIP2 was not affected by the presence of EDTA and "
   },
   {
-   "measurement_id": "BM000570",
+   "measurement_id": "BM435E17667D",
    "pmcid": "PMC9104356",
    "doi": "10.3390/molecules27092999",
    "pubmed_id": "35566348",
@@ -5308,7 +5308,7 @@
    "quote": "At pH 7 and 9, BaAXE retained over 80% activity after incubating the enzyme for 4 h (Figure 5)."
   },
   {
-   "measurement_id": "BM001335",
+   "measurement_id": "BM3CEF9796C3",
    "pmcid": "PMC9452428",
    "doi": "10.1007/s11274-022-03402-5",
    "pubmed_id": "36070019",
@@ -5333,7 +5333,7 @@
    "quote": "After 30 min of preincubation with 5 mM Zn2+, K2+, and Mo2+ separately, EstRag activity decreased significantly (42.883 \u00b1 0.006, 68.71 \u00b1 0.014, and 79.04 \u00b1 0.03%) at P < 0.05."
   },
   {
-   "measurement_id": "BM001132",
+   "measurement_id": "BM46AB86B6D5",
    "pmcid": "PMC9709933",
    "doi": "10.1039/d2ra06138d",
    "pubmed_id": "36545586",
@@ -5358,7 +5358,7 @@
    "quote": "The enzyme retained more than 95% activity after incubation of 4 h at 50 \u00b0C and 60 \u00b0C."
   },
   {
-   "measurement_id": "BM000337",
+   "measurement_id": "BMAE1845AEE4",
    "pmcid": "PMC9764356",
    "doi": "10.1021/acscatal.2c03772",
    "pubmed_id": "36570084",
@@ -5383,7 +5383,7 @@
    "quote": "Although TfCa WA has a lower Tm (60.3 \u00b0C) than TfCa wt (64.5 \u00b0C) (Table S2), its relative residual activities after 1 h incubation at 45, 50, and 55 \u00b0C were comparable to those of TfCa wt (Figure 3B)."
   },
   {
-   "measurement_id": "BM000582",
+   "measurement_id": "BME1D78670F3",
    "pmcid": "PMC9839772",
    "doi": "10.1038/s42003-023-04413-0",
    "pubmed_id": "36639437",
@@ -5408,7 +5408,7 @@
    "quote": "The result indicated that the enzyme was very stable at 40 \u00b0C and maintained full activity after 12 h."
   },
   {
-   "measurement_id": "BM000657",
+   "measurement_id": "BM40E0017DDB",
    "pmcid": "PMC10003648",
    "doi": "10.3390/ijms24054501",
    "pubmed_id": "36901931",
@@ -5433,7 +5433,7 @@
    "quote": "When pNP-octanoate was used as a substrate, the purified enzymes were found to be very stable and retained almost 100% of their activities after four months of incubation at 4 \u00b0C and two months of incubation at 30 \u00b0C."
   },
   {
-   "measurement_id": "BM000244",
+   "measurement_id": "BM2EEFF478B5",
    "pmcid": "PMC10046884",
    "doi": "10.3390/biotech12010023",
    "pubmed_id": "36975313",
@@ -5459,7 +5459,7 @@
    "quote": "Table in PMC10046884 \u2014 Table 2 :: Metal Ions (5 mM)=Co2+ | Relative Activity (%)=93.3 | Detergents, Inhibitors (5 mM)=Tween 20 | Relative Activity (%)=2.9"
   },
   {
-   "measurement_id": "BM001487",
+   "measurement_id": "BMB113AB078A",
    "pmcid": "PMC10146132",
    "doi": "10.3390/microorganisms11040989",
    "pubmed_id": "37110412",
@@ -5484,7 +5484,7 @@
    "quote": "As for the pH stability of KoFAE, it can be seen in Figure 4D that the enzyme activity was less stable when pH was 3.0 to 5.0, the enzyme activity was lost when pH was 3.0, and the stability was less than 50% when pH was 4.0 to 5.0."
   },
   {
-   "measurement_id": "BM000828",
+   "measurement_id": "BM8420709148",
    "pmcid": "PMC10146679",
    "doi": "10.3390/molecules28083528",
    "pubmed_id": "37110762",
@@ -5509,7 +5509,7 @@
    "quote": "At both 40 \u00b0C and 50 \u00b0C, the residual activity of the N364C/D418C variant was higher than that of the BbPETaseCD (Figure 2a,b)."
   },
   {
-   "measurement_id": "BM001505",
+   "measurement_id": "BMA7FF240F0C",
    "pmcid": "PMC10385968",
    "doi": "10.3390/molecules28145410",
    "pubmed_id": "37513282",
@@ -5534,7 +5534,7 @@
    "quote": "EstD04 exhibited favorable pH stability between pH 8 to pH 11, in which the enzyme retained at least 80% activity."
   },
   {
-   "measurement_id": "BM000116",
+   "measurement_id": "BM76AB15FCEB",
    "pmcid": "PMC10495362",
    "doi": "10.1038/s42004-023-00998-z",
    "pubmed_id": "37697032",
@@ -5559,7 +5559,7 @@
    "quote": "Nevertheless, thermostability is a notable characteristic of many highly active PETases, with optimal temperatures ranging from 55 to 65 \u00b0C."
   },
   {
-   "measurement_id": "BM000493",
+   "measurement_id": "BM6D559CA5B3",
    "pmcid": "PMC10607177",
    "doi": "10.3390/ijms242015452",
    "pubmed_id": "37895132",
@@ -5584,7 +5584,7 @@
    "quote": "Our data revealed that the optimum conditions for Malassezia growth were 40 \u00b0C and pH 4, while the optimum conditions for depolymerase enzyme activity were 50 \u00b0C and pH 5."
   },
   {
-   "measurement_id": "BM000519",
+   "measurement_id": "BM7EF7E8D129",
    "pmcid": "PMC10707221",
    "doi": "10.3390/ijms242317071",
    "pubmed_id": "38069394",
@@ -5609,7 +5609,7 @@
    "quote": "As depicted in Figure 5A, SeLipC shows very poor thermal stability at low protein concentrations (0.72 \u00b5g/mL) since residual enzyme activity was strongly decreased from 35 to 60 \u00b0C."
   },
   {
-   "measurement_id": "BM001199",
+   "measurement_id": "BM7B8775C7F1",
    "pmcid": "PMC10725956",
    "doi": "10.3389/fmicb.2023.1304233",
    "pubmed_id": "38111649",
@@ -5634,7 +5634,7 @@
    "quote": "As to LipB, addition of Ca2+, Cu2+ or Zn2+ reduced the activity approximately in half, whereas the presence of 5 mM of Mg2+, Co2+ or Ni2+ enhanced LipB esterase activity, and the highest increase to 142.8% was obtained by the addition of Ni2+."
   },
   {
-   "measurement_id": "BM000566",
+   "measurement_id": "BM6883CB7CE7",
    "pmcid": "PMC10869840",
    "doi": "10.1038/s41467-024-45662-9",
    "pubmed_id": "38360963",
@@ -5659,7 +5659,7 @@
    "quote": "After a consideration of both depolymerization performance and thermostability, the best combination variant, BhrPETaseH218S/F222I/A209R/D238K/A251C/A281C/W104L/F243T (referred to as TurboPETase), was selected with a Tm of 84 \u00b0C and a 3.4-fold improvement in PET-specific activity towards GF-PET film"
   },
   {
-   "measurement_id": "BM000349",
+   "measurement_id": "BMC77A149538",
    "pmcid": "PMC11055803",
    "doi": "10.1007/s10529-024-03467-2",
    "pubmed_id": "38416309",
@@ -5685,7 +5685,7 @@
    "quote": "Table in PMC11055803 \u2014 Table 4 :: Enzyme=EDTA | Residual activity (%)=64.425 \u00b1 1.72"
   },
   {
-   "measurement_id": "BM000700",
+   "measurement_id": "BMFBD1521130",
    "pmcid": "PMC11651597",
    "doi": "10.1371/journal.pone.0314556",
    "pubmed_id": "39689112",
@@ -5710,7 +5710,7 @@
    "quote": "It maintained high activity levels, retaining 93% of its activity at pH 6 and 82% at pH 8."
   },
   {
-   "measurement_id": "BM001313",
+   "measurement_id": "BM96E74B14E0",
    "pmcid": "PMC11723331",
    "doi": "10.3390/plants14010055",
    "pubmed_id": "39795314",
@@ -5735,7 +5735,7 @@
    "quote": "Surprisingly, these results were contrary to those obtained previously during the study of rCAH3 pH-stability at 4 \u00b0C, when a much greater decrease in CA activity was observed after incubation at pH 6.0 (Figure 3)."
   },
   {
-   "measurement_id": "BM001124",
+   "measurement_id": "BMAFF8DBE713",
    "pmcid": "PMC12428281",
    "doi": "10.3390/ijms26178141",
    "pubmed_id": "40943065",
@@ -5760,7 +5760,7 @@
    "quote": "After 5 h incubation, approximately 64.0% of DehpH activity was retained under 20 \u00b0C, while only 11.4% of DehpH activity was there under 60 \u00b0C."
   },
   {
-   "measurement_id": "BM000264",
+   "measurement_id": "BM208660070C",
    "pmcid": "PMC12504323",
    "doi": "10.1007/s00253-025-13605-z",
    "pubmed_id": "41055782",
@@ -5786,7 +5786,7 @@
    "quote": "Table in PMC12504323 \u2014 Table 2 :: =p-nitrophenyl butyrate | Relative activity (%)=65.2 \u00b1 2.2"
   },
   {
-   "measurement_id": "BM000131",
+   "measurement_id": "BMC09F0E2C1E",
    "pmcid": "PMC12720421",
    "doi": "10.1002/pro.70402",
    "pubmed_id": "41427655",
@@ -5811,7 +5811,7 @@
    "quote": "Differences in stability between the two become apparent only at temperatures approaching or exceeding their unfolding transitions, as reflected when measuring residual activity over time at 99\u00b0C."
   },
   {
-   "measurement_id": "BM000012",
+   "measurement_id": "BMD186A487EE",
    "pmcid": "PMC12741466",
    "doi": "10.1016/j.isci.2025.114173",
    "pubmed_id": "41458911",
@@ -5837,7 +5837,7 @@
    "quote": "Table in PMC12741466 \u2014 Table 1 :: Metal ions=ZnCl2 | Residual activity (%)=70.1 \u00b1 0.7"
   },
   {
-   "measurement_id": "BM000073",
+   "measurement_id": "BM5D7F089EA5",
    "pmcid": "PMC12896513",
    "doi": "10.3390/biology15030276",
    "pubmed_id": "41677747",
@@ -5862,7 +5862,7 @@
    "quote": "Moreover, assessment of pH stability during enzyme incubation at pH 4.0, 6.0, 7.0, 8.0 and 10.0 showed that the residual activity of rEST-24 did not exceed 30%, whereas rEST-28 retained over 80% of its esterase activity at pH values of >7.0."
   },
   {
-   "measurement_id": "BM000165",
+   "measurement_id": "BMB2E5BD6259",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -5887,7 +5887,7 @@
    "quote": "Plp1-ET showed catalytic activity between 40 and 90 \u00b0C, with an optimum at 70 \u00b0C, and retained nearly 50% activity at 80 \u00b0C and less than 20% at 90 \u00b0C (Figure 4A)."
   },
   {
-   "measurement_id": "BM001104",
+   "measurement_id": "BM76F97BD12D",
    "pmcid": "PMC13118911",
    "doi": "10.3390/microorganisms14040856",
    "pubmed_id": "42075253",
@@ -5912,7 +5912,7 @@
    "quote": "Among these variants, the R196C mutant showed the best overall performance, displaying the highest absolute activity between 50 and 60 \u00b0C and retaining more than 96% of its relative activity after a 10 min heat treatment at 80 \u00b0C."
   },
   {
-   "measurement_id": "BM000849",
+   "measurement_id": "BMEEC329750F",
    "pmcid": "PMC4624153",
    "doi": "10.1007/s13205-015-0287-4",
    "pubmed_id": "28324398",
@@ -5938,7 +5938,7 @@
    "quote": "Table in PMC4624153 \u2014 Table 2 :: Reagent=Control | Relative activity (%)=100"
   },
   {
-   "measurement_id": "BM000808",
+   "measurement_id": "BM00B0FC2703",
    "pmcid": "PMC8971842",
    "doi": "10.3389/fbioe.2022.835847",
    "pubmed_id": "35372294",
@@ -5964,7 +5964,7 @@
    "quote": "Table in PMC8971842 \u2014 TABLE 2 :: Metal ions=Mg2+ | Residual activity (%)=169.80 \u00b1 4.90"
   },
   {
-   "measurement_id": "BM000543",
+   "measurement_id": "BM79155E42FF",
    "pmcid": "PMC9065602",
    "doi": "10.3389/fbioe.2022.854298",
    "pubmed_id": "35519608",
@@ -5990,7 +5990,7 @@
    "quote": "Table in PMC9065602 \u2014 TABLE 5 :: Modulators/reagents=EDTA | Final concentration=10 mM | Relative activity (%)=98 \u00b1 1.5"
   },
   {
-   "measurement_id": "BM000572",
+   "measurement_id": "BM2F4D29F6B1",
    "pmcid": "PMC9104356",
    "doi": "10.3390/molecules27092999",
    "pubmed_id": "35566348",
@@ -6015,7 +6015,7 @@
    "quote": "Most notably, the enzyme showed interesting thermostability, retaining more than 40% residual activity after incubation at 40 \u00b0C\u2013100 \u00b0C for 2 h."
   },
   {
-   "measurement_id": "BM001336",
+   "measurement_id": "BM21A82FCC0F",
    "pmcid": "PMC9452428",
    "doi": "10.1007/s11274-022-03402-5",
    "pubmed_id": "36070019",
@@ -6040,7 +6040,7 @@
    "quote": "Full EstRag activity (100%) was retained after 30 min of preincubation with 5 and 10 mM of Mg2+."
   },
   {
-   "measurement_id": "BM001133",
+   "measurement_id": "BM526B356798",
    "pmcid": "PMC9709933",
    "doi": "10.1039/d2ra06138d",
    "pubmed_id": "36545586",
@@ -6065,7 +6065,7 @@
    "quote": "But significant residual activity of purified recombinant enzyme, 99%, 95% and 80% was obtained after 1 h of incubation at 70 \u00b0C, 80 \u00b0C and 90 \u00b0C (Fig."
   },
   {
-   "measurement_id": "BM000338",
+   "measurement_id": "BM43BF4A4A5B",
    "pmcid": "PMC9764356",
    "doi": "10.1021/acscatal.2c03772",
    "pubmed_id": "36570084",
@@ -6090,7 +6090,7 @@
    "quote": "Thus, 50 \u00b0C appeared to be the optimal temperature for BHET hydrolysis by both enzymes."
   },
   {
-   "measurement_id": "BM000583",
+   "measurement_id": "BM9EA5287F64",
    "pmcid": "PMC9839772",
    "doi": "10.1038/s42003-023-04413-0",
    "pubmed_id": "36639437",
@@ -6115,7 +6115,7 @@
    "quote": "At 50 \u00b0C, the enzyme retained more than 40% of its activity after 6 h (Fig."
   },
   {
-   "measurement_id": "BM000658",
+   "measurement_id": "BM21358783ED",
    "pmcid": "PMC10003648",
    "doi": "10.3390/ijms24054501",
    "pubmed_id": "36901931",
@@ -6140,7 +6140,7 @@
    "quote": "When pNP-octanoate was used as a substrate, the purified enzymes were found to be very stable and retained almost 100% of their activities after four months of incubation at 4 \u00b0C and two months of incubation at 30 \u00b0C."
   },
   {
-   "measurement_id": "BM000245",
+   "measurement_id": "BM0D35F008FA",
    "pmcid": "PMC10046884",
    "doi": "10.3390/biotech12010023",
    "pubmed_id": "36975313",
@@ -6166,7 +6166,7 @@
    "quote": "Table in PMC10046884 \u2014 Table 2 :: Metal Ions (5 mM)=K+ | Relative Activity (%)=89.6 | Detergents, Inhibitors (5 mM)=DTT | Relative Activity (%)=3.3"
   },
   {
-   "measurement_id": "BM001489",
+   "measurement_id": "BM22F8594502",
    "pmcid": "PMC10146132",
    "doi": "10.3390/microorganisms11040989",
    "pubmed_id": "37110412",
@@ -6191,7 +6191,7 @@
    "quote": "A pH of 6.0~10.0 had good stability, the retained enzyme activity was more than 60%, and pH 8.0, the best stability of enzyme activity, could retain about 80% of enzyme activity."
   },
   {
-   "measurement_id": "BM000830",
+   "measurement_id": "BM32488CCF9D",
    "pmcid": "PMC10146679",
    "doi": "10.3390/molecules28083528",
    "pubmed_id": "37110762",
@@ -6216,7 +6216,7 @@
    "quote": "Furthermore, the PET hydrolysis activity of BbPETaseCD at 30 \u00b0C was always higher than that at 40 \u00b0C, which further indicated its low thermal stability."
   },
   {
-   "measurement_id": "BM001506",
+   "measurement_id": "BMF8D20A14F6",
    "pmcid": "PMC10385968",
    "doi": "10.3390/molecules28145410",
    "pubmed_id": "37513282",
@@ -6241,7 +6241,7 @@
    "quote": "EstD04 exhibited favorable pH stability between pH 8 to pH 11, in which the enzyme retained at least 80% activity."
   },
   {
-   "measurement_id": "BM000117",
+   "measurement_id": "BM6A82469C45",
    "pmcid": "PMC10495362",
    "doi": "10.1038/s42004-023-00998-z",
    "pubmed_id": "37697032",
@@ -6266,7 +6266,7 @@
    "quote": "In their study, the PET46-like 211 released up to 85.23 mg L\u22121 aromatic products from crystalline PET powder at 60 \u00b0C and pH6 (optimal conditions)."
   },
   {
-   "measurement_id": "BM000494",
+   "measurement_id": "BM10FE78B273",
    "pmcid": "PMC10607177",
    "doi": "10.3390/ijms242015452",
    "pubmed_id": "37895132",
@@ -6291,7 +6291,7 @@
    "quote": "Furthermore, depolymerase enzymes produced by two of our A. fumigatus isolates exhibited optimal activity at pH 7 and a temperature of 50 \u00b0C, while the depolymerase of the third Aspergillus strain demonstrated peak efficiency at pH 5 and a temperature of 40 \u00b0C."
   },
   {
-   "measurement_id": "BM000520",
+   "measurement_id": "BMADAEFFB686",
    "pmcid": "PMC10707221",
    "doi": "10.3390/ijms242317071",
    "pubmed_id": "38069394",
@@ -6316,7 +6316,7 @@
    "quote": "However, its thermostability was clearly enhanced when protein concentration was increased approximately 25-fold (19 \u00b5g/mL), allowing the enzyme to maintain 60% residual activity after incubation at temperatures above 70 \u00b0C."
   },
   {
-   "measurement_id": "BM001200",
+   "measurement_id": "BM70DFD8014E",
    "pmcid": "PMC10725956",
    "doi": "10.3389/fmicb.2023.1304233",
    "pubmed_id": "38111649",
@@ -6342,7 +6342,7 @@
    "quote": "Table in PMC10725956 \u2014 Table 1 :: Cations=Control | Relative activity (%) a=100"
   },
   {
-   "measurement_id": "BM000350",
+   "measurement_id": "BM2583BA3A9E",
    "pmcid": "PMC11055803",
    "doi": "10.1007/s10529-024-03467-2",
    "pubmed_id": "38416309",
@@ -6368,7 +6368,7 @@
    "quote": "Table in PMC11055803 \u2014 Table 4 :: Enzyme=Ca2+ | Residual activity (%)=89.239 \u00b1 0.35"
   },
   {
-   "measurement_id": "BM000701",
+   "measurement_id": "BM499AE86AAE",
    "pmcid": "PMC11651597",
    "doi": "10.1371/journal.pone.0314556",
    "pubmed_id": "39689112",
@@ -6393,7 +6393,7 @@
    "quote": "It maintained high activity levels, retaining 93% of its activity at pH 6 and 82% at pH 8."
   },
   {
-   "measurement_id": "BM001316",
+   "measurement_id": "BM39947B2921",
    "pmcid": "PMC11723331",
    "doi": "10.3390/plants14010055",
    "pubmed_id": "39795314",
@@ -6418,7 +6418,7 @@
    "quote": "Incubation of the samples at 4 \u00b0C led to similar results observed in the study of the rCAH3 pH-stability (Figure 3), with the maximum CA activity after 60 min detected at pH 9.0 and lower values obtained at pH 10.0, 7.0, and 6.0 (Figure 4B)."
   },
   {
-   "measurement_id": "BM001125",
+   "measurement_id": "BMDA0FD535B5",
    "pmcid": "PMC12428281",
    "doi": "10.3390/ijms26178141",
    "pubmed_id": "40943065",
@@ -6443,7 +6443,7 @@
    "quote": "After 5 h incubation, approximately 64.0% of DehpH activity was retained under 20 \u00b0C, while only 11.4% of DehpH activity was there under 60 \u00b0C."
   },
   {
-   "measurement_id": "BM000265",
+   "measurement_id": "BMDD09AAA20B",
    "pmcid": "PMC12504323",
    "doi": "10.1007/s00253-025-13605-z",
    "pubmed_id": "41055782",
@@ -6469,7 +6469,7 @@
    "quote": "Table in PMC12504323 \u2014 Table 2 :: =p-nitrophenyl valerate | Relative activity (%)=42.0 \u00b1 3.1"
   },
   {
-   "measurement_id": "BM000132",
+   "measurement_id": "BMD15AB01239",
    "pmcid": "PMC12720421",
    "doi": "10.1002/pro.70402",
    "pubmed_id": "41427655",
@@ -6494,7 +6494,7 @@
    "quote": "However, its lower T m of 61\u00b0C and lack of sustained PBAT degradation at 70\u00b0C suggest that residual activity may reflect refolding upon cooling, rather than true thermal stability at elevated temperatures."
   },
   {
-   "measurement_id": "BM000013",
+   "measurement_id": "BM72E2D4A39A",
    "pmcid": "PMC12741466",
    "doi": "10.1016/j.isci.2025.114173",
    "pubmed_id": "41458911",
@@ -6520,7 +6520,7 @@
    "quote": "Table in PMC12741466 \u2014 Table 1 :: Metal ions=CaCl2 | Residual activity (%)=77.4 \u00b1 1.7"
   },
   {
-   "measurement_id": "BM000074",
+   "measurement_id": "BMB424A8DFA3",
    "pmcid": "PMC12896513",
    "doi": "10.3390/biology15030276",
    "pubmed_id": "41677747",
@@ -6545,7 +6545,7 @@
    "quote": "Overall, the enzymes exhibited maximum activity at 40 \u00b0C (Figure 3a); however, within the temperature range of 30\u201350 \u00b0C, both rEST-24 and rEST-28 demonstrated 50% of their maximum activity."
   },
   {
-   "measurement_id": "BM000167",
+   "measurement_id": "BM6E5147B1F9",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -6570,7 +6570,7 @@
    "quote": "The pH dependency analysis of Ces1-ET exhibited more than 50% relative activity at pH between 7.0 and 8.5, reaching its optimal activity at approximately pH 7.5, Est1-ET revealed that the enzyme displays more than 50% relative activity within the pH range 7.0\u20139.0, with a maximum activity at pH 9.0."
   },
   {
-   "measurement_id": "BM001105",
+   "measurement_id": "BM1F4F1C5F0D",
    "pmcid": "PMC13118911",
    "doi": "10.3390/microorganisms14040856",
    "pubmed_id": "42075253",
@@ -6595,7 +6595,7 @@
    "quote": "The results showed that at 80 \u00b0C the yeast-secreted wild-type laccase lost nearly all enzymatic activity, whereas the secreted quadruple mutant retained over 70% relative activity and maintained substantial AFB1 degradation capacity (Figure 6a,b)."
   },
   {
-   "measurement_id": "BM000850",
+   "measurement_id": "BM62BB52217D",
    "pmcid": "PMC4624153",
    "doi": "10.1007/s13205-015-0287-4",
    "pubmed_id": "28324398",
@@ -6621,7 +6621,7 @@
    "quote": "Table in PMC4624153 \u2014 Table 2 :: Reagent=HgCl2 | Relative activity (%)=18"
   },
   {
-   "measurement_id": "BM000809",
+   "measurement_id": "BMB723A27E40",
    "pmcid": "PMC8971842",
    "doi": "10.3389/fbioe.2022.835847",
    "pubmed_id": "35372294",
@@ -6647,7 +6647,7 @@
    "quote": "Table in PMC8971842 \u2014 TABLE 2 :: Metal ions=Na+ | Residual activity (%)=106.60 \u00b1 0.60"
   },
   {
-   "measurement_id": "BM000544",
+   "measurement_id": "BM9FD79D27CE",
    "pmcid": "PMC9065602",
    "doi": "10.3389/fbioe.2022.854298",
    "pubmed_id": "35519608",
@@ -6673,7 +6673,7 @@
    "quote": "Table in PMC9065602 \u2014 TABLE 5 :: Modulators/reagents=CaCl2 | Final concentration=1 mM | Relative activity (%)=158 \u00b1 3.5"
   },
   {
-   "measurement_id": "BM001337",
+   "measurement_id": "BMAB8FA53AD7",
    "pmcid": "PMC9452428",
    "doi": "10.1007/s11274-022-03402-5",
    "pubmed_id": "36070019",
@@ -6698,7 +6698,7 @@
    "quote": "However, higher concentrations of NaCl above 2.5 M to 4 M resulted in a significant decline in EstRag activity (~ 50 \u00b1 0.033)."
   },
   {
-   "measurement_id": "BM001134",
+   "measurement_id": "BM5DE74E1283",
    "pmcid": "PMC9709933",
    "doi": "10.1039/d2ra06138d",
    "pubmed_id": "36545586",
@@ -6723,7 +6723,7 @@
    "quote": "But significant residual activity of purified recombinant enzyme, 99%, 95% and 80% was obtained after 1 h of incubation at 70 \u00b0C, 80 \u00b0C and 90 \u00b0C (Fig."
   },
   {
-   "measurement_id": "BM000585",
+   "measurement_id": "BM0D20649D6E",
    "pmcid": "PMC9839772",
    "doi": "10.1038/s42003-023-04413-0",
    "pubmed_id": "36639437",
@@ -6748,7 +6748,7 @@
    "quote": "Its thermostability decreased dramatically at 65 \u00b0C and retained only 10% of activity after 12 h."
   },
   {
-   "measurement_id": "BM000659",
+   "measurement_id": "BM6E32E848BD",
    "pmcid": "PMC10003648",
    "doi": "10.3390/ijms24054501",
    "pubmed_id": "36901931",
@@ -6773,7 +6773,7 @@
    "quote": "The LIP3 and PhaZ enzymes were active in a pH range of 4.0 to 10.0 with optimal activity at pH 8 and 45\u201350 \u00b0C."
   },
   {
-   "measurement_id": "BM000246",
+   "measurement_id": "BMA4CD595C41",
    "pmcid": "PMC10046884",
    "doi": "10.3390/biotech12010023",
    "pubmed_id": "36975313",
@@ -6799,7 +6799,7 @@
    "quote": "Table in PMC10046884 \u2014 Table 2 :: Metal Ions (5 mM)=Na+ | Relative Activity (%)=80.0 | Detergents, Inhibitors (5 mM)=PMSF | Relative Activity (%)=2.5"
   },
   {
-   "measurement_id": "BM001490",
+   "measurement_id": "BMFA666F5868",
    "pmcid": "PMC10146132",
    "doi": "10.3390/microorganisms11040989",
    "pubmed_id": "37110412",
@@ -6824,7 +6824,7 @@
    "quote": "A pH of 6.0~10.0 had good stability, the retained enzyme activity was more than 60%, and pH 8.0, the best stability of enzyme activity, could retain about 80% of enzyme activity."
   },
   {
-   "measurement_id": "BM000831",
+   "measurement_id": "BM70D3A9A105",
    "pmcid": "PMC10146679",
    "doi": "10.3390/molecules28083528",
    "pubmed_id": "37110762",
@@ -6849,7 +6849,7 @@
    "quote": "Furthermore, the PET hydrolysis activity of BbPETaseCD at 30 \u00b0C was always higher than that at 40 \u00b0C, which further indicated its low thermal stability."
   },
   {
-   "measurement_id": "BM001507",
+   "measurement_id": "BM961F2AE8B7",
    "pmcid": "PMC10385968",
    "doi": "10.3390/molecules28145410",
    "pubmed_id": "37513282",
@@ -6874,7 +6874,7 @@
    "quote": "By using the optimal conditions for its function, we analyzed the kinetics of EstD04 for the hydrolysis of C4 substrates at 40 \u00b0C and pH 8."
   },
   {
-   "measurement_id": "BM000118",
+   "measurement_id": "BM0578A48B89",
    "pmcid": "PMC10495362",
    "doi": "10.1038/s42004-023-00998-z",
    "pubmed_id": "37697032",
@@ -6899,7 +6899,7 @@
    "quote": "In their study, the PET46-like 211 released up to 85.23 mg L\u22121 aromatic products from crystalline PET powder at 60 \u00b0C and pH6 (optimal conditions)."
   },
   {
-   "measurement_id": "BM000495",
+   "measurement_id": "BM4006C9D9B6",
    "pmcid": "PMC10607177",
    "doi": "10.3390/ijms242015452",
    "pubmed_id": "37895132",
@@ -6924,7 +6924,7 @@
    "quote": "Furthermore, depolymerase enzymes produced by two of our A. fumigatus isolates exhibited optimal activity at pH 7 and a temperature of 50 \u00b0C, while the depolymerase of the third Aspergillus strain demonstrated peak efficiency at pH 5 and a temperature of 40 \u00b0C."
   },
   {
-   "measurement_id": "BM001201",
+   "measurement_id": "BM2CF34C59D8",
    "pmcid": "PMC10725956",
    "doi": "10.3389/fmicb.2023.1304233",
    "pubmed_id": "38111649",
@@ -6950,7 +6950,7 @@
    "quote": "Table in PMC10725956 \u2014 Table 1 :: Cations=MnCl2 | Relative activity (%) a=92.6 \u00b1 5.6"
   },
   {
-   "measurement_id": "BM000351",
+   "measurement_id": "BMAFC42EFDE1",
    "pmcid": "PMC11055803",
    "doi": "10.1007/s10529-024-03467-2",
    "pubmed_id": "38416309",
@@ -6976,7 +6976,7 @@
    "quote": "Table in PMC11055803 \u2014 Table 4 :: Enzyme=Mg2+ | Residual activity (%)=71.011 \u00b1 5.87"
   },
   {
-   "measurement_id": "BM000702",
+   "measurement_id": "BM71030D2A05",
    "pmcid": "PMC11651597",
    "doi": "10.1371/journal.pone.0314556",
    "pubmed_id": "39689112",
@@ -7001,7 +7001,7 @@
    "quote": "Specific lipase activity at pH 7 was set as 100% (321.2 U/mg) for optimum pH while for pH stability, the activity of lipase without pre-incubation (325.7 U/mg) was set at 100%."
   },
   {
-   "measurement_id": "BM001317",
+   "measurement_id": "BMBB14D64E65",
    "pmcid": "PMC11723331",
    "doi": "10.3390/plants14010055",
    "pubmed_id": "39795314",
@@ -7026,7 +7026,7 @@
    "quote": "Incubation of the samples at 4 \u00b0C led to similar results observed in the study of the rCAH3 pH-stability (Figure 3), with the maximum CA activity after 60 min detected at pH 9.0 and lower values obtained at pH 10.0, 7.0, and 6.0 (Figure 4B)."
   },
   {
-   "measurement_id": "BM001126",
+   "measurement_id": "BM7E2FBACF02",
    "pmcid": "PMC12428281",
    "doi": "10.3390/ijms26178141",
    "pubmed_id": "40943065",
@@ -7051,7 +7051,7 @@
    "quote": "The optimal pH for enzyme activities was determined in different buffers: pH 3.0\u20137.0, 50 mM Na2HPO4-citric acid buffer; pH 7.0\u20139.0, 50 mM Tris-HCl buffer; and pH 9.0\u201310.0, 50 mM Glycine-NaOH buffer."
   },
   {
-   "measurement_id": "BM000266",
+   "measurement_id": "BM766A97521D",
    "pmcid": "PMC12504323",
    "doi": "10.1007/s00253-025-13605-z",
    "pubmed_id": "41055782",
@@ -7077,7 +7077,7 @@
    "quote": "Table in PMC12504323 \u2014 Table 2 :: =p-nitrophenyl octanoate | Relative activity (%)=54.2 \u00b1 3.8"
   },
   {
-   "measurement_id": "BM000134",
+   "measurement_id": "BM397309A6FB",
    "pmcid": "PMC12720421",
    "doi": "10.1002/pro.70402",
    "pubmed_id": "41427655",
@@ -7102,7 +7102,7 @@
    "quote": "57\u00b0C\u201361\u00b0C), while Rp_EST retained robust activity at 70\u00b0C, in line with its exceptional thermal stability."
   },
   {
-   "measurement_id": "BM000014",
+   "measurement_id": "BMDBB1853EDF",
    "pmcid": "PMC12741466",
    "doi": "10.1016/j.isci.2025.114173",
    "pubmed_id": "41458911",
@@ -7128,7 +7128,7 @@
    "quote": "Table in PMC12741466 \u2014 Table 1 :: Metal ions=CoCl2 | Residual activity (%)=90.0 \u00b1 3.5"
   },
   {
-   "measurement_id": "BM000075",
+   "measurement_id": "BM395DF4D079",
    "pmcid": "PMC12896513",
    "doi": "10.3390/biology15030276",
    "pubmed_id": "41677747",
@@ -7153,7 +7153,7 @@
    "quote": "Notably, rEST-24 was no longer active at 70 \u00b0C, whereas rEST-28 exhibited over 30% of its maximum activity at this temperature."
   },
   {
-   "measurement_id": "BM000168",
+   "measurement_id": "BM34567040FA",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -7178,7 +7178,7 @@
    "quote": "In contrast, Plp1-ET showed more than 50% relative activity between pH 7.5 and 8.5, with its highest activity at pH 8.0 (Figure 4B)."
   },
   {
-   "measurement_id": "BM001106",
+   "measurement_id": "BM0AB21B0E72",
    "pmcid": "PMC13118911",
    "doi": "10.3390/microorganisms14040856",
    "pubmed_id": "42075253",
@@ -7203,7 +7203,7 @@
    "quote": "Experimentally, the R196C single mutant retained more than 96% of its relative activity after heat treatment at 80 \u00b0C for 10 min and achieved an AFB1 degradation rate of 69.5% at 80 \u00b0C, substantially outperforming the wild type, which began to lose activity at 60 \u00b0C and was completely inactivated at"
   },
   {
-   "measurement_id": "BM000851",
+   "measurement_id": "BM918BA40850",
    "pmcid": "PMC4624153",
    "doi": "10.1007/s13205-015-0287-4",
    "pubmed_id": "28324398",
@@ -7229,7 +7229,7 @@
    "quote": "Table in PMC4624153 \u2014 Table 2 :: Reagent=CaCl2 | Relative activity (%)=91"
   },
   {
-   "measurement_id": "BM000810",
+   "measurement_id": "BM1F863A986C",
    "pmcid": "PMC8971842",
    "doi": "10.3389/fbioe.2022.835847",
    "pubmed_id": "35372294",
@@ -7255,7 +7255,7 @@
    "quote": "Table in PMC8971842 \u2014 TABLE 2 :: Metal ions=Ca2+ | Residual activity (%)=149.00 \u00b1 1.20"
   },
   {
-   "measurement_id": "BM000545",
+   "measurement_id": "BM5E5D9B8800",
    "pmcid": "PMC9065602",
    "doi": "10.3389/fbioe.2022.854298",
    "pubmed_id": "35519608",
@@ -7281,7 +7281,7 @@
    "quote": "Table in PMC9065602 \u2014 TABLE 5 :: Modulators/reagents=MgCl2 | Final concentration=1 mM | Relative activity (%)=79 \u00b1 2.1"
   },
   {
-   "measurement_id": "BM001338",
+   "measurement_id": "BMB39853E766",
    "pmcid": "PMC9452428",
    "doi": "10.1007/s11274-022-03402-5",
    "pubmed_id": "36070019",
@@ -7306,7 +7306,7 @@
    "quote": "Although EstRag was thermally unstable at temperatures higher than 35 \u00b0C, it lost most of its activity after 90 min of incubation (Fig."
   },
   {
-   "measurement_id": "BM001135",
+   "measurement_id": "BM9F253201A6",
    "pmcid": "PMC9709933",
    "doi": "10.1039/d2ra06138d",
    "pubmed_id": "36545586",
@@ -7331,7 +7331,7 @@
    "quote": "About 100% residual activity of esterase enzyme was attained after incubation of 1 h with pH 7.0 (Fig."
   },
   {
-   "measurement_id": "BM000586",
+   "measurement_id": "BM6924FB568F",
    "pmcid": "PMC9839772",
    "doi": "10.1038/s42003-023-04413-0",
    "pubmed_id": "36639437",
@@ -7356,7 +7356,7 @@
    "quote": "The supernatant of the cell culture was collected every 24 h and treated with Endo H for half an hour at 30 \u00b0C. b The activity of Fast-PETase-Pp before and after Endo H treatment. c The thermostability of partial-deglyco Fast-PETase-Pp."
   },
   {
-   "measurement_id": "BM000660",
+   "measurement_id": "BM9A302CF0A9",
    "pmcid": "PMC10003648",
    "doi": "10.3390/ijms24054501",
    "pubmed_id": "36901931",
@@ -7381,7 +7381,7 @@
    "quote": "The LIP3 and PhaZ enzymes were active in a pH range of 4.0 to 10.0 with optimal activity at pH 8 and 45\u201350 \u00b0C."
   },
   {
-   "measurement_id": "BM000247",
+   "measurement_id": "BM7B1060A789",
    "pmcid": "PMC10046884",
    "doi": "10.3390/biotech12010023",
    "pubmed_id": "36975313",
@@ -7407,7 +7407,7 @@
    "quote": "Table in PMC10046884 \u2014 Table 2 :: Metal Ions (5 mM)=Cu2+ | Relative Activity (%)=80.0 | Detergents, Inhibitors (5 mM)=NaLS | Relative Activity (%)=4.7"
   },
   {
-   "measurement_id": "BM001491",
+   "measurement_id": "BMED1DBF86B5",
    "pmcid": "PMC10146132",
    "doi": "10.3390/microorganisms11040989",
    "pubmed_id": "37110412",
@@ -7433,7 +7433,7 @@
    "quote": "Table in PMC10146132 \u2014 Table 3 :: Metal Ions and Organic Compounds=Co2+ | Relative Activity/(%)=78.17 \u00b1 4.48"
   },
   {
-   "measurement_id": "BM001508",
+   "measurement_id": "BMC71D9F94EF",
    "pmcid": "PMC10385968",
    "doi": "10.3390/molecules28145410",
    "pubmed_id": "37513282",
@@ -7458,7 +7458,7 @@
    "quote": "By using the optimal conditions for its function, we analyzed the kinetics of EstD04 for the hydrolysis of C4 substrates at 40 \u00b0C and pH 8."
   },
   {
-   "measurement_id": "BM001202",
+   "measurement_id": "BM5D3B4BAD18",
    "pmcid": "PMC10725956",
    "doi": "10.3389/fmicb.2023.1304233",
    "pubmed_id": "38111649",
@@ -7484,7 +7484,7 @@
    "quote": "Table in PMC10725956 \u2014 Table 1 :: Cations=MgCl2 | Relative activity (%) a=112.0 \u00b1 1.3"
   },
   {
-   "measurement_id": "BM000352",
+   "measurement_id": "BM37FFBCFA71",
    "pmcid": "PMC11055803",
    "doi": "10.1007/s10529-024-03467-2",
    "pubmed_id": "38416309",
@@ -7510,7 +7510,7 @@
    "quote": "Table in PMC11055803 \u2014 Table 4 :: Enzyme=K+ | Residual activity (%)=68.460 \u00b1 4.16"
   },
   {
-   "measurement_id": "BM000703",
+   "measurement_id": "BM0A3FCD8E37",
    "pmcid": "PMC11651597",
    "doi": "10.1371/journal.pone.0314556",
    "pubmed_id": "39689112",
@@ -7535,7 +7535,7 @@
    "quote": "Fig 5A illustrates that it remained stable between pH 6 and pH 9, retaining between 89% and 97% of its residual activity after 1 h of incubation at 35\u00b0C."
   },
   {
-   "measurement_id": "BM001318",
+   "measurement_id": "BMA2B2B11A60",
    "pmcid": "PMC11723331",
    "doi": "10.3390/plants14010055",
    "pubmed_id": "39795314",
@@ -7560,7 +7560,7 @@
    "quote": "Incubation of the samples at 4 \u00b0C led to similar results observed in the study of the rCAH3 pH-stability (Figure 3), with the maximum CA activity after 60 min detected at pH 9.0 and lower values obtained at pH 10.0, 7.0, and 6.0 (Figure 4B)."
   },
   {
-   "measurement_id": "BM000136",
+   "measurement_id": "BM924C66FCDB",
    "pmcid": "PMC12720421",
    "doi": "10.1002/pro.70402",
    "pubmed_id": "41427655",
@@ -7586,7 +7586,7 @@
    "quote": "Table in PMC12720421 \u2014 TABLE 1 :: Protein=Cell culture (n = 2) | Residual activity after 10 min at 99\u00b0C (%)=Purified protein (0.2\u20130.5 \u03bcM, n = 3)"
   },
   {
-   "measurement_id": "BM000015",
+   "measurement_id": "BMD77A0D0664",
    "pmcid": "PMC12741466",
    "doi": "10.1016/j.isci.2025.114173",
    "pubmed_id": "41458911",
@@ -7612,7 +7612,7 @@
    "quote": "Table in PMC12741466 \u2014 Table 1 :: Metal ions=FeCl2 | Residual activity (%)=125.3 \u00b1 6.2"
   },
   {
-   "measurement_id": "BM000076",
+   "measurement_id": "BMF946C4779F",
    "pmcid": "PMC12896513",
    "doi": "10.3390/biology15030276",
    "pubmed_id": "41677747",
@@ -7637,7 +7637,7 @@
    "quote": "Figure 3b illustrates the residual activity of rEST-24 and rEST-28 following a 120 min incubation period at temperatures of 40, 50, and 60 \u00b0C."
   },
   {
-   "measurement_id": "BM000169",
+   "measurement_id": "BM5B6DF04738",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -7662,7 +7662,7 @@
    "quote": "In the presence of 2 mM CaCl2, the relative enzymatic activity of Ces1-ET and Plp1-ET remains largely unchanged compared to the control; however, Est1-ET exhibits a 35% increase in activity."
   },
   {
-   "measurement_id": "BM001107",
+   "measurement_id": "BMB21E950852",
    "pmcid": "PMC13118911",
    "doi": "10.3390/microorganisms14040856",
    "pubmed_id": "42075253",
@@ -7687,7 +7687,7 @@
    "quote": "In this study, the pairwise combination of R196C with residues such as R90E identified R90E/R196C as the optimal double mutant, with a specific activity at 80 \u00b0C that was 1.25-fold higher than that of the R196C single mutant and an AFB1 degradation rate of 77.5%."
   },
   {
-   "measurement_id": "BM000852",
+   "measurement_id": "BM67B379A5B3",
    "pmcid": "PMC4624153",
    "doi": "10.1007/s13205-015-0287-4",
    "pubmed_id": "28324398",
@@ -7713,7 +7713,7 @@
    "quote": "Table in PMC4624153 \u2014 Table 2 :: Reagent=CuCl2 | Relative activity (%)=59"
   },
   {
-   "measurement_id": "BM000811",
+   "measurement_id": "BM16930E1C50",
    "pmcid": "PMC8971842",
    "doi": "10.3389/fbioe.2022.835847",
    "pubmed_id": "35372294",
@@ -7739,7 +7739,7 @@
    "quote": "Table in PMC8971842 \u2014 TABLE 2 :: Metal ions=Zn2+ | Residual activity (%)=17.30 \u00b1 1.00"
   },
   {
-   "measurement_id": "BM000546",
+   "measurement_id": "BMFB6811A97F",
    "pmcid": "PMC9065602",
    "doi": "10.3389/fbioe.2022.854298",
    "pubmed_id": "35519608",
@@ -7765,7 +7765,7 @@
    "quote": "Table in PMC9065602 \u2014 TABLE 5 :: Modulators/reagents=NaCl | Final concentration=50 mM | Relative activity (%)=110 \u00b1 1.1"
   },
   {
-   "measurement_id": "BM001340",
+   "measurement_id": "BM46B6B33A1F",
    "pmcid": "PMC9452428",
    "doi": "10.1007/s11274-022-03402-5",
    "pubmed_id": "36070019",
@@ -7790,7 +7790,7 @@
    "quote": "In the present findings, EstRag displayed good stability to some extent in the presence of NaCl as it maintained more than 70% of its initial activity at concentrations of up to 2 M of NaCl."
   },
   {
-   "measurement_id": "BM001136",
+   "measurement_id": "BM0E71BF8DE3",
    "pmcid": "PMC9709933",
    "doi": "10.1039/d2ra06138d",
    "pubmed_id": "36545586",
@@ -7815,7 +7815,7 @@
    "quote": "About 97% residual activity of esterase enzyme was obtained at pH 6.0 after the incubation of 3 h and 82% activity was obtained after 3 h of incubation at pH 8.0 while 78% residual activity was observed after 1 h at pH 9.0 as shown in Fig."
   },
   {
-   "measurement_id": "BM000588",
+   "measurement_id": "BM942C3DDB65",
    "pmcid": "PMC9839772",
    "doi": "10.1038/s42003-023-04413-0",
    "pubmed_id": "36639437",
@@ -7840,7 +7840,7 @@
    "quote": "The glycosylation of another famous PET hydrolyase, LCC (Leaf and branch compost cutinase) also led to improved stability to native state aggregation and increased the temperature for thermal induced aggregation by 10 \u00b0C when expressed with P. pastoris23."
   },
   {
-   "measurement_id": "BM000661",
+   "measurement_id": "BM8179B19203",
    "pmcid": "PMC10003648",
    "doi": "10.3390/ijms24054501",
    "pubmed_id": "36901931",
@@ -7866,7 +7866,7 @@
    "quote": "Table in PMC10003648 \u2014 Table 2 :: Modulators/Reagents=EDTA | Final Concentration=10 mmol L\u22121 | Relative Activity (%) *=94 \u00b1 1.0"
   },
   {
-   "measurement_id": "BM000248",
+   "measurement_id": "BM41B9E22A08",
    "pmcid": "PMC10046884",
    "doi": "10.3390/biotech12010023",
    "pubmed_id": "36975313",
@@ -7892,7 +7892,7 @@
    "quote": "Table in PMC10046884 \u2014 Table 2 :: Metal Ions (5 mM)=Mn2+ | Relative Activity (%)=80.0 | Detergents, Inhibitors (5 mM)=NBS | Relative Activity (%)=2.8"
   },
   {
-   "measurement_id": "BM001492",
+   "measurement_id": "BMAECD674C5D",
    "pmcid": "PMC10146132",
    "doi": "10.3390/microorganisms11040989",
    "pubmed_id": "37110412",
@@ -7918,7 +7918,7 @@
    "quote": "Table in PMC10146132 \u2014 Table 3 :: Metal Ions and Organic Compounds=Ba2+ | Relative Activity/(%)=58.22 \u00b1 6.15"
   },
   {
-   "measurement_id": "BM001203",
+   "measurement_id": "BMD27D599CB5",
    "pmcid": "PMC10725956",
    "doi": "10.3389/fmicb.2023.1304233",
    "pubmed_id": "38111649",
@@ -7944,7 +7944,7 @@
    "quote": "Table in PMC10725956 \u2014 Table 1 :: Cations=CaCl2 | Relative activity (%) a=66.3 \u00b1 5.3"
   },
   {
-   "measurement_id": "BM000353",
+   "measurement_id": "BM72A7423672",
    "pmcid": "PMC11055803",
    "doi": "10.1007/s10529-024-03467-2",
    "pubmed_id": "38416309",
@@ -7970,7 +7970,7 @@
    "quote": "Table in PMC11055803 \u2014 Table 4 :: Enzyme=Na+ | Residual activity (%)=74.397 \u00b1 2.77"
   },
   {
-   "measurement_id": "BM000704",
+   "measurement_id": "BMF54859EFAF",
    "pmcid": "PMC11651597",
    "doi": "10.1371/journal.pone.0314556",
    "pubmed_id": "39689112",
@@ -7995,7 +7995,7 @@
    "quote": "Fig 5A illustrates that it remained stable between pH 6 and pH 9, retaining between 89% and 97% of its residual activity after 1 h of incubation at 35\u00b0C."
   },
   {
-   "measurement_id": "BM001319",
+   "measurement_id": "BMAC0E53CD88",
    "pmcid": "PMC11723331",
    "doi": "10.3390/plants14010055",
    "pubmed_id": "39795314",
@@ -8020,7 +8020,7 @@
    "quote": "At 0.1 mM concentrations, almost all used metals suppressed the CO2 hydration activity of rCAH3 by only ~20%, with the exception of Cu2+, which decreased the activity by ~50% (Figure 5B)."
   },
   {
-   "measurement_id": "BM000137",
+   "measurement_id": "BM293BC404FE",
    "pmcid": "PMC12720421",
    "doi": "10.1002/pro.70402",
    "pubmed_id": "41427655",
@@ -8046,7 +8046,7 @@
    "quote": "Table in PMC12720421 \u2014 TABLE 1 :: Protein=PpEST | Residual activity after 10 min at 99\u00b0C (%)=0"
   },
   {
-   "measurement_id": "BM000016",
+   "measurement_id": "BMDF192CA078",
    "pmcid": "PMC12741466",
    "doi": "10.1016/j.isci.2025.114173",
    "pubmed_id": "41458911",
@@ -8072,7 +8072,7 @@
    "quote": "Table in PMC12741466 \u2014 Table 1 :: Metal ions=FeCl3 | Residual activity (%)=88.8 \u00b1 4.3"
   },
   {
-   "measurement_id": "BM000081",
+   "measurement_id": "BM6F35BFE736",
    "pmcid": "PMC12896513",
    "doi": "10.3390/biology15030276",
    "pubmed_id": "41677747",
@@ -8097,7 +8097,7 @@
    "quote": "Specifically, 1 h incubations at 40 \u00b0C and 50 \u00b0C reduced activity by no more than 40%, whereas after 2 h, residual activity was reduced to no more than 20%."
   },
   {
-   "measurement_id": "BM000170",
+   "measurement_id": "BMB2EA3BA8D7",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -8122,7 +8122,7 @@
    "quote": "In the presence of 2mM ZnSO4, all enzymes showed an increase in relative activity, with Ces1-ET increasing by 8%, Est1-ET by 38%, and Plp1-ET by 18%."
   },
   {
-   "measurement_id": "BM000853",
+   "measurement_id": "BM6D04EE6237",
    "pmcid": "PMC4624153",
    "doi": "10.1007/s13205-015-0287-4",
    "pubmed_id": "28324398",
@@ -8148,7 +8148,7 @@
    "quote": "Table in PMC4624153 \u2014 Table 2 :: Reagent=FeCl3 | Relative activity (%)=87"
   },
   {
-   "measurement_id": "BM000812",
+   "measurement_id": "BMC14B397FA2",
    "pmcid": "PMC8971842",
    "doi": "10.3389/fbioe.2022.835847",
    "pubmed_id": "35372294",
@@ -8174,7 +8174,7 @@
    "quote": "Table in PMC8971842 \u2014 TABLE 2 :: Metal ions=Co2+ | Residual activity (%)=0"
   },
   {
-   "measurement_id": "BM000547",
+   "measurement_id": "BMA7AFC3785D",
    "pmcid": "PMC9065602",
    "doi": "10.3389/fbioe.2022.854298",
    "pubmed_id": "35519608",
@@ -8200,7 +8200,7 @@
    "quote": "Table in PMC9065602 \u2014 TABLE 5 :: Modulators/reagents=PMSF | Final concentration=1 mM | Relative activity (%)=69 \u00b1 0.5"
   },
   {
-   "measurement_id": "BM001342",
+   "measurement_id": "BMEC5ABE5F7A",
    "pmcid": "PMC9452428",
    "doi": "10.1007/s11274-022-03402-5",
    "pubmed_id": "36070019",
@@ -8226,7 +8226,7 @@
    "quote": "Table in PMC9452428 \u2014 Table 2 :: Effector=Control* | Residual activity (%) at=100.00"
   },
   {
-   "measurement_id": "BM001137",
+   "measurement_id": "BM321B809084",
    "pmcid": "PMC9709933",
    "doi": "10.1039/d2ra06138d",
    "pubmed_id": "36545586",
@@ -8251,7 +8251,7 @@
    "quote": "About 97% residual activity of esterase enzyme was obtained at pH 6.0 after the incubation of 3 h and 82% activity was obtained after 3 h of incubation at pH 8.0 while 78% residual activity was observed after 1 h at pH 9.0 as shown in Fig."
   },
   {
-   "measurement_id": "BM000589",
+   "measurement_id": "BMC3719577E5",
    "pmcid": "PMC9839772",
    "doi": "10.1038/s42003-023-04413-0",
    "pubmed_id": "36639437",
@@ -8276,7 +8276,7 @@
    "quote": "Next, 0.4 mg of the enzyme was incubated in 1 mL of 100 mM KH2PO4 buffer (pH 8.0) at 50, 55, 60, 65 and 70 \u00b0C for 3, 6, 9, and 12 h, followed by determining the residual activity."
   },
   {
-   "measurement_id": "BM000662",
+   "measurement_id": "BME0758EF792",
    "pmcid": "PMC10003648",
    "doi": "10.3390/ijms24054501",
    "pubmed_id": "36901931",
@@ -8302,7 +8302,7 @@
    "quote": "Table in PMC10003648 \u2014 Table 2 :: Modulators/Reagents=CaCl2 | Final Concentration=1 mmol L\u22121 | Relative Activity (%) *=93 \u00b1 2.5"
   },
   {
-   "measurement_id": "BM001493",
+   "measurement_id": "BMF5CE6F7039",
    "pmcid": "PMC10146132",
    "doi": "10.3390/microorganisms11040989",
    "pubmed_id": "37110412",
@@ -8328,7 +8328,7 @@
    "quote": "Table in PMC10146132 \u2014 Table 3 :: Metal Ions and Organic Compounds=Na+ | Relative Activity/(%)=105.95 \u00b1 2.90"
   },
   {
-   "measurement_id": "BM001204",
+   "measurement_id": "BME663808522",
    "pmcid": "PMC10725956",
    "doi": "10.3389/fmicb.2023.1304233",
    "pubmed_id": "38111649",
@@ -8354,7 +8354,7 @@
    "quote": "Table in PMC10725956 \u2014 Table 1 :: Cations=CuCl2 | Relative activity (%) a=52.4 \u00b1 2.3"
   },
   {
-   "measurement_id": "BM000354",
+   "measurement_id": "BM151F3D224E",
    "pmcid": "PMC11055803",
    "doi": "10.1007/s10529-024-03467-2",
    "pubmed_id": "38416309",
@@ -8380,7 +8380,7 @@
    "quote": "Table in PMC11055803 \u2014 Table 4 :: Enzyme=Fe3+ | Residual activity (%)=102.041 \u00b1 4.32"
   },
   {
-   "measurement_id": "BM000705",
+   "measurement_id": "BM0D67FCB6F6",
    "pmcid": "PMC11651597",
    "doi": "10.1371/journal.pone.0314556",
    "pubmed_id": "39689112",
@@ -8405,7 +8405,7 @@
    "quote": "Fig 5A illustrates that it remained stable between pH 6 and pH 9, retaining between 89% and 97% of its residual activity after 1 h of incubation at 35\u00b0C."
   },
   {
-   "measurement_id": "BM001320",
+   "measurement_id": "BMFD25C93A70",
    "pmcid": "PMC11723331",
    "doi": "10.3390/plants14010055",
    "pubmed_id": "39795314",
@@ -8430,7 +8430,7 @@
    "quote": "At the same time, the presence of 0.1 mM Co2+ and Ni2+ led to suppression of CA activity by only 2\u20137%."
   },
   {
-   "measurement_id": "BM000138",
+   "measurement_id": "BMFB01C94689",
    "pmcid": "PMC12720421",
    "doi": "10.1002/pro.70402",
    "pubmed_id": "41427655",
@@ -8456,7 +8456,7 @@
    "quote": "Table in PMC12720421 \u2014 TABLE 1 :: Protein=AlinE4 | Residual activity after 10 min at 99\u00b0C (%)=69.8 \u00b1 5.2"
   },
   {
-   "measurement_id": "BM000017",
+   "measurement_id": "BMCA781D1097",
    "pmcid": "PMC12741466",
    "doi": "10.1016/j.isci.2025.114173",
    "pubmed_id": "41458911",
@@ -8482,7 +8482,7 @@
    "quote": "Table in PMC12741466 \u2014 Table 1 :: Metal ions=CuSO4 | Residual activity (%)=0"
   },
   {
-   "measurement_id": "BM000082",
+   "measurement_id": "BM21576DCAD7",
    "pmcid": "PMC12896513",
    "doi": "10.3390/biology15030276",
    "pubmed_id": "41677747",
@@ -8507,7 +8507,7 @@
    "quote": "Specifically, 1 h incubations at 40 \u00b0C and 50 \u00b0C reduced activity by no more than 40%, whereas after 2 h, residual activity was reduced to no more than 20%."
   },
   {
-   "measurement_id": "BM000171",
+   "measurement_id": "BM6EAE45355A",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -8532,7 +8532,7 @@
    "quote": "In the case of Ces1-ET, activity is maintained at 55% at 2 M of NaCl, dropping to 39% at 4 M of NaCl."
   },
   {
-   "measurement_id": "BM000854",
+   "measurement_id": "BM2F01346C47",
    "pmcid": "PMC4624153",
    "doi": "10.1007/s13205-015-0287-4",
    "pubmed_id": "28324398",
@@ -8558,7 +8558,7 @@
    "quote": "Table in PMC4624153 \u2014 Table 2 :: Reagent=MgCl2 | Relative activity (%)=89"
   },
   {
-   "measurement_id": "BM000813",
+   "measurement_id": "BM538A26E520",
    "pmcid": "PMC8971842",
    "doi": "10.3389/fbioe.2022.835847",
    "pubmed_id": "35372294",
@@ -8584,7 +8584,7 @@
    "quote": "Table in PMC8971842 \u2014 TABLE 2 :: Metal ions=Fe3+ | Residual activity (%)=227.80 \u00b1 16.50"
   },
   {
-   "measurement_id": "BM000548",
+   "measurement_id": "BMAECF32EA6D",
    "pmcid": "PMC9065602",
    "doi": "10.3389/fbioe.2022.854298",
    "pubmed_id": "35519608",
@@ -8610,7 +8610,7 @@
    "quote": "Table in PMC9065602 \u2014 TABLE 5 :: Modulators/reagents=Tween80 | Final concentration=0.1% | Relative activity (%)=30 \u00b1 1.6"
   },
   {
-   "measurement_id": "BM001343",
+   "measurement_id": "BMCA33753E71",
    "pmcid": "PMC9452428",
    "doi": "10.1007/s11274-022-03402-5",
    "pubmed_id": "36070019",
@@ -8636,7 +8636,7 @@
    "quote": "Table in PMC9452428 \u2014 Table 2 :: Effector=Ca2+ | Residual activity (%) at=160.46 \u00b1 0.023"
   },
   {
-   "measurement_id": "BM001139",
+   "measurement_id": "BM85D0D3B07B",
    "pmcid": "PMC9709933",
    "doi": "10.1039/d2ra06138d",
    "pubmed_id": "36545586",
@@ -8661,7 +8661,7 @@
    "quote": "Results indicated that enzyme activity was enhanced up to 145.8% with the addition of 1 mM Ca2+ as shown in Fig."
   },
   {
-   "measurement_id": "BM000590",
+   "measurement_id": "BM7D11018C05",
    "pmcid": "PMC9839772",
    "doi": "10.1038/s42003-023-04413-0",
    "pubmed_id": "36639437",
@@ -8686,7 +8686,7 @@
    "quote": "Next, 0.4 mg of the enzyme was incubated in 1 mL of 100 mM KH2PO4 buffer (pH 8.0) at 50, 55, 60, 65 and 70 \u00b0C for 3, 6, 9, and 12 h, followed by determining the residual activity."
   },
   {
-   "measurement_id": "BM000663",
+   "measurement_id": "BM08E01BE135",
    "pmcid": "PMC10003648",
    "doi": "10.3390/ijms24054501",
    "pubmed_id": "36901931",
@@ -8712,7 +8712,7 @@
    "quote": "Table in PMC10003648 \u2014 Table 2 :: Modulators/Reagents=MgCl2 | Final Concentration=1 mmol L\u22121 | Relative Activity (%) *=96 \u00b1 2.1"
   },
   {
-   "measurement_id": "BM001494",
+   "measurement_id": "BM888365D501",
    "pmcid": "PMC10146132",
    "doi": "10.3390/microorganisms11040989",
    "pubmed_id": "37110412",
@@ -8738,7 +8738,7 @@
    "quote": "Table in PMC10146132 \u2014 Table 3 :: Metal Ions and Organic Compounds=Cu2+ | Relative Activity/(%)=50.86 \u00b1 5.23"
   },
   {
-   "measurement_id": "BM001205",
+   "measurement_id": "BM82937197FC",
    "pmcid": "PMC10725956",
    "doi": "10.3389/fmicb.2023.1304233",
    "pubmed_id": "38111649",
@@ -8764,7 +8764,7 @@
    "quote": "Table in PMC10725956 \u2014 Table 1 :: Cations=CoCl2 | Relative activity (%) a=117.6 \u00b1 9.2"
   },
   {
-   "measurement_id": "BM000355",
+   "measurement_id": "BMFE6343D3E3",
    "pmcid": "PMC11055803",
    "doi": "10.1007/s10529-024-03467-2",
    "pubmed_id": "38416309",
@@ -8790,7 +8790,7 @@
    "quote": "Table in PMC11055803 \u2014 Table 4 :: Enzyme=Cu2+ | Residual activity (%)=87.570 \u00b1 2.77"
   },
   {
-   "measurement_id": "BM000706",
+   "measurement_id": "BMC31B27FC98",
    "pmcid": "PMC11651597",
    "doi": "10.1371/journal.pone.0314556",
    "pubmed_id": "39689112",
@@ -8815,7 +8815,7 @@
    "quote": "However, exposure to pH 10 resulted in a marked decrease in activity, with only 51% residual activity observed after one h, and further decline to 22% at pH 11."
   },
   {
-   "measurement_id": "BM001321",
+   "measurement_id": "BM110D5CCDC6",
    "pmcid": "PMC11723331",
    "doi": "10.3390/plants14010055",
    "pubmed_id": "39795314",
@@ -8840,7 +8840,7 @@
    "quote": "At 1 mM concentrations of metals, the decrease in the CO2 hydration activity of rCAH3 reached ~30%, with the exception of Ni2+ (~47%), Cu2+ (~77%), and Zn2+ (~93%)."
   },
   {
-   "measurement_id": "BM000139",
+   "measurement_id": "BMF662108439",
    "pmcid": "PMC12720421",
    "doi": "10.1002/pro.70402",
    "pubmed_id": "41427655",
@@ -8866,7 +8866,7 @@
    "quote": "Table in PMC12720421 \u2014 TABLE 1 :: Protein=Ct_EST | Residual activity after 10 min at 99\u00b0C (%)=19.7 \u00b1 0.8"
   },
   {
-   "measurement_id": "BM000018",
+   "measurement_id": "BM9152B82FC2",
    "pmcid": "PMC12741466",
    "doi": "10.1016/j.isci.2025.114173",
    "pubmed_id": "41458911",
@@ -8892,7 +8892,7 @@
    "quote": "Table in PMC12741466 \u2014 Table 1 :: Metal ions=MnSO4 | Residual activity (%)=107.1 \u00b1 1.4"
   },
   {
-   "measurement_id": "BM000084",
+   "measurement_id": "BME600A0828C",
    "pmcid": "PMC12896513",
    "doi": "10.3390/biology15030276",
    "pubmed_id": "41677747",
@@ -8917,7 +8917,7 @@
    "quote": "These metal ions generally reduced the activity of the esterases in this study; however, rEST-24 exhibited tolerance to Mg2+, and the addition of 10 mM Mn2+ increased its activity."
   },
   {
-   "measurement_id": "BM000172",
+   "measurement_id": "BM68BF011ABC",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -8942,7 +8942,7 @@
    "quote": "For Est1-ET, enzymatic activity remains at 52% at 2 M of NaCl and decreases to 41% at 4 M of NaCl."
   },
   {
-   "measurement_id": "BM000855",
+   "measurement_id": "BM36229E04AC",
    "pmcid": "PMC4624153",
    "doi": "10.1007/s13205-015-0287-4",
    "pubmed_id": "28324398",
@@ -8968,7 +8968,7 @@
    "quote": "Table in PMC4624153 \u2014 Table 2 :: Reagent=Cd(NO3)2 | Relative activity (%)=87"
   },
   {
-   "measurement_id": "BM000814",
+   "measurement_id": "BM00520513EA",
    "pmcid": "PMC8971842",
    "doi": "10.3389/fbioe.2022.835847",
    "pubmed_id": "35372294",
@@ -8994,7 +8994,7 @@
    "quote": "Table in PMC8971842 \u2014 TABLE 2 :: Metal ions=Fe2+ | Residual activity (%)=166.00 \u00b1 1.90"
   },
   {
-   "measurement_id": "BM000549",
+   "measurement_id": "BM6849AC616B",
    "pmcid": "PMC9065602",
    "doi": "10.3389/fbioe.2022.854298",
    "pubmed_id": "35519608",
@@ -9020,7 +9020,7 @@
    "quote": "Table in PMC9065602 \u2014 TABLE 5 :: Modulators/reagents=SDS | Final concentration=5% | Relative activity (%)=26 \u00b1 1.0"
   },
   {
-   "measurement_id": "BM001344",
+   "measurement_id": "BM01CEBDDC4B",
    "pmcid": "PMC9452428",
    "doi": "10.1007/s11274-022-03402-5",
    "pubmed_id": "36070019",
@@ -9046,7 +9046,7 @@
    "quote": "Table in PMC9452428 \u2014 Table 2 :: Effector=Cu2+ | Residual activity (%) at=391.46 \u00b1 0.009"
   },
   {
-   "measurement_id": "BM001144",
+   "measurement_id": "BM60B9ABF4DB",
    "pmcid": "PMC9709933",
    "doi": "10.1039/d2ra06138d",
    "pubmed_id": "36545586",
@@ -9071,7 +9071,7 @@
    "quote": "The enzyme retained 74% activity at pH 4.0 and 55% activity at pH 11.0 after 1 h of incubation at room temperature."
   },
   {
-   "measurement_id": "BM000591",
+   "measurement_id": "BM3DA2D9C580",
    "pmcid": "PMC9839772",
    "doi": "10.1038/s42003-023-04413-0",
    "pubmed_id": "36639437",
@@ -9097,7 +9097,7 @@
    "quote": "Table in PMC9839772 \u2014 Table 1 :: Enzyme=IsPETase-Ec | TPA (mM)=0.0023 \u00b1 0.0004 | MHET (mM)=0.0039 \u00b1 0.0004 | Percentage of TPA (%)=36.84 \u00b1 1.72 | specific activity (U/mg)=1.0 \u00b1 0.17"
   },
   {
-   "measurement_id": "BM000664",
+   "measurement_id": "BM6483EA34A6",
    "pmcid": "PMC10003648",
    "doi": "10.3390/ijms24054501",
    "pubmed_id": "36901931",
@@ -9123,7 +9123,7 @@
    "quote": "Table in PMC10003648 \u2014 Table 2 :: Modulators/Reagents=NaCl | Final Concentration=50 mmol L\u22121 | Relative Activity (%) *=90 \u00b1 3.8"
   },
   {
-   "measurement_id": "BM001495",
+   "measurement_id": "BMAC7035A89B",
    "pmcid": "PMC10146132",
    "doi": "10.3390/microorganisms11040989",
    "pubmed_id": "37110412",
@@ -9149,7 +9149,7 @@
    "quote": "Table in PMC10146132 \u2014 Table 3 :: Metal Ions and Organic Compounds=Zn2+ | Relative Activity/(%)=81.14 \u00b1 5.16"
   },
   {
-   "measurement_id": "BM001206",
+   "measurement_id": "BMF40936711B",
    "pmcid": "PMC10725956",
    "doi": "10.3389/fmicb.2023.1304233",
    "pubmed_id": "38111649",
@@ -9175,7 +9175,7 @@
    "quote": "Table in PMC10725956 \u2014 Table 1 :: Cations=ZnCl2 | Relative activity (%) a=50.0 \u00b1 5.1"
   },
   {
-   "measurement_id": "BM000356",
+   "measurement_id": "BM11AA51C3C9",
    "pmcid": "PMC11055803",
    "doi": "10.1007/s10529-024-03467-2",
    "pubmed_id": "38416309",
@@ -9201,7 +9201,7 @@
    "quote": "Table in PMC11055803 \u2014 Table 4 :: Enzyme=PMSF | Residual activity (%)=36.642 \u00b1 3.45"
   },
   {
-   "measurement_id": "BM000707",
+   "measurement_id": "BM73CD9BDECC",
    "pmcid": "PMC11651597",
    "doi": "10.1371/journal.pone.0314556",
    "pubmed_id": "39689112",
@@ -9226,7 +9226,7 @@
    "quote": "However, exposure to pH 10 resulted in a marked decrease in activity, with only 51% residual activity observed after one h, and further decline to 22% at pH 11."
   },
   {
-   "measurement_id": "BM001322",
+   "measurement_id": "BME6BA4C2922",
    "pmcid": "PMC11723331",
    "doi": "10.3390/plants14010055",
    "pubmed_id": "39795314",
@@ -9251,7 +9251,7 @@
    "quote": "However, such incubations with 10 mM DTT and 0.75 mM Cys did not lead to a significant additional decrease in CA activity of rCAH3 (Table 1), indicating that the complete inhibitory effect of \u03b2-ME, DTT, and Cys was detected under their addition to the 3 mL thermostatic cell directly before measureme"
   },
   {
-   "measurement_id": "BM000141",
+   "measurement_id": "BM706BC7696C",
    "pmcid": "PMC12720421",
    "doi": "10.1002/pro.70402",
    "pubmed_id": "41427655",
@@ -9277,7 +9277,7 @@
    "quote": "Table in PMC12720421 \u2014 TABLE 1 :: Protein=Mt_EST | Residual activity after 10 min at 99\u00b0C (%)=16.6 \u00b1 0.7"
   },
   {
-   "measurement_id": "BM000020",
+   "measurement_id": "BM3F176841E7",
    "pmcid": "PMC12741466",
    "doi": "10.1016/j.isci.2025.114173",
    "pubmed_id": "41458911",
@@ -9303,7 +9303,7 @@
    "quote": "Table in PMC12741466 \u2014 Table 2 :: Organic solvent=Ethanola | Residual activity (%)=95.6 \u00b1 1.4"
   },
   {
-   "measurement_id": "BM000085",
+   "measurement_id": "BM0DAA8043E3",
    "pmcid": "PMC12896513",
    "doi": "10.3390/biology15030276",
    "pubmed_id": "41677747",
@@ -9329,7 +9329,7 @@
    "quote": "Table in PMC12896513 \u2014 Table 2 :: Metal Ion=Control | Concentration=10 mM | Residual Activity, %=100 \u00b1 5"
   },
   {
-   "measurement_id": "BM000173",
+   "measurement_id": "BM9D7A667F3A",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -9354,7 +9354,7 @@
    "quote": "Similarly, Plp1-ET retains 60% activity at 2 M and 45% at 4 M of NaCl."
   },
   {
-   "measurement_id": "BM000856",
+   "measurement_id": "BM1BFCA9603A",
    "pmcid": "PMC4624153",
    "doi": "10.1007/s13205-015-0287-4",
    "pubmed_id": "28324398",
@@ -9380,7 +9380,7 @@
    "quote": "Table in PMC4624153 \u2014 Table 2 :: Reagent=[Mn(CH3COO)2] | Relative activity (%)=86"
   },
   {
-   "measurement_id": "BM000815",
+   "measurement_id": "BMF0DBAAEE46",
    "pmcid": "PMC8971842",
    "doi": "10.3389/fbioe.2022.835847",
    "pubmed_id": "35372294",
@@ -9406,7 +9406,7 @@
    "quote": "Table in PMC8971842 \u2014 TABLE 2 :: Metal ions=Cu2+ | Residual activity (%)=88.20 \u00b1 0.50"
   },
   {
-   "measurement_id": "BM000550",
+   "measurement_id": "BM79ED78B8DA",
    "pmcid": "PMC9065602",
    "doi": "10.3389/fbioe.2022.854298",
    "pubmed_id": "35519608",
@@ -9432,7 +9432,7 @@
    "quote": "Table in PMC9065602 \u2014 TABLE 5 :: Modulators/reagents=Enzyme activity (Without modulator) | Relative activity (%)=100"
   },
   {
-   "measurement_id": "BM001345",
+   "measurement_id": "BM4BD87F9106",
    "pmcid": "PMC9452428",
    "doi": "10.1007/s11274-022-03402-5",
    "pubmed_id": "36070019",
@@ -9458,7 +9458,7 @@
    "quote": "Table in PMC9452428 \u2014 Table 2 :: Effector=Zn2+ | Residual activity (%) at=42.83 \u00b1 0.006"
   },
   {
-   "measurement_id": "BM001145",
+   "measurement_id": "BMAFA2119D8D",
    "pmcid": "PMC9709933",
    "doi": "10.1039/d2ra06138d",
    "pubmed_id": "36545586",
@@ -9483,7 +9483,7 @@
    "quote": "The enzyme retained 74% activity at pH 4.0 and 55% activity at pH 11.0 after 1 h of incubation at room temperature."
   },
   {
-   "measurement_id": "BM000592",
+   "measurement_id": "BMF21EE1D855",
    "pmcid": "PMC9839772",
    "doi": "10.1038/s42003-023-04413-0",
    "pubmed_id": "36639437",
@@ -9509,7 +9509,7 @@
    "quote": "Table in PMC9839772 \u2014 Table 1 :: Enzyme=IsPETase-Pp | TPA (mM)=0.2492 \u00b1 0.0061 | MHET (mM)=0.0386 \u00b1 0.0011 | Percentage of TPA (%)=86.60 \u00b1 0.06 | specific activity (U/mg)=20.6 \u00b1 0.74"
   },
   {
-   "measurement_id": "BM000665",
+   "measurement_id": "BM37945B7CB7",
    "pmcid": "PMC10003648",
    "doi": "10.3390/ijms24054501",
    "pubmed_id": "36901931",
@@ -9535,7 +9535,7 @@
    "quote": "Table in PMC10003648 \u2014 Table 2 :: Modulators/Reagents=PMSF | Final Concentration=1 mmol L\u22121 | Relative Activity (%) *=71 \u00b1 4.5"
   },
   {
-   "measurement_id": "BM001496",
+   "measurement_id": "BM74E149FDB9",
    "pmcid": "PMC10146132",
    "doi": "10.3390/microorganisms11040989",
    "pubmed_id": "37110412",
@@ -9561,7 +9561,7 @@
    "quote": "Table in PMC10146132 \u2014 Table 3 :: Metal Ions and Organic Compounds=Fe3+ | Relative Activity/(%)=79.05 \u00b1 4.08"
   },
   {
-   "measurement_id": "BM001207",
+   "measurement_id": "BM3BF6E009ED",
    "pmcid": "PMC10725956",
    "doi": "10.3389/fmicb.2023.1304233",
    "pubmed_id": "38111649",
@@ -9587,7 +9587,7 @@
    "quote": "Table in PMC10725956 \u2014 Table 1 :: Cations=NiCl2 | Relative activity (%) a=142.8 \u00b1 1.3"
   },
   {
-   "measurement_id": "BM000357",
+   "measurement_id": "BMEC708FA3D7",
    "pmcid": "PMC11055803",
    "doi": "10.1007/s10529-024-03467-2",
    "pubmed_id": "38416309",
@@ -9613,7 +9613,7 @@
    "quote": "Table in PMC11055803 \u2014 Table 4 :: Enzyme=SDS | Residual activity (%)=55.659 \u00b1 4.15"
   },
   {
-   "measurement_id": "BM000708",
+   "measurement_id": "BM594A400046",
    "pmcid": "PMC11651597",
    "doi": "10.1371/journal.pone.0314556",
    "pubmed_id": "39689112",
@@ -9638,7 +9638,7 @@
    "quote": "Upon increasing the metal ion concentration to 5 mM, it was observed that Na+, K+, and Mg2+ had a positive effect on lipase activity, enhancing it."
   },
   {
-   "measurement_id": "BM001323",
+   "measurement_id": "BM0A8AE5B1D0",
    "pmcid": "PMC11723331",
    "doi": "10.3390/plants14010055",
    "pubmed_id": "39795314",
@@ -9663,7 +9663,7 @@
    "quote": "A small decrease in activity (by ~6%) was detected when 0.75 M NaCl was used and a significant decrease in activity (by ~41%) was observed in the case of 0.25 M NaCl."
   },
   {
-   "measurement_id": "BM000142",
+   "measurement_id": "BMCBC0B8A0A8",
    "pmcid": "PMC12720421",
    "doi": "10.1002/pro.70402",
    "pubmed_id": "41427655",
@@ -9689,7 +9689,7 @@
    "quote": "Table in PMC12720421 \u2014 TABLE 1 :: Protein=Pmt_EST | Residual activity after 10 min at 99\u00b0C (%)=19.1 \u00b1 0.1"
   },
   {
-   "measurement_id": "BM000021",
+   "measurement_id": "BMCF8FEFE346",
    "pmcid": "PMC12741466",
    "doi": "10.1016/j.isci.2025.114173",
    "pubmed_id": "41458911",
@@ -9715,7 +9715,7 @@
    "quote": "Table in PMC12741466 \u2014 Table 2 :: Organic solvent=Methanola | Residual activity (%)=96.2 \u00b1 0.5"
   },
   {
-   "measurement_id": "BM000086",
+   "measurement_id": "BMCE24BC31AB",
    "pmcid": "PMC12896513",
    "doi": "10.3390/biology15030276",
    "pubmed_id": "41677747",
@@ -9741,7 +9741,7 @@
    "quote": "Table in PMC12896513 \u2014 Table 2 :: Metal Ion=Ca2+ | Concentration=10 mM | Residual Activity, %=52 \u00b1 6"
   },
   {
-   "measurement_id": "BM000174",
+   "measurement_id": "BM53CFB4C04C",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -9767,7 +9767,7 @@
    "quote": "Table in PMC12898461 \u2014 Table 3 :: Enzyme=Ces1-ET | Vmax(\u00b5moles p-Nitrophenol/10 min)=15 \u00b1 4 | Km (mM)=0.25 \u00b10.05"
   },
   {
-   "measurement_id": "BM000857",
+   "measurement_id": "BME3F79FF008",
    "pmcid": "PMC4624153",
    "doi": "10.1007/s13205-015-0287-4",
    "pubmed_id": "28324398",
@@ -9793,7 +9793,7 @@
    "quote": "Table in PMC4624153 \u2014 Table 2 :: Reagent=Fe2SO4 | Relative activity (%)=16"
   },
   {
-   "measurement_id": "BM000816",
+   "measurement_id": "BM0C6AD66122",
    "pmcid": "PMC8971842",
    "doi": "10.3389/fbioe.2022.835847",
    "pubmed_id": "35372294",
@@ -9819,7 +9819,7 @@
    "quote": "Table in PMC8971842 \u2014 TABLE 2 :: Metal ions=Mn2+ | Residual activity (%)=41.50 \u00b1 2.40"
   },
   {
-   "measurement_id": "BM000551",
+   "measurement_id": "BM38DE2CE8BA",
    "pmcid": "PMC9065602",
    "doi": "10.3389/fbioe.2022.854298",
    "pubmed_id": "35519608",
@@ -9845,7 +9845,7 @@
    "quote": "Table in PMC9065602 \u2014 TABLE 6 :: Substrate=LIP1 | Relative activity (%) a=LIP2"
   },
   {
-   "measurement_id": "BM001346",
+   "measurement_id": "BM5A5B689825",
    "pmcid": "PMC9452428",
    "doi": "10.1007/s11274-022-03402-5",
    "pubmed_id": "36070019",
@@ -9871,7 +9871,7 @@
    "quote": "Table in PMC9452428 \u2014 Table 2 :: Effector=K+ | Residual activity (%) at=68.71 \u00b1 0.014"
   },
   {
-   "measurement_id": "BM001146",
+   "measurement_id": "BM351173F1F9",
    "pmcid": "PMC9709933",
    "doi": "10.1039/d2ra06138d",
    "pubmed_id": "36545586",
@@ -9897,7 +9897,7 @@
    "quote": "Table in PMC9709933 \u2014 Compatibility of esterase enzyme with laundry detergents :: Sr. no.=1 | Supplements=Control | Residual activity=100%"
   },
   {
-   "measurement_id": "BM000593",
+   "measurement_id": "BM74335EFBC0",
    "pmcid": "PMC9839772",
    "doi": "10.1038/s42003-023-04413-0",
    "pubmed_id": "36639437",
@@ -9923,7 +9923,7 @@
    "quote": "Table in PMC9839772 \u2014 Table 1 :: Enzyme=partial-deglyco IsPETase-Pp | TPA (mM)=0.8427 \u00b1 0.0154 | MHET (mM)=0.0469 \u00b1 0.0012 | Percentage of TPA (%)=94.72 \u00b1 0.02 | specific activity (U/mg)=62.4 \u00b1 1.64"
   },
   {
-   "measurement_id": "BM000666",
+   "measurement_id": "BM6344F3C8A1",
    "pmcid": "PMC10003648",
    "doi": "10.3390/ijms24054501",
    "pubmed_id": "36901931",
@@ -9949,7 +9949,7 @@
    "quote": "Table in PMC10003648 \u2014 Table 2 :: Modulators/Reagents=Tween80 | Final Concentration=0.1% | Relative Activity (%) *=47 \u00b1 3.8"
   },
   {
-   "measurement_id": "BM001497",
+   "measurement_id": "BM96A7ED48E0",
    "pmcid": "PMC10146132",
    "doi": "10.3390/microorganisms11040989",
    "pubmed_id": "37110412",
@@ -9975,7 +9975,7 @@
    "quote": "Table in PMC10146132 \u2014 Table 3 :: Metal Ions and Organic Compounds=Li+ | Relative Activity/(%)=72.85 \u00b1 6.96"
   },
   {
-   "measurement_id": "BM000358",
+   "measurement_id": "BM0545E6ED2B",
    "pmcid": "PMC11055803",
    "doi": "10.1007/s10529-024-03467-2",
    "pubmed_id": "38416309",
@@ -10001,7 +10001,7 @@
    "quote": "Table in PMC11055803 \u2014 Table 4 :: Enzyme=Tween 80 | Residual activity (%)=45.501 \u00b1 2.36"
   },
   {
-   "measurement_id": "BM000709",
+   "measurement_id": "BM8A9D128757",
    "pmcid": "PMC11651597",
    "doi": "10.1371/journal.pone.0314556",
    "pubmed_id": "39689112",
@@ -10026,7 +10026,7 @@
    "quote": "Ammonium persulfate had no effect at 1 mM but increased activity by 17% at 5 mM."
   },
   {
-   "measurement_id": "BM001324",
+   "measurement_id": "BMDE6FB03F9F",
    "pmcid": "PMC11723331",
    "doi": "10.3390/plants14010055",
    "pubmed_id": "39795314",
@@ -10051,7 +10051,7 @@
    "quote": "Moreover, the addition of Zn2+ led to a clear suppression of esterase activity of rCAH3 from ~2850 U mg\u22121 to ~770 U mg\u22121 (~27%) at 1 mM ZnSO4."
   },
   {
-   "measurement_id": "BM000143",
+   "measurement_id": "BMFFF47FADE9",
    "pmcid": "PMC12720421",
    "doi": "10.1002/pro.70402",
    "pubmed_id": "41427655",
@@ -10077,7 +10077,7 @@
    "quote": "Table in PMC12720421 \u2014 TABLE 1 :: Protein=Rp_EST | Residual activity after 10 min at 99\u00b0C (%)=27.9 \u00b1 2.1"
   },
   {
-   "measurement_id": "BM000022",
+   "measurement_id": "BM06D1430654",
    "pmcid": "PMC12741466",
    "doi": "10.1016/j.isci.2025.114173",
    "pubmed_id": "41458911",
@@ -10103,7 +10103,7 @@
    "quote": "Table in PMC12741466 \u2014 Table 2 :: Organic solvent=Glycerola | Residual activity (%)=97.9 \u00b1 2.2"
   },
   {
-   "measurement_id": "BM000087",
+   "measurement_id": "BM264F6AEB4B",
    "pmcid": "PMC12896513",
    "doi": "10.3390/biology15030276",
    "pubmed_id": "41677747",
@@ -10129,7 +10129,7 @@
    "quote": "Table in PMC12896513 \u2014 Table 2 :: Metal Ion=Mg2+ | Concentration=10 mM | Residual Activity, %=102 \u00b1 3"
   },
   {
-   "measurement_id": "BM000175",
+   "measurement_id": "BMBA7CDC29DB",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -10155,7 +10155,7 @@
    "quote": "Table in PMC12898461 \u2014 Table 3 :: Enzyme=Est1-ET | Vmax(\u00b5moles p-Nitrophenol/10 min)=13 \u00b1 2 | Km (mM)=0.20 \u00b10.01"
   },
   {
-   "measurement_id": "BM000858",
+   "measurement_id": "BM90F3D9328F",
    "pmcid": "PMC4624153",
    "doi": "10.1007/s13205-015-0287-4",
    "pubmed_id": "28324398",
@@ -10181,7 +10181,7 @@
    "quote": "Table in PMC4624153 \u2014 Table 2 :: Reagent=(C6H5FeO7)\u00b7xH2O | Relative activity (%)=03"
   },
   {
-   "measurement_id": "BM000817",
+   "measurement_id": "BM84CD06F528",
    "pmcid": "PMC8971842",
    "doi": "10.3389/fbioe.2022.835847",
    "pubmed_id": "35372294",
@@ -10207,7 +10207,7 @@
    "quote": "Table in PMC8971842 \u2014 TABLE 3 :: Organic solvent=1% | Residual activity (%)=10%"
   },
   {
-   "measurement_id": "BM000552",
+   "measurement_id": "BM8B7CE63B2D",
    "pmcid": "PMC9065602",
    "doi": "10.3389/fbioe.2022.854298",
    "pubmed_id": "35519608",
@@ -10233,7 +10233,7 @@
    "quote": "Table in PMC9065602 \u2014 TABLE 6 :: Substrate=PHBV | Relative activity (%) a=74.35 \u00b1 2.2"
   },
   {
-   "measurement_id": "BM001347",
+   "measurement_id": "BMF88DE1F32D",
    "pmcid": "PMC9452428",
    "doi": "10.1007/s11274-022-03402-5",
    "pubmed_id": "36070019",
@@ -10259,7 +10259,7 @@
    "quote": "Table in PMC9452428 \u2014 Table 2 :: Effector=Mo2+ | Residual activity (%) at=79.04 \u00b1 0.030"
   },
   {
-   "measurement_id": "BM001147",
+   "measurement_id": "BMC69A96E86C",
    "pmcid": "PMC9709933",
    "doi": "10.1039/d2ra06138d",
    "pubmed_id": "36545586",
@@ -10285,7 +10285,7 @@
    "quote": "Table in PMC9709933 \u2014 Compatibility of esterase enzyme with laundry detergents :: Sr. no.=2 | Supplements=Bright | Residual activity=90%"
   },
   {
-   "measurement_id": "BM000667",
+   "measurement_id": "BMD96E1B951F",
    "pmcid": "PMC10003648",
    "doi": "10.3390/ijms24054501",
    "pubmed_id": "36901931",
@@ -10311,7 +10311,7 @@
    "quote": "Table in PMC10003648 \u2014 Table 2 :: Modulators/Reagents=SDS | Final Concentration=5% | Relative Activity (%) *=30 \u00b1 0.6"
   },
   {
-   "measurement_id": "BM001498",
+   "measurement_id": "BMB883CF0781",
    "pmcid": "PMC10146132",
    "doi": "10.3390/microorganisms11040989",
    "pubmed_id": "37110412",
@@ -10337,7 +10337,7 @@
    "quote": "Table in PMC10146132 \u2014 Table 3 :: Metal Ions and Organic Compounds=Mn2+ | Relative Activity/(%)=60.33 \u00b1 6.73"
   },
   {
-   "measurement_id": "BM000710",
+   "measurement_id": "BM0A64E2A90D",
    "pmcid": "PMC11651597",
    "doi": "10.1371/journal.pone.0314556",
    "pubmed_id": "39689112",
@@ -10362,7 +10362,7 @@
    "quote": "Upon evaluation of the impact of metal ions on recombinant lipase MLipA, it was observed that all bivalents tested, with the exception of Zn2+, enhanced the lipase activity at a concentration of 1 mM."
   },
   {
-   "measurement_id": "BM001325",
+   "measurement_id": "BM83E6C3221D",
    "pmcid": "PMC11723331",
    "doi": "10.3390/plants14010055",
    "pubmed_id": "39795314",
@@ -10387,7 +10387,7 @@
    "quote": "In addition, rCAH3 showed good long-term stability at alkaline pH, maintaining more than half of its CO2 hydration activity under incubation at 4 \u00b0C for up to 50 days (Figure 3)."
   },
   {
-   "measurement_id": "BM000147",
+   "measurement_id": "BM18902FCAC1",
    "pmcid": "PMC12720421",
    "doi": "10.1002/pro.70402",
    "pubmed_id": "41427655",
@@ -10413,7 +10413,7 @@
    "quote": "Table in PMC12720421 \u2014 TABLE 3 :: =AlinE4 | k cat (s\u22121)=15.0 \u00b1 1.4 | K M (\u03bcM)=194 \u00b1 55 | k cat/K M (s\u22121 M\u22121)=7.7 \u00d7 104"
   },
   {
-   "measurement_id": "BM000023",
+   "measurement_id": "BM00E89F79EA",
    "pmcid": "PMC12741466",
    "doi": "10.1016/j.isci.2025.114173",
    "pubmed_id": "41458911",
@@ -10439,7 +10439,7 @@
    "quote": "Table in PMC12741466 \u2014 Table 2 :: Organic solvent=Triton X-100a | Residual activity (%)=13.8 \u00b1 1.9"
   },
   {
-   "measurement_id": "BM000088",
+   "measurement_id": "BMA361B4A612",
    "pmcid": "PMC12896513",
    "doi": "10.3390/biology15030276",
    "pubmed_id": "41677747",
@@ -10465,7 +10465,7 @@
    "quote": "Table in PMC12896513 \u2014 Table 2 :: Metal Ion=Mn2+ | Concentration=10 mM | Residual Activity, %=126 \u00b1 5"
   },
   {
-   "measurement_id": "BM000176",
+   "measurement_id": "BM26212CCF03",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -10491,7 +10491,7 @@
    "quote": "Table in PMC12898461 \u2014 Table 3 :: Enzyme=Plp1-ET | Vmax(\u00b5moles p-Nitrophenol/10 min)=18 \u00b1 4 | Km (mM)=0.30 \u00b1 0.05"
   },
   {
-   "measurement_id": "BM000859",
+   "measurement_id": "BM2FC0C8324D",
    "pmcid": "PMC4624153",
    "doi": "10.1007/s13205-015-0287-4",
    "pubmed_id": "28324398",
@@ -10517,7 +10517,7 @@
    "quote": "Table in PMC4624153 \u2014 Table 2 :: Reagent=DAN | Relative activity (%)=53"
   },
   {
-   "measurement_id": "BM000818",
+   "measurement_id": "BMB8FF4666E2",
    "pmcid": "PMC8971842",
    "doi": "10.3389/fbioe.2022.835847",
    "pubmed_id": "35372294",
@@ -10543,7 +10543,7 @@
    "quote": "Table in PMC8971842 \u2014 TABLE 3 :: Organic solvent=Methanol | Residual activity (%)=84.50 \u00b1 0.49"
   },
   {
-   "measurement_id": "BM000553",
+   "measurement_id": "BM6F4474E0E1",
    "pmcid": "PMC9065602",
    "doi": "10.3389/fbioe.2022.854298",
    "pubmed_id": "35519608",
@@ -10569,7 +10569,7 @@
    "quote": "Table in PMC9065602 \u2014 TABLE 6 :: Substrate=PHHx | Relative activity (%) a=79.31 \u00b1 5.5"
   },
   {
-   "measurement_id": "BM001348",
+   "measurement_id": "BM604F9C89DB",
    "pmcid": "PMC9452428",
    "doi": "10.1007/s11274-022-03402-5",
    "pubmed_id": "36070019",
@@ -10595,7 +10595,7 @@
    "quote": "Table in PMC9452428 \u2014 Table 2 :: Effector=Mg2+ | Residual activity (%) at=93.44 \u00b1 0.004"
   },
   {
-   "measurement_id": "BM001148",
+   "measurement_id": "BM564607CF44",
    "pmcid": "PMC9709933",
    "doi": "10.1039/d2ra06138d",
    "pubmed_id": "36545586",
@@ -10621,7 +10621,7 @@
    "quote": "Table in PMC9709933 \u2014 Compatibility of esterase enzyme with laundry detergents :: Sr. no.=3 | Supplements=SurfExcel | Residual activity=82%"
   },
   {
-   "measurement_id": "BM000668",
+   "measurement_id": "BM28C7189CA7",
    "pmcid": "PMC10003648",
    "doi": "10.3390/ijms24054501",
    "pubmed_id": "36901931",
@@ -10647,7 +10647,7 @@
    "quote": "Table in PMC10003648 \u2014 Table 2 :: Modulators/Reagents=Enzyme activity (without modulator) | Relative Activity (%) *=100"
   },
   {
-   "measurement_id": "BM001499",
+   "measurement_id": "BMCC488EFA76",
    "pmcid": "PMC10146132",
    "doi": "10.3390/microorganisms11040989",
    "pubmed_id": "37110412",
@@ -10673,7 +10673,7 @@
    "quote": "Table in PMC10146132 \u2014 Table 3 :: Metal Ions and Organic Compounds=Mg2+ | Relative Activity/(%)=79.42 \u00b1 7.52"
   },
   {
-   "measurement_id": "BM000711",
+   "measurement_id": "BM58030D7CD3",
    "pmcid": "PMC11651597",
    "doi": "10.1371/journal.pone.0314556",
    "pubmed_id": "39689112",
@@ -10698,7 +10698,7 @@
    "quote": "In addition to Ca2+, Ba2+ showed only a slight increase in activity of lipase, while Cu2+ and Co2+ had minimal effect at 1 mM."
   },
   {
-   "measurement_id": "BM000148",
+   "measurement_id": "BM64EF4F1D0E",
    "pmcid": "PMC12720421",
    "doi": "10.1002/pro.70402",
    "pubmed_id": "41427655",
@@ -10724,7 +10724,7 @@
    "quote": "Table in PMC12720421 \u2014 TABLE 3 :: =PpEST | k cat (s\u22121)=14.0 \u00b1 1.0 | K M (\u03bcM)=242 \u00b1 49 | k cat/K M (s\u22121 M\u22121)=5.8 \u00d7 104"
   },
   {
-   "measurement_id": "BM000024",
+   "measurement_id": "BM36A09A828C",
    "pmcid": "PMC12741466",
    "doi": "10.1016/j.isci.2025.114173",
    "pubmed_id": "41458911",
@@ -10750,7 +10750,7 @@
    "quote": "Table in PMC12741466 \u2014 Table 2 :: Organic solvent=Tween-80a | Residual activity (%)=12.7 \u00b1 1.2"
   },
   {
-   "measurement_id": "BM000089",
+   "measurement_id": "BMBA3C4344CC",
    "pmcid": "PMC12896513",
    "doi": "10.3390/biology15030276",
    "pubmed_id": "41677747",
@@ -10776,7 +10776,7 @@
    "quote": "Table in PMC12896513 \u2014 Table 2 :: Metal Ion=Cu2+ | Concentration=10 mM | Residual Activity, %=0"
   },
   {
-   "measurement_id": "BM000177",
+   "measurement_id": "BMDD023EA17B",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -10802,7 +10802,7 @@
    "quote": "Table in PMC12898461 \u2014 Table 4 :: =Ces1-ET | Relative Activity (%)=Est1-ET"
   },
   {
-   "measurement_id": "BM000860",
+   "measurement_id": "BM5585A62A23",
    "pmcid": "PMC4624153",
    "doi": "10.1007/s13205-015-0287-4",
    "pubmed_id": "28324398",
@@ -10828,7 +10828,7 @@
    "quote": "Table in PMC4624153 \u2014 Table 2 :: Reagent=TLCK | Relative activity (%)=54"
   },
   {
-   "measurement_id": "BM000819",
+   "measurement_id": "BM5C38B4C699",
    "pmcid": "PMC8971842",
    "doi": "10.3389/fbioe.2022.835847",
    "pubmed_id": "35372294",
@@ -10854,7 +10854,7 @@
    "quote": "Table in PMC8971842 \u2014 TABLE 3 :: Organic solvent=Ethanol | Residual activity (%)=96.60 \u00b1 0.80"
   },
   {
-   "measurement_id": "BM000555",
+   "measurement_id": "BM5159AF45D5",
    "pmcid": "PMC9065602",
    "doi": "10.3389/fbioe.2022.854298",
    "pubmed_id": "35519608",
@@ -10880,7 +10880,7 @@
    "quote": "Table in PMC9065602 \u2014 TABLE 6 :: Substrate=PHN | Relative activity (%) a=92.33 \u00b1 3.2"
   },
   {
-   "measurement_id": "BM001349",
+   "measurement_id": "BMC46B166B5A",
    "pmcid": "PMC9452428",
    "doi": "10.1007/s11274-022-03402-5",
    "pubmed_id": "36070019",
@@ -10906,7 +10906,7 @@
    "quote": "Table in PMC9452428 \u2014 Table 2 :: Effector=EDTA | Residual activity (%) at=196.67 \u00b1 0.026"
   },
   {
-   "measurement_id": "BM001149",
+   "measurement_id": "BMFD15867B06",
    "pmcid": "PMC9709933",
    "doi": "10.1039/d2ra06138d",
    "pubmed_id": "36545586",
@@ -10932,7 +10932,7 @@
    "quote": "Table in PMC9709933 \u2014 Compatibility of esterase enzyme with laundry detergents :: Sr. no.=4 | Supplements=Ariel | Residual activity=78%"
   },
   {
-   "measurement_id": "BM000669",
+   "measurement_id": "BM3F0981E8AC",
    "pmcid": "PMC10003648",
    "doi": "10.3390/ijms24054501",
    "pubmed_id": "36901931",
@@ -10958,7 +10958,7 @@
    "quote": "Table in PMC10003648 \u2014 Table 3 :: Substrate=LIP3 | Relative Activity (%) *=LIP4"
   },
   {
-   "measurement_id": "BM001500",
+   "measurement_id": "BMF3F51E1EAD",
    "pmcid": "PMC10146132",
    "doi": "10.3390/microorganisms11040989",
    "pubmed_id": "37110412",
@@ -10984,7 +10984,7 @@
    "quote": "Table in PMC10146132 \u2014 Table 3 :: Metal Ions and Organic Compounds=Ca2+ | Relative Activity/(%)=55.56 \u00b1 5.21"
   },
   {
-   "measurement_id": "BM000712",
+   "measurement_id": "BMA1AAAC0297",
    "pmcid": "PMC11651597",
    "doi": "10.1371/journal.pone.0314556",
    "pubmed_id": "39689112",
@@ -11009,7 +11009,7 @@
    "quote": "However, at a higher concentration of 5 mM, both Cu2+ and Co2+ caused a significant inhibition of lipase activity, while Ca2+ and Ba2+ only had a slight inhibitory effect."
   },
   {
-   "measurement_id": "BM000149",
+   "measurement_id": "BMF474F38B87",
    "pmcid": "PMC12720421",
    "doi": "10.1002/pro.70402",
    "pubmed_id": "41427655",
@@ -11035,7 +11035,7 @@
    "quote": "Table in PMC12720421 \u2014 TABLE 3 :: =Ct_EST | k cat (s\u22121)=38.5 \u00b1 4.8 | K M (\u03bcM)=791 \u00b1 178 | k cat/K M (s\u22121 M\u22121)=4.9 \u00d7 104"
   },
   {
-   "measurement_id": "BM000025",
+   "measurement_id": "BM591B117F4B",
    "pmcid": "PMC12741466",
    "doi": "10.1016/j.isci.2025.114173",
    "pubmed_id": "41458911",
@@ -11061,7 +11061,7 @@
    "quote": "Table in PMC12741466 \u2014 Table 2 :: Organic solvent=PMSFb | Residual activity (%)=95.7 \u00b1 2.5"
   },
   {
-   "measurement_id": "BM000090",
+   "measurement_id": "BMC240C45597",
    "pmcid": "PMC12896513",
    "doi": "10.3390/biology15030276",
    "pubmed_id": "41677747",
@@ -11087,7 +11087,7 @@
    "quote": "Table in PMC12896513 \u2014 Table 2 :: Metal Ion=Zn2+ | Concentration=10 mM | Residual Activity, %=23 \u00b1 4"
   },
   {
-   "measurement_id": "BM000179",
+   "measurement_id": "BM352918D2FB",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -11113,7 +11113,7 @@
    "quote": "Table in PMC12898461 \u2014 Table 4 :: =CaCl2 | Relative Activity (%)=100 \u00b1 9"
   },
   {
-   "measurement_id": "BM000861",
+   "measurement_id": "BMC9D092D59C",
    "pmcid": "PMC4624153",
    "doi": "10.1007/s13205-015-0287-4",
    "pubmed_id": "28324398",
@@ -11139,7 +11139,7 @@
    "quote": "Table in PMC4624153 \u2014 Table 2 :: Reagent=NEM | Relative activity (%)=0"
   },
   {
-   "measurement_id": "BM000820",
+   "measurement_id": "BM6392EBEEC7",
    "pmcid": "PMC8971842",
    "doi": "10.3389/fbioe.2022.835847",
    "pubmed_id": "35372294",
@@ -11165,7 +11165,7 @@
    "quote": "Table in PMC8971842 \u2014 TABLE 3 :: Organic solvent=Glycerol | Residual activity (%)=108.80 \u00b1 1.30"
   },
   {
-   "measurement_id": "BM000556",
+   "measurement_id": "BM83DA3AE6A2",
    "pmcid": "PMC9065602",
    "doi": "10.3389/fbioe.2022.854298",
    "pubmed_id": "35519608",
@@ -11191,7 +11191,7 @@
    "quote": "Table in PMC9065602 \u2014 TABLE 6 :: Substrate=PHD | Relative activity (%) a=83.19 \u00b1 4.9"
   },
   {
-   "measurement_id": "BM001350",
+   "measurement_id": "BM4907679167",
    "pmcid": "PMC9452428",
    "doi": "10.1007/s11274-022-03402-5",
    "pubmed_id": "36070019",
@@ -11217,7 +11217,7 @@
    "quote": "Table in PMC9452428 \u2014 Table 2 :: Effector=\u0392-mercaptoethanol | Residual activity (%) at=252.55 \u00b1 0.006"
   },
   {
-   "measurement_id": "BM000670",
+   "measurement_id": "BMF83F2E9732",
    "pmcid": "PMC10003648",
    "doi": "10.3390/ijms24054501",
    "pubmed_id": "36901931",
@@ -11243,7 +11243,7 @@
    "quote": "Table in PMC10003648 \u2014 Table 3 :: Substrate=PHBV | Relative Activity (%) *=70.82 \u00b1 3.6"
   },
   {
-   "measurement_id": "BM000713",
+   "measurement_id": "BM59E724CF2E",
    "pmcid": "PMC11651597",
    "doi": "10.1371/journal.pone.0314556",
    "pubmed_id": "39689112",
@@ -11269,7 +11269,7 @@
    "quote": "Table in PMC11651597 \u2014 Table 2 :: =DMSO | Relative Activity (%)=-1.22"
   },
   {
-   "measurement_id": "BM000150",
+   "measurement_id": "BMCC7E70BB24",
    "pmcid": "PMC12720421",
    "doi": "10.1002/pro.70402",
    "pubmed_id": "41427655",
@@ -11295,7 +11295,7 @@
    "quote": "Table in PMC12720421 \u2014 TABLE 3 :: =shCt_EST | k cat (s\u22121)=33.3 \u00b1 3.7 | K M (\u03bcM)=646 \u00b1 139 | k cat/K M (s\u22121 M\u22121)=5.2 \u00d7 104"
   },
   {
-   "measurement_id": "BM000026",
+   "measurement_id": "BMB5038FA491",
    "pmcid": "PMC12741466",
    "doi": "10.1016/j.isci.2025.114173",
    "pubmed_id": "41458911",
@@ -11321,7 +11321,7 @@
    "quote": "Table in PMC12741466 \u2014 Table 2 :: Organic solvent=EDTAb | Residual activity (%)=93.8 \u00b1 0.6"
   },
   {
-   "measurement_id": "BM000091",
+   "measurement_id": "BM376962E377",
    "pmcid": "PMC12896513",
    "doi": "10.3390/biology15030276",
    "pubmed_id": "41677747",
@@ -11347,7 +11347,7 @@
    "quote": "Table in PMC12896513 \u2014 Table 2 :: Metal Ion=Fe2+ | Concentration=10 mM | Residual Activity, %=0"
   },
   {
-   "measurement_id": "BM000180",
+   "measurement_id": "BM952CA7AD72",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -11373,7 +11373,7 @@
    "quote": "Table in PMC12898461 \u2014 Table 4 :: =MgCl2 | Relative Activity (%)=90 \u00b1 11"
   },
   {
-   "measurement_id": "BM000862",
+   "measurement_id": "BM673A95A145",
    "pmcid": "PMC4624153",
    "doi": "10.1007/s13205-015-0287-4",
    "pubmed_id": "28324398",
@@ -11399,7 +11399,7 @@
    "quote": "Table in PMC4624153 \u2014 Table 2 :: Reagent=NaI | Relative activity (%)=40"
   },
   {
-   "measurement_id": "BM000821",
+   "measurement_id": "BMC6CE585496",
    "pmcid": "PMC8971842",
    "doi": "10.3389/fbioe.2022.835847",
    "pubmed_id": "35372294",
@@ -11425,7 +11425,7 @@
    "quote": "Table in PMC8971842 \u2014 TABLE 3 :: Organic solvent=Tween-80 | Residual activity (%)=86.80 \u00b1 0.20"
   },
   {
-   "measurement_id": "BM000557",
+   "measurement_id": "BME65FFC5865",
    "pmcid": "PMC9065602",
    "doi": "10.3389/fbioe.2022.854298",
    "pubmed_id": "35519608",
@@ -11451,7 +11451,7 @@
    "quote": "Table in PMC9065602 \u2014 TABLE 6 :: Substrate=polylactic acid (PLA) | Relative activity (%) a=42.32 \u00b1 1.2"
   },
   {
-   "measurement_id": "BM001351",
+   "measurement_id": "BMDB8C7741DF",
    "pmcid": "PMC9452428",
    "doi": "10.1007/s11274-022-03402-5",
    "pubmed_id": "36070019",
@@ -11477,7 +11477,7 @@
    "quote": "Table in PMC9452428 \u2014 Table 3 :: Organic solvent=10% (v/v) | Residual activity (%) at=20% (v/v)"
   },
   {
-   "measurement_id": "BM000672",
+   "measurement_id": "BM11D576B1EC",
    "pmcid": "PMC10003648",
    "doi": "10.3390/ijms24054501",
    "pubmed_id": "36901931",
@@ -11503,7 +11503,7 @@
    "quote": "Table in PMC10003648 \u2014 Table 3 :: Substrate=PHO | Relative Activity (%) *=57.40 \u00b1 1.9"
   },
   {
-   "measurement_id": "BM000714",
+   "measurement_id": "BMEEF9CBDCA8",
    "pmcid": "PMC11651597",
    "doi": "10.1371/journal.pone.0314556",
    "pubmed_id": "39689112",
@@ -11529,7 +11529,7 @@
    "quote": "Table in PMC11651597 \u2014 Table 2 :: =Methanol | Relative Activity (%)=-0.76"
   },
   {
-   "measurement_id": "BM000151",
+   "measurement_id": "BM27B1F9C4C5",
    "pmcid": "PMC12720421",
    "doi": "10.1002/pro.70402",
    "pubmed_id": "41427655",
@@ -11555,7 +11555,7 @@
    "quote": "Table in PMC12720421 \u2014 TABLE 3 :: =Mt_EST | k cat (s\u22121)=54.4 \u00b1 4.4 | K M (\u03bcM)=453 \u00b1 81 | k cat/K M (s\u22121 M\u22121)=1.2 \u00d7 105"
   },
   {
-   "measurement_id": "BM000027",
+   "measurement_id": "BMEB13E9090D",
    "pmcid": "PMC12741466",
    "doi": "10.1016/j.isci.2025.114173",
    "pubmed_id": "41458911",
@@ -11581,7 +11581,7 @@
    "quote": "Table in PMC12741466 \u2014 Table 2 :: Organic solvent=SDSb | Residual activity (%)=16.2 \u00b1 2.0"
   },
   {
-   "measurement_id": "BM000092",
+   "measurement_id": "BM9E9DE5D188",
    "pmcid": "PMC12896513",
    "doi": "10.3390/biology15030276",
    "pubmed_id": "41677747",
@@ -11607,7 +11607,7 @@
    "quote": "Table in PMC12896513 \u2014 Table 2 :: Metal Ion=EDTA | Concentration=10 mM | Residual Activity, %=78 \u00b1 2"
   },
   {
-   "measurement_id": "BM000181",
+   "measurement_id": "BM6F86257F4C",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -11633,7 +11633,7 @@
    "quote": "Table in PMC12898461 \u2014 Table 4 :: =MgSO4 | Relative Activity (%)=98 \u00b1 1"
   },
   {
-   "measurement_id": "BM000863",
+   "measurement_id": "BM5C12AEB48D",
    "pmcid": "PMC4624153",
    "doi": "10.1007/s13205-015-0287-4",
    "pubmed_id": "28324398",
@@ -11659,7 +11659,7 @@
    "quote": "Table in PMC4624153 \u2014 Table 2 :: Reagent=IA | Relative activity (%)=35"
   },
   {
-   "measurement_id": "BM000822",
+   "measurement_id": "BM0CEDBF1357",
    "pmcid": "PMC8971842",
    "doi": "10.3389/fbioe.2022.835847",
    "pubmed_id": "35372294",
@@ -11685,7 +11685,7 @@
    "quote": "Table in PMC8971842 \u2014 TABLE 3 :: Organic solvent=Triton X-100 | Residual activity (%)=0"
   },
   {
-   "measurement_id": "BM000558",
+   "measurement_id": "BMDA1E70824A",
    "pmcid": "PMC9065602",
    "doi": "10.3389/fbioe.2022.854298",
    "pubmed_id": "35519608",
@@ -11711,7 +11711,7 @@
    "quote": "Table in PMC9065602 \u2014 TABLE 6 :: Substrate=poly(\u025b-caprolactone) (PCL) | Relative activity (%) a=32.96 \u00b1 3.2"
   },
   {
-   "measurement_id": "BM001353",
+   "measurement_id": "BM87FFE167BE",
    "pmcid": "PMC9452428",
    "doi": "10.1007/s11274-022-03402-5",
    "pubmed_id": "36070019",
@@ -11737,7 +11737,7 @@
    "quote": "Table in PMC9452428 \u2014 Table 3 :: Organic solvent=Glycerol | Residual activity (%) at=80.93 \u00b1 0.040 | Log Pa=97.73 \u00b1 0.009"
   },
   {
-   "measurement_id": "BM000673",
+   "measurement_id": "BM6303DB5AF3",
    "pmcid": "PMC10003648",
    "doi": "10.3390/ijms24054501",
    "pubmed_id": "36901931",
@@ -11763,7 +11763,7 @@
    "quote": "Table in PMC10003648 \u2014 Table 3 :: Substrate=PHN | Relative Activity (%) *=54.52 \u00b1 4.6"
   },
   {
-   "measurement_id": "BM000715",
+   "measurement_id": "BME1C1536626",
    "pmcid": "PMC11651597",
    "doi": "10.1371/journal.pone.0314556",
    "pubmed_id": "39689112",
@@ -11789,7 +11789,7 @@
    "quote": "Table in PMC11651597 \u2014 Table 2 :: =Acetone | Relative Activity (%)=-0.23"
   },
   {
-   "measurement_id": "BM000152",
+   "measurement_id": "BM2A123B165E",
    "pmcid": "PMC12720421",
    "doi": "10.1002/pro.70402",
    "pubmed_id": "41427655",
@@ -11815,7 +11815,7 @@
    "quote": "Table in PMC12720421 \u2014 TABLE 3 :: =shMt_EST | k cat (s\u22121)=53.2 \u00b1 4.4 | K M (\u03bcM)=419 \u00b1 78 | k cat/K M (s\u22121 M\u22121)=1.3 \u00d7 105"
   },
   {
-   "measurement_id": "BM000093",
+   "measurement_id": "BM53DEF090E5",
    "pmcid": "PMC12896513",
    "doi": "10.3390/biology15030276",
    "pubmed_id": "41677747",
@@ -11841,7 +11841,7 @@
    "quote": "Table in PMC12896513 \u2014 Table 2 :: Metal Ion=DTT | Concentration=10 mM | Residual Activity, %=12 \u00b1 1"
   },
   {
-   "measurement_id": "BM000182",
+   "measurement_id": "BMB05F340271",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -11867,7 +11867,7 @@
    "quote": "Table in PMC12898461 \u2014 Table 4 :: =ZnSO4 | Relative Activity (%)=108 \u00b1 1"
   },
   {
-   "measurement_id": "BM000864",
+   "measurement_id": "BM83F2361E27",
    "pmcid": "PMC4624153",
    "doi": "10.1007/s13205-015-0287-4",
    "pubmed_id": "28324398",
@@ -11893,7 +11893,7 @@
    "quote": "Table in PMC4624153 \u2014 Table 2 :: Reagent=DTT | Relative activity (%)=0"
   },
   {
-   "measurement_id": "BM000559",
+   "measurement_id": "BM955511F4A3",
    "pmcid": "PMC9065602",
    "doi": "10.3389/fbioe.2022.854298",
    "pubmed_id": "35519608",
@@ -11919,7 +11919,7 @@
    "quote": "Table in PMC9065602 \u2014 TABLE 6 :: Substrate=poly(ethylene succinate) (PES) | Relative activity (%) a=17.09 \u00b1 2.3"
   },
   {
-   "measurement_id": "BM001354",
+   "measurement_id": "BM1047D4A6AF",
    "pmcid": "PMC9452428",
    "doi": "10.1007/s11274-022-03402-5",
    "pubmed_id": "36070019",
@@ -11945,7 +11945,7 @@
    "quote": "Table in PMC9452428 \u2014 Table 3 :: Organic solvent=Diethyl ether | Residual activity (%) at=104.53 \u00b1 0.013 | Log Pa=ND"
   },
   {
-   "measurement_id": "BM000674",
+   "measurement_id": "BM6478D2FE4A",
    "pmcid": "PMC10003648",
    "doi": "10.3390/ijms24054501",
    "pubmed_id": "36901931",
@@ -11971,7 +11971,7 @@
    "quote": "Table in PMC10003648 \u2014 Table 3 :: Substrate=PHD | Relative Activity (%) *=52.07 \u00b1 5.2"
   },
   {
-   "measurement_id": "BM000716",
+   "measurement_id": "BM242BC00DDB",
    "pmcid": "PMC11651597",
    "doi": "10.1371/journal.pone.0314556",
    "pubmed_id": "39689112",
@@ -11997,7 +11997,7 @@
    "quote": "Table in PMC11651597 \u2014 Table 2 :: =Ethanol | Relative Activity (%)=-0.24"
   },
   {
-   "measurement_id": "BM000153",
+   "measurement_id": "BM3DCC55520F",
    "pmcid": "PMC12720421",
    "doi": "10.1002/pro.70402",
    "pubmed_id": "41427655",
@@ -12023,7 +12023,7 @@
    "quote": "Table in PMC12720421 \u2014 TABLE 3 :: =Rp_EST | k cat (s\u22121)=12.0 \u00b1 1.3 | K M (\u03bcM)=246 \u00b1 72 | k cat/K M (s\u22121 M\u22121)=4.9 \u00d7 104"
   },
   {
-   "measurement_id": "BM000094",
+   "measurement_id": "BM12DB188A5A",
    "pmcid": "PMC12896513",
    "doi": "10.3390/biology15030276",
    "pubmed_id": "41677747",
@@ -12049,7 +12049,7 @@
    "quote": "Table in PMC12896513 \u2014 Table 2 :: Metal Ion=\u03b2-Mercaptoethanol | Concentration=10 mM | Residual Activity, %=37 \u00b1 1"
   },
   {
-   "measurement_id": "BM000183",
+   "measurement_id": "BM5D16A2DD7A",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -12075,7 +12075,7 @@
    "quote": "Table in PMC12898461 \u2014 Table 4 :: =CuSO4 | Relative Activity (%)=80 \u00b1 5"
   },
   {
-   "measurement_id": "BM000865",
+   "measurement_id": "BM809484E58D",
    "pmcid": "PMC4624153",
    "doi": "10.1007/s13205-015-0287-4",
    "pubmed_id": "28324398",
@@ -12101,7 +12101,7 @@
    "quote": "Table in PMC4624153 \u2014 Table 2 :: Reagent=PMSF | Relative activity (%)=41"
   },
   {
-   "measurement_id": "BM001355",
+   "measurement_id": "BME914E8167A",
    "pmcid": "PMC9452428",
    "doi": "10.1007/s11274-022-03402-5",
    "pubmed_id": "36070019",
@@ -12127,7 +12127,7 @@
    "quote": "Table in PMC9452428 \u2014 Table 3 :: Organic solvent=Ethanol | Residual activity (%) at=38.91 \u00b1 0.004 | Log Pa=15.34 \u00b1 0.012"
   },
   {
-   "measurement_id": "BM000675",
+   "measurement_id": "BMB81E9B8B36",
    "pmcid": "PMC10003648",
    "doi": "10.3390/ijms24054501",
    "pubmed_id": "36901931",
@@ -12153,7 +12153,7 @@
    "quote": "Table in PMC10003648 \u2014 Table 3 :: Substrate=Polylactic acid (PLA) | Relative Activity (%) *=53.5 \u00b1 2.7"
   },
   {
-   "measurement_id": "BM000717",
+   "measurement_id": "BMB53DF15C9C",
    "pmcid": "PMC11651597",
    "doi": "10.1371/journal.pone.0314556",
    "pubmed_id": "39689112",
@@ -12179,7 +12179,7 @@
    "quote": "Table in PMC11651597 \u2014 Table 2 :: =Acetonitrile | Relative Activity (%)=-0.15"
   },
   {
-   "measurement_id": "BM000154",
+   "measurement_id": "BM31156AC87C",
    "pmcid": "PMC12720421",
    "doi": "10.1002/pro.70402",
    "pubmed_id": "41427655",
@@ -12205,7 +12205,7 @@
    "quote": "Table in PMC12720421 \u2014 TABLE 3 :: =shRp_EST | k cat (s\u22121)=25.0 \u00b1 1.6 | K M (\u03bcM)=257 \u00b1 43 | k cat/K M (s\u22121 M\u22121)=9.7 \u00d7 104"
   },
   {
-   "measurement_id": "BM000095",
+   "measurement_id": "BMF99DB059E5",
    "pmcid": "PMC12896513",
    "doi": "10.3390/biology15030276",
    "pubmed_id": "41677747",
@@ -12231,7 +12231,7 @@
    "quote": "Table in PMC12896513 \u2014 Table 2 :: Metal Ion=Tween-20 | Concentration=0.1% | Residual Activity, %=54 \u00b1 1"
   },
   {
-   "measurement_id": "BM000184",
+   "measurement_id": "BMB86D05DF98",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -12257,7 +12257,7 @@
    "quote": "Table in PMC12898461 \u2014 Table 4 :: =BaCl2 | Relative Activity (%)=111 \u00b1 14"
   },
   {
-   "measurement_id": "BM000866",
+   "measurement_id": "BM2DC226E831",
    "pmcid": "PMC4624153",
    "doi": "10.1007/s13205-015-0287-4",
    "pubmed_id": "28324398",
@@ -12283,7 +12283,7 @@
    "quote": "Table in PMC4624153 \u2014 Table 2 :: Reagent=EDTA | Relative activity (%)=59"
   },
   {
-   "measurement_id": "BM001356",
+   "measurement_id": "BMC61734D7AC",
    "pmcid": "PMC9452428",
    "doi": "10.1007/s11274-022-03402-5",
    "pubmed_id": "36070019",
@@ -12309,7 +12309,7 @@
    "quote": "Table in PMC9452428 \u2014 Table 3 :: Organic solvent=Hexane | Residual activity (%) at=74.04 \u00b1 0.054 | Log Pa=94.21 \u00b1 0.049"
   },
   {
-   "measurement_id": "BM000676",
+   "measurement_id": "BM0C973106BB",
    "pmcid": "PMC10003648",
    "doi": "10.3390/ijms24054501",
    "pubmed_id": "36901931",
@@ -12335,7 +12335,7 @@
    "quote": "Table in PMC10003648 \u2014 Table 3 :: Substrate=Poly(\u03b5-caprolactone) (PCL) | Relative Activity (%) *=25.43 \u00b1 3.9"
   },
   {
-   "measurement_id": "BM000718",
+   "measurement_id": "BM11D9993F5C",
    "pmcid": "PMC11651597",
    "doi": "10.1371/journal.pone.0314556",
    "pubmed_id": "39689112",
@@ -12361,7 +12361,7 @@
    "quote": "Table in PMC11651597 \u2014 Table 2 :: =Diethylether | Relative Activity (%)=0.85"
   },
   {
-   "measurement_id": "BM000096",
+   "measurement_id": "BM94D161E604",
    "pmcid": "PMC12896513",
    "doi": "10.3390/biology15030276",
    "pubmed_id": "41677747",
@@ -12387,7 +12387,7 @@
    "quote": "Table in PMC12896513 \u2014 Table 2 :: Metal Ion=Tween-80 | Concentration=0.1% | Residual Activity, %=64 \u00b1 2"
   },
   {
-   "measurement_id": "BM000186",
+   "measurement_id": "BMBCBC7DB7DF",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -12413,7 +12413,7 @@
    "quote": "Table in PMC12898461 \u2014 Table 4 :: =\u03b2-mercaptoethanol | Relative Activity (%)=35 \u00b1 17"
   },
   {
-   "measurement_id": "BM000867",
+   "measurement_id": "BM2E104B5207",
    "pmcid": "PMC4624153",
    "doi": "10.1007/s13205-015-0287-4",
    "pubmed_id": "28324398",
@@ -12439,7 +12439,7 @@
    "quote": "Table in PMC4624153 \u2014 Table 2 :: Reagent=SDS | Relative activity (%)=16"
   },
   {
-   "measurement_id": "BM001357",
+   "measurement_id": "BMF2E3D9B3D9",
    "pmcid": "PMC9452428",
    "doi": "10.1007/s11274-022-03402-5",
    "pubmed_id": "36070019",
@@ -12465,7 +12465,7 @@
    "quote": "Table in PMC9452428 \u2014 Table 3 :: Organic solvent=Acetone | Residual activity (%) at=4.29 \u00b1 0.014 | Log Pa=ND"
   },
   {
-   "measurement_id": "BM000677",
+   "measurement_id": "BM0E56213CED",
    "pmcid": "PMC10003648",
    "doi": "10.3390/ijms24054501",
    "pubmed_id": "36901931",
@@ -12491,7 +12491,7 @@
    "quote": "Table in PMC10003648 \u2014 Table 3 :: Substrate=Poly(ethylene succinate) (PES) | Relative Activity (%) *=13.21 \u00b1 4.1"
   },
   {
-   "measurement_id": "BM000719",
+   "measurement_id": "BMCED42D323F",
    "pmcid": "PMC11651597",
    "doi": "10.1371/journal.pone.0314556",
    "pubmed_id": "39689112",
@@ -12517,7 +12517,7 @@
    "quote": "Table in PMC11651597 \u2014 Table 2 :: =Chloroform | Relative Activity (%)=2"
   },
   {
-   "measurement_id": "BM000097",
+   "measurement_id": "BMD47C2810D0",
    "pmcid": "PMC12896513",
    "doi": "10.3390/biology15030276",
    "pubmed_id": "41677747",
@@ -12543,7 +12543,7 @@
    "quote": "Table in PMC12896513 \u2014 Table 2 :: Metal Ion=Triton X-100 | Concentration=0.1% | Residual Activity, %=90 \u00b1 5"
   },
   {
-   "measurement_id": "BM000187",
+   "measurement_id": "BM7AC3D7E889",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -12569,7 +12569,7 @@
    "quote": "Table in PMC12898461 \u2014 Table 4 :: =phenylmethylsulfonyl fluoride (PMSF) | Relative Activity (%)=0 \u00b1 7"
   },
   {
-   "measurement_id": "BM000868",
+   "measurement_id": "BMAFECD4EED1",
    "pmcid": "PMC4624153",
    "doi": "10.1007/s13205-015-0287-4",
    "pubmed_id": "28324398",
@@ -12595,7 +12595,7 @@
    "quote": "Table in PMC4624153 \u2014 Table 2 :: Reagent=Urea | Relative activity (%)=46"
   },
   {
-   "measurement_id": "BM001358",
+   "measurement_id": "BM750B110C88",
    "pmcid": "PMC9452428",
    "doi": "10.1007/s11274-022-03402-5",
    "pubmed_id": "36070019",
@@ -12621,7 +12621,7 @@
    "quote": "Table in PMC9452428 \u2014 Table 3 :: Organic solvent=DMSO | Residual activity (%) at=83.60 \u00b1 0.004 | Log Pa=121.71 \u00b1 0.032"
   },
   {
-   "measurement_id": "BM000720",
+   "measurement_id": "BM0FF215086C",
    "pmcid": "PMC11651597",
    "doi": "10.1371/journal.pone.0314556",
    "pubmed_id": "39689112",
@@ -12647,7 +12647,7 @@
    "quote": "Table in PMC11651597 \u2014 Table 2 :: =n-hexane | Relative Activity (%)=3.6"
   },
   {
-   "measurement_id": "BM000098",
+   "measurement_id": "BM026D527AB6",
    "pmcid": "PMC12896513",
    "doi": "10.3390/biology15030276",
    "pubmed_id": "41677747",
@@ -12673,7 +12673,7 @@
    "quote": "Table in PMC12896513 \u2014 Table 2 :: Metal Ion=SDS | Concentration=0.1% | Residual Activity, %=30 \u00b1 2"
   },
   {
-   "measurement_id": "BM000188",
+   "measurement_id": "BM8020C41F49",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -12699,7 +12699,7 @@
    "quote": "Table in PMC12898461 \u2014 Table 4 :: =Ditiotreitol (DTT) | Relative Activity (%)=0 \u00b1 15"
   },
   {
-   "measurement_id": "BM000869",
+   "measurement_id": "BM2711BE4D62",
    "pmcid": "PMC4624153",
    "doi": "10.1007/s13205-015-0287-4",
    "pubmed_id": "28324398",
@@ -12725,7 +12725,7 @@
    "quote": "Table in PMC4624153 \u2014 Table 2 :: Reagent=NAM | Relative activity (%)=37"
   },
   {
-   "measurement_id": "BM001359",
+   "measurement_id": "BMC7BFA9E93D",
    "pmcid": "PMC9452428",
    "doi": "10.1007/s11274-022-03402-5",
    "pubmed_id": "36070019",
@@ -12751,7 +12751,7 @@
    "quote": "Table in PMC9452428 \u2014 Table 3 :: Organic solvent=Isopropanol | Residual activity (%) at=19.65 \u00b1 0.007 | Log Pa=19.65 \u00b1 0,007"
   },
   {
-   "measurement_id": "BM000721",
+   "measurement_id": "BM04F36958CE",
    "pmcid": "PMC11651597",
    "doi": "10.1371/journal.pone.0314556",
    "pubmed_id": "39689112",
@@ -12777,7 +12777,7 @@
    "quote": "Table in PMC11651597 \u2014 Table 2 :: =n-heptane | Relative Activity (%)=4.27"
   },
   {
-   "measurement_id": "BM000099",
+   "measurement_id": "BMDF3E9FE6E2",
    "pmcid": "PMC12896513",
    "doi": "10.3390/biology15030276",
    "pubmed_id": "41677747",
@@ -12803,7 +12803,7 @@
    "quote": "Table in PMC12896513 \u2014 Table 3 :: Substrate=4-Nitrophenyl acetate (C2) | Abbreviation=pNPA | Specific Activity, U/mg=16 \u00b1 1"
   },
   {
-   "measurement_id": "BM000189",
+   "measurement_id": "BM506B81F1E1",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -12829,7 +12829,7 @@
    "quote": "Table in PMC12898461 \u2014 Table 4 :: =Ethylenediaminetetraacetic acid (EDTA) | Relative Activity (%)=22 \u00b1 17"
   },
   {
-   "measurement_id": "BM001360",
+   "measurement_id": "BM7349019763",
    "pmcid": "PMC9452428",
    "doi": "10.1007/s11274-022-03402-5",
    "pubmed_id": "36070019",
@@ -12855,7 +12855,7 @@
    "quote": "Table in PMC9452428 \u2014 Table 3 :: Organic solvent=N-butanol | Residual activity (%) at=19.28 \u00b1 0.029 | Log Pa=ND"
   },
   {
-   "measurement_id": "BM000722",
+   "measurement_id": "BME149102362",
    "pmcid": "PMC11651597",
    "doi": "10.1371/journal.pone.0314556",
    "pubmed_id": "39689112",
@@ -12881,7 +12881,7 @@
    "quote": "Table in PMC11651597 \u2014 Table 2 :: =Isooctane | Relative Activity (%)=4.5"
   },
   {
-   "measurement_id": "BM000100",
+   "measurement_id": "BM8648FCE309",
    "pmcid": "PMC12896513",
    "doi": "10.3390/biology15030276",
    "pubmed_id": "41677747",
@@ -12907,7 +12907,7 @@
    "quote": "Table in PMC12896513 \u2014 Table 3 :: Substrate=4-Nitrophenyl butyrate (C4) | Abbreviation=pNPB | Specific Activity, U/mg=39 \u00b1 2"
   },
   {
-   "measurement_id": "BM000191",
+   "measurement_id": "BM38AA97167C",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -12933,7 +12933,7 @@
    "quote": "Table in PMC12898461 \u2014 Table 4 :: =Sodium dodecyl sulfate (SDS) | Relative Activity (%)=84 \u00b1 2"
   },
   {
-   "measurement_id": "BM001361",
+   "measurement_id": "BMABF0611CAE",
    "pmcid": "PMC9452428",
    "doi": "10.1007/s11274-022-03402-5",
    "pubmed_id": "36070019",
@@ -12959,7 +12959,7 @@
    "quote": "Table in PMC9452428 \u2014 Table 3 :: Organic solvent=Methanol | Residual activity (%) at=89.22 \u00b1 0.011 | Log Pa=89.22 \u00b1 0.011"
   },
   {
-   "measurement_id": "BM000102",
+   "measurement_id": "BMCF6A28B065",
    "pmcid": "PMC12896513",
    "doi": "10.3390/biology15030276",
    "pubmed_id": "41677747",
@@ -12985,7 +12985,7 @@
    "quote": "Table in PMC12896513 \u2014 Table 3 :: Substrate=4-Nitrophenyl octanoate (C8) | Abbreviation=pNPO | Specific Activity, U/mg=44 \u00b1 2"
   },
   {
-   "measurement_id": "BM000192",
+   "measurement_id": "BM7186543F77",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -13011,7 +13011,7 @@
    "quote": "Table in PMC12898461 \u2014 Table 4 :: =Lithium dodecyl sulfate (LDS) | Relative Activity (%)=0 \u00b1 1"
   },
   {
-   "measurement_id": "BM001362",
+   "measurement_id": "BM662246458F",
    "pmcid": "PMC9452428",
    "doi": "10.1007/s11274-022-03402-5",
    "pubmed_id": "36070019",
@@ -13037,7 +13037,7 @@
    "quote": "Table in PMC9452428 \u2014 Table 3 :: Organic solvent=0.1%(v/v) | Residual activity (%) at=0.25%(v/v)"
   },
   {
-   "measurement_id": "BM000103",
+   "measurement_id": "BMBC3CF1571B",
    "pmcid": "PMC12896513",
    "doi": "10.3390/biology15030276",
    "pubmed_id": "41677747",
@@ -13063,7 +13063,7 @@
    "quote": "Table in PMC12896513 \u2014 Table 3 :: Substrate=4-Nitrophenyl decanoate (C10) | Abbreviation=pNPD | Specific Activity, U/mg=60 \u00b1 2"
   },
   {
-   "measurement_id": "BM000193",
+   "measurement_id": "BMD31ECF36FB",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -13089,7 +13089,7 @@
    "quote": "Table in PMC12898461 \u2014 Table 4 :: =Tween 80 | Relative Activity (%)=12 \u00b1 24"
   },
   {
-   "measurement_id": "BM001363",
+   "measurement_id": "BMCF80A91833",
    "pmcid": "PMC9452428",
    "doi": "10.1007/s11274-022-03402-5",
    "pubmed_id": "36070019",
@@ -13115,7 +13115,7 @@
    "quote": "Table in PMC9452428 \u2014 Table 3 :: Organic solvent=SDS | Residual activity (%) at=118.62 \u00b1 0.00 | Log Pa=101.50 \u00b1 0.00"
   },
   {
-   "measurement_id": "BM000104",
+   "measurement_id": "BM6D51A9879D",
    "pmcid": "PMC12896513",
    "doi": "10.3390/biology15030276",
    "pubmed_id": "41677747",
@@ -13141,7 +13141,7 @@
    "quote": "Table in PMC12896513 \u2014 Table 3 :: Substrate=4-Nitrophenyl dodecanoate (C12) | Abbreviation=pNPL | Specific Activity, U/mg=52 \u00b1 1"
   },
   {
-   "measurement_id": "BM000194",
+   "measurement_id": "BM74502EFF2A",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -13167,7 +13167,7 @@
    "quote": "Table in PMC12898461 \u2014 Table 4 :: =Triton x-100 | Relative Activity (%)=0 \u00b1 3"
   },
   {
-   "measurement_id": "BM001364",
+   "measurement_id": "BMC45F01FF1A",
    "pmcid": "PMC9452428",
    "doi": "10.1007/s11274-022-03402-5",
    "pubmed_id": "36070019",
@@ -13193,7 +13193,7 @@
    "quote": "Table in PMC9452428 \u2014 Table 3 :: Organic solvent=Triton X-100 | Residual activity (%) at=93.36 \u00b1 0.015 | Log Pa=94.38 \u00b1 0.022"
   },
   {
-   "measurement_id": "BM000105",
+   "measurement_id": "BM53011E779D",
    "pmcid": "PMC12896513",
    "doi": "10.3390/biology15030276",
    "pubmed_id": "41677747",
@@ -13219,7 +13219,7 @@
    "quote": "Table in PMC12896513 \u2014 Table 3 :: Substrate=4-Nitrophenyl myristate (C14) | Abbreviation=pNPM | Specific Activity, U/mg=51 \u00b1 1"
   },
   {
-   "measurement_id": "BM000195",
+   "measurement_id": "BM578963A0B4",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -13245,7 +13245,7 @@
    "quote": "Table in PMC12898461 \u2014 Table 4 :: =Cetyltrimethylammonium Bromide (CTAB) | Relative Activity (%)=64 \u00b1 6"
   },
   {
-   "measurement_id": "BM001365",
+   "measurement_id": "BM3FCBAAA21D",
    "pmcid": "PMC9452428",
    "doi": "10.1007/s11274-022-03402-5",
    "pubmed_id": "36070019",
@@ -13271,7 +13271,7 @@
    "quote": "Table in PMC9452428 \u2014 Table 3 :: Organic solvent=Tween-80 | Residual activity (%) at=89.99 \u00b1 0.027 | Log Pa=55.94 \u00b1 0.031"
   },
   {
-   "measurement_id": "BM000106",
+   "measurement_id": "BM95F3B386C0",
    "pmcid": "PMC12896513",
    "doi": "10.3390/biology15030276",
    "pubmed_id": "41677747",
@@ -13297,7 +13297,7 @@
    "quote": "Table in PMC12896513 \u2014 Table 3 :: Substrate=4-Nitrophenyl palmitate (C16) | Abbreviation=pNPP | Specific Activity, U/mg=45 \u00b1 4"
   },
   {
-   "measurement_id": "BM000197",
+   "measurement_id": "BM717D8CA20F",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -13323,7 +13323,7 @@
    "quote": "Table in PMC12898461 \u2014 Table 4 :: =Perla | Relative Activity (%)=45 \u00b1 8"
   },
   {
-   "measurement_id": "BM001367",
+   "measurement_id": "BM44C5D6BB1D",
    "pmcid": "PMC9452428",
    "doi": "10.1007/s11274-022-03402-5",
    "pubmed_id": "36070019",
@@ -13349,7 +13349,7 @@
    "quote": "Table in PMC9452428 \u2014 Table 4 :: p-NP esters=p-NP-C2 | Specific activity (U/mg)=0.470 \u00b1 0.0002 | Relative activity (%)=100.00 | Km (mM)=0.031 | Kcat (sec\u22121)=20.39 | Kcat/Km (sec\u22121 mM\u22121)=657.7"
   },
   {
-   "measurement_id": "BM000107",
+   "measurement_id": "BM15BCA5D862",
    "pmcid": "PMC12896513",
    "doi": "10.3390/biology15030276",
    "pubmed_id": "41677747",
@@ -13375,7 +13375,7 @@
    "quote": "Table in PMC12896513 \u2014 Table 3 :: Substrate=4-Nitrophenyl stearate (C18) | Abbreviation=pNPS | Specific Activity, U/mg=31 \u00b1 16"
   },
   {
-   "measurement_id": "BM000198",
+   "measurement_id": "BM1B57832152",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -13401,7 +13401,7 @@
    "quote": "Table in PMC12898461 \u2014 Table 4 :: =OMO | Relative Activity (%)=152 \u00b1 3"
   },
   {
-   "measurement_id": "BM001368",
+   "measurement_id": "BMD0D805E25E",
    "pmcid": "PMC9452428",
    "doi": "10.1007/s11274-022-03402-5",
    "pubmed_id": "36070019",
@@ -13427,7 +13427,7 @@
    "quote": "Table in PMC9452428 \u2014 Table 4 :: p-NP esters=p-NP-C2 | Specific activity (U/mg)=0.470 \u00b1 0.0002 | Relative activity (%)=100.00 | Km (mM)=0.031 | Kcat (sec\u22121)=20.39 | Kcat/Km (sec\u22121 mM\u22121)=657.7"
   },
   {
-   "measurement_id": "BM000199",
+   "measurement_id": "BM98D6B29690",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -13453,7 +13453,7 @@
    "quote": "Table in PMC12898461 \u2014 Table 4 :: =Ariel | Relative Activity (%)=181 \u00b1 1"
   },
   {
-   "measurement_id": "BM001369",
+   "measurement_id": "BM90560D7D41",
    "pmcid": "PMC9452428",
    "doi": "10.1007/s11274-022-03402-5",
    "pubmed_id": "36070019",
@@ -13479,7 +13479,7 @@
    "quote": "Table in PMC9452428 \u2014 Table 4 :: p-NP esters=p-NP-C4 | Specific activity (U/mg)=0.110 \u00b1 0.0008 | Relative activity (%)=25.77 \u00b1 0.02 | Km (mM)=ND | Kcat (sec\u22121)=ND | Kcat/Km (sec\u22121 mM\u22121)=ND"
   },
   {
-   "measurement_id": "BM000200",
+   "measurement_id": "BM00E920860C",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -13505,7 +13505,7 @@
    "quote": "Table in PMC12898461 \u2014 Table 4 :: =Quix | Relative Activity (%)=97 \u00b1 9"
   },
   {
-   "measurement_id": "BM001370",
+   "measurement_id": "BM36BD88DE67",
    "pmcid": "PMC9452428",
    "doi": "10.1007/s11274-022-03402-5",
    "pubmed_id": "36070019",
@@ -13531,7 +13531,7 @@
    "quote": "Table in PMC9452428 \u2014 Table 4 :: p-NP esters=p-NP-C6 | Specific activity (U/mg)=0.089 \u00b1 0.0003 | Relative activity (%)=18.99 \u00b1 0.05 | Km (mM)=ND | Kcat (sec\u22121)=ND | Kcat/Km (sec\u22121 mM\u22121)=ND"
   },
   {
-   "measurement_id": "BM000201",
+   "measurement_id": "BM206EC58C67",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -13557,7 +13557,7 @@
    "quote": "Table in PMC12898461 \u2014 Table 4 :: =Sun | Relative Activity (%)=99 \u00b1 5"
   },
   {
-   "measurement_id": "BM001371",
+   "measurement_id": "BMFA5891A0CF",
    "pmcid": "PMC9452428",
    "doi": "10.1007/s11274-022-03402-5",
    "pubmed_id": "36070019",
@@ -13583,7 +13583,7 @@
    "quote": "Table in PMC9452428 \u2014 Table 4 :: p-NP esters=p-NP-C8 | Specific activity (U/mg)=0.000 | Relative activity (%)=0.00 | Km (mM)=ND | Kcat (sec\u22121)=ND | Kcat/Km (sec\u22121 mM\u22121)=ND"
   },
   {
-   "measurement_id": "BM000202",
+   "measurement_id": "BMDDF8F750C0",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -13609,7 +13609,7 @@
    "quote": "Table in PMC12898461 \u2014 Table 5 :: [NaCl] (M)=Ces1-ET | Relative Activity (%)=Est1-ET"
   },
   {
-   "measurement_id": "BM000203",
+   "measurement_id": "BM5E703FE473",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -13635,7 +13635,7 @@
    "quote": "Table in PMC12898461 \u2014 Table 5 :: [NaCl] (M)=0 | Relative Activity (%)=100 \u00b1 0"
   },
   {
-   "measurement_id": "BM000204",
+   "measurement_id": "BM469865A4E0",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -13661,7 +13661,7 @@
    "quote": "Table in PMC12898461 \u2014 Table 5 :: [NaCl] (M)=0.5 | Relative Activity (%)=76 \u00b1 1"
   },
   {
-   "measurement_id": "BM000206",
+   "measurement_id": "BM54DAC33FCA",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -13687,7 +13687,7 @@
    "quote": "Table in PMC12898461 \u2014 Table 5 :: [NaCl] (M)=1.5 | Relative Activity (%)=55 \u00b1 4"
   },
   {
-   "measurement_id": "BM000208",
+   "measurement_id": "BM4A855AEF24",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -13713,7 +13713,7 @@
    "quote": "Table in PMC12898461 \u2014 Table 5 :: [NaCl] (M)=2.5 | Relative Activity (%)=50 \u00b1 9"
   },
   {
-   "measurement_id": "BM000209",
+   "measurement_id": "BM033C56900F",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -13739,7 +13739,7 @@
    "quote": "Table in PMC12898461 \u2014 Table 5 :: [NaCl] (M)=3.0 | Relative Activity (%)=44 \u00b1 7"
   },
   {
-   "measurement_id": "BM000210",
+   "measurement_id": "BM4AF7E61A5D",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -13765,7 +13765,7 @@
    "quote": "Table in PMC12898461 \u2014 Table 5 :: [NaCl] (M)=3.5 | Relative Activity (%)=40 \u00b1 2"
   },
   {
-   "measurement_id": "BM000211",
+   "measurement_id": "BMD727F89A17",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -13791,7 +13791,7 @@
    "quote": "Table in PMC12898461 \u2014 Table 5 :: [NaCl] (M)=4.0 | Relative Activity (%)=39 \u00b1 1"
   },
   {
-   "measurement_id": "BM000212",
+   "measurement_id": "BM3AF1360767",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -13817,7 +13817,7 @@
    "quote": "Table in PMC12898461 \u2014 Table A3 :: Relative Activity (%)=40"
   },
   {
-   "measurement_id": "BM000213",
+   "measurement_id": "BMA0249A021D",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -13843,7 +13843,7 @@
    "quote": "Table in PMC12898461 \u2014 Table A3 :: Relative Activity (%)=50"
   },
   {
-   "measurement_id": "BM000214",
+   "measurement_id": "BMAB69FD1C1C",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -13869,7 +13869,7 @@
    "quote": "Table in PMC12898461 \u2014 Table A3 :: Relative Activity (%)=60"
   },
   {
-   "measurement_id": "BM000215",
+   "measurement_id": "BM3F565B7A3B",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -13895,7 +13895,7 @@
    "quote": "Table in PMC12898461 \u2014 Table A3 :: Relative Activity (%)=70"
   },
   {
-   "measurement_id": "BM000216",
+   "measurement_id": "BM2CC64199F6",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -13921,7 +13921,7 @@
    "quote": "Table in PMC12898461 \u2014 Table A3 :: Relative Activity (%)=80"
   },
   {
-   "measurement_id": "BM000217",
+   "measurement_id": "BM100FD506F4",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -13947,7 +13947,7 @@
    "quote": "Table in PMC12898461 \u2014 Table A3 :: Relative Activity (%)=90"
   },
   {
-   "measurement_id": "BM000218",
+   "measurement_id": "BMFCB05EA085",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -13975,7 +13975,7 @@
    "quote": "Table in PMC12898461 \u2014 Table A3 :: Relative Activity (%)=7"
   },
   {
-   "measurement_id": "BM000219",
+   "measurement_id": "BMDB481F4327",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -14001,7 +14001,7 @@
    "quote": "Table in PMC12898461 \u2014 Table A3 :: Relative Activity (%)=7.5"
   },
   {
-   "measurement_id": "BM000220",
+   "measurement_id": "BMD3D65EEB2A",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -14029,7 +14029,7 @@
    "quote": "Table in PMC12898461 \u2014 Table A3 :: Relative Activity (%)=8"
   },
   {
-   "measurement_id": "BM000221",
+   "measurement_id": "BMC6308C5276",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",
@@ -14055,7 +14055,7 @@
    "quote": "Table in PMC12898461 \u2014 Table A3 :: Relative Activity (%)=8.5"
   },
   {
-   "measurement_id": "BM000222",
+   "measurement_id": "BM99221611D2",
    "pmcid": "PMC12898461",
    "doi": "10.3390/ijms27031372",
    "pubmed_id": "41683795",

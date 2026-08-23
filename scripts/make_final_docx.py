@@ -183,18 +183,52 @@ callout(doc, "Integrity statement.",
         "as reported.")
 
 h(doc, "1.  Result against the brief", level=1, space_before=6)
+
+# Status is COMPUTED from the shipped data, never asserted. A requirement counts as met
+# only if the data satisfies it on the strict reading of the brief.
+def ident(x): return bool(x["sequence"] or x["uniprot_accession"])
+def cond(x):  return bool(x["temperature_c"] or x["pH"] or x["ion_species"] or x["salt_species"]
+                          or x["ionic_strength_M"] or x["additive"] or x["salinity_raw"])
+CORE = [x for x in ROWS if ident(x) and cond(x) and x["value_std"]]
+CORE_PAPERS = len({x["pmcid"] for x in CORE})
+N_SAL = sum(1 for x in ROWS if x["salinity_raw"] or x["salinity_g_per_L"])
+N_MIX = sum(1 for x in ROWS if x["mixed_electrolyte"] == "yes")
+
+def status(ok, partial=False):
+    return "Met" if ok else ("Partial" if partial else "Not met")
+
 table(doc,
       ["What was asked", "Delivered", "Status"],
-      [["≥ 300 new experimental measurements", f"{S['shipped_rows']}", "Met"],
-       ["From 20+ papers", f"{S['distinct_papers']} distinct articles", "Met"],
-       ["≥ 100 entries manually verified against the papers",
-        "110 read against source; all "
-        f"{S['shipped_rows']} also machine-verified", "Met"],
-       ["No overlap with the seven existing datasets", "0 rows", "Met"],
-       ["No overlap with Luke's training dataset", "0 rows", "Met"],
-       ["No synthetic / predicted / interpolated data", "Enforced at build time", "Met"],
-       ["Kept separate for final testing only", "Not released to Sargun", "Pending her sign-off"]],
-      widths=[3.5, 2.5, 0.95])
+      [["\u2265 300 measurements recording the full field set "
+        "(identifier, conditions, value, units, source)",
+        f"{len(CORE)} fully specified; {S['shipped_rows']} measurements in total",
+        status(len(CORE) >= 300, partial=S['shipped_rows'] >= 300)],
+       ["From 20+ papers", f"{S['distinct_papers']} articles overall; "
+        f"{CORE_PAPERS} contribute a fully specified row", status(CORE_PAPERS >= 20)],
+       ["\u2265 100 entries manually verified against the papers",
+        f"110 read against source; all {S['shipped_rows']} machine-verified", status(True)],
+       ["No overlap with the seven existing datasets", "0 rows", status(True)],
+       ["No overlap with Luke's training dataset", "0 rows", status(True)],
+       ["No synthetic / predicted / interpolated data", "Enforced at build time", status(True)],
+       ["Temperature, pH, salts and ions covered",
+        f"T {S['with_temperature']} \u00b7 pH {S['with_pH']} \u00b7 electrolyte {S['with_electrolyte']}",
+        status(True)],
+       ["Salinity and mixed-electrolyte conditions covered",
+        f"salinity {N_SAL} \u00b7 mixed electrolyte {N_MIX}",
+        status(N_SAL >= 10 and N_MIX >= 10)],
+       ["Kept separate for final testing only", "Not released to Sargun",
+        "Pending her sign-off"],
+       ["Split the workload evenly with Luke",
+        "Not coordinated \u2014 built independently against his published outputs",
+        "Not met"]],
+      widths=[3.0, 2.7, 0.85])
+
+callout(doc, "Read the status column honestly.",
+        f"This benchmark contains {S['shipped_rows']} verified measurements, but only {len(CORE)} of them "
+        f"carry a resolved protein identifier alongside a condition and a value \u2014 the combination the "
+        f"brief asks for. The shortfall is a sequence-resolution limit, not a data-quality one, and is "
+        f"explained in section 6. The remaining rows are real, verified measurements that a sequence "
+        f"model cannot consume.", fill="F8F4E8")
 
 h(doc, "2.  What the benchmark contains")
 table(doc,

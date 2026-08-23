@@ -16,15 +16,15 @@
   "C_conditions_only_no_sequence": 402
  },
  "measurement_types": {
-  "temperature optimum": 44,
-  "thermostability": 137,
-  "pH stability": 39,
-  "pH optimum": 31,
-  "relative activity": 122,
-  "kinetic constant": 14,
   "salt effect": 92,
+  "pH optimum": 31,
+  "thermostability": 137,
+  "relative activity": 122,
   "ionic strength effect": 1,
+  "kinetic constant": 14,
   "inhibition": 37,
+  "pH stability": 39,
+  "temperature optimum": 44,
   "specific activity": 11
  },
  "with_sequence": 126,
@@ -38,25 +38,25 @@
  "mixed_electrolyte": 2,
  "with_buffer": 37,
  "with_exposure_time": 81,
- "with_assay_method": 12,
+ "with_assay_method": 169,
  "with_mutation": 16,
  "source_verified": 528,
  "distinct_ions": 15,
  "distinct_salts": 16,
  "plastic_relevance": {
+  "plastic_relevant_article": 285,
   "direct_plastic_degrader": 171,
-  "plastic_context_hydrolase": 72,
-  "plastic_relevant_article": 285
+  "plastic_context_hydrolase": 72
  },
  "confidence": {
-  "Medium": 130,
-  "Medium-High": 66,
   "High": 11,
+  "Medium-High": 66,
+  "Medium": 130,
   "Low": 321
  },
  "sequence_resolution": {
-  "genbank_deposit_section_unique": 29,
   "genbank_unique_in_article": 62,
+  "genbank_deposit_section_unique": 29,
   "accession_unique_in_article": 32,
   "name_lookup": 3,
   "unresolved": 402

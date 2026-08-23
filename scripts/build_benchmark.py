@@ -10,7 +10,7 @@ Rules kept from week 1 and enforced harder here:
     and never presented as a reported value
   - a row with no numeric value and no unit is dropped, not padded
 """
-import json, os, re, sys, collections
+import hashlib, json, os, re, sys, collections
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import standardize_units as U
 
@@ -113,6 +113,8 @@ def main():
     article_type = json.load(open(at_path)) if os.path.exists(at_path) else {}
     pr_path = os.path.join(ROOT, "data", "paper_relevance.json")
     paper_rel = json.load(open(pr_path)) if os.path.exists(pr_path) else {}
+    pm_path = os.path.join(ROOT, "data", "paper_methods.json")
+    paper_meth = json.load(open(pm_path)) if os.path.exists(pm_path) else {}
     seqs = json.load(open(IN_SEQ))
     by_acc, by_name = seqs["by_accession"], seqs["by_name"]
     p2 = os.path.join(ROOT, "data", "sequences_by_paper.json")
@@ -193,7 +195,14 @@ def main():
             dropped["off_target_enzyme_class"] += 1
             continue
 
-        m = {"measurement_id": f"BM{i:06d}"}
+        # Content-addressed, NOT positional. A row's id is derived from what the row says,
+        # so it survives a rebuild that adds or drops other rows. Index-based ids silently
+        # reshuffle on every change, which invalidates anything that references them —
+        # the manual-review exclusion list most of all.
+        fingerprint = "|".join(str(r.get(k, "")) for k in
+                               ("pmcid", "measurement_type", "value_raw", "value_unit_raw",
+                                "ion_species", "salt_species", "additive", "evidence_quote"))
+        m = {"measurement_id": "BM" + hashlib.sha1(fingerprint.encode()).hexdigest()[:10].upper()}
         m["enzyme_name"] = "" if JUNK_NAME.match(r.get("enzyme_name") or "") else (r.get("enzyme_name") or "").strip()
         m["mutation"] = r.get("mutation") or "wild-type/unspecified"
         m["is_wild_type"] = "yes" if m["mutation"] == "wild-type/unspecified" else "no"
@@ -269,7 +278,20 @@ def main():
         m["exposure_time_raw"] = r.get("exposure_time_raw", "")
         tmin = U.parse_time(r.get("exposure_time_raw", ""))
         m["exposure_time_min"] = tmin if tmin is not None else ""
+        # The assay is stated once in Methods and then used for the whole article, so it
+        # is recovered at article level when the row itself does not name one. The scope is
+        # recorded so a paper-level method is never mistaken for one stated on the row.
         m["assay_method"] = r.get("assay_method", "")
+        m["assay_method_scope"] = "row" if m["assay_method"] else ""
+        pm = paper_meth.get(r.get("pmcid") or "", {})
+        if not m["assay_method"] and pm.get("assay"):
+            m["assay_method"] = pm["assay"]
+            m["assay_method_scope"] = "paper-level (from Methods section)"
+        if not m["substrate"] and pm.get("substrate"):
+            m["substrate"] = pm["substrate"]
+            m["substrate_scope"] = "paper-level (from Methods section)"
+        else:
+            m["substrate_scope"] = "row" if m["substrate"] else ""
 
         # ---------------- value
         m["measurement_type"] = r.get("measurement_type", "")

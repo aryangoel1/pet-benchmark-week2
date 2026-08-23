@@ -1,0 +1,1687 @@
+{
+"PMC10003648": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC10039075": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC10046884": {
+"assay": "spectrophotometric p-nitrophenol release",
+"substrate": "polycaprolactone (PCL)",
+"n_assays": 1
+},
+"PMC10053415": {
+"assay": "DSC / nanoDSF thermal denaturation",
+"substrate": "polycaprolactone (PCL)",
+"n_assays": 1
+},
+"PMC10056866": {
+"assay": "spectrophotometric p-nitrophenol release",
+"substrate": "",
+"n_assays": 1
+},
+"PMC10076380": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC10080609": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC10091965": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC10146132": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC10146679": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC10204868": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC10255859": {
+"assay": "",
+"substrate": "PLA",
+"n_assays": 0
+},
+"PMC10284027": {
+"assay": "DSC / nanoDSF thermal denaturation",
+"substrate": "",
+"n_assays": 1
+},
+"PMC10317964": {
+"assay": "weight loss / gravimetric",
+"substrate": "polycaprolactone (PCL)",
+"n_assays": 1
+},
+"PMC10385968": {
+"assay": "",
+"substrate": "tributyrin",
+"n_assays": 0
+},
+"PMC10418727": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC10462454": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC10468675": {
+"assay": "",
+"substrate": "PHB/PHA",
+"n_assays": 0
+},
+"PMC10476351": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC10489954": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC10495362": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC10519993": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC10577049": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC10607142": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC10607177": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC10608044": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC10671283": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC10681957": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC10707221": {
+"assay": "spectrophotometric p-nitrophenol release",
+"substrate": "olive oil",
+"n_assays": 1
+},
+"PMC10725166": {
+"assay": "",
+"substrate": "tributyrin",
+"n_assays": 0
+},
+"PMC10725956": {
+"assay": "HPLC/UPLC product release",
+"substrate": "",
+"n_assays": 1
+},
+"PMC10794672": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC10817455": {
+"assay": "",
+"substrate": "tributyrin",
+"n_assays": 0
+},
+"PMC10820491": {
+"assay": "HPLC/UPLC product release",
+"substrate": "",
+"n_assays": 1
+},
+"PMC10851425": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC10869840": {
+"assay": "",
+"substrate": "amorphous PET film",
+"n_assays": 0
+},
+"PMC10884504": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC10904013": {
+"assay": "HPLC/UPLC product release",
+"substrate": "",
+"n_assays": 1
+},
+"PMC10927764": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC10947123": {
+"assay": "",
+"substrate": "polycaprolactone (PCL)",
+"n_assays": 0
+},
+"PMC10973377": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC10975908": {
+"assay": "HPLC/UPLC product release",
+"substrate": "",
+"n_assays": 1
+},
+"PMC10982435": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC10986584": {
+"assay": "",
+"substrate": "tributyrin",
+"n_assays": 0
+},
+"PMC10991172": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC10992048": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC10997104": {
+"assay": "spectrophotometric p-nitrophenol release",
+"substrate": "",
+"n_assays": 1
+},
+"PMC11000645": {
+"assay": "",
+"substrate": "PLA",
+"n_assays": 0
+},
+"PMC11033087": {
+"assay": "spectrophotometric p-nitrophenol release",
+"substrate": "",
+"n_assays": 1
+},
+"PMC11033240": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11052090": {
+"assay": "",
+"substrate": "nylon / polyamide",
+"n_assays": 0
+},
+"PMC11055803": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11063200": {
+"assay": "spectrophotometric p-nitrophenol release",
+"substrate": "",
+"n_assays": 1
+},
+"PMC11118615": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11123755": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11156721": {
+"assay": "spectrophotometric p-nitrophenol release",
+"substrate": "",
+"n_assays": 1
+},
+"PMC11178605": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11180994": {
+"assay": "",
+"substrate": "polycaprolactone (PCL)",
+"n_assays": 0
+},
+"PMC11196671": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11205646": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11220789": {
+"assay": "",
+"substrate": "",
+"n_assays": 2
+},
+"PMC11236915": {
+"assay": "",
+"substrate": "PLA",
+"n_assays": 0
+},
+"PMC11238728": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11241649": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11267923": {
+"assay": "",
+"substrate": "nylon / polyamide",
+"n_assays": 0
+},
+"PMC11270687": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11294652": {
+"assay": "spectrophotometric p-nitrophenol release",
+"substrate": "",
+"n_assays": 1
+},
+"PMC11317255": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11332829": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11372007": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11382147": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11390488": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11465579": {
+"assay": "weight loss / gravimetric",
+"substrate": "amorphous PET film",
+"n_assays": 1
+},
+"PMC11468216": {
+"assay": "spectrophotometric p-nitrophenol release",
+"substrate": "p-nitrophenyl ester",
+"n_assays": 1
+},
+"PMC11480989": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11497791": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11526368": {
+"assay": "",
+"substrate": "amorphous PET film",
+"n_assays": 0
+},
+"PMC11587651": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11605398": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11610943": {
+"assay": "HPLC/UPLC product release",
+"substrate": "BHET",
+"n_assays": 1
+},
+"PMC11611003": {
+"assay": "HPLC/UPLC product release",
+"substrate": "BHET",
+"n_assays": 1
+},
+"PMC11614938": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11641126": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11647663": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11651597": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11676845": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11681031": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11704408": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11717821": {
+"assay": "SEM surface analysis",
+"substrate": "",
+"n_assays": 1
+},
+"PMC11723331": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11724889": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11741139": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11754424": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11763714": {
+"assay": "",
+"substrate": "",
+"n_assays": 2
+},
+"PMC11773079": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11776369": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11782994": {
+"assay": "",
+"substrate": "PLA",
+"n_assays": 0
+},
+"PMC11813363": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11826121": {
+"assay": "HPLC/UPLC product release",
+"substrate": "PET powder",
+"n_assays": 1
+},
+"PMC11835289": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11842304": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11846503": {
+"assay": "spectrophotometric p-nitrophenol release",
+"substrate": "",
+"n_assays": 1
+},
+"PMC11874462": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11911963": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11915214": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11920951": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11944038": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11944904": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC11946717": {
+"assay": "",
+"substrate": "MHET",
+"n_assays": 0
+},
+"PMC11978721": {
+"assay": "spectrophotometric p-nitrophenol release",
+"substrate": "",
+"n_assays": 1
+},
+"PMC11989904": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12002436": {
+"assay": "",
+"substrate": "polyurethane / Impranil",
+"n_assays": 0
+},
+"PMC12042792": {
+"assay": "HPLC/UPLC product release",
+"substrate": "",
+"n_assays": 1
+},
+"PMC12048482": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12080928": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12094149": {
+"assay": "spectrophotometric p-nitrophenol release",
+"substrate": "",
+"n_assays": 1
+},
+"PMC12103612": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12113761": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12115826": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12120765": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12149201": {
+"assay": "HPLC/UPLC product release",
+"substrate": "",
+"n_assays": 1
+},
+"PMC12149519": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12156942": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12177687": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12187623": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12188634": {
+"assay": "",
+"substrate": "PLA",
+"n_assays": 0
+},
+"PMC12191407": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12195888": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12211005": {
+"assay": "",
+"substrate": "BHET",
+"n_assays": 0
+},
+"PMC12214560": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12226905": {
+"assay": "HPLC/UPLC product release",
+"substrate": "",
+"n_assays": 1
+},
+"PMC12238413": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12241367": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12251106": {
+"assay": "",
+"substrate": "",
+"n_assays": 2
+},
+"PMC12298952": {
+"assay": "",
+"substrate": "PLA",
+"n_assays": 0
+},
+"PMC12301039": {
+"assay": "",
+"substrate": "PLA",
+"n_assays": 0
+},
+"PMC12302326": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12327178": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12330340": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12334443": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12334762": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12336868": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12343579": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12345228": {
+"assay": "",
+"substrate": "polycaprolactone (PCL)",
+"n_assays": 0
+},
+"PMC12348225": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12388512": {
+"assay": "",
+"substrate": "polyurethane / Impranil",
+"n_assays": 0
+},
+"PMC12392721": {
+"assay": "",
+"substrate": "",
+"n_assays": 2
+},
+"PMC12392742": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12405426": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12415013": {
+"assay": "weight loss / gravimetric",
+"substrate": "",
+"n_assays": 1
+},
+"PMC12421990": {
+"assay": "HPLC/UPLC product release",
+"substrate": "",
+"n_assays": 1
+},
+"PMC12428281": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12428694": {
+"assay": "HPLC/UPLC product release",
+"substrate": "",
+"n_assays": 1
+},
+"PMC12431610": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12432235": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12439366": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12445843": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12453932": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12455824": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12461927": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12463561": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12467784": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12471672": {
+"assay": "weight loss / gravimetric",
+"substrate": "PLA",
+"n_assays": 1
+},
+"PMC12477847": {
+"assay": "spectrophotometric p-nitrophenol release",
+"substrate": "tributyrin",
+"n_assays": 1
+},
+"PMC12486415": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12486811": {
+"assay": "",
+"substrate": "PET powder",
+"n_assays": 0
+},
+"PMC12489886": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12491128": {
+"assay": "",
+"substrate": "amorphous PET film",
+"n_assays": 0
+},
+"PMC12503013": {
+"assay": "HPLC/UPLC product release",
+"substrate": "",
+"n_assays": 1
+},
+"PMC12504323": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12537917": {
+"assay": "DSC / nanoDSF thermal denaturation",
+"substrate": "",
+"n_assays": 1
+},
+"PMC12542648": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12550887": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12558382": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12560057": {
+"assay": "",
+"substrate": "polycaprolactone (PCL)",
+"n_assays": 0
+},
+"PMC12566213": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12566533": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12599313": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12609699": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12610561": {
+"assay": "",
+"substrate": "PLA",
+"n_assays": 0
+},
+"PMC12611034": {
+"assay": "",
+"substrate": "PLA",
+"n_assays": 0
+},
+"PMC12616515": {
+"assay": "spectrophotometric p-nitrophenol release",
+"substrate": "PBAT",
+"n_assays": 1
+},
+"PMC12624734": {
+"assay": "",
+"substrate": "amorphous PET film",
+"n_assays": 0
+},
+"PMC12636025": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12648627": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12654650": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12655971": {
+"assay": "DSC / nanoDSF thermal denaturation",
+"substrate": "PLA",
+"n_assays": 1
+},
+"PMC12667730": {
+"assay": "weight loss / gravimetric",
+"substrate": "PLA",
+"n_assays": 1
+},
+"PMC12676354": {
+"assay": "",
+"substrate": "PLA",
+"n_assays": 0
+},
+"PMC12692708": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12720421": {
+"assay": "spectrophotometric p-nitrophenol release",
+"substrate": "PBAT",
+"n_assays": 1
+},
+"PMC12722478": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12734981": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12736776": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12741466": {
+"assay": "",
+"substrate": "polycaprolactone (PCL)",
+"n_assays": 0
+},
+"PMC12766707": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12767561": {
+"assay": "HPLC/UPLC product release",
+"substrate": "nylon / polyamide",
+"n_assays": 1
+},
+"PMC12774947": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12785184": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12788071": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12788130": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12804158": {
+"assay": "HPLC/UPLC product release",
+"substrate": "",
+"n_assays": 1
+},
+"PMC12812918": {
+"assay": "",
+"substrate": "",
+"n_assays": 2
+},
+"PMC12817867": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12817902": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12838782": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12843797": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12844253": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12856551": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12858967": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12860643": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12871986": {
+"assay": "weight loss / gravimetric",
+"substrate": "MHET",
+"n_assays": 1
+},
+"PMC12876002": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12882174": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12896513": {
+"assay": "spectrophotometric p-nitrophenol release",
+"substrate": "",
+"n_assays": 1
+},
+"PMC12897138": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12898461": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12899640": {
+"assay": "HPLC/UPLC product release",
+"substrate": "",
+"n_assays": 1
+},
+"PMC12899941": {
+"assay": "weight loss / gravimetric",
+"substrate": "",
+"n_assays": 1
+},
+"PMC12921842": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12924491": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12931029": {
+"assay": "",
+"substrate": "polycaprolactone (PCL)",
+"n_assays": 0
+},
+"PMC12933714": {
+"assay": "",
+"substrate": "MHET",
+"n_assays": 0
+},
+"PMC12937638": {
+"assay": "HPLC/UPLC product release",
+"substrate": "",
+"n_assays": 1
+},
+"PMC12941699": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12942554": {
+"assay": "",
+"substrate": "PHB/PHA",
+"n_assays": 0
+},
+"PMC12943181": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12948830": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12953519": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12960341": {
+"assay": "HPLC/UPLC product release",
+"substrate": "",
+"n_assays": 1
+},
+"PMC12961536": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12964413": {
+"assay": "spectrophotometric p-nitrophenol release",
+"substrate": "",
+"n_assays": 1
+},
+"PMC12969132": {
+"assay": "HPLC/UPLC product release",
+"substrate": "",
+"n_assays": 1
+},
+"PMC12972147": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12975738": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC12981036": {
+"assay": "DSC / nanoDSF thermal denaturation",
+"substrate": "",
+"n_assays": 2
+},
+"PMC12983893": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC13010533": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC13017698": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC13020383": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC13027841": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC13035632": {
+"assay": "spectrophotometric p-nitrophenol release",
+"substrate": "",
+"n_assays": 1
+},
+"PMC13038979": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC13042901": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC13047686": {
+"assay": "HPLC/UPLC product release",
+"substrate": "",
+"n_assays": 1
+},
+"PMC13050008": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC13055320": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC13067175": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC13070388": {
+"assay": "",
+"substrate": "PHB/PHA",
+"n_assays": 0
+},
+"PMC13081001": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC13083753": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC13090998": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC13118177": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC13118911": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC13135583": {
+"assay": "HPLC/UPLC product release",
+"substrate": "PBAT",
+"n_assays": 1
+},
+"PMC13137247": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC13139084": {
+"assay": "",
+"substrate": "PLA",
+"n_assays": 0
+},
+"PMC13141515": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC13141975": {
+"assay": "",
+"substrate": "PLA",
+"n_assays": 0
+},
+"PMC13154153": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC13154176": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC13163572": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC13165661": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC13188855": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC13208617": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC13209630": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC13209667": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC13211179": {
+"assay": "",
+"substrate": "PLA",
+"n_assays": 0
+},
+"PMC13216420": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC13220297": {
+"assay": "",
+"substrate": "PHB/PHA",
+"n_assays": 0
+},
+"PMC13223981": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC13227510": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC13231656": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC13241884": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC13254593": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC13255030": {
+"assay": "DSC / nanoDSF thermal denaturation",
+"substrate": "",
+"n_assays": 1
+},
+"PMC13269358": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC13269702": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC13272253": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC13274763": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC13275390": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC13300036": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC13315875": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC13323979": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC4624153": {
+"assay": "spectrophotometric p-nitrophenol release",
+"substrate": "",
+"n_assays": 1
+},
+"PMC5011490": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC5881046": {
+"assay": "HPLC/UPLC product release",
+"substrate": "polycaprolactone (PCL)",
+"n_assays": 1
+},
+"PMC6505623": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC7031157": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC7568301": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC7806724": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC7823905": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC7936011": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC8193722": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC8260098": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC8351946": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC8567236": {
+"assay": "SEM surface analysis",
+"substrate": "polycaprolactone (PCL)",
+"n_assays": 1
+},
+"PMC8615396": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC8621346": {
+"assay": "spectrophotometric p-nitrophenol release",
+"substrate": "",
+"n_assays": 1
+},
+"PMC8733400": {
+"assay": "spectrophotometric p-nitrophenol release",
+"substrate": "",
+"n_assays": 1
+},
+"PMC8745736": {
+"assay": "turbidimetric / clearing zone",
+"substrate": "",
+"n_assays": 1
+},
+"PMC8746539": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC8767016": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC8971842": {
+"assay": "",
+"substrate": "polycaprolactone (PCL)",
+"n_assays": 0
+},
+"PMC8982334": {
+"assay": "HPLC/UPLC product release",
+"substrate": "BHET",
+"n_assays": 1
+},
+"PMC8985596": {
+"assay": "weight loss / gravimetric",
+"substrate": "",
+"n_assays": 1
+},
+"PMC9039725": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC9065602": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC9104356": {
+"assay": "spectrophotometric p-nitrophenol release",
+"substrate": "",
+"n_assays": 1
+},
+"PMC9143596": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC9144027": {
+"assay": "spectrophotometric p-nitrophenol release",
+"substrate": "tributyrin",
+"n_assays": 1
+},
+"PMC9146961": {
+"assay": "",
+"substrate": "BHET",
+"n_assays": 0
+},
+"PMC9206389": {
+"assay": "spectrophotometric p-nitrophenol release",
+"substrate": "PBAT",
+"n_assays": 1
+},
+"PMC9213733": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC9266678": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC9321771": {
+"assay": "HPLC/UPLC product release",
+"substrate": "",
+"n_assays": 1
+},
+"PMC9350882": {
+"assay": "HPLC/UPLC product release",
+"substrate": "",
+"n_assays": 1
+},
+"PMC9361285": {
+"assay": "weight loss / gravimetric",
+"substrate": "",
+"n_assays": 1
+},
+"PMC9452428": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC9459419": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC9506434": {
+"assay": "spectrophotometric p-nitrophenol release",
+"substrate": "",
+"n_assays": 1
+},
+"PMC9596486": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC9603655": {
+"assay": "weight loss / gravimetric",
+"substrate": "",
+"n_assays": 1
+},
+"PMC9706006": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC9709933": {
+"assay": "spectrophotometric p-nitrophenol release",
+"substrate": "",
+"n_assays": 1
+},
+"PMC9734156": {
+"assay": "HPLC/UPLC product release",
+"substrate": "",
+"n_assays": 1
+},
+"PMC9764356": {
+"assay": "",
+"substrate": "amorphous PET film",
+"n_assays": 0
+},
+"PMC9772341": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC9795927": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC9805092": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC9839772": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC9870871": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC9893805": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC9901418": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC9963400": {
+"assay": "spectrophotometric p-nitrophenol release",
+"substrate": "",
+"n_assays": 1
+},
+"PMC9967032": {
+"assay": "",
+"substrate": "",
+"n_assays": 0
+},
+"PMC9972953": {
+"assay": "",
+"substrate": "PLA",
+"n_assays": 2
+}
+}

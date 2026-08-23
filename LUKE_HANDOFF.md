@@ -48,7 +48,7 @@ Done, using your hash exactly: `protein_id = "P" + sha1(sequence.upper().replace
 | Mixed electrolyte | 2 |
 | Named buffer system | 37 |
 | Exposure / incubation time | 81 |
-| Assay method recorded | 12 |
+| Assay method recorded | 169 |
 | Temperature **and** pH on the same row | 34 |
 
 Your training set carries temperature and pH but no electrolyte column, so the electrolyte axis is testable here without any risk of leakage.

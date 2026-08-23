@@ -41,14 +41,14 @@ tuning.
 | — mixed electrolyte | 2 |
 | Named buffer system | 37 |
 | Exposure / incubation time | 81 |
-| Assay method recorded | 12 |
+| Assay method recorded | 169 |
 | Measurements on engineered variants | 16 |
 | Distinct ionic species | 15 |
 | Distinct salts | 16 |
 
-**Ions covered:** Na(+) (27), Ca(2+) (21), Mg(2+) (14), Zn(2+) (10), Cu(2+) (10), K(+) (7), Co(2+) (6), Mn(2+) (6), Fe(3+) (5), Fe(2+) (2), Ba(2+) (2), NH4(+) (2), Li(+) (1), Hg(2+) (1), Ni(2+) (1)
+**Ions covered:** Na(+) (27), Ca(2+) (21), Mg(2+) (14), Cu(2+) (10), Zn(2+) (10), K(+) (7), Mn(2+) (6), Co(2+) (6), Fe(3+) (5), Fe(2+) (2), NH4(+) (2), Ba(2+) (2), Ni(2+) (1), Hg(2+) (1), Li(+) (1)
 
-**Salts covered:** NaCl (22), CaCl2 (9), MgCl2 (5), KCl (3), ZnCl2 (2), CoCl2 (2), FeCl3 (2), CuSO4 (2), ZnSO4 (2), CuCl2 (2), MnSO4 (1), MgSO4 (1), BaCl2 (1), HgCl2 (1), MnCl2 (1), NiCl2 (1)
+**Salts covered:** NaCl (22), CaCl2 (9), MgCl2 (5), KCl (3), CuSO4 (2), CuCl2 (2), FeCl3 (2), CoCl2 (2), ZnSO4 (2), ZnCl2 (2), MnCl2 (1), NiCl2 (1), HgCl2 (1), MgSO4 (1), MnSO4 (1), BaCl2 (1)
 
 ### Measurement types
 
@@ -69,7 +69,7 @@ tuning.
 
 | File | What it is |
 |---|---|
-| `pet_benchmark_v2.csv` | **Main deliverable** — 528 rows × 70 columns |
+| `pet_benchmark_v2.csv` | **Main deliverable** — 528 rows × 72 columns |
 | `pet_benchmark_v2.sqlite` | Same data, indexed, with the views `v_gold`, `v_sequence`, `v_temperature`, `v_ph`, `v_electrolyte`, `v_verified` |
 | `benchmark_sequences.fasta` | Every benchmark protein, header carries Luke's `protein_id` join key |
 | `OVERLAP_REPORT.md` | The audit trail — what was screened against what, and every verdict |

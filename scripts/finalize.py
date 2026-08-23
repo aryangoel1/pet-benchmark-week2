@@ -29,7 +29,7 @@ COLUMNS = [
     "protein_id_luke_join", "sequence_length", "sequence_resolution", "reviewed_status_uniprot",
     "mutation", "is_wild_type",
     # substrate
-    "substrate", "substrate_form",
+    "substrate", "substrate_scope", "substrate_form",
     # temperature
     "temperature_raw", "temperature_c", "temperature_c_low", "temperature_c_high",
     # pH
@@ -40,7 +40,7 @@ COLUMNS = [
     "salinity_raw", "salinity_g_per_L", "salinity_psu", "seawater_type",
     "ionic_strength_M", "ionic_strength_source", "additive", "additive_conc_mM",
     # exposure + assay
-    "exposure_time_raw", "exposure_time_min", "assay_method",
+    "exposure_time_raw", "exposure_time_min", "assay_method", "assay_method_scope",
     # measurement
     "measurement_type", "value_raw", "value_unit_raw", "value_std", "value_std_high",
     "value_unit_std", "value_is_range",
