@@ -1,0 +1,23 @@
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Regenerable intermediates — excluded to keep the repo reviewable.
+# exclusions.sqlite is 352 MB and rebuilds in ~30 s from the shared datasets:
+#   python3 scripts/build_exclusions.py
+data/exclusions.sqlite
+
+# Cached article full text (74 MB) and the independent verification copies (18 MB).
+# Both re-download from Europe PMC; they are caches, not source data.
+data/fulltext_xml/
+data/verify_xml/
+
+# Large mined intermediates, regenerable by re-running the pipeline
+data/bench_rows.json
+data/bench_std.json
+
+.DS_Store
+
+# Pipeline run logs
+data/*.log

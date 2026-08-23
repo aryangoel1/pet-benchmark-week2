@@ -1,0 +1,4693 @@
+{
+ "tables": [
+  [
+   "PMC12871986",
+   "literature comparison table",
+   "Table 3"
+  ],
+  [
+   "PMC12871986",
+   "in-silico annotation table",
+   "Table 4"
+  ],
+  [
+   "PMC12741466",
+   "literature comparison table",
+   ""
+  ],
+  [
+   "PMC12767278",
+   "literature comparison table",
+   "TABLE 1"
+  ],
+  [
+   "PMC13227510",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC12896513",
+   "literature comparison table",
+   "Table 4"
+  ],
+  [
+   "PMC12896513",
+   "literature comparison table",
+   "Table 5"
+  ],
+  [
+   "PMC12194804",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC12194804",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC10495362",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC12453932",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC12453932",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC12298952",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC12298952",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC12298952",
+   "literature comparison table",
+   "Table 3"
+  ],
+  [
+   "PMC12298952",
+   "literature comparison table",
+   "Table 4"
+  ],
+  [
+   "PMC12298952",
+   "literature comparison table",
+   "Table 5"
+  ],
+  [
+   "PMC12845532",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC8982334",
+   "reagent supplier table",
+   "Enzymes used in this work"
+  ],
+  [
+   "PMC12787803",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC12787803",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC12787803",
+   "literature comparison table",
+   "Table 3"
+  ],
+  [
+   "PMC12787803",
+   "literature comparison table",
+   "Table 4"
+  ],
+  [
+   "PMC11946717",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC11946717",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC11465579",
+   "literature comparison table",
+   "Table 3"
+  ],
+  [
+   "PMC10046884",
+   "purification summary table",
+   "Table 1"
+  ],
+  [
+   "PMC11270687",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC12336868",
+   "literature comparison table",
+   "Table 3"
+  ],
+  [
+   "PMC11021832",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC12504323",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC8767016",
+   "in-silico annotation table",
+   "TABLE 1"
+  ],
+  [
+   "PMC12860643",
+   "literature comparison table",
+   ""
+  ],
+  [
+   "PMC11236915",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC12611034",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC12611034",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC12611034",
+   "literature comparison table",
+   "Table 3"
+  ],
+  [
+   "PMC10362282",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC13165661",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC13165661",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC11357509",
+   "literature comparison table",
+   "Table 3"
+  ],
+  [
+   "PMC11357509",
+   "literature comparison table",
+   "Table 4"
+  ],
+  [
+   "PMC11357509",
+   "literature comparison table",
+   "Table 5"
+  ],
+  [
+   "PMC11357509",
+   "literature comparison table",
+   "Table 6"
+  ],
+  [
+   "PMC11357509",
+   "literature comparison table",
+   "Table 7"
+  ],
+  [
+   "PMC11357509",
+   "literature comparison table",
+   "Table 8"
+  ],
+  [
+   "PMC10230146",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC10230146",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC10230146",
+   "literature comparison table",
+   "Table 3"
+  ],
+  [
+   "PMC11920951",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC11920951",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC11920951",
+   "literature comparison table",
+   "Table 3"
+  ],
+  [
+   "PMC12195123",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC12195123",
+   "literature comparison table",
+   "Table 3"
+  ],
+  [
+   "PMC11587651",
+   "reagent supplier table",
+   "Table 1"
+  ],
+  [
+   "PMC11587651",
+   "reagent supplier table",
+   "Table 3"
+  ],
+  [
+   "PMC11055803",
+   "purification summary table",
+   "Table 1"
+  ],
+  [
+   "PMC11055803",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC12734981",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC13185801",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC13185801",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC13185801",
+   "literature comparison table",
+   "Table 3"
+  ],
+  [
+   "PMC9893805",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC10462454",
+   "in-silico annotation table",
+   "Table 2."
+  ],
+  [
+   "PMC9039725",
+   "literature comparison table",
+   "TABLE 2"
+  ],
+  [
+   "PMC9039725",
+   "in-silico annotation table",
+   "TABLE 4"
+  ],
+  [
+   "PMC13261733",
+   "literature comparison table",
+   "1"
+  ],
+  [
+   "PMC13261733",
+   "literature comparison table",
+   "2"
+  ],
+  [
+   "PMC13261733",
+   "literature comparison table",
+   "3"
+  ],
+  [
+   "PMC11891729",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC12960341",
+   "literature comparison table",
+   "Table 3"
+  ],
+  [
+   "PMC13027841",
+   "purification summary table",
+   "Table 1"
+  ],
+  [
+   "PMC12566533",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC11611003",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC12948830",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC12948830",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC12948830",
+   "literature comparison table",
+   "Table 3"
+  ],
+  [
+   "PMC12948830",
+   "literature comparison table",
+   "Table 4"
+  ],
+  [
+   "PMC12193338",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC12193338",
+   "literature comparison table",
+   "Table 3"
+  ],
+  [
+   "PMC12193338",
+   "literature comparison table",
+   "Table 4"
+  ],
+  [
+   "PMC11118615",
+   "purification summary table",
+   "Table 1"
+  ],
+  [
+   "PMC11118615",
+   "purification summary table",
+   "Table 3"
+  ],
+  [
+   "PMC10820491",
+   "in-silico annotation table",
+   "Table 1"
+  ],
+  [
+   "PMC13042901",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC12961435",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC12961435",
+   "literature comparison table",
+   "Table 3"
+  ],
+  [
+   "PMC12961435",
+   "literature comparison table",
+   "Table 4"
+  ],
+  [
+   "PMC12961435",
+   "literature comparison table",
+   "Table 5"
+  ],
+  [
+   "PMC11773079",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC12504347",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC12504347",
+   "literature comparison table",
+   "Table 3"
+  ],
+  [
+   "PMC11314448",
+   "literature comparison table",
+   "Table 3"
+  ],
+  [
+   "PMC11314448",
+   "literature comparison table",
+   "Table 4"
+  ],
+  [
+   "PMC11256910",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC11256910",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC11178605",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC10167783",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC10167783",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC12610803",
+   "literature comparison table",
+   "Table 3"
+  ],
+  [
+   "PMC11647663",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC11647663",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC11647663",
+   "literature comparison table",
+   "Table 3"
+  ],
+  [
+   "PMC12238413",
+   "reagent supplier table",
+   "Table 1"
+  ],
+  [
+   "PMC12238413",
+   "polymer material-property table",
+   "Table 4"
+  ],
+  [
+   "PMC10997104",
+   "in-silico annotation table",
+   "Table 1"
+  ],
+  [
+   "PMC10997104",
+   "in-silico annotation table",
+   "Table 3"
+  ],
+  [
+   "PMC12788071",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC12788071",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC12788071",
+   "literature comparison table",
+   "Table 3"
+  ],
+  [
+   "PMC12788071",
+   "literature comparison table",
+   "Table 5"
+  ],
+  [
+   "PMC12788071",
+   "literature comparison table",
+   "Table 6"
+  ],
+  [
+   "PMC9963400",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC10418727",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC10707221",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC12342026",
+   "literature comparison table",
+   "TABLE 1"
+  ],
+  [
+   "PMC13118177",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC12351994",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC12351994",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC9065602",
+   "in-silico annotation table",
+   "TABLE 3"
+  ],
+  [
+   "PMC9065602",
+   "literature comparison table",
+   "TABLE 7"
+  ],
+  [
+   "PMC12981036",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC12981036",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC12463561",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC12537917",
+   "in-silico annotation table",
+   "Table 1"
+  ],
+  [
+   "PMC9104356",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC8260098",
+   "literature comparison table",
+   "TABLE 1"
+  ],
+  [
+   "PMC8260098",
+   "literature comparison table",
+   "TABLE 2"
+  ],
+  [
+   "PMC8260098",
+   "literature comparison table",
+   "TABLE 3"
+  ],
+  [
+   "PMC8260098",
+   "literature comparison table",
+   "TABLE 5"
+  ],
+  [
+   "PMC13211179",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC10947123",
+   "literature comparison table",
+   "TABLE 1"
+  ],
+  [
+   "PMC10947123",
+   "in-silico annotation table",
+   "TABLE 2"
+  ],
+  [
+   "PMC9603655",
+   "literature comparison table",
+   "Table 8"
+  ],
+  [
+   "PMC5881046",
+   "literature comparison table",
+   "TABLE 1"
+  ],
+  [
+   "PMC5881046",
+   "literature comparison table",
+   "TABLE 4"
+  ],
+  [
+   "PMC8985596",
+   "literature comparison table",
+   "TABLE 1"
+  ],
+  [
+   "PMC8985596",
+   "literature comparison table",
+   "TABLE 2"
+  ],
+  [
+   "PMC12432235",
+   "reagent supplier table",
+   "Table 5"
+  ],
+  [
+   "PMC10003648",
+   "in-silico annotation table",
+   "Table 1"
+  ],
+  [
+   "PMC10003648",
+   "literature comparison table",
+   "Table 7"
+  ],
+  [
+   "PMC12931186",
+   "reagent supplier table",
+   "Table 1"
+  ],
+  [
+   "PMC11717657",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC11717657",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC11651597",
+   "purification summary table",
+   "Table 1"
+  ],
+  [
+   "PMC12721391",
+   "literature comparison table",
+   "Table 2."
+  ],
+  [
+   "PMC12721391",
+   "literature comparison table",
+   "Table 3."
+  ],
+  [
+   "PMC12882174",
+   "literature comparison table",
+   "Table 3"
+  ],
+  [
+   "PMC11052090",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC12921842",
+   "literature comparison table",
+   "2"
+  ],
+  [
+   "PMC12471672",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC9213733",
+   "literature comparison table",
+   "TABLE 2"
+  ],
+  [
+   "PMC8978869",
+   "literature comparison table",
+   "a"
+  ],
+  [
+   "PMC8978869",
+   "reagent supplier table",
+   "a"
+  ],
+  [
+   "PMC12214560",
+   "in-silico annotation table",
+   "Table 2"
+  ],
+  [
+   "PMC13208617",
+   "reagent supplier table",
+   "Table 1"
+  ],
+  [
+   "PMC13208617",
+   "reagent supplier table",
+   "Table 2"
+  ],
+  [
+   "PMC12195458",
+   "reagent supplier table",
+   "Table 1"
+  ],
+  [
+   "PMC12195458",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC12195458",
+   "literature comparison table",
+   "Table 3"
+  ],
+  [
+   "PMC12195458",
+   "literature comparison table",
+   "Table 4"
+  ],
+  [
+   "PMC11610943",
+   "literature comparison table",
+   "Table 3"
+  ],
+  [
+   "PMC11717821",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC11717821",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC11717821",
+   "literature comparison table",
+   "Table 3"
+  ],
+  [
+   "PMC8971842",
+   "purification summary table",
+   "TABLE 1"
+  ],
+  [
+   "PMC12334443",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC12334443",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC12334443",
+   "literature comparison table",
+   "Table 3"
+  ],
+  [
+   "PMC12649708",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC12649708",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC12649708",
+   "literature comparison table",
+   "Table 3"
+  ],
+  [
+   "PMC13067175",
+   "literature comparison table",
+   "5"
+  ],
+  [
+   "PMC9967032",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC9967032",
+   "literature comparison table",
+   "Table 4"
+  ],
+  [
+   "PMC9967032",
+   "literature comparison table",
+   "Table 5"
+  ],
+  [
+   "PMC11238728",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC11238728",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC12610561",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC12003217",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC12003217",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC12003217",
+   "literature comparison table",
+   "Table 3"
+  ],
+  [
+   "PMC12003217",
+   "literature comparison table",
+   "Table 4"
+  ],
+  [
+   "PMC12003217",
+   "literature comparison table",
+   "Table 5"
+  ],
+  [
+   "PMC12003217",
+   "literature comparison table",
+   "Table 6"
+  ],
+  [
+   "PMC12003217",
+   "literature comparison table",
+   "Table 7"
+  ],
+  [
+   "PMC12003217",
+   "literature comparison table",
+   "Table 8"
+  ],
+  [
+   "PMC12003217",
+   "literature comparison table",
+   "Table 9"
+  ],
+  [
+   "PMC4624153",
+   "purification summary table",
+   "Table 1"
+  ],
+  [
+   "PMC12734273",
+   "literature comparison table",
+   "Table 3"
+  ],
+  [
+   "PMC9266678",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC9972953",
+   "in-silico annotation table",
+   "TABLE 1"
+  ],
+  [
+   "PMC12655965",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC12655965",
+   "literature comparison table",
+   "Table 3"
+  ],
+  [
+   "PMC13275390",
+   "literature comparison table",
+   "TABLE 1"
+  ],
+  [
+   "PMC12251106",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC12251106",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC13135583",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC10725166",
+   "in-silico annotation table",
+   "Table I"
+  ],
+  [
+   "PMC13255030",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC13255030",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC13255030",
+   "literature comparison table",
+   "Table 3"
+  ],
+  [
+   "PMC11032018",
+   "literature comparison table",
+   "TABLE 1"
+  ],
+  [
+   "PMC11681031",
+   "purification summary table",
+   "Table 1"
+  ],
+  [
+   "PMC9230134",
+   "in-silico annotation table",
+   "Table 2"
+  ],
+  [
+   "PMC9230134",
+   "in-silico annotation table",
+   "Table 3"
+  ],
+  [
+   "PMC9230134",
+   "in-silico annotation table",
+   "Table 6"
+  ],
+  [
+   "PMC9230134",
+   "in-silico annotation table",
+   "Table 7"
+  ],
+  [
+   "PMC9230134",
+   "literature comparison table",
+   "Table 8"
+  ],
+  [
+   "PMC12982187",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC12566892",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC12566892",
+   "literature comparison table",
+   "Table 3"
+  ],
+  [
+   "PMC12566892",
+   "literature comparison table",
+   "Table 4"
+  ],
+  [
+   "PMC12566892",
+   "literature comparison table",
+   "Table 5"
+  ],
+  [
+   "PMC12566892",
+   "literature comparison table",
+   "Table 6"
+  ],
+  [
+   "PMC12566892",
+   "literature comparison table",
+   "Table 7"
+  ],
+  [
+   "PMC11294652",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC12941699",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC12941699",
+   "purification summary table",
+   "Table 2"
+  ],
+  [
+   "PMC10950981",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC13090737",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC13090737",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC11831813",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC11831813",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC10982435",
+   "literature comparison table",
+   "TABLE 1"
+  ],
+  [
+   "PMC12542648",
+   "literature comparison table",
+   "TABLE 1"
+  ],
+  [
+   "PMC12177687",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC12177687",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC11813363",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC10053415",
+   "literature comparison table",
+   "Table 4"
+  ],
+  [
+   "PMC11241649",
+   "in-silico annotation table",
+   "Table 1"
+  ],
+  [
+   "PMC11241649",
+   "in-silico annotation table",
+   "Table 2"
+  ],
+  [
+   "PMC11241649",
+   "in-silico annotation table",
+   "Table 3"
+  ],
+  [
+   "PMC11241649",
+   "in-silico annotation table",
+   "Table 4"
+  ],
+  [
+   "PMC11241649",
+   "in-silico annotation table",
+   "Table 5"
+  ],
+  [
+   "PMC11241649",
+   "in-silico annotation table",
+   "Table 6"
+  ],
+  [
+   "PMC13210592",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC13210592",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC9709933",
+   "purification summary table",
+   "Purification summary of recombinant esterase enzyme"
+  ],
+  [
+   "PMC12667730",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC12667730",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC12667730",
+   "literature comparison table",
+   "Table 3"
+  ],
+  [
+   "PMC12667730",
+   "literature comparison table",
+   "Table 4"
+  ],
+  [
+   "PMC12667730",
+   "literature comparison table",
+   "Table 5"
+  ],
+  [
+   "PMC12667730",
+   "literature comparison table",
+   "Table 6"
+  ],
+  [
+   "PMC6505623",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC11704408",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC11704408",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC12455824",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC12391287",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC12251662",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC12251662",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC12251662",
+   "literature comparison table",
+   "Table 3"
+  ],
+  [
+   "PMC12251662",
+   "literature comparison table",
+   "Table 4"
+  ],
+  [
+   "PMC9871534",
+   "literature comparison table",
+   "TABLE 1"
+  ],
+  [
+   "PMC12195888",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC12195888",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC12195888",
+   "literature comparison table",
+   "Table 3"
+  ],
+  [
+   "PMC12195888",
+   "literature comparison table",
+   "Table 4"
+  ],
+  [
+   "PMC11846503",
+   "purification summary table",
+   "Table 2"
+  ],
+  [
+   "PMC11205646",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC11205646",
+   "literature comparison table",
+   "Table 4"
+  ],
+  [
+   "PMC9901418",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC9706006",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC12936335",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC12936335",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC12936335",
+   "literature comparison table",
+   "Table 3"
+  ],
+  [
+   "PMC12936335",
+   "literature comparison table",
+   "Table 5"
+  ],
+  [
+   "PMC12936335",
+   "literature comparison table",
+   "Table 6"
+  ],
+  [
+   "PMC11723331",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC11468216",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC12558382",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC9452428",
+   "purification summary table",
+   "Table 1"
+  ],
+  [
+   "PMC9452428",
+   "literature comparison table",
+   "Table 5"
+  ],
+  [
+   "PMC9452428",
+   "literature comparison table",
+   "Table 6"
+  ],
+  [
+   "PMC11573002",
+   "in-silico annotation table",
+   "Table 1."
+  ],
+  [
+   "PMC8125656",
+   "reagent supplier table",
+   "Table 1"
+  ],
+  [
+   "PMC8125656",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC8125656",
+   "literature comparison table",
+   "Table 3"
+  ],
+  [
+   "PMC8125656",
+   "literature comparison table",
+   "Table 4"
+  ],
+  [
+   "PMC8125656",
+   "literature comparison table",
+   "Table 5"
+  ],
+  [
+   "PMC12736776",
+   "in-silico annotation table",
+   "Table 1"
+  ],
+  [
+   "PMC12736776",
+   "in-silico annotation table",
+   "Table 2"
+  ],
+  [
+   "PMC12522156",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC12522156",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC12522156",
+   "literature comparison table",
+   "Table 3"
+  ],
+  [
+   "PMC12522156",
+   "literature comparison table",
+   "Table 4"
+  ],
+  [
+   "PMC12522156",
+   "literature comparison table",
+   "Table 5"
+  ],
+  [
+   "PMC10607142",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC10607142",
+   "literature comparison table",
+   "Table 2"
+  ],
+  [
+   "PMC12788130",
+   "literature comparison table",
+   "Table 3"
+  ],
+  [
+   "PMC12120765",
+   "literature comparison table",
+   "Table 1"
+  ],
+  [
+   "PMC12856551",
+   "in-silico annotation table",
+   "Table 1"
+  ],
+  [
+   "PMC11267923",
+   "literature comparison table",
+   "TABLE 2"
+  ],
+  [
+   "PMC11267923",
+   "literature comparison table",
+   "TABLE 2"
+  ],
+  [
+   "PMC11763714",
+   "literature comparison table",
+   "Table 3"
+  ],
+  [
+   "PMC10519993",
+   "literature comparison table",
+   "Table 1"
+  ]
+ ],
+ "sections": [
+  [
+   "PMC12871986",
+   "Introduction"
+  ],
+  [
+   "PMC12871986",
+   "Introduction"
+  ],
+  [
+   "PMC12871986",
+   "Introduction"
+  ],
+  [
+   "PMC12871986",
+   "Introduction"
+  ],
+  [
+   "PMC12871986",
+   "Introduction"
+  ],
+  [
+   "PMC12871986",
+   "Introduction"
+  ],
+  [
+   "PMC12871986",
+   "Introduction"
+  ],
+  [
+   "PMC12871986",
+   "Introduction"
+  ],
+  [
+   "PMC12871986",
+   "Introduction"
+  ],
+  [
+   "PMC12871986",
+   "Limitations and future directions"
+  ],
+  [
+   "PMC12871986",
+   "Limitations and future directions"
+  ],
+  [
+   "PMC12871986",
+   "Conclusions"
+  ],
+  [
+   "PMC12741466",
+   "Introduction"
+  ],
+  [
+   "PMC12741466",
+   "Introduction"
+  ],
+  [
+   "PMC12741466",
+   "Introduction"
+  ],
+  [
+   "PMC12741466",
+   "Introduction"
+  ],
+  [
+   "PMC12741466",
+   "Materials availability"
+  ],
+  [
+   "PMC12741466",
+   "Data and code availability"
+  ],
+  [
+   "PMC12741466",
+   "Data and code availability"
+  ],
+  [
+   "PMC12741466",
+   "Data and code availability"
+  ],
+  [
+   "PMC12741466",
+   "Acknowledgments"
+  ],
+  [
+   "PMC12741466",
+   "Declaration of interests"
+  ],
+  [
+   "PMC12741466",
+   "Data Availability Statement"
+  ],
+  [
+   "PMC12741466",
+   "Data Availability Statement"
+  ],
+  [
+   "PMC12741466",
+   "Data Availability Statement"
+  ],
+  [
+   "PMC12616515",
+   "Introduction"
+  ],
+  [
+   "PMC12616515",
+   "Introduction"
+  ],
+  [
+   "PMC12616515",
+   "Introduction"
+  ],
+  [
+   "PMC12616515",
+   "Introduction"
+  ],
+  [
+   "PMC12616515",
+   "Introduction"
+  ],
+  [
+   "PMC12616515",
+   "Introduction"
+  ],
+  [
+   "PMC12616515",
+   "Introduction"
+  ],
+  [
+   "PMC12616515",
+   "Conclusion"
+  ],
+  [
+   "PMC12616515",
+   "Conclusion"
+  ],
+  [
+   "PMC12616515",
+   "Conflicts of Interest"
+  ],
+  [
+   "PMC12616515",
+   "Acknowledgments"
+  ],
+  [
+   "PMC12616515",
+   "Data Availability Statement"
+  ],
+  [
+   "PMC12616515",
+   "Supplementary Materials"
+  ],
+  [
+   "PMC12616515",
+   "Data Availability Statement"
+  ],
+  [
+   "PMC12975738",
+   "Introduction"
+  ],
+  [
+   "PMC12975738",
+   "Introduction"
+  ],
+  [
+   "PMC12975738",
+   "Introduction"
+  ],
+  [
+   "PMC12975738",
+   "Introduction"
+  ],
+  [
+   "PMC12975738",
+   "Conclusion"
+  ],
+  [
+   "PMC12975738",
+   "Acknowledgments"
+  ],
+  [
+   "PMC12975738",
+   "Funding Statement"
+  ],
+  [
+   "PMC12975738",
+   "Data availability statement"
+  ],
+  [
+   "PMC12975738",
+   "Conflict of interest"
+  ],
+  [
+   "PMC12975738",
+   "Data Availability Statement"
+  ],
+  [
+   "PMC12767278",
+   "Introduction"
+  ],
+  [
+   "PMC12767278",
+   "Introduction"
+  ],
+  [
+   "PMC12767278",
+   "Introduction"
+  ],
+  [
+   "PMC12767278",
+   "Introduction"
+  ],
+  [
+   "PMC12767278",
+   "Introduction"
+  ],
+  [
+   "PMC12767278",
+   "Biorefinery and Upcycling Perspectives"
+  ],
+  [
+   "PMC12767278",
+   "Summary and Outlook"
+  ],
+  [
+   "PMC12767278",
+   "Summary and Outlook"
+  ],
+  [
+   "PMC12767278",
+   "Summary and Outlook"
+  ],
+  [
+   "PMC12767278",
+   "Summary and Outlook"
+  ],
+  [
+   "PMC12767278",
+   "Summary and Outlook"
+  ],
+  [
+   "PMC12767278",
+   "Funding"
+  ],
+  [
+   "PMC12767278",
+   "Conflicts of Interest"
+  ],
+  [
+   "PMC12767278",
+   "Acknowledgements"
+  ],
+  [
+   "PMC12767278",
+   "Acknowledgements"
+  ],
+  [
+   "PMC13227510",
+   "Recent advances and future perspective"
+  ],
+  [
+   "PMC13227510",
+   "Recent advances and future perspective"
+  ],
+  [
+   "PMC13227510",
+   "Recent advances and future perspective"
+  ],
+  [
+   "PMC13227510",
+   "Recent advances and future perspective"
+  ],
+  [
+   "PMC13227510",
+   "Recent advances and future perspective"
+  ],
+  [
+   "PMC13227510",
+   "Recent advances and future perspective"
+  ],
+  [
+   "PMC13227510",
+   "Conclusion"
+  ],
+  [
+   "PMC13227510",
+   "Conclusion"
+  ],
+  [
+   "PMC13227510",
+   "Conflicts of interest"
+  ],
+  [
+   "PMC12241367",
+   "Introduction"
+  ],
+  [
+   "PMC12241367",
+   "Introduction"
+  ],
+  [
+   "PMC12241367",
+   "Introduction"
+  ],
+  [
+   "PMC12241367",
+   "Introduction"
+  ],
+  [
+   "PMC12241367",
+   "Introduction"
+  ],
+  [
+   "PMC12241367",
+   "Introduction"
+  ],
+  [
+   "PMC12241367",
+   "Conclusion"
+  ],
+  [
+   "PMC12241367",
+   "Electronic supplementary material"
+  ],
+  [
+   "PMC12241367",
+   "Funding"
+  ],
+  [
+   "PMC12241367",
+   "Data availability"
+  ],
+  [
+   "PMC12241367",
+   "Data Availability Statement"
+  ],
+  [
+   "PMC13188855",
+   "INTRODUCTION"
+  ],
+  [
+   "PMC13188855",
+   "INTRODUCTION"
+  ],
+  [
+   "PMC13188855",
+   "INTRODUCTION"
+  ],
+  [
+   "PMC13188855",
+   "INTRODUCTION"
+  ],
+  [
+   "PMC13188855",
+   "INTRODUCTION"
+  ],
+  [
+   "PMC13188855",
+   "INTRODUCTION"
+  ],
+  [
+   "PMC13188855",
+   "INTRODUCTION"
+  ],
+  [
+   "PMC13188855",
+   "INTRODUCTION"
+  ],
+  [
+   "PMC13188855",
+   "ACKNOWLEDGMENTS"
+  ],
+  [
+   "PMC13188855",
+   "ACKNOWLEDGMENTS"
+  ],
+  [
+   "PMC13188855",
+   "DATA AVAILABILITY"
+  ],
+  [
+   "PMC13188855",
+   "Supplementary Materials"
+  ],
+  [
+   "PMC13188855",
+   "Data Availability Statement"
+  ],
+  [
+   "PMC12188634",
+   "Introduction"
+  ],
+  [
+   "PMC12188634",
+   "Introduction"
+  ],
+  [
+   "PMC12188634",
+   "Introduction"
+  ],
+  [
+   "PMC12188634",
+   "Introduction"
+  ],
+  [
+   "PMC12188634",
+   "Conclusions"
+  ],
+  [
+   "PMC11835289",
+   "Introduction"
+  ],
+  [
+   "PMC11835289",
+   "Introduction"
+  ],
+  [
+   "PMC11835289",
+   "Introduction"
+  ],
+  [
+   "PMC11835289",
+   "Introduction"
+  ],
+  [
+   "PMC11835289",
+   "Introduction"
+  ],
+  [
+   "PMC11835289",
+   "Introduction"
+  ],
+  [
+   "PMC11835289",
+   "Conclusions"
+  ],
+  [
+   "PMC11423324",
+   "Introduction"
+  ],
+  [
+   "PMC11423324",
+   "Introduction"
+  ],
+  [
+   "PMC11423324",
+   "Introduction"
+  ],
+  [
+   "PMC11423324",
+   "Introduction"
+  ],
+  [
+   "PMC9870871",
+   "Introduction"
+  ],
+  [
+   "PMC9870871",
+   "Introduction"
+  ],
+  [
+   "PMC9870871",
+   "Introduction"
+  ],
+  [
+   "PMC9870871",
+   "Introduction"
+  ],
+  [
+   "PMC9870871",
+   "Conclusions"
+  ],
+  [
+   "PMC9870871",
+   "Supplementary Information"
+  ],
+  [
+   "PMC9870871",
+   "Data availability"
+  ],
+  [
+   "PMC9870871",
+   "Supplementary Information"
+  ],
+  [
+   "PMC9870871",
+   "Supplementary Materials"
+  ],
+  [
+   "PMC9870871",
+   "Data Availability Statement"
+  ],
+  [
+   "PMC12896513",
+   "1. Introduction"
+  ],
+  [
+   "PMC12896513",
+   "1. Introduction"
+  ],
+  [
+   "PMC12896513",
+   "1. Introduction"
+  ],
+  [
+   "PMC12896513",
+   "1. Introduction"
+  ],
+  [
+   "PMC12896513",
+   "1. Introduction"
+  ],
+  [
+   "PMC12896513",
+   "1. Introduction"
+  ],
+  [
+   "PMC12896513",
+   "5. Conclusions"
+  ],
+  [
+   "PMC13042732",
+   "Future perspectives in enzymatic bioplastic production"
+  ],
+  [
+   "PMC13042732",
+   "Future perspectives in enzymatic bioplastic production"
+  ],
+  [
+   "PMC13042732",
+   "Future perspectives in enzymatic bioplastic production"
+  ],
+  [
+   "PMC13042732",
+   "Future perspectives in enzymatic bioplastic production"
+  ],
+  [
+   "PMC13042732",
+   "Future perspectives in enzymatic bioplastic production"
+  ],
+  [
+   "PMC13042732",
+   "Conflict of interest"
+  ],
+  [
+   "PMC13042732",
+   "Acknowledgements"
+  ],
+  [
+   "PMC13042732",
+   "Acknowledgements"
+  ],
+  [
+   "PMC12194804",
+   "1. Introduction"
+  ],
+  [
+   "PMC12194804",
+   "1. Introduction"
+  ],
+  [
+   "PMC12194804",
+   "1. Introduction"
+  ],
+  [
+   "PMC12194804",
+   "6. Concluding Remarks and Future Trends"
+  ],
+  [
+   "PMC12194804",
+   "6. Concluding Remarks and Future Trends"
+  ],
+  [
+   "PMC12194804",
+   "Data Availability Statement"
+  ],
+  [
+   "PMC12194804",
+   "Conflicts of Interest"
+  ],
+  [
+   "PMC12194804",
+   "Funding Statement"
+  ],
+  [
+   "PMC12194804",
+   "Data Availability Statement"
+  ],
+  [
+   "PMC10979405",
+   "Introduction"
+  ],
+  [
+   "PMC10979405",
+   "Introduction"
+  ],
+  [
+   "PMC10979405",
+   "Introduction"
+  ],
+  [
+   "PMC10979405",
+   "Introduction"
+  ],
+  [
+   "PMC10979405",
+   "Introduction"
+  ],
+  [
+   "PMC10979405",
+   "Introduction"
+  ],
+  [
+   "PMC10979405",
+   "Introduction"
+  ],
+  [
+   "PMC10979405",
+   "Introduction"
+  ],
+  [
+   "PMC10979405",
+   "Introduction"
+  ],
+  [
+   "PMC10979405",
+   "Introduction"
+  ],
+  [
+   "PMC10979405",
+   "Conclusions and Future Prospects"
+  ],
+  [
+   "PMC10979405",
+   "Conclusions and Future Prospects"
+  ],
+  [
+   "PMC10979405",
+   "Conclusions and Future Prospects"
+  ],
+  [
+   "PMC10979405",
+   "Conclusions and Future Prospects"
+  ],
+  [
+   "PMC10979405",
+   "Conclusions and Future Prospects"
+  ],
+  [
+   "PMC10979405",
+   "Conclusions and Future Prospects"
+  ],
+  [
+   "PMC10979405",
+   "Conclusions and Future Prospects"
+  ],
+  [
+   "PMC10979405",
+   "Conclusions and Future Prospects"
+  ],
+  [
+   "PMC10979405",
+   "Conclusions and Future Prospects"
+  ],
+  [
+   "PMC10979405",
+   "Conclusions and Future Prospects"
+  ],
+  [
+   "PMC10979405",
+   "Conclusions and Future Prospects"
+  ],
+  [
+   "PMC10979405",
+   "Conclusions and Future Prospects"
+  ],
+  [
+   "PMC10979405",
+   "Conclusions and Future Prospects"
+  ],
+  [
+   "PMC10979405",
+   "Acknowledgments"
+  ],
+  [
+   "PMC12345228",
+   "INTRODUCTION"
+  ],
+  [
+   "PMC12345228",
+   "INTRODUCTION"
+  ],
+  [
+   "PMC12345228",
+   "INTRODUCTION"
+  ],
+  [
+   "PMC12345228",
+   "INTRODUCTION"
+  ],
+  [
+   "PMC12345228",
+   "INTRODUCTION"
+  ],
+  [
+   "PMC12345228",
+   "INTRODUCTION"
+  ],
+  [
+   "PMC12345228",
+   "Conclusion"
+  ],
+  [
+   "PMC12345228",
+   "Conclusion"
+  ],
+  [
+   "PMC12345228",
+   "ACKNOWLEDGMENTS"
+  ],
+  [
+   "PMC12345228",
+   "DATA AVAILABILITY"
+  ],
+  [
+   "PMC12345228",
+   "Supplementary Materials"
+  ],
+  [
+   "PMC12345228",
+   "Data Availability Statement"
+  ],
+  [
+   "PMC10495362",
+   "Introduction"
+  ],
+  [
+   "PMC10495362",
+   "Introduction"
+  ],
+  [
+   "PMC10495362",
+   "Introduction"
+  ],
+  [
+   "PMC10495362",
+   "Introduction"
+  ],
+  [
+   "PMC10495362",
+   "Supplementary information"
+  ],
+  [
+   "PMC12453932",
+   "1. Introduction"
+  ],
+  [
+   "PMC12453932",
+   "1. Introduction"
+  ],
+  [
+   "PMC12453932",
+   "1.1. Background on PET Usage in Orthodontic Aligners"
+  ],
+  [
+   "PMC12453932",
+   "1.1. Background on PET Usage in Orthodontic Aligners"
+  ],
+  [
+   "PMC12453932",
+   "10. Conclusion"
+  ],
+  [
+   "PMC12720421",
+   "INTRODUCTION"
+  ],
+  [
+   "PMC12720421",
+   "INTRODUCTION"
+  ],
+  [
+   "PMC12720421",
+   "INTRODUCTION"
+  ],
+  [
+   "PMC12720421",
+   "INTRODUCTION"
+  ],
+  [
+   "PMC12720421",
+   "INTRODUCTION"
+  ],
+  [
+   "PMC12720421",
+   "INTRODUCTION"
+  ],
+  [
+   "PMC12720421",
+   "INTRODUCTION"
+  ],
+  [
+   "PMC12720421",
+   "PpEST homologs can hydrolyze pNP\u2010esters with a preference fo"
+  ],
+  [
+   "PMC12720421",
+   "PpEST homologs can hydrolyze pNP\u2010esters with a preference fo"
+  ],
+  [
+   "PMC12720421",
+   "PpEST homologs can hydrolyze pNP\u2010esters with a preference fo"
+  ],
+  [
+   "PMC12720421",
+   "PpEST homologs can hydrolyze pNP\u2010esters with a preference fo"
+  ],
+  [
+   "PMC12720421",
+   "CONFLICT OF INTEREST STATEMENT"
+  ],
+  [
+   "PMC8351946",
+   "Introduction"
+  ],
+  [
+   "PMC8351946",
+   "Introduction"
+  ],
+  [
+   "PMC8351946",
+   "Introduction"
+  ],
+  [
+   "PMC8351946",
+   "Data Availability Statement"
+  ],
+  [
+   "PMC8351946",
+   "Conflict of Interest"
+  ],
+  [
+   "PMC12298952",
+   "1. Introduction"
+  ],
+  [
+   "PMC12298952",
+   "1. Introduction"
+  ],
+  [
+   "PMC12298952",
+   "1. Introduction"
+  ],
+  [
+   "PMC12298952",
+   "1. Introduction"
+  ],
+  [
+   "PMC12298952",
+   "1. Introduction"
+  ],
+  [
+   "PMC12298952",
+   "1. Introduction"
+  ],
+  [
+   "PMC12298952",
+   "1. Introduction"
+  ],
+  [
+   "PMC12298952",
+   "1. Introduction"
+  ],
+  [
+   "PMC12298952",
+   "1. Introduction"
+  ],
+  [
+   "PMC12298952",
+   "1. Introduction"
+  ],
+  [
+   "PMC12298952",
+   "1. Introduction"
+  ],
+  [
+   "PMC12298952",
+   "1. Introduction"
+  ],
+  [
+   "PMC12298952",
+   "1. Introduction"
+  ],
+  [
+   "PMC12298952",
+   "1. Introduction"
+  ],
+  [
+   "PMC12298952",
+   "1. Introduction"
+  ],
+  [
+   "PMC12298952",
+   "1. Introduction"
+  ],
+  [
+   "PMC12298952",
+   "1. Introduction"
+  ],
+  [
+   "PMC12298952",
+   "8. Conclusions"
+  ],
+  [
+   "PMC12298952",
+   "Conflicts of Interest"
+  ],
+  [
+   "PMC12298952",
+   "Funding Statement"
+  ],
+  [
+   "PMC13081001",
+   "Introduction"
+  ],
+  [
+   "PMC13081001",
+   "Introduction"
+  ],
+  [
+   "PMC13081001",
+   "Introduction"
+  ],
+  [
+   "PMC13081001",
+   "Introduction"
+  ],
+  [
+   "PMC13081001",
+   "Introduction"
+  ],
+  [
+   "PMC13081001",
+   "Introduction"
+  ],
+  [
+   "PMC13081001",
+   "Introduction"
+  ],
+  [
+   "PMC13081001",
+   "Conclusion"
+  ],
+  [
+   "PMC13081001",
+   "Conclusion"
+  ],
+  [
+   "PMC13081001",
+   "Conclusion"
+  ],
+  [
+   "PMC10973377",
+   "Introduction"
+  ],
+  [
+   "PMC10973377",
+   "Introduction"
+  ],
+  [
+   "PMC10973377",
+   "Introduction"
+  ],
+  [
+   "PMC10973377",
+   "Introduction"
+  ],
+  [
+   "PMC10973377",
+   "Conclusion"
+  ],
+  [
+   "PMC10973377",
+   "Conclusion"
+  ],
+  [
+   "PMC10973377",
+   "Supplementary information"
+  ],
+  [
+   "PMC9321771",
+   "Introduction"
+  ],
+  [
+   "PMC9321771",
+   "Introduction"
+  ],
+  [
+   "PMC9321771",
+   "Introduction"
+  ],
+  [
+   "PMC9321771",
+   "Introduction"
+  ],
+  [
+   "PMC9321771",
+   "Introduction"
+  ],
+  [
+   "PMC9321771",
+   "Conclusion"
+  ],
+  [
+   "PMC9321771",
+   "Conclusion"
+  ],
+  [
+   "PMC9321771",
+   "Conclusion"
+  ],
+  [
+   "PMC9321771",
+   "Conclusion"
+  ],
+  [
+   "PMC9321771",
+   "Conflict of interest"
+  ],
+  [
+   "PMC9321771",
+   "Acknowledgements"
+  ],
+  [
+   "PMC9321771",
+   "Data Availability Statement"
+  ],
+  [
+   "PMC9321771",
+   "Supplementary Materials"
+  ],
+  [
+   "PMC9321771",
+   "Supplementary Materials"
+  ],
+  [
+   "PMC9321771",
+   "Data Availability Statement"
+  ],
+  [
+   "PMC11826121",
+   "Introduction"
+  ],
+  [
+   "PMC11826121",
+   "Introduction"
+  ],
+  [
+   "PMC11826121",
+   "Introduction"
+  ],
+  [
+   "PMC11826121",
+   "Introduction"
+  ],
+  [
+   "PMC11826121",
+   "Conclusions"
+  ],
+  [
+   "PMC11826121",
+   "Conclusions"
+  ],
+  [
+   "PMC11826121",
+   "Conflict of Interests"
+  ],
+  [
+   "PMC11826121",
+   "Acknowledgments"
+  ],
+  [
+   "PMC11826121",
+   "Data Availability Statement"
+  ],
+  [
+   "PMC11826121",
+   "Supplementary Materials"
+  ],
+  [
+   "PMC11826121",
+   "Data Availability Statement"
+  ],
+  [
+   "PMC12898461",
+   "1. Introduction"
+  ],
+  [
+   "PMC12898461",
+   "1. Introduction"
+  ],
+  [
+   "PMC12898461",
+   "1. Introduction"
+  ],
+  [
+   "PMC12898461",
+   "1. Introduction"
+  ],
+  [
+   "PMC12898461",
+   "5. Conclusions"
+  ],
+  [
+   "PMC12898461",
+   "5. Conclusions"
+  ],
+  [
+   "PMC12898461",
+   "5. Conclusions"
+  ],
+  [
+   "PMC12898461",
+   "Acknowledgments"
+  ],
+  [
+   "PMC12898461",
+   "Data Availability Statement"
+  ],
+  [
+   "PMC12898461",
+   "Conflicts of Interest"
+  ],
+  [
+   "PMC12898461",
+   "Funding Statement"
+  ],
+  [
+   "PMC12898461",
+   "Data Availability Statement"
+  ],
+  [
+   "PMC13137247",
+   "Acknowledgments"
+  ],
+  [
+   "PMC13137247",
+   "Data Availability Statement"
+  ],
+  [
+   "PMC12845532",
+   "1. Introduction"
+  ],
+  [
+   "PMC12845532",
+   "1. Introduction"
+  ],
+  [
+   "PMC12845532",
+   "1. Introduction"
+  ],
+  [
+   "PMC12845532",
+   "1. Introduction"
+  ],
+  [
+   "PMC12845532",
+   "6. Conclusions"
+  ],
+  [
+   "PMC12845532",
+   "6. Conclusions"
+  ],
+  [
+   "PMC12845532",
+   "6. Conclusions"
+  ],
+  [
+   "PMC12845532",
+   "Data Availability Statement"
+  ],
+  [
+   "PMC12845532",
+   "Conflicts of Interest"
+  ],
+  [
+   "PMC12845532",
+   "Funding Statement"
+  ],
+  [
+   "PMC12845532",
+   "Data Availability Statement"
+  ],
+  [
+   "PMC12900378",
+   "Conflict of interest"
+  ],
+  [
+   "PMC13055320",
+   "INTRODUCTION"
+  ],
+  [
+   "PMC13055320",
+   "INTRODUCTION"
+  ],
+  [
+   "PMC13055320",
+   "INTRODUCTION"
+  ],
+  [
+   "PMC13055320",
+   "INTRODUCTION"
+  ],
+  [
+   "PMC13055320",
+   "Conclusion"
+  ],
+  [
+   "PMC13055320",
+   "Conclusion"
+  ],
+  [
+   "PMC13055320",
+   "ACKNOWLEDGMENTS"
+  ],
+  [
+   "PMC13055320",
+   "ACKNOWLEDGMENTS"
+  ],
+  [
+   "PMC13055320",
+   "DATA AVAILABILITY"
+  ],
+  [
+   "PMC13055320",
+   "Supplementary Materials"
+  ],
+  [
+   "PMC13055320",
+   "Supplementary Materials"
+  ],
+  [
+   "PMC13055320",
+   "Supplementary Materials"
+  ],
+  [
+   "PMC13055320",
+   "Data Availability Statement"
+  ],
+  [
+   "PMC8733400",
+   "Introduction"
+  ],
+  [
+   "PMC8733400",
+   "Introduction"
+  ],
+  [
+   "PMC8733400",
+   "Introduction"
+  ],
+  [
+   "PMC8733400",
+   "Introduction"
+  ],
+  [
+   "PMC8733400",
+   "Introduction"
+  ],
+  [
+   "PMC8733400",
+   "Introduction"
+  ],
+  [
+   "PMC8733400",
+   "Introduction"
+  ],
+  [
+   "PMC8733400",
+   "Introduction"
+  ],
+  [
+   "PMC8733400",
+   "Conclusion"
+  ],
+  [
+   "PMC8733400",
+   "Data Availability Statement"
+  ],
+  [
+   "PMC8733400",
+   "Conflict of Interest"
+  ],
+  [
+   "PMC11782994",
+   "1 Introduction"
+  ],
+  [
+   "PMC11782994",
+   "1 Introduction"
+  ],
+  [
+   "PMC11782994",
+   "1 Introduction"
+  ],
+  [
+   "PMC11782994",
+   "1 Introduction"
+  ],
+  [
+   "PMC11782994",
+   "1 Introduction"
+  ],
+  [
+   "PMC11782994",
+   "4 Conclusion"
+  ],
+  [
+   "PMC11782994",
+   "Funding Statement"
+  ],
+  [
+   "PMC11782994",
+   "Data availability statement"
+  ],
+  [
+   "PMC11782994",
+   "Conflict of interest"
+  ],
+  [
+   "PMC11782994",
+   "Conflict of interest"
+  ],
+  [
+   "PMC11782994",
+   "Conflict of interest"
+  ],
+  [
+   "PMC11782994",
+   "Supplementary material"
+  ],
+  [
+   "PMC11782994",
+   "Data Availability Statement"
+  ],
+  [
+   "PMC8982334",
+   "Introduction"
+  ],
+  [
+   "PMC8982334",
+   "Introduction"
+  ],
+  [
+   "PMC8982334",
+   "Introduction"
+  ],
+  [
+   "PMC8982334",
+   "Introduction"
+  ],
+  [
+   "PMC8982334",
+   "Introduction"
+  ],
+  [
+   "PMC8982334",
+   "Introduction"
+  ],
+  [
+   "PMC8982334",
+   "Conflicts of interest"
+  ],
+  [
+   "PMC8982334",
+   "Acknowledgments"
+  ],
+  [
+   "PMC12787803",
+   "1. Introduction"
+  ],
+  [
+   "PMC12787803",
+   "1. Introduction"
+  ],
+  [
+   "PMC12787803",
+   "1. Introduction"
+  ],
+  [
+   "PMC12787803",
+   "1. Introduction"
+  ],
+  [
+   "PMC12787803",
+   "1. Introduction"
+  ],
+  [
+   "PMC12787803",
+   "5. Summary and Outlook"
+  ],
+  [
+   "PMC12787803",
+   "5. Summary and Outlook"
+  ],
+  [
+   "PMC12787803",
+   "5. Summary and Outlook"
+  ],
+  [
+   "PMC11946717",
+   "1. Introduction"
+  ],
+  [
+   "PMC11946717",
+   "1. Introduction"
+  ],
+  [
+   "PMC11946717",
+   "1. Introduction"
+  ],
+  [
+   "PMC11946717",
+   "1. Introduction"
+  ],
+  [
+   "PMC11946717",
+   "4. Future Perspectives"
+  ],
+  [
+   "PMC11946717",
+   "4. Future Perspectives"
+  ],
+  [
+   "PMC11946717",
+   "5. Conclusions"
+  ],
+  [
+   "PMC11946717",
+   "Data Availability Statement"
+  ],
+  [
+   "PMC11946717",
+   "Conflicts of Interest"
+  ],
+  [
+   "PMC11946717",
+   "Funding Statement"
+  ],
+  [
+   "PMC11946717",
+   "Data Availability Statement"
+  ],
+  [
+   "PMC9805092",
+   "Background"
+  ],
+  [
+   "PMC9805092",
+   "Background"
+  ],
+  [
+   "PMC9805092",
+   "Background"
+  ],
+  [
+   "PMC9805092",
+   "Background"
+  ],
+  [
+   "PMC9805092",
+   "Background"
+  ],
+  [
+   "PMC9805092",
+   "Background"
+  ],
+  [
+   "PMC9805092",
+   "Background"
+  ],
+  [
+   "PMC9805092",
+   "Background"
+  ],
+  [
+   "PMC9805092",
+   "Conclusions"
+  ],
+  [
+   "PMC9805092",
+   "Supplementary Information"
+  ],
+  [
+   "PMC9805092",
+   "Supplementary Information"
+  ],
+  [
+   "PMC9805092",
+   "Supplementary Information"
+  ],
+  [
+   "PMC9805092",
+   "Supplementary Information"
+  ],
+  [
+   "PMC9805092",
+   "Acknowledgements"
+  ],
+  [
+   "PMC9805092",
+   "Funding"
+  ],
+  [
+   "PMC9805092",
+   "Availability of data and materials"
+  ],
+  [
+   "PMC9805092",
+   "Supplementary Materials"
+  ],
+  [
+   "PMC9805092",
+   "Supplementary Materials"
+  ],
+  [
+   "PMC9805092",
+   "Supplementary Materials"
+  ],
+  [
+   "PMC9805092",
+   "Supplementary Materials"
+  ],
+  [
+   "PMC9805092",
+   "Data Availability Statement"
+  ],
+  [
+   "PMC11465579",
+   "Background"
+  ],
+  [
+   "PMC11465579",
+   "Background"
+  ],
+  [
+   "PMC11465579",
+   "Background"
+  ],
+  [
+   "PMC11465579",
+   "Conclusions"
+  ],
+  [
+   "PMC11465579",
+   "Conclusions"
+  ],
+  [
+   "PMC11465579",
+   "Conclusions"
+  ],
+  [
+   "PMC11465579",
+   "Electronic supplementary material"
+  ],
+  [
+   "PMC11465579",
+   "Acknowledgements"
+  ],
+  [
+   "PMC11465579",
+   "Abbreviations"
+  ],
+  [
+   "PMC11465579",
+   "Abbreviations"
+  ],
+  [
+   "PMC11465579",
+   "Abbreviations"
+  ],
+  [
+   "PMC11465579",
+   "Abbreviations"
+  ],
+  [
+   "PMC11465579",
+   "Abbreviations"
+  ],
+  [
+   "PMC11465579",
+   "Abbreviations"
+  ],
+  [
+   "PMC11465579",
+   "Abbreviations"
+  ],
+  [
+   "PMC11465579",
+   "Abbreviations"
+  ]
+ ],
+ "sentences": [
+  [
+   "PMC12871986",
+   "(2021), particles were washed with 70% ethanol for 45 minutes, dried at 50 \u00b0C for 24 hours"
+  ],
+  [
+   "PMC12871986",
+   "not-a-measurement: For each enrichment cycle, 5 g of soil was inoculated into 50 mL of MS medium co"
+  ],
+  [
+   "PMC12871986",
+   "not-a-measurement: For each assay, 0.1 mL of consortium culture in logarithmic phase (OD600 = 1.0) "
+  ],
+  [
+   "PMC12871986",
+   "not-a-measurement: A 10% (v/v) inoculum of each strain in logarithmic phase was transferred to 50 m"
+  ],
+  [
+   "PMC12871986",
+   "not-a-measurement: PCR conditions included initial denaturation at 95\u00b0C for 3 minutes, followed by "
+  ],
+  [
+   "PMC12871986",
+   "not-a-measurement: PCR products were analyzed by gel electrophoresis (70 V, 40 minutes, 1.5% agaros"
+  ],
+  [
+   "PMC12871986",
+   "Previous studies on microbial polymer degradation have shown that pH strongly influences p"
+  ],
+  [
+   "PMC12871986",
+   "Nitrogen availability can enhance hydrolytic enzyme expression and microbial metabolism [2"
+  ],
+  [
+   "PMC12871986",
+   "not-a-measurement: Each experimental unit consisted of 50 mL of MS medium in 100 mL Erlenmeyer flas"
+  ],
+  [
+   "PMC12871986",
+   "Samples were dried at 50 \u00b0C for 24 hours, then placed in a desiccator for 6 hours before w"
+  ],
+  [
+   "PMC12871986",
+   "The transfer line and ion source were maintained at 250 \u00b0C, with electron ionization at 70"
+  ],
+  [
+   "PMC12871986",
+   "These conditions critically affect enzyme stability and microbial metabolism by modulating"
+  ],
+  [
+   "PMC12871986",
+   "not-a-measurement: (B) pH changes in the culture medium; and (C) Final degradation efficiency expre"
+  ],
+  [
+   "PMC12871986",
+   "not-a-measurement: During the 35-day experiment, gradual pH declines were observed in the culture m"
+  ],
+  [
+   "PMC12871986",
+   "(2019), variations in bioavailable compounds can modulate microbial activities and communi"
+  ],
+  [
+   "PMC12871986",
+   "The gradual pH declines from 7.0 to approximately 6.5 aligns with microbial biodegradation"
+  ],
+  [
+   "PMC12871986",
+   "Similar trends, where degradation activity does not correlate with cell density, have been"
+  ],
+  [
+   "PMC12871986",
+   "All strains tested positive for citrate utilization, catalase activity, and arginine metab"
+  ],
+  [
+   "PMC12871986",
+   "Comparing P. naphthalenovorans PR-N1 [64] from The Bacterial Diversity Metadatabase (BacDi"
+  ],
+  [
+   "PMC12871986",
+   "NH\u2084NO\u2083 supported microbial metabolism and enhanced hydrolase activity, consistent with pre"
+  ],
+  [
+   "PMC12871986",
+   "In prior experiments, pH decreased from 7.0 to 6.5 during incubation, possibly due to orga"
+  ],
+  [
+   "PMC12871986",
+   "Our results are comparable to B. cereus, with 6.6% degradation [22], contributing valuable"
+  ],
+  [
+   "PMC12871986",
+   "not-a-measurement: This comprehensive approach provides valuable insights into the physical and che"
+  ],
+  [
+   "PMC12871986",
+   "Previous studies have proposed the classical PET degradation pathway involving sequential "
+  ],
+  [
+   "PMC12871986",
+   "The degradation process likely begins with bacterial adhesion to the PET-MP surface, facil"
+  ],
+  [
+   "PMC12871986",
+   "Chemical recycling of PET typically requires harsh conditions (high temperatures, strong a"
+  ],
+  [
+   "PMC12871986",
+   "The physical form of PET significantly impacts biodegradation rates, with PET-MP represent"
+  ],
+  [
+   "PMC12871986",
+   "Other notable performers include Alcaligenes faecalis (21% in 70 days) [70], S. pyogenes ("
+  ],
+  [
+   "PMC12871986",
+   "PETKKU2 exhibited 85.9% dDDH similarity with P. naphthalenovorans PR-N1, substantially exc"
+  ],
+  [
+   "PMC12871986",
+   "These predictions are supported by: (i) related strain PR-N1\u2019s naphthalene degradation cap"
+  ],
+  [
+   "PMC12871986",
+   "Comparison with other Paenibacillus species reveals that while members of this genus posse"
+  ],
+  [
+   "PMC12871986",
+   "Recent advances in PET biodegradation include both protein-engineered variants [95,96] and"
+  ],
+  [
+   "PMC12871986",
+   "PETKKU2 shows 85.9% dDDH with P. naphthalenovorans PR-N1 (blue highlight), well above the "
+  ],
+  [
+   "PMC12741466",
+   "not-a-measurement: SDS-PAGE and hydrolytic activity of the purified PCL-degrading enzyme"
+  ],
+  [
+   "PMC12741466",
+   "In comparison with previous studies, many PCL-degrading enzymes derived from fungi and bac"
+  ],
+  [
+   "PMC12741466",
+   "Amin et al., also exhibited both stability and notable activity within the pH range of 7.0"
+  ],
+  [
+   "PMC12741466",
+   "Anbu et al. also shows high resistance to organic solvents, maintaining strong catalytic a"
+  ],
+  [
+   "PMC12741466",
+   "The reaction system for \u03b5-caprolactone ring-opening polymerization reported by Li and Ma e"
+  ],
+  [
+   "PMC12741466",
+   "chem-constant: The polymerized PCL synthesized using PCLase0801 exhibited a melting point of 51"
+  ],
+  [
+   "PMC12741466",
+   "Ma et al.35 utilized lipase (CALB) from Candida antarctica to catalyze the polymerization "
+  ],
+  [
+   "PMC12741466",
+   "Similarly, Gumel et al. used ultrasound-assisted lipase to synthesize PCL, and the initial"
+  ],
+  [
+   "PMC12741466",
+   "not-a-measurement: The polarized light micrographs confirmed that the enzymatic synthesis product h"
+  ],
+  [
+   "PMC12741466",
+   "not-a-measurement: Polarized optical micrographs (200\u00d7) of isothermal crystallization of poly(\u03b5-cap"
+  ],
+  [
+   "PMC12741466",
+   "Enzyme activity was defined as one unit (U), representing the amount of enzyme required to"
+  ],
+  [
+   "PMC12741466",
+   "not-a-measurement: After washing, the gel was decolorized using 50% (v/v) ACN/25 mM ammonium bicarb"
+  ],
+  [
+   "PMC12741466",
+   "not-a-measurement: Gel permeation chromatography (GPC) was employed to analyze the molecular weight"
+  ],
+  [
+   "PMC12741466",
+   "not-a-measurement: The isothermal crystallization process was conducted for 15 min, during which im"
+  ],
+  [
+   "PMC12616515",
+   "not-a-measurement: For protein expression, single colonies from each strain were inoculated into 10"
+  ],
+  [
+   "PMC12616515",
+   "not-a-measurement: The resulting cell pellet was resuspended in 100 \u00b5L of lysis solution (50 mM Tri"
+  ],
+  [
+   "PMC12616515",
+   "not-a-measurement: For the enrichment and partial purification of the proteins from small scale cul"
+  ],
+  [
+   "PMC12616515",
+   "not-a-measurement: The lysates were then spun at 20,000x g for 20 min and 4\u00b0C and the supernatant w"
+  ],
+  [
+   "PMC12616515",
+   "not-a-measurement: The columns were washed with 750 \u00b5L total of wash buffer (50 mM Tris, 300 mM NaC"
+  ],
+  [
+   "PMC12616515",
+   "not-a-measurement: First, 10 mg/mL suspensions of PBAT or PET were prepared in a buffer containing "
+  ],
+  [
+   "PMC12616515",
+   "For the assays with cell suspensions no additional cell lysis was performed as most of the"
+  ],
+  [
+   "PMC12616515",
+   "2010) or during the experiment due to further nutrient depletion in the Tris buffer and in"
+  ],
+  [
+   "PMC12616515",
+   "Spore\u2010forming Negetivicutes such as Pelosinus sp are closely phylogenetically related to C"
+  ],
+  [
+   "PMC12616515",
+   "In addition, several species of Clostridium, Bacillus, Deinococcus, and Geobacillus are kn"
+  ],
+  [
+   "PMC12616515",
+   "Unrooted maximum\u2010likelihood phylogenetic tree of the bacterial lipase family 1.5 generated"
+  ],
+  [
+   "PMC12616515",
+   "This was unexpected since homologs from other Geobacillus species such as G. stearothermop"
+  ],
+  [
+   "PMC12616515",
+   "2016), a general trend of increased activity with increasing substrate length was observed"
+  ],
+  [
+   "PMC12616515",
+   "For example, Lipase L1 from G. stearothermophilus L1 and BTL2 from G. thermocatenulatus ha"
+  ],
+  [
+   "PMC12616515",
+   "Apart from increased zinc concentrations, increased ion\u2010pair interactions and hydrophobic "
+  ],
+  [
+   "PMC12616515",
+   "PET degradation activity can be detected using \u201cbulk\u201d UV\u2010spectroscopy to measure the UV ab"
+  ],
+  [
+   "PMC12616515",
+   "We reasoned that a similar method can be used to detect the products of enzymatic PBAT deg"
+  ],
+  [
+   "PMC12616515",
+   "Initially, we incubated 5 mg/mL suspensions of PBAT with cell culture expressing Cl_EstA t"
+  ],
+  [
+   "PMC12616515",
+   "A temperature of 40\u00b0C was chosen as it is close to the 37\u00b0C incubation temperature in prev"
+  ],
+  [
+   "PMC12616515",
+   "Notably, Cl_EstB showed low activity at both temperatures, consistent with prior RP\u2010HPLC s"
+  ],
+  [
+   "PMC12616515",
+   "chem-constant: Incubation of PETases with PET at temperatures exceeding the glass transition of"
+  ],
+  [
+   "PMC12616515",
+   "Consistent with our findings, previous work showed that Cl_EstA only released very small a"
+  ],
+  [
+   "PMC12616515",
+   "PfL1 also did not show any detectable PET hydrolysis activity (Biundo et al."
+  ],
+  [
+   "PMC12616515",
+   "2016), and Cl_EstA did not show activity with the PET derived oligomer mono\u2010(2\u2010hydroxyethy"
+  ],
+  [
+   "PMC12616515",
+   "The removal of the N\u2010terminal region also increased the overall surface hydrophobicity of "
+  ],
+  [
+   "PMC12616515",
+   "To further assess the polyesterase specificity of these enzymes, we tested enzyme activity"
+  ],
+  [
+   "PMC12616515",
+   "This is consistent with the lower crystallinity of PBSA polymers compared to PBAT due to b"
+  ],
+  [
+   "PMC12616515",
+   "For example, an examination of the soluble reaction products of enzymatic PBSA degradation"
+  ],
+  [
+   "PMC12616515",
+   "JM16B3, where jmPE13 with a longer half\u2010life life at 40\u00b0C showed better PET and PBAT hydro"
+  ],
+  [
+   "PMC12975738",
+   "Bacterial culture was provided from a collection of thermophilic microorganisms isolated f"
+  ],
+  [
+   "PMC12975738",
+   "not-a-measurement: The sample was resuspended five times and then shaken for 5 minutes at room temp"
+  ],
+  [
+   "PMC12975738",
+   "not-a-measurement: After that, 50 \u03bcL of DNA Elution Buffer (Zymo Research, Irvine, CA, USA) was add"
+  ],
+  [
+   "PMC12975738",
+   "not-a-measurement: ND-8000-GL) at 260 nm, a Qubit fluorometer (Thermo Fisher Scientific, Waltham, M"
+  ],
+  [
+   "PMC12975738",
+   "not-a-measurement: The mixture is vortexed and transferred to a 0.2 mL PCR tube, then incubated for"
+  ],
+  [
+   "PMC12975738",
+   "For phylogenomic analysis, all pairwise genome comparisons were carried out using the Geno"
+  ],
+  [
+   "PMC12975738",
+   "not-a-measurement: This contrast emphasizes the highly dynamic nature of plasmid evolution within b"
+  ],
+  [
+   "PMC12975738",
+   "not-a-measurement: This may explain why PLS47 harbors a plasmid, whereas closely related phylogenet"
+  ],
+  [
+   "PMC12975738",
+   "This conservation highlights the organism's adaptability to high temperatures, pressure, s"
+  ],
+  [
+   "PMC12975738",
+   "At the same time, the ClpP protein was found to affect the temperature resistance of the s"
+  ],
+  [
+   "PMC12975738",
+   "The presence of the gene might make cells resistant to high temperatures (Askwith et al., "
+  ],
+  [
+   "PMC12975738",
+   "Similar roles of groL/groS in stress adaptation have been documented in thermophilic and b"
+  ],
+  [
+   "PMC12975738",
+   "The number of predicted coding transposons reflects the chromosomal variability of an orga"
+  ],
+  [
+   "PMC12975738",
+   "After comparing with closely related strains and reviewing the literature (Brumm et al., 2"
+  ],
+  [
+   "PMC12975738",
+   "Another unique gene encoding a transcriptional activator is related to environmental stres"
+  ],
+  [
+   "PMC12975738",
+   "not-a-measurement: Further functional characterization of these enzymes, along with plasmid-associa"
+  ],
+  [
+   "PMC12767278",
+   "Among the former, a recent approach is based on a two\u2010step process, where fabrics are trea"
+  ],
+  [
+   "PMC12767278",
+   "On the other hand, among the alkaline treatments, it is worth mentioning the method propos"
+  ],
+  [
+   "PMC12767278",
+   "Working with a 15% NaOH solution at 121\u00b0C for 15 min on textile waste blends of cotton and"
+  ],
+  [
+   "PMC12767278",
+   "The use of 85% phosphoric acid at 50\u00b0C for 7 h on a blend of polyester and cotton jeans re"
+  ],
+  [
+   "PMC12767278",
+   "In 2019, Sasaki and coworkers developed an interesting pretreatment combining sulfuric aci"
+  ],
+  [
+   "PMC12767278",
+   "In 2010, Jehanipour and coworkers pointed out a procedure using N\u2010methylmorpholine oxide m"
+  ],
+  [
+   "PMC12767278",
+   "This allows PET transition from a semicrystalline state to an amorphous state, which is mo"
+  ],
+  [
+   "PMC12767278",
+   "Using hydrochloric acid (1.5%) as a catalyst, cotton fibers were successfully solubilized "
+  ],
+  [
+   "PMC12767278",
+   "Hydrochloric acid was also employed in a recent study [37], where a superconcentrated solu"
+  ],
+  [
+   "PMC12767278",
+   "Extensive literature documents the alkaline hydrolysis of PET, particularly from bottle or"
+  ],
+  [
+   "PMC12767278",
+   "Its cationic component facilitates the transport of hydroxide ions to the PET surface, enh"
+  ],
+  [
+   "PMC12767278",
+   "A separate study used a similar BTBAC loading (1 mol per mol of PET unit, equivalent to 1."
+  ],
+  [
+   "PMC12767278",
+   "The effect of substrate loading, temperature, pH, and cellulases dosage on the hydrolysis "
+  ],
+  [
+   "PMC12767278",
+   "Additionally, the pH value represents a fundamental physical parameter affecting the cellu"
+  ],
+  [
+   "PMC12767278",
+   "The highest glucose recovery was obtained using 20 FPU/g cellulase (one filter paper unit "
+  ],
+  [
+   "PMC12767278",
+   "The effect of different concentrations of sodium hydroxide (10\u201330%) and urea (0\u201312%), as w"
+  ],
+  [
+   "PMC12767278",
+   "not-a-measurement: In contrast, other investigations suggest that lower temperatures, especially wh"
+  ],
+  [
+   "PMC12767278",
+   "In detail, the samples were ground to 1 mm in size to enhance the available surface area f"
+  ],
+  [
+   "PMC12767278",
+   "In recent years, a number of natural and engineered PET hydrolyzing enzymes have been disc"
+  ],
+  [
+   "PMC12767278",
+   "Morphological variations before and after degradation treatments are typically evaluated u"
+  ],
+  [
+   "PMC12767278",
+   "This method is particularly powerful for visualizing localized degradation phenomena and v"
+  ],
+  [
+   "PMC12767278",
+   "In PET samples, peaks at 973 cm\u20131, 1340 cm\u20131, and 1473 cm\u20131 indicate the crystalline phase"
+  ],
+  [
+   "PMC12767278",
+   "In the case of cotton, bands between 4000 and 2995 cm\u20131, as well as those at 2900 cm\u20131, 14"
+  ],
+  [
+   "PMC12767278",
+   "not-a-measurement: Parameters such as the glass transition temperature (Tg), cold crystallization t"
+  ],
+  [
+   "PMC12767278",
+   "High\u2010performance liquid chromatography (HPLC) is widely used to quantify glucose released "
+  ],
+  [
+   "PMC12767278",
+   "Regarding the analysis of PET degradation products, such as TPA, BHET, and MHET, elution o"
+  ],
+  [
+   "PMC13227510",
+   "While activated sludge technology had been developed in the UK in 1912 to treat wastewater"
+  ],
+  [
+   "PMC13227510",
+   "This was later replaced by spectrophotometric assays in the 1960s.44 A major improvement c"
+  ],
+  [
+   "PMC13227510",
+   "For example, the knockout of the PhaZ gene in P. putida KT2442 has been reported to improv"
+  ],
+  [
+   "PMC13227510",
+   "Similarly, high-cell-density cultures reported up to 71 g L\u22121 biomass, 56% PHA content, an"
+  ],
+  [
+   "PMC13227510",
+   "3.7 g L\u22121) in PHA production by Wickerhamomyces anomalus VIT-NN01 utilising sugarcane mola"
+  ],
+  [
+   "PMC13227510",
+   "For instance, CRISPR-based repression of key cell division genes has been reported to enla"
+  ],
+  [
+   "PMC13227510",
+   "The recovered polymer maintains its native spherical morphology and can attain near-comple"
+  ],
+  [
+   "PMC12241367",
+   "not-a-measurement: An ANOVA followed by a Tukey post-hoc analysis showed significant differences in"
+  ],
+  [
+   "PMC12241367",
+   "not-a-measurement: In addition to the FDA assay, we explored another strategy to detect enzyme acti"
+  ],
+  [
+   "PMC12241367",
+   "not-a-measurement: (A) Schematic representation of pJP32PHL7 vector corresponding to sample loaded "
+  ],
+  [
+   "PMC12241367",
+   "not-a-measurement: C) SDS zymogram gel with 1% v/v Impranil DLN containing Precision Plus Protein U"
+  ],
+  [
+   "PMC12241367",
+   "not-a-measurement: The gel displayed 2 halos (i.e., transparent bands) in the PHL7 lane and 1 halo "
+  ],
+  [
+   "PMC12241367",
+   "not-a-measurement: The new vector containing the non-glycosylated PHL7 was transformed and generate"
+  ],
+  [
+   "PMC12241367",
+   "not-a-measurement: With the new pJP32PHL7dg vector (Supplementary Figure 6) containing the modified"
+  ],
+  [
+   "PMC12241367",
+   "not-a-measurement: Interestingly, the number of colonies displaying halos in our transformation wit"
+  ],
+  [
+   "PMC12241367",
+   "not-a-measurement: However, the primary goal of the pJP32PHL7dg experiment was to assess the presen"
+  ],
+  [
+   "PMC12241367",
+   "PHL7 has been reported to exhibit activity over a broad temperature range, from at least 4"
+  ],
+  [
+   "PMC12241367",
+   "Similarly, other researchers engineered IsPETase to be secreted by the marine diatom Phaeo"
+  ],
+  [
+   "PMC12241367",
+   "not-a-measurement: The backbone was prepared by PCR using the protocol described in (10.17504/proto"
+  ],
+  [
+   "PMC12241367",
+   "not-a-measurement: For transformation, C. reinhardtii cells were grown to the mid-log phase, achiev"
+  ],
+  [
+   "PMC12241367",
+   "not-a-measurement: The activity was also followed using a plastic dispersion protocol with Impranil"
+  ],
+  [
+   "PMC12241367",
+   "not-a-measurement: The acrylamide solution was mixed as per the manufacturer\u2019s instructions, with t"
+  ],
+  [
+   "PMC12241367",
+   "not-a-measurement: Post-polymerization, the gel was placed in the electrophoresis apparatus and run"
+  ],
+  [
+   "PMC12241367",
+   "not-a-measurement: The samples were prepared for electrophoresis by adding 4X Laemmli buffer (#1610"
+  ],
+  [
+   "PMC12241367",
+   "not-a-measurement: Following electrophoresis, the gel was incubated in phosphate buffer solution (p"
+  ],
+  [
+   "PMC12241367",
+   "not-a-measurement: In individual PCR tubes, 50 \u00b5L of PET slurry, 50 \u00b5L of 100 mM potassium phosphat"
+  ],
+  [
+   "PMC12241367",
+   "not-a-measurement: 50 uL of HCl ~ 10 M was added and the mixture was then vortexed vigorously for c"
+  ],
+  [
+   "PMC12241367",
+   "not-a-measurement: 10 mL of C. reinhardtii cc1690 cell cultures and pJP32PHL7 at density 3\u20136 \u00d7 107 "
+  ],
+  [
+   "PMC12241367",
+   "not-a-measurement: For FDA analysis, the presence of cells after centrifugation interferes with the"
+  ],
+  [
+   "PMC13188855",
+   "The curated data set covered nine major plastic types, which were divided into three group"
+  ],
+  [
+   "PMC13188855",
+   "not-a-measurement: For biochemical validation, we employed bis(2-hydroxyethyl) terephthalate (BHET)"
+  ],
+  [
+   "PMC13188855",
+   "(2016) (20), both BHET and PET substrates were employed to enable complementary assessment"
+  ],
+  [
+   "PMC12188634",
+   "not-a-measurement: Polyesterase activity of Savinase was tested against PLA, PHB, PHO, and PCL usin"
+  ],
+  [
+   "PMC12188634",
+   "Polymer plates were prepared using 0.1 M Tris buffer (pH 8.5), as previously described."
+  ],
+  [
+   "PMC12188634",
+   "PLA Ingeo 4043D from NatureWorks (Minneapolis, USA) was used to prepare films (a-Film) of "
+  ],
+  [
+   "PMC12188634",
+   "not-a-measurement: PLA hydrolysate aliquots (1 mL) obtained during Savinase and Proteinase K PLA de"
+  ],
+  [
+   "PMC12188634",
+   "A similar approach has been reported, where Savinase, acting as a broad-specificity protea"
+  ],
+  [
+   "PMC11835289",
+   "Phosphoric acid cellulose (PASC) was prepared from Avicel as described by Bennati-Granier "
+  ],
+  [
+   "PMC11835289",
+   "not-a-measurement: For bioreactor cultures, building on an Invitrogen protocol (Pichia Fermentation"
+  ],
+  [
+   "PMC11835289",
+   "not-a-measurement: The culture was centrifuged (10 min, 5,500g, 4 \u00b0C)."
+  ],
+  [
+   "PMC11835289",
+   "not-a-measurement: Cells were harvested by centrifugation, and the supernatant was filtered on a 0."
+  ],
+  [
+   "PMC11835289",
+   "not-a-measurement: Reactions were heated from 25 to 89 \u00b0C in 96-well PCR plates (Bio-Rad) over the "
+  ],
+  [
+   "PMC11835289",
+   "not-a-measurement: Reactions were stopped by heat inactivation at 100 \u00b0C for 10 min and then centri"
+  ],
+  [
+   "PMC11835289",
+   "C1-oxidized cello-oligosaccharides were prepared in-house, as previously described.31 Data"
+  ],
+  [
+   "PMC11835289",
+   "not-a-measurement: Prior to GPC analysis, PHA powders were washed via cycles of centrifugation (850"
+  ],
+  [
+   "PMC11835289",
+   "Noteworthily, HFB2, HFB4, PHA-Bd and the CBM1 allow coverage of a broad range of hydrophob"
+  ],
+  [
+   "PMC11835289",
+   "not-a-measurement: (C) Gel permeation chromatography (GPC) of PHA powder upon treatment with PaAA9E"
+  ],
+  [
+   "PMC11835289",
+   "not-a-measurement: Using gel permeation chromatography (GPC), we observed a significant decrease (c"
+  ],
+  [
+   "PMC11835289",
+   "chem-constant: 20\u201324%) in the molecular weight of the PHA powder after enzymatic treatment comp"
+  ],
+  [
+   "PMC11835289",
+   "not-a-measurement: Linkers can indeed vary in length and flexibility allowing the connected domains"
+  ],
+  [
+   "PMC11423324",
+   "chem-constant: Most of the cutinases have a shallow and open substrate binding cleft which is i"
+  ],
+  [
+   "PMC11423324",
+   "not-a-measurement: Further, the presence of hydroxyl groups and double bonds in the enzyme-treated "
+  ],
+  [
+   "PMC11423324",
+   "Gas chromatography\u2013mass spectrometry (GC-MS) further substantiated degradation of PP with "
+  ],
+  [
+   "PMC11423324",
+   "It is important to note that a recent preprint by Stepnov et al. is critical of the report"
+  ],
+  [
+   "PMC11423324",
+   "chem-constant: MCOs that can oxidize the natural substrate of a true laccase, urushiol, have be"
+  ],
+  [
+   "PMC11423324",
+   "not-a-measurement: In the context of enzymes catalyzing the transformation of hydrophobic substrate"
+  ],
+  [
+   "PMC11423324",
+   "Carbios, a French company founded in 2011, has successfully demonstrated the use of their "
+  ],
+  [
+   "PMC11423324",
+   "A mutant of Clostridum thermocellum with defective production of scaffoldin demonstrated c"
+  ],
+  [
+   "PMC11423324",
+   "There have been numerous chemobiological upcycling processes reported in the literature ai"
+  ],
+  [
+   "PMC11423324",
+   "not-a-measurement: Kinetic modeling of multienzyme processes that takes into account the properties"
+  ],
+  [
+   "PMC9870871",
+   "not-a-measurement: Figure 4 shows the SDS-PAGE analyses of the trypsin digest of the linear and cyc"
+  ],
+  [
+   "PMC9870871",
+   "not-a-measurement: SDS-PAGE analysis of trypsin digest of the linear and cyclic IsPETase variants a"
+  ],
+  [
+   "PMC9870871",
+   "The estimated Km value (2.7 \u00b1 0.3 mM) determined for IsPETase-WT was similar to that previ"
+  ],
+  [
+   "PMC9870871",
+   "not-a-measurement: Here, the IsPETase variants were heated for increasing amounts of time at 50 \u00b0C "
+  ],
+  [
+   "PMC9870871",
+   "not-a-measurement: (a) SDS-PAGE analysis of the linear and cyclic IsPETase variants after heating a"
+  ],
+  [
+   "PMC9870871",
+   "chem-constant: PET degrading activity was evaluated with and without agitation (1100 and 0 rpm)"
+  ],
+  [
+   "PMC9870871",
+   "not-a-measurement: With the exception of DuraPETase (see below), all plasmids were transformed into"
+  ],
+  [
+   "PMC9870871",
+   "not-a-measurement: DuraPETase was transformed into E. coli Rosetta-gami B(DE3) cells (Novagen) and "
+  ],
+  [
+   "PMC9870871",
+   "not-a-measurement: All cell pellets were harvested by centrifugation (20 min, 4 \u00b0C, 4000 rpm), resu"
+  ],
+  [
+   "PMC9870871",
+   "not-a-measurement: After sonication on ice and centrifugation (30 min, 4 \u00b0C, 20,000 rpm), the super"
+  ],
+  [
+   "PMC9870871",
+   "not-a-measurement: Fractions containing the desired protein were collected and concentrated using a"
+  ],
+  [
+   "PMC9870871",
+   "not-a-measurement: Reactions were quenched upon addition of SDS-PAGE loading buffer followed by the"
+  ],
+  [
+   "PMC9870871",
+   "not-a-measurement: For measuring residual activity, 200 \u00b5L of enzyme (250 \u00b5M of IsPETase-WT and -Sp"
+  ],
+  [
+   "PMC9870871",
+   "The PET degradation activities of the IsPETase variants, were investigated according to a "
+  ],
+  [
+   "PMC9870871",
+   "not-a-measurement: At selected time intervals, samples were quenched by centrifugation (10 min, 4 \u00b0"
+  ],
+  [
+   "PMC12896513",
+   "not-a-measurement: Thereafter, the cells were collected via centrifugation at 6000\u00d7 g and 4 \u00b0C for "
+  ],
+  [
+   "PMC12896513",
+   "not-a-measurement: The water-soluble fraction was then separated via centrifugation at 40,000\u00d7 g fo"
+  ],
+  [
+   "PMC12896513",
+   "not-a-measurement: Thereafter, the fraction was applied to a column with nickel-nitrilotriacetic ac"
+  ],
+  [
+   "PMC12896513",
+   "not-a-measurement: Subsequently, the recombinant protein was eluted using a stepwise increase in im"
+  ],
+  [
+   "PMC12896513",
+   "not-a-measurement: Fractions were analysed via sodium dodecyl sulfate (SDS)-polyacrylamide gel elec"
+  ],
+  [
+   "PMC12896513",
+   "not-a-measurement: Electrophoretic separation of proteins via SDS-PAGE was performed in a 12% polya"
+  ],
+  [
+   "PMC12896513",
+   "Esterase activity was measured according to Zhao et al. [25]."
+  ],
+  [
+   "PMC12896513",
+   "not-a-measurement: The solution was then centrifuged at 1000\u00d7 g for 3 min, and the absorbance was m"
+  ],
+  [
+   "PMC12896513",
+   "not-a-measurement: The cells were collected via centrifugation at 6000\u00d7 g at 4 \u00b0C for 7 min."
+  ],
+  [
+   "PMC12896513",
+   "not-a-measurement: After 6, 24, 30, 48, 54, 72, 78, 96, and 102 h, 1 mL samples were taken and cent"
+  ],
+  [
+   "PMC12896513",
+   "not-a-measurement: Briefly, a single colony was inoculated into 5 mL of nutrient broth, cultured at"
+  ],
+  [
+   "PMC12896513",
+   "not-a-measurement: During chromatographic purification, rEST-24 and rEST-28 were eluted from Ni-NTA"
+  ],
+  [
+   "PMC12896513",
+   "Esterases are in high demand in various fields of microbial enzyme research, including bio"
+  ],
+  [
+   "PMC12896513",
+   "The temperature range at which Bacillus esterases exhibit maximum activity varies from 25 "
+  ],
+  [
+   "PMC12896513",
+   "JM6 [50] demonstrated maximum activity at 60 \u00b0C."
+  ],
+  [
+   "PMC12896513",
+   "Some retain over 80% of their maximum activity across a relatively wide pH range, renderin"
+  ],
+  [
+   "PMC12896513",
+   "Thermostability studies show that many of these esterases retain optimal activity at tempe"
+  ],
+  [
+   "PMC12896513",
+   "The same Mg2+ tolerance of rEST-24 was previously noted for esterases from Bacillus aeroph"
+  ],
+  [
+   "PMC12896513",
+   "The enzyme Est29, which showed the highest activity on pNP-octanoate (C8), was classified "
+  ],
+  [
+   "PMC12896513",
+   "Notably, this activity is 15\u201316 times higher than that observed in the B. subtilis E9 stra"
+  ],
+  [
+   "PMC13042732",
+   "chem-constant: glass transition temperature"
+  ],
+  [
+   "PMC13042732",
+   "Despite accounting for a limited share of global output, PHA offer unique advantages, incl"
+  ],
+  [
+   "PMC13042732",
+   "EN 13432, ASTM D6400) and heightened public awareness of plastic pollution is precipitatin"
+  ],
+  [
+   "PMC13042732",
+   "A notable example is Kaneka Corporation in Japan, which produces the PHA copolymer poly(3\u2010"
+  ],
+  [
+   "PMC13042732",
+   "Existing commercial examples of this provide valuable insights into the opportunities and "
+  ],
+  [
+   "PMC13042732",
+   "However, degradation in home compost, soil or marine environments is typically slower and "
+  ],
+  [
+   "PMC13042732",
+   "Consequently, a comprehensive understanding of the bacterial biosynthetic pathways respons"
+  ],
+  [
+   "PMC13042732",
+   "These biosynthetic pathways are intrinsically linked to fermentation processes, for which "
+  ],
+  [
+   "PMC13042732",
+   "In such instances, enzymes such as polymer synthases have been observed to catalyse the po"
+  ],
+  [
+   "PMC13042732",
+   "PHB) and elastomers, with PHB exhibiting mechanical properties comparable to those of poly"
+  ],
+  [
+   "PMC13042732",
+   "PHA accumulation is typically induced by nutritional limitations (e.g. nitrogen or phospho"
+  ],
+  [
+   "PMC13042732",
+   "For instance, the combination of bio\u2010based succinic acid and BDO has been demonstrated to "
+  ],
+  [
+   "PMC13042732",
+   "This polymer was later characterised as PHB [34]."
+  ],
+  [
+   "PMC13042732",
+   "The length and structure of the side chain (R group) in each monomer strongly influence th"
+  ],
+  [
+   "PMC13042732",
+   "Medium\u2010chain\u2010length PHA (MCL\u2010PHA), composed of monomers with 6\u201314 carbon atoms, display pr"
+  ],
+  [
+   "PMC13042732",
+   "MCL\u2010PHA and LCL\u2010PHA generally have a low degree of crystallinity (around 25%), high elonga"
+  ],
+  [
+   "PMC13042732",
+   "This value lies close to its decomposition temperature (200\u2013300 \u00b0C) [41, 42], which limits"
+  ],
+  [
+   "PMC13042732",
+   "A common strategy to enhance the thermal and mechanical properties of PHA is the biosynthe"
+  ],
+  [
+   "PMC13042732",
+   "PHA can also be classified according to the carbon source used in their production."
+  ],
+  [
+   "PMC13042732",
+   "The first class is produced from traditional carbon sources, such as sugars, vegetable oil"
+  ],
+  [
+   "PMC13042732",
+   "Additionally, a second class is derived from the use of modified carbon sources, allowing "
+  ],
+  [
+   "PMC13042732",
+   "Carboxylation, hydroxylation and graft copolymerisation can modify their structure to fine"
+  ],
+  [
+   "PMC13042732",
+   "In 1997, Yoshiharu et al., obtained a single crystal of PHB from a mixed chloroform\u2010methan"
+  ],
+  [
+   "PMC13042732",
+   "not-a-measurement: This type of crystallisation occurs via primary nucleation to form a spherulite "
+  ],
+  [
+   "PMC13042732",
+   "not-a-measurement: Moreover, the increase of the crystallisation temperature leads to a change in t"
+  ],
+  [
+   "PMC13042732",
+   "A third PHA morphology reported in the literature is the shish\u2013kebab structure, which can "
+  ],
+  [
+   "PMC13042732",
+   "Masahiro and co\u2010workers observed the shish\u2013kebab morphology in ultra\u2010thin PHB films prepar"
+  ],
+  [
+   "PMC13042732",
+   "not-a-measurement: The most common crystal structure of PHB is the \u03b1\u2010form, which is generally produ"
+  ],
+  [
+   "PMC13042732",
+   "In recent years, the mechanical and thermal properties of PHA have been well described, hi"
+  ],
+  [
+   "PMC13042732",
+   "not-a-measurement: It is known that PHA exhibits low thermal stability at temperatures over 170 \u00b0C "
+  ],
+  [
+   "PMC13042732",
+   "It was reported that PHA shows better mechanical properties when the chains molecular weig"
+  ],
+  [
+   "PMC13042732",
+   "chem-constant: A study by Luo et al., [57] demonstrated that different properties of PHBV copol"
+  ],
+  [
+   "PMC13042732",
+   "not-a-measurement: The thickness of these monolamellar single crystals ranges from 4 to 10 nm, depe"
+  ],
+  [
+   "PMC13042732",
+   "Researchers found that some bacteria (such as Ralstonia eutropha) were able to produce not"
+  ],
+  [
+   "PMC13042732",
+   "A higher mole percentage of 3\u2010HH segments leads to lower melting temperatures, reduced cry"
+  ],
+  [
+   "PMC13042732",
+   "chem-constant: As the proportion of 3\u2010HH comonomer rises, the glass transition temperature (T g"
+  ],
+  [
+   "PMC13042732",
+   "not-a-measurement: PHBH samples may also undergo secondary crystallisation at room temperature due "
+  ],
+  [
+   "PMC13042732",
+   "Furthermore, the thermal degradation temperature of PHBH copolymers is strongly influenced"
+  ],
+  [
+   "PMC13042732",
+   "Cell\u2010free metabolic engineering (CFME) has already demonstrated great potential in optimis"
+  ],
+  [
+   "PMC13042732",
+   "PhaC enzymes have been categorised into four major classes based on their primary sequence"
+  ],
+  [
+   "PMC13042732",
+   "Class I, Class III and Class IV produce SCL\u2010PHA depending on propionate, butyrate, valerat"
+  ],
+  [
+   "PMC13042732",
+   "PhaC from Cupriavidus necator [67] (ex Ralstonia eutropha)\u2010PhaC_Re/Cn, Chromobacterium sp."
+  ],
+  [
+   "PMC13042732",
+   "USM2\u2014PhaC_Cs and Aeromonas caviae\u2014PhaC_Ac belong to this class [68, 69]."
+  ],
+  [
+   "PMC13042732",
+   "In terms of specific activity, PhaC_Cs shows higher catalytic rates than PhaC_Cn (about 5\u2010"
+  ],
+  [
+   "PMC13042732",
+   "Regarding substrate specificity, PhaC_Ac is notable because engineered variants increase t"
+  ],
+  [
+   "PMC13042732",
+   "Phasins specifically interact with certain PhaC enzymes, improving polymer chain elongatio"
+  ],
+  [
+   "PMC13042732",
+   "Schematic representation of the different classes of PHA synthases involved in PHA biosynt"
+  ],
+  [
+   "PMC13042732",
+   "PhaC, PhaE and PhaR denote distinct synthase subunits [66, 71, 73, 80, 81]."
+  ],
+  [
+   "PMC13042732",
+   "Since type II enzymes are mainly found in Pseudomonas, the most in vitro studied PhaC that"
+  ],
+  [
+   "PMC13042732",
+   "PhaC2 has lower turnover (~ 2\u20133 \u03bcmol\u00b7min\u22121) but higher affinity [66, 74]."
+  ],
+  [
+   "PMC13042732",
+   "Pseudomonas aeruginosa PhaC1/2 display a similar MCL specificity but little or no activity"
+  ],
+  [
+   "PMC13042732",
+   "Class III PHA synthases are heterodimeric enzymes composed of PhaC (catalytic) and PhaE (s"
+  ],
+  [
+   "PMC13042732",
+   "The best characterised in vitro model is PhaEC from Allochromatium vinosum [75]."
+  ],
+  [
+   "PMC13042732",
+   "Class III synthases thus define a unique PHA biosynthetic mechanism combining catalytic an"
+  ],
+  [
+   "PMC13042732",
+   "In Class IV PHA synthases, PhaR is an integral catalytic partner, not a regulatory one [82"
+  ],
+  [
+   "PMC13042732",
+   "The primary functional element in all PhaC enzymes is a conserved \u03b1/\u03b2\u2010hydrolase domain con"
+  ],
+  [
+   "PMC13042732",
+   "The PhaC (Ac) NSDG mutant (N149S, D171G from Aeromonas caviae) significantly enhances 3HHx"
+  ],
+  [
+   "PMC13042732",
+   "The sequence\u2010regulating PhaC (AR) from Allochromatium vinosum and Ralstonia eutropha intro"
+  ],
+  [
+   "PMC13042732",
+   "SG4502 incorporates a modified STQK loop, conferring stability and sustained catalytic act"
+  ],
+  [
+   "PMC13042732",
+   "Additional innovations include enzyme immobilisation on solid supports to improve stabilit"
+  ],
+  [
+   "PMC13042732",
+   "not-a-measurement: In this approach, enzymes such as PhaA, PhaB and PhaC are anchored onto carrier "
+  ],
+  [
+   "PMC13042732",
+   "The commercialisation of PHA remains constrained by their significantly higher production "
+  ],
+  [
+   "PMC13042732",
+   "The price of polypropylene and polyethylene is about US $1.25\u20132.53 per kg, while that for "
+  ],
+  [
+   "PMC13042732",
+   "Research is shifting towards cost\u2010reduction strategies in order to increase the competitiv"
+  ],
+  [
+   "PMC12194804",
+   "The intensive use of these materials in industries such as food, transportation, construct"
+  ],
+  [
+   "PMC12194804",
+   "The waste generated by human activity until the mid-twentieth century consisted mainly of "
+  ],
+  [
+   "PMC12194804",
+   "Incineration is used to remove petroleum-based plastics, but it is a very polluting proces"
+  ],
+  [
+   "PMC12194804",
+   "The term \u201cdegradation\u201d describes any physical or chemical change in a material caused by e"
+  ],
+  [
+   "PMC12194804",
+   "However, the term \u201cbiobased\u201d is not equivalent to \u201cbiodegradable\u201d since biobased bioplasti"
+  ],
+  [
+   "PMC12194804",
+   "Other widely used biodegradable aliphatic polyesters from renewable resources are Poly(3-h"
+  ],
+  [
+   "PMC12194804",
+   "The MPs (100 nm to 5 mm) and nanoplastics (1 to 100 nm) [23] accumulated in the seas are v"
+  ],
+  [
+   "PMC12194804",
+   "These MPs in aquacultural products have several consequences for human health; e.g., the r"
+  ],
+  [
+   "PMC12194804",
+   "Some researchers suggest that MPs can enter the atmosphere and be carried by the wind [47]"
+  ],
+  [
+   "PMC12194804",
+   "Another study quantifying MPs in the atmosphere reported MPs in 98% of samples obtained by"
+  ],
+  [
+   "PMC12194804",
+   "Dry-deposited MPs were smaller and more prevalent at high elevations, indicating that thes"
+  ],
+  [
+   "PMC12194804",
+   "Their findings suggest that the ocean may act not only as a sink but also as a secondary s"
+  ],
+  [
+   "PMC12194804",
+   "The authors hypothesized that MPs could cause epigenetic changes leading to phenotypic alt"
+  ],
+  [
+   "PMC12194804",
+   "Microorganisms degrade polymers through a series of distinct, sequential stages: bio-deter"
+  ],
+  [
+   "PMC12194804",
+   "Other reported products of microbial degradation of polymers are fatty acids, aldehydes, c"
+  ],
+  [
+   "PMC12194804",
+   "chem-constant: Among the factors influencing polymer degradation are surface conditions (surfac"
+  ],
+  [
+   "PMC12194804",
+   "chem-constant: Furthermore, the mobility chains model explains the non-degradability of PET and"
+  ],
+  [
+   "PMC12194804",
+   "Indeed, plastic debris is considered a different habitat denominated \u201cThe Plastisphere\u201d [6"
+  ],
+  [
+   "PMC12194804",
+   "Finally, environmental factors such as temperature, pH, salinity, oxygen levels, sunlight,"
+  ],
+  [
+   "PMC12194804",
+   "M\u00e9ndez and coworkers [63] evaluated the degradative activity of fungi recovered from damag"
+  ],
+  [
+   "PMC12194804",
+   "This study proved that the availability of an alternative carbon source, the pH, and tempe"
+  ],
+  [
+   "PMC12194804",
+   "Another research identified five soil micromycete species involved in PHA biodegradation ["
+  ],
+  [
+   "PMC12194804",
+   "The NMP provides an easily utilizable carbon source; after that source is depleted, estera"
+  ],
+  [
+   "PMC12194804",
+   "Firmicutes and Proteobacteria degrade PHA, PCL, and PBS but not PLA [74]."
+  ],
+  [
+   "PMC12194804",
+   "On the other hand, PCL-degrading bacteria have been reported at sea depths over 5000 m [75"
+  ],
+  [
+   "PMC12194804",
+   "Also, the total counts of microorganisms from the biofilm on the PHA surface were one or t"
+  ],
+  [
+   "PMC12194804",
+   "In contrast, TfH hydrolyzes dissolved esters, a typical esterase activity, suggesting that"
+  ],
+  [
+   "PMC12194804",
+   "The analysis of the M. oleivorans genome revealed the presence of extracellular hydrolase-"
+  ],
+  [
+   "PMC12194804",
+   "Even when the rumen food only lasts 72 h, it was found that rumen microorganisms can degra"
+  ],
+  [
+   "PMC12194804",
+   "Among fungi, Phyla Ascomycota and Basidiomycota, both cellulose degraders, and Mucormycota"
+  ],
+  [
+   "PMC12194804",
+   "A research reported the ability of Scenedesmus dimorphus, Anabaena spiroides, and Navicula"
+  ],
+  [
+   "PMC12194804",
+   "These results suggest that PE was physically and chemically modified but not metabolized o"
+  ],
+  [
+   "PMC12194804",
+   "Another study reported a phthalate degradation operon in the Mycobacterium vanbaalenii PRY"
+  ],
+  [
+   "PMC12194804",
+   "The operon is conserved in diverse polycyclic aromatic hydrocarbon-degrading Mycobacterium"
+  ],
+  [
+   "PMC12194804",
+   "The hydrophobin RolA binds to the solid PBSA surface and recruits CutL1, stimulating the h"
+  ],
+  [
+   "PMC12194804",
+   "In contrast, when the lignin-degrading fungi Phanerochaete chrysosporium and Trametes vers"
+  ],
+  [
+   "PMC12194804",
+   "Esterases capable of hydrolyzing poly(diethylene glycol adipate) (poly DEGA) and synthetic"
+  ],
+  [
+   "PMC12194804",
+   "In this sense, an algorithm for identifying PET hydrolases synthesized by different bacter"
+  ],
+  [
+   "PMC10979405",
+   "Serdakowski et al.181 reviewed the published works on enzyme activation in organic solvent"
+  ],
+  [
+   "PMC10979405",
+   "chem-constant: Several small-angle X-ray (SAXS) and neutron scattering (SANS) studies with prot"
+  ],
+  [
+   "PMC10979405",
+   "The results gathered are in agreement with the osmophobic theory originally proposed by Bo"
+  ],
+  [
+   "PMC10979405",
+   "not-a-measurement: Surfactants are a class of organic amphiphilic molecules that reduce the surface"
+  ],
+  [
+   "PMC10979405",
+   "Their relevance in protein formulation can be appraised from their applications in pharmac"
+  ],
+  [
+   "PMC10979405",
+   "not-a-measurement: Given that surfactants in solution may exist as monomers, aggregates, shared agg"
+  ],
+  [
+   "PMC10979405",
+   "On the other hand, Khan et al.255 reviewed the key interactions occurring in formulations "
+  ],
+  [
+   "PMC10979405",
+   "Therefore, they are required to be stable for long periods at high concentrations, up to 1"
+  ],
+  [
+   "PMC10979405",
+   "The authors stated that besides the described specific advantages, the strategy also has s"
+  ],
+  [
+   "PMC10979405",
+   "Therefore, this section will cover the works published to date, divided according to the I"
+  ],
+  [
+   "PMC10979405",
+   "Lau et al.,28 in 2004, were the first to show the dissolution of the enzyme Candida antarc"
+  ],
+  [
+   "PMC10979405",
+   "The ether-functionalized ILs, [Me(OEt)3-Et3N][OAc] and [Me(OEt)3-Et-Im][OAc], were found t"
+  ],
+  [
+   "PMC10979405",
+   "Bose et al.30 investigated the reactivity and stability of commercial Cellulases from Tric"
+  ],
+  [
+   "PMC10979405",
+   "The [C2mim][C2OSO3] preserved the secondary structure of the enzyme with an enhancement in"
+  ],
+  [
+   "PMC10979405",
+   "Phillips et al.277 reported the dissolution of various percentages of protein silk fibroin"
+  ],
+  [
+   "PMC10979405",
+   "Strassburg et al.280 looked beyond the largely studied imidazolium-based ILs and reported "
+  ],
+  [
+   "PMC10979405",
+   "For example, the earliest work in this direction was published by Baker et al.59 in 2004, "
+  ],
+  [
+   "PMC10979405",
+   "For instance, Falcioni et al.290 reported the stability of the conformation and activity o"
+  ],
+  [
+   "PMC10979405",
+   "This is a phenomenon popular with the stability of proteins by osmolytes according to the "
+  ],
+  [
+   "PMC10979405",
+   "In their first work in the field, Attri et al.67 reported higher activity and stability of"
+  ],
+  [
+   "PMC10979405",
+   "The authors concluded that peptide bonds, the peptide backbone unit, the alanyl residue, a"
+  ],
+  [
+   "PMC10979405",
+   "Fujita et al.61 introduced the biocompatibility term to ILs and studied the temperature-de"
+  ],
+  [
+   "PMC10979405",
+   "Mazid et al.,297 from the same research group (MacFarlane and co-workers), investigated th"
+  ],
+  [
+   "PMC10979405",
+   "Interestingly, a higher stability was observed at 50% [Cho][dhp] compared to 20% [Cho][dhp"
+  ],
+  [
+   "PMC10979405",
+   "In 2010, Fujita et al.66 again showed the relevance of [Cho][dhp]:H2O (70:30, v/v) A-ILCS,"
+  ],
+  [
+   "PMC10979405",
+   "Using calorimetric and spectroscopic analysis Dhiman et al.300 reported enhanced thermal t"
+  ],
+  [
+   "PMC10979405",
+   "Other works regarding A-ILCS of quaternary ammonium-based ILs have shown the stability and"
+  ],
+  [
+   "PMC10979405",
+   "Bhakuni et al.303 showed the thermal stability and packaging of Cytochrome c for a month, "
+  ],
+  [
+   "PMC10979405",
+   "Still, with cholinium-based ILs, Bisht et al.305 demonstrated the thermal and thermodynami"
+  ],
+  [
+   "PMC10979405",
+   "With a different perspective, Takekiyo et al.306 studied the cryopreservation effect of aq"
+  ],
+  [
+   "PMC10979405",
+   "These mixtures were restricted to a limited number of water molecules per ion pair (3 to 1"
+  ],
+  [
+   "PMC10979405",
+   "Moreover, A-ILCS of [Cho][dhp] refolded 5 to 90% of the structure of heat-denatured RNase "
+  ],
+  [
+   "PMC10979405",
+   "Finally, the authors developed a refolding index (RFI) metric to assess the stability of f"
+  ],
+  [
+   "PMC10979405",
+   "Mann et al.316 reported refolding of heat-denatured lysozyme in A-ILCS of [C2NH3][HCOO] an"
+  ],
+  [
+   "PMC10979405",
+   "Byrne et al.152 also reported the fibrillation of lysozyme in PIL aqueous solutions and su"
+  ],
+  [
+   "PMC10979405",
+   "Bharmoria et al.318 overcame this drawback by investigating the anion-specific interaction"
+  ],
+  [
+   "PMC10979405",
+   "not-a-measurement: Beyond the quaternary ammonium family of ILs, several hydrophilic imidazolium-ba"
+  ],
+  [
+   "PMC10979405",
+   "Unfolded state of lysozyme was observed at 6 M [C4mim][NO3] due to specific interactions o"
+  ],
+  [
+   "PMC10979405",
+   "Tavares et al.321 reported the maintenance of activity of laccase in A-ILCS of [C2mim][MDE"
+  ],
+  [
+   "PMC10979405",
+   "Kim et al.323 reported a higher activity of Candida antarctica lipase B in A-ILCS of [C4mi"
+  ],
+  [
+   "PMC10979405",
+   "Further analysis of IL-GFP interactions using a multitechnique approach in 1 M [C4mim]Cl, "
+  ],
+  [
+   "PMC10979405",
+   "Additionally, due to the strong acidity, [C4mim][HSO4] broke the disulfide bond between Cy"
+  ],
+  [
+   "PMC10979405",
+   "It was concluded that their destabilizing effect increases with the cation alkyl chain len"
+  ],
+  [
+   "PMC10979405",
+   "not-a-measurement: Pusey et al.330 studied the crystallization tendency of A-ILCS comprising 0.4 M "
+  ],
+  [
+   "PMC10979405",
+   "not-a-measurement: All protein-IL combinations produced at least one crystal, in which the ILs were"
+  ],
+  [
+   "PMC10979405",
+   "not-a-measurement: In depth mechanisms of the IL on protein\u2019s crystallization was further investiga"
+  ],
+  [
+   "PMC10979405",
+   "not-a-measurement: The authors explained that IL-protein molecular interactions drive protein cryst"
+  ],
+  [
+   "PMC10979405",
+   "not-a-measurement: The relative salting-in/-out ability of ILs to assist crystallization changes up"
+  ],
+  [
+   "PMC10979405",
+   "not-a-measurement: At low ionic strength, when the electrostatic interactions predominate, the ions"
+  ],
+  [
+   "PMC10979405",
+   "not-a-measurement: At high ionic strength, the IL ions influence the crystallization by altering th"
+  ],
+  [
+   "PMC10979405",
+   "not-a-measurement: As a result, anions that exert the highest salting-out effect at low ionic stren"
+  ],
+  [
+   "PMC10979405",
+   "From MD studies, Jaganathan et al.335 confirmed stable compaction of Cytochrome c, solvate"
+  ],
+  [
+   "PMC10979405",
+   "Manna et al.339 also reported a loss in activity of endoglucanase Cel12A from Rhodothermus"
+  ],
+  [
+   "PMC10979405",
+   "Constantinescu et al.341 investigated the thermal denaturation tendency of ILs on RNase A "
+  ],
+  [
+   "PMC10979405",
+   "Weibels et al.342 investigated these forces by the ion specific activity analysis of yeast"
+  ],
+  [
+   "PMC10979405",
+   "Zhao et al.18 have reviewed the ion-specific effect of ILs toward protein stabilization/en"
+  ],
+  [
+   "PMC10979405",
+   "not-a-measurement: Similarly, double layer clustering of [C6mim]Cl and [C8mim]Cl at the protein\u2013wat"
+  ],
+  [
+   "PMC10979405",
+   "By combining fluorescence and docking studies, Shu et al.349 showed that cationic imidazol"
+  ],
+  [
+   "PMC10979405",
+   "Based on these studies, Fan et al.355,356 prepared a regression-based model, which produce"
+  ],
+  [
+   "PMC10979405",
+   "Ventura et al.357 reported that ILs with higher \u03b2 and \u03c0 values are more effective in decre"
+  ],
+  [
+   "PMC10979405",
+   "Jaeger et al.358 simulated the effect of [C2mim][OAc] and [C2mim][C2OSO3] on the structure"
+  ],
+  [
+   "PMC10979405",
+   "Similarly, Sankaranarayanan et al.360 reported the \u03b2 \u2192 helix \u2192 \u03b2 sheet conformational tran"
+  ],
+  [
+   "PMC10979405",
+   "Sankaranarayanan et al.361 also studied the effect of pH on nonspecific interactions of IL"
+  ],
+  [
+   "PMC10979405",
+   "Ghaedizadeh et al.362 reported a decrease in the activity of Renilla Luciferase due to [C4"
+  ],
+  [
+   "PMC10979405",
+   "Bisht et al.364 reported the complete refolding of unfolded lysozyme by [C4(C1)3N][NTf2] a"
+  ],
+  [
+   "PMC10979405",
+   "Besides giving valuable information on the molecular mechanism of IL-protein interactions,"
+  ],
+  [
+   "PMC10979405",
+   "not-a-measurement: Hasan et al.366 exploited pyridinium-based ILs, viz. [CnPyrBr] (n = 4, 8), as bu"
+  ],
+  [
+   "PMC10979405",
+   "not-a-measurement: SAILs are ILs that behave as ionic surfactants.145 SAILs show aggregation behavi"
+  ],
+  [
+   "PMC10979405",
+   "Geng et al.116,117 reported endothermic binding of [C14mim]Br to BSA, leading to (i) the p"
+  ],
+  [
+   "PMC10979405",
+   "The cationic imidazolium was found more destabilizing compared to the pyrrolidinium headgr"
+  ],
+  [
+   "PMC10979405",
+   "Gospodarczyk et al.128 reported the stabilization of BSA by dicationic imidazolium (Gemini"
+  ],
+  [
+   "PMC10979405",
+   "not-a-measurement: Just over C1, [C12mim]Br molecules aggregate into micelle-like aggregates on the"
+  ],
+  [
+   "PMC10979405",
+   "not-a-measurement: All the \u03b2-casein molecules are saturated by SAIL aggregates above Cs, and free S"
+  ],
+  [
+   "PMC10979405",
+   "The authors reported negligible change in the conformation of pepsin both at the interface"
+  ],
+  [
+   "PMC10979405",
+   "Singh et al.371 reported enhanced antimicrobial activity of lysozyme upon complexation wit"
+  ],
+  [
+   "PMC10979405",
+   "Beyond interactions and coacervation studies, SAILs have been also used to stabilize the p"
+  ],
+  [
+   "PMC10979405",
+   "Pavlidis et al.138 reported a 4.4-fold rise in the activity and a 25-fold increase in the "
+  ],
+  [
+   "PMC10979405",
+   "Kaur et al.374 reported a high thermal stability of lysozyme, up to 120 \u00b0C, at the nanoint"
+  ],
+  [
+   "PMC10979405",
+   "The high emulsifying tendency of SAILs has been exploited to isolate, store, and enhance t"
+  ],
+  [
+   "PMC10979405",
+   "For example, Kaur et al.374 showed the stabilization of lysozyme at 120 \u00b0C in the confined"
+  ],
+  [
+   "PMC10979405",
+   "For example, Pereira et al.378 reported the single-step extraction of BSA into the IL-rich"
+  ],
+  [
+   "PMC10979405",
+   "chem-constant: On the other hand, Quental et al.157 reported 100% extraction efficiency of a st"
+  ],
+  [
+   "PMC10979405",
+   "The same type of ILs was used for the extraction of TPs, namely, immunoglobulin Y (IgY) fr"
+  ],
+  [
+   "PMC10979405",
+   "For example, Tseng et al.388 explored the importance of biomolecular recognition for the e"
+  ],
+  [
+   "PMC10979405",
+   "Both peptides and proteins retained their structural stability upon extraction into the IL"
+  ]
+ ]
+}

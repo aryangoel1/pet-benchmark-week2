@@ -1,0 +1,64 @@
+{
+ "shipped_rows": 528,
+ "removed": {
+  "DROP_TRAIN_OVERLAP": 89,
+  "DROP_INTERNAL_DUP": 77,
+  "MANUAL_REVIEW_REJECTED": 22,
+  "DROP_DUPLICATE": 5,
+  "VERIFICATION_FAILED": 3
+ },
+ "distinct_papers": 79,
+ "distinct_proteins": 13,
+ "distinct_accessions": 15,
+ "tiers": {
+  "A_fully_independent": 105,
+  "B_in_luke_heldout_test_only": 21,
+  "C_conditions_only_no_sequence": 402
+ },
+ "measurement_types": {
+  "temperature optimum": 44,
+  "thermostability": 137,
+  "pH stability": 39,
+  "pH optimum": 31,
+  "relative activity": 122,
+  "kinetic constant": 14,
+  "salt effect": 92,
+  "ionic strength effect": 1,
+  "inhibition": 37,
+  "specific activity": 11
+ },
+ "with_sequence": 126,
+ "with_temperature": 199,
+ "with_pH": 88,
+ "with_T_and_pH": 34,
+ "with_electrolyte": 115,
+ "with_salt_or_ion": 115,
+ "with_salinity": 0,
+ "with_ionic_strength": 21,
+ "mixed_electrolyte": 2,
+ "with_buffer": 37,
+ "with_exposure_time": 81,
+ "with_assay_method": 12,
+ "with_mutation": 16,
+ "source_verified": 528,
+ "distinct_ions": 15,
+ "distinct_salts": 16,
+ "plastic_relevance": {
+  "direct_plastic_degrader": 171,
+  "plastic_context_hydrolase": 72,
+  "plastic_relevant_article": 285
+ },
+ "confidence": {
+  "Medium": 130,
+  "Medium-High": 66,
+  "High": 11,
+  "Low": 321
+ },
+ "sequence_resolution": {
+  "genbank_deposit_section_unique": 29,
+  "genbank_unique_in_article": 62,
+  "accession_unique_in_article": 32,
+  "name_lookup": 3,
+  "unresolved": 402
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "exclusions": {
+  "BM000272": "growth optimum of the organism, not the enzyme's optimum",
+  "BM000492": "growth optimum of the organism, not the enzyme's optimum",
+  "BM000493": "growth optimum of the organism, not the enzyme's optimum",
+  "BM000760": "growth optimum of the organism, not the enzyme's optimum",
+  "BM000136": "the parsed cell holds a protein concentration, not an activity",
+  "BM001126": "methods sentence listing the buffer ranges assayed, not a measured optimum",
+  "BM001309": "carbonic anhydrase CO2-hydration activity \u2014 not a plastic-degrading enzyme",
+  "BM001310": "carbonic anhydrase CO2-hydration activity \u2014 not a plastic-degrading enzyme",
+  "BM001311": "carbonic anhydrase CO2-hydration activity \u2014 not a plastic-degrading enzyme",
+  "BM001312": "carbonic anhydrase CO2-hydration activity \u2014 not a plastic-degrading enzyme",
+  "BM001313": "carbonic anhydrase CO2-hydration activity \u2014 not a plastic-degrading enzyme",
+  "BM001316": "carbonic anhydrase CO2-hydration activity \u2014 not a plastic-degrading enzyme",
+  "BM001317": "carbonic anhydrase CO2-hydration activity \u2014 not a plastic-degrading enzyme",
+  "BM001318": "carbonic anhydrase CO2-hydration activity \u2014 not a plastic-degrading enzyme",
+  "BM001319": "carbonic anhydrase CO2-hydration activity \u2014 not a plastic-degrading enzyme",
+  "BM001321": "carbonic anhydrase CO2-hydration activity \u2014 not a plastic-degrading enzyme",
+  "BM001322": "carbonic anhydrase CO2-hydration activity \u2014 not a plastic-degrading enzyme",
+  "BM001324": "carbonic anhydrase CO2-hydration activity \u2014 not a plastic-degrading enzyme",
+  "BM001325": "carbonic anhydrase CO2-hydration activity \u2014 not a plastic-degrading enzyme",
+  "BM001474": "carbohydrate-active enzyme (xylanase/cellulase/glucosidase), off-target",
+  "BM001208": "a target temperature the authors aimed at, not a measured value",
+  "BM000915": "salt tolerance of a strain, not of a purified enzyme"
+ },
+ "rules": {
+  "growth optimum of the organism, not the enzyme's optimum": {
+   "found_reviewing": "BM000492",
+   "rows_removed": 4
+  },
+  "the parsed cell holds a protein concentration, not an activity": {
+   "found_reviewing": "BM000136",
+   "rows_removed": 1
+  },
+  "methods sentence listing the buffer ranges assayed, not a measured optimum": {
+   "found_reviewing": "BM001126",
+   "rows_removed": 1
+  },
+  "carbonic anhydrase CO2-hydration activity \u2014 not a plastic-degrading enzyme": {
+   "found_reviewing": "BM001319",
+   "rows_removed": 13
+  },
+  "carbohydrate-active enzyme (xylanase/cellulase/glucosidase), off-target": {
+   "found_reviewing": "BM001474",
+   "rows_removed": 1
+  },
+  "a target temperature the authors aimed at, not a measured value": {
+   "found_reviewing": "BM001208",
+   "rows_removed": 1
+  },
+  "drug-delivery / prodrug release, not enzyme performance": {
+   "found_reviewing": "(review sweep)",
+   "rows_removed": 0
+  },
+  "salt tolerance of a strain, not of a purified enzyme": {
+   "found_reviewing": "(review sweep)",
+   "rows_removed": 1
+  }
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "per_source": {
+  "Tsuboyama2023 (Training set 1 - Tsuboyama2023.csv)": {
+   "rows_indexed": 250000,
+   "kind": "sequence+uniprot+fingerprint"
+  },
+  "Domainome (Training set 2 - Domainome.csv)": {
+   "rows_indexed": 250000,
+   "kind": "sequence+uniprot+fingerprint"
+  },
+  "Domainome (Training set 3 - Domainome.csv)": {
+   "rows_indexed": 207943,
+   "kind": "sequence+uniprot+fingerprint"
+  },
+  "Tsuboyama2023_double (training set 4 - Tsuboyama2023_double.csv)": {
+   "rows_indexed": 138275,
+   "kind": "sequence+uniprot+fingerprint"
+  },
+  "Tsuboyama2023 (Training set 5 - Tsuboyama2023.csv)": {
+   "rows_indexed": 107155,
+   "kind": "sequence+uniprot+fingerprint"
+  },
+  "Meltome (Training set 6 - Meltome.csv)": {
+   "rows_indexed": 27884,
+   "kind": "sequence+uniprot+fingerprint"
+  },
+  "S669 (Benchmark data set - S669.pdf)": {
+   "rows_indexed": 658,
+   "kind": "pdb+mutation+ddG"
+  },
+  "Luke week-2 training/test proteins": {
+   "rows_indexed": 37448,
+   "kind": "protein_id+sequence+split"
+  },
+  "Luke week-2 measurement records": {
+   "rows_indexed": 563076,
+   "kind": "measurement fingerprint"
+  },
+  "Luke week-1 pH database": {
+   "rows_indexed": 12082,
+   "kind": "sequence+uniprot+pmid+fingerprint"
+  },
+  "Aryan week-1 conditions database": {
+   "rows_indexed": 25340,
+   "papers_mined": 199,
+   "kind": "uniprot+pmid/pmcid+fingerprint"
+  }
+ },
+ "index_totals": {
+  "seq": 970289,
+  "acc": 16297,
+  "pid": 970289,
+  "paper": 6941,
+  "fp": 1579354,
+  "pdb": 89
+ },
+ "luke_train_protein_ids": 31426,
+ "luke_test_protein_ids": 5957
+}
