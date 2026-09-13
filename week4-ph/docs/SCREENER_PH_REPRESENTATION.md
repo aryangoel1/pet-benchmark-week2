@@ -34,7 +34,7 @@ That is coherent for role 2 and lossy for roles 1 and 3. Two consequences:
   "less than 15% residual at pH 9" carry the actual signal, and the schema keeps only the
   10 and the 9.
 
-The pH benchmark recovers that information for 29 of 67 rows and records direction on 52.
+The pH benchmark recovers that information for 29 of 68 rows and records direction on 53.
 The representation below is what lets the screener use it.
 
 ---

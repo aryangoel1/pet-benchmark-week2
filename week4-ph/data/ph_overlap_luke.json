@@ -1,9 +1,9 @@
 {
  "luke_folder": "C:\\Users\\worki\\Downloads\\Week 2_ temperature_ph_dataset_v2-20260913T050402Z-1-001\\Week 2_ temperature_ph_dataset_v2",
  "luke_proteins_indexed": 37448,
- "benchmark_rows": 67,
+ "benchmark_rows": 68,
  "benchmark_rows_with_sequence": 9,
- "benchmark_rows_without_sequence": 58,
+ "benchmark_rows_without_sequence": 59,
  "benchmark_distinct_proteins": 3,
  "proteins_in_luke_train": 0,
  "proteins_in_luke_test": 0,

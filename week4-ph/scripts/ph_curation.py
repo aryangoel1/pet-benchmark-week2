@@ -7,12 +7,19 @@ the audit's source of truth: `build_ph_benchmark.py` applies it mechanically and
 `AUDIT_REPORT.md` is generated from it, so the shipped data and the documentation
 cannot drift apart.
 
-IMPORTANT SCOPE NOTE. These verdicts were reached by reading the evidence quote that the
-Week-2 pipeline stored with each row, not by re-opening all 44 source articles. The
-Week-2 pipeline had already located each quote in a freshly downloaded copy of its
-article, so the quote is trustworthy as *text*; what this pass adds is a judgement about
-whether the recorded value is the right reading of that text. Judgements that would need
-information beyond the quote are marked in the note and left unscored.
+SCOPE. Three passes stand behind these verdicts.
+
+  1. Evidence-sentence audit. All 105 candidates read against the quote the Week-2
+     pipeline stored with them. Produced the exclusions and the field corrections.
+  2. Deep re-read of the SHIPPED rows (`scripts/deep_verify_ph.py`). All 31 shipped
+     articles re-downloaded and every shipped row re-checked in full context. Produced
+     SEQUENCE_REJECTIONS below, the MLipA renaming, and one measurement-type fix.
+  3. Deep re-read of the EXCLUSIONS (`scripts/deep_verify_exclusions.py`). All 37
+     removals re-checked against full text with the article's own section structure.
+     Reinstated BM85EC0EEFF2 (PD3); every other removal held.
+
+What none of the passes does is re-derive a value from the underlying figure. Where a
+row rests on prose summarising a figure, the prose is taken at its word.
 
 Verdicts
     KEEP     row enters the benchmark, possibly with corrections in `set`
@@ -612,9 +619,18 @@ CURATION = {
 "BMEEB3F89D6F": _x(["PH-X7"],
     "'The AUTHORS FOUND that the pH of the solution dropped ...' in a review article; "
     "restates another study's observation."),
-"BM85EC0EEFF2": _x(["PH-X4"],
-    "'The optimal activity was at pH 7.5 (Figure S3C)' -- the sentence has no enzyme "
-    "subject at all and the article characterises several marine-bacterial enzymes."),
+"BM85EC0EEFF2": _k(["PH-C5", "PH-C7"],
+    "REINSTATED by the deep re-read of the exclusions. Pass 1 dropped this under PH-X4 "
+    "because the sentence 'The optimal activity was at pH 7.5 (Figure S3C)' carries no "
+    "enzyme subject and the article characterises eight candidates. The full paragraph "
+    "resolves it beyond doubt: 'Since PD3 possesses the best long-term stability, further "
+    "characterization of PD3's esterase activity was performed ... Higher activities of "
+    "PD3 were observed when using p-NPB and p-NPH at 42 deg C compared with 37 deg C "
+    "(Figure S3B). The optimal activity was at pH 7.5 (Figure S3C).' Every sentence in the "
+    "paragraph takes PD3 as its subject, and the figure panels run in sequence S3A-S3D on "
+    "PD3. Attributed to PD3.",
+    enzyme_name="PD3", direction="optimum",
+    attribution_certainty="single_enzyme_named"),
 "BM44DA9B1565": _x(["PH-X6", "PH-X4"],
     "Ulvan lyase -- a polysaccharide lyase, not a carboxylester hydrolase. 'all three "
     "ulvan lyases' is also unattributable."),

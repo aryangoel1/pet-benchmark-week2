@@ -1,7 +1,7 @@
 # Week 4 — the pH benchmark
 
-The finalised pH axis of the plastic-degrading enzyme benchmark: **67 curated
-measurements from 30 open-access articles**, spanning **pH 3.0–12.0** across **19 enzyme
+The finalised pH axis of the plastic-degrading enzyme benchmark: **68 curated
+measurements from 31 open-access articles**, spanning **pH 3.0–12.0** across **19 enzyme
 classes**, with every value read against the sentence it came from, every shipped row
 re-checked against the freshly downloaded full article, and a recorded verdict for all
 105 candidates considered.
@@ -22,14 +22,14 @@ re-checked against the freshly downloaded full article, and a recorded verdict f
 
 | | |
 |---|---:|
-| Measurements shipped | **67** |
-| Source articles | **30** |
+| Measurements shipped | **68** |
+| Source articles | **31** |
 | Candidates audited | 105 |
-| Removed by the audit | 38 (36%) |
-| pH as the measured outcome / as an assay covariate | 57 / 10 |
-| Scoreable on the pH axis / by a sequence model | 45 / 7 |
+| Removed by the audit | 37 (35%) |
+| pH as the measured outcome / as an assay covariate | 58 / 10 |
+| Scoreable on the pH axis / by a sequence model | 46 / 7 |
 | Rows carrying the outcome **at** that pH | 29 |
-| Rows carrying the direction of the effect | 52 |
+| Rows carrying the direction of the effect | 53 |
 | Distinct proteins | 3 |
 | Rows in Luke's training split | **0** |
 | Sequence attributions rejected on deep re-read | 3 of 6 |
@@ -59,12 +59,12 @@ Full breakdowns: [`docs/DATASET_SUMMARY.md`](docs/DATASET_SUMMARY.md).
 
 | File | What it is |
 |---|---|
-| `data/ph_benchmark_v1.csv` | **the benchmark** — 67 rows × 52 columns, native schema |
+| `data/ph_benchmark_v1.csv` | **the benchmark** — 68 rows × 52 columns, native schema |
 | `data/ph_benchmark_luke_format.csv` | the same rows in the project's standardized 24-column format, header-identical to `temp_pH_dataset_ML_homology.csv` |
 | `data/ph_benchmark_luke_format_extended.csv` | those 24 columns plus 28 `ext_*` columns for what the schema cannot hold |
 | `data/ph_benchmark_v1.sqlite` | indexed, with views `v_ph_scored`, `v_ph_scored_seq`, `v_ph_optimum`, `v_ph_stability`, `v_ph_ranges`, `v_ph_covariate`, `v_tier_a`, `v_with_sequence` |
 | `data/ph_benchmark.fasta` | one record per protein, header carries the `protein_id` join key |
-| `data/ph_excluded_v1.csv` | all 38 removed candidates, each with rule, reason and evidence |
+| `data/ph_excluded_v1.csv` | all 37 removed candidates, each with rule, reason and evidence |
 | `data/ph_audit_log.csv` | all 105 candidates, verdict + rules + note |
 | `data/ph_stats.json` · `ph_validation.json` · `ph_overlap_luke.json` · `ph_luke_format_mapping.json` | every number quoted in the docs, the validation results, the overlap proof, the format mapping |
 
@@ -91,7 +91,8 @@ python3 scripts/check_overlap_luke.py    # the train-overlap check, on the pH su
 python3 scripts/to_luke_format.py        # convert to the standardized schema
 python3 scripts/make_reports.py          # regenerate AUDIT_REPORT + DATASET_SUMMARY
 python3 scripts/make_figure.py           # regenerate the figure
-python3 scripts/deep_verify_ph.py        # re-download all 30 articles, verify in context
+python3 scripts/deep_verify_ph.py        # re-download articles, verify shipped rows in context
+python3 scripts/deep_verify_exclusions.py # re-check every removal against full text
 python3 scripts/check_docs.py            # assert the prose still matches the data
 ```
 
@@ -130,7 +131,7 @@ correctly?", and in this corpus the two answers differ for more than a third of 
 
 ```
 validate_ph.py      22 checks: 21 pass, 0 hard failures, 1 warning
-deep_verify_ph.py   30/30 articles re-downloaded, 67/67 quotes relocated, 0 findings
+deep_verify_ph.py   31/31 articles re-downloaded, 68/68 quotes relocated, 0 findings
 check_docs.py       every number quoted in the prose matches the data
 ```
 
@@ -148,7 +149,6 @@ Data, code, documentation, figure and abstracts are complete and self-consistent
 - The 105 curation verdicts, and the 3 sequence rejections from the deep re-read, are one
   reviewer's judgement and have not been independently reviewed — that is the ask in
   `docs/REVIEW_REQUEST.md`.
-- The deep re-read covered the 67 shipped rows, not the 38 exclusions.
 - Figures were not re-derived; rows resting on prose that summarises a figure are trusted
   to describe their own figure correctly.
 - `cluster_id` is empty in the Luke-format export; it needs MMseqs2 over the full protein

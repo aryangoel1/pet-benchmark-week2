@@ -14,7 +14,7 @@ with a plausible default.
 |---|---|---|
 | `ph_measurement_id` | `PH` + 8 hex | stable; derived from `source_measurement_id`, so it survives rebuilds |
 | `source_measurement_id` | `BM…` | the row's id in the Week-2 benchmark — the join back to the parent dataset |
-| `benchmark_tier` | enum | `A_fully_independent` / `B_in_luke_heldout_test_only` / `C_conditions_only_no_sequence` |
+| `benchmark_tier` | enum | `A_fully_independent` (9 rows) / `C_conditions_only_no_sequence` (59). `B_in_luke_heldout_test_only` is a valid value but no longer occurs: the only tier-B protein was a misattributed sequence, withdrawn on deep re-read |
 | `pmcid`, `pubmed_id`, `doi` | string | article identifiers; `pmcid` and `doi` are on every row |
 | `paper_title`, `journal`, `year` | string | `journal` is frequently empty upstream |
 | `section` | enum | where in the article the sentence came from |
@@ -91,10 +91,10 @@ exist so an evaluation script does not have to re-derive the eligibility rules.
 
 | Type | pH is the… | `value_std` | Rows |
 |---|---|---|---:|
-| `pH optimum` | outcome | the optimum pH | 24 |
-| `pH stability` | outcome | the pH tested | 18 |
+| `pH optimum` | outcome | the optimum pH | 25 |
+| `pH stability` | outcome | the pH tested | 17 |
 | `pH stability range` | outcome | the endpoint pH | 9 |
-| `pH activity` | outcome | the pH tested | 3 |
+| `pH activity` | outcome | the pH tested | 4 |
 | `pH activity range` | outcome | the endpoint pH | 3 |
 | `temperature optimum` | covariate | the optimum temperature (°C) | 9 |
 | `thermostability` | covariate | the temperature (°C) | 1 |
@@ -175,7 +175,7 @@ says what it is: an external, test-only benchmark. Any filter written as
 
 | File | What it is |
 |---|---|
-| `ph_excluded_v1.csv` | all 38 removed candidates, each with its rule, reason and evidence |
+| `ph_excluded_v1.csv` | all 37 removed candidates, each with its rule, reason and evidence |
 | `ph_audit_log.csv` | all 105 candidates, verdict + rules + note, machine-readable |
 | `ph_benchmark_v1.sqlite` | the shipped rows, indexed, with views `v_ph_scored`, `v_ph_scored_seq`, `v_ph_optimum`, `v_ph_stability`, `v_ph_ranges`, `v_ph_covariate`, `v_tier_a`, `v_with_sequence` |
 | `ph_benchmark.fasta` | one record per distinct protein, header carries `protein_id` |

@@ -7,7 +7,7 @@ they should change what you do with the dataset.
 
 ## 1. It is small, and the sequence-scoreable part is very small
 
-67 measurements. **Seven** of them can be scored by a sequence model — 3 distinct
+68 measurements. **Seven** of them can be scored by a sequence model — 3 distinct
 proteins, one of which contributes 7 of the 9 sequence-carrying rows.
 
 This got smaller, not larger, after the deep re-read: three of the six accessions the
@@ -28,9 +28,9 @@ cost lands here.
 ## 2. What the two verification passes do and do not cover
 
 **Pass 1 — evidence-sentence audit.** All 105 candidates were read against the sentence
-the parent pipeline stored with them. That produced the 38 exclusions and the corrections.
+the parent pipeline stored with them. That produced the 37 exclusions and the corrections.
 
-**Pass 2 — deep re-read against full text.** All 30 shipped articles were re-downloaded
+**Pass 2 — deep re-read against full text.** All 31 shipped articles were re-downloaded
 from Europe PMC and every shipped row re-checked in the surrounding article context
 (`scripts/deep_verify_ph.py`). This found what pass 1 structurally could not:
 
@@ -56,13 +56,24 @@ Accurate phrasing for the manuscript: every shipped row was checked against its 
 article in context. It was not an independent domain expert re-deriving each value from
 the underlying figures.
 
-### 2b. The exclusions did not get the same treatment
+**Pass 3 — deep re-read of the exclusions.** Every removed candidate was re-checked
+against full text as well (`scripts/deep_verify_exclusions.py`), using the articles' own
+JATS section structure. Outcome:
 
-The deep re-read covered the **67 shipped rows**. The 38 excluded rows were re-read only
-at pass 1. If one of them was excluded wrongly, this pass would not have found it. Given
-that the whole effect of an error there is a missing row rather than a wrong one, that
-asymmetry is deliberate — but it means the exclusion set is verified one level less
-thoroughly than the shipped set.
+- **One removal was wrong and has been reversed.** `BM85EC0EEFF2` was dropped because the
+  sentence *"The optimal activity was at pH 7.5"* names no enzyme. The full paragraph
+  names one throughout — *"Since PD3 possesses the best long-term stability, further
+  characterization of PD3's esterase activity was performed…"* — so the row is back, as
+  PD3, pH optimum 7.5.
+- **Ten of the thirteen `PH-X1` removals sit objectively inside a Materials and Methods
+  section**, confirmed from the article's own markup.
+- **The three articles removed as reviews are `article-type="review-article"`** in their
+  own metadata.
+- Every other removal held.
+
+One wording consequence: `PH-X1` is about what a sentence *is*, not where it sits. Three
+of its rows are in Results sections — a figure caption defining a normalisation baseline,
+and a parenthetical *"(assayed at pH 5.0)"* — and are protocol statements regardless.
 
 ## 3. Curation is one person's judgement, unreviewed
 
@@ -90,7 +101,7 @@ re-running the build.
 
 ## 4. Confidence is low on most rows
 
-56 of 67 rows carry `confidence = Low`, inherited from the parent pipeline. That grade
+57 of 68 rows carry `confidence = Low`, inherited from the parent pipeline. That grade
 reflects how the value was extracted (prose pattern-matching), not whether the audit
 found it sound — the audit is the reason to trust these rows, and it is recorded
 separately in `audit_rules` and `audit_note`. Do not filter on `confidence` expecting it
@@ -112,7 +123,7 @@ to mean "post-audit quality"; it does not.
 - **Buffers are almost entirely missing.** After clearing four unsupported buffer
   attributions, one row names its buffer. Buffer identity affects measured optima, and
   this dataset cannot control for it.
-- **Assay methods are recorded on 21 of 67 rows.** Optima measured on different substrates
+- **Assay methods are recorded on 21 of 68 rows.** Optima measured on different substrates
   are not strictly comparable, and mostly we do not know which substrate was used.
 
 ## 6. Bounded by open access
@@ -144,7 +155,7 @@ Worth stating, because these are the questions that get asked:
 - **Training contamination.** Zero benchmark proteins appear in `split_homology == "train"`.
   After the deep re-read removed the misattributed IsPETase sequence, zero appear in the
   held-out **test** split either. Re-run `scripts/check_overlap_luke.py` to confirm.
-- **Review articles.** None. All 30 shipped articles carry JATS
+- **Review articles.** None. All 31 shipped articles carry JATS
   `article-type="research-article"`, checked against freshly downloaded full text.
 - **Wrong sequences.** The three that were present have been removed. The three that
   remain (`AOT80658.1`, `QIT07223.1`, `RLI42440.1`) were each confirmed against an

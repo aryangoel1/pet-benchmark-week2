@@ -2,7 +2,7 @@
 
 Every shipped row printed beside a wide window of the freshly downloaded article text, so attribution can be judged in context rather than from the stored one-sentence quote.
 
-Rows: 67 · Articles: 30
+Rows: 68 · Articles: 31
 
 ---
 
@@ -281,6 +281,56 @@ mperature (Tm) of approximately 43.4 °C (inset Figure 3A), whereas a higher val
 
 ```
 t reported for ANCUT2. The Ea for p-NPA, determined by constructing Arrhenius graphs, was 22.834 kcal/mol (Fig. 8c), similar to the value obtained for ANCUT2 (Bermúdez-García et al. 2017) and also comparable to other Ea values reported for thermostable enzymes isolated from thermophilic microorganisms and even from A. nidulans, as its protease PrtA has an Ea value of 65.9 kcal/mol) (Peña-Montes et al. 2008; Takao et al. 2000; Thomsen and Nidetzky 2008).Fig. 8 ¶ Effect of temperature on activity and stability of ANCUT1. Panel A, determination of the optimum temperature for the activity ANCUT1 under assayed conditions. Panel B shows the temperature stability of ANCUT1 under different incubation times, and panel C shows an Arrhenius plot for the hydrolysis of p-NPA by the cutinase ANCUT1 ¶ ¶ ¶ ¶ Effect of pH on enzyme activity and stability ¶ The optimum pH for ANCUT1 under the assayed conditions is 9, indicating an alkaline cutinase. Other cutinases, such as those from Fusarium solani pisi, A. oryzae and T. fusca, are also alkaline (Chen et al. 2010; Liu et al. 2009; Seman et al. 2014). The pure enzyme retains its activity after 3 h at pH 10 above 85%, but its activity decreases to below 50%. It is still observed that the enzyme has no activity at pH values of 5 and 6, thus confirming the alkaline nature of cutinase ANCUT1 (Fig. 9). Indeed, ANCUT1 is a thermo-alkaline enzyme. Most of the cutinases that have been previously characterized are most active at alkaline pH values (Liu et al. 2009; Maeda et al. 2005; Speranza et al. 2011), but they exhibit maximum activity at 37 °C. Few cutinases have been reported as thermo-alkaline enzymes (Bermúdez-García et al. 2017; Castro-Ochoa et al. 2012). ANCUT2 has six cysteines that form three disulfide bonds that could confer enzyme thermostability; this is also true for ANCUT1, which has six cysteines (Castro-Ochoa et al. 2012).Fig. 9 ¶ Effect of pH on activity and stability of ANCUT1. Panel A shows the effect of pH on the activity of ANCUT1, and panel B shows the effect of pH on the stability of ANCUT1 under different incubation times ¶ ¶ ¶ ¶ ¶ Substrate specificity ¶ ANCUT1 substrate preference was sought using different chain length esters using a wide range of p-NPE substrates with small chain lengths to long-chain lengths. O
+```
+
+
+## PMC11270687  (research-article, 2024)
+
+*ACS Omega*
+
+
+### PH89FED53D — pH optimum @ pH 7.5  ·  C  ·  scored=yes
+
+- **enzyme**: PD3 
+- **direction**: optimum
+- **audit note**: REINSTATED by the deep re-read of the exclusions. Pass 1 dropped this under PH-X4 because the sentence 'The optimal activity was at pH 7.5 (Figure S3C)' carries no enzyme subject and the article characterises eight candidates. The full paragraph resolves it beyond doubt: 'Since PD3 possesses the best long-term stability, further characterization of PD3's esterase activity was performed ... Higher activities of PD3 were observed when using p-NPB and p-NPH at 42 deg C compared with 37 deg C (Figure S3B). The optimal activity was at pH 7.5 (Figure S3C).' Every sentence in the paragraph takes PD3 as its subject, and the figure panels run in sequence S3A-S3D on PD3. Attributed to PD3.
+- **stored quote**: The optimal activity was at pH 7.5 (Figure S3C).
+
+```
+and PD8
+by storing them at 37 or 42 °C and periodically checked their
+activities at 37 °C. Interestingly, PD3 exhibited increased esterase
+activity during the first week at 37 °C, which then returned
+to its original level after one month, retaining 79.0% activity after
+4 months of incubation at 37 °C. Conversely, when stored at 42
+°C for 1 week, PD3's activity significantly decreased, retaining
+only 56.4% activity (Figure 2C). PD5 and PD8 maintained their activity at 37 °C for
+at least two months, whereas protein denaturation and decreased activity
+were observed after 2 weeks at 42 °C (Figure 2D). ¶ Since PD3 possesses the best long-term
+stability, further characterization
+of PD3's esterase activity was performed using different ester
+substrates
+with varying lengths of the carbon chain, such as p-nitrophenyl hexanoate (p-NPH, C = 6) and p-nitrophenyl octanoate (p-NPO, C = 8).
+The Michaelis-Menten plot indicated that the Vmax was 394.4 nM/min/mg and Km was 7.824 mM (Figure S3A). Higher activities
+of PD3 were observed when using p-NPB and p-NPH at 42 °C compared
+with 37 °C (Figure S3B). The optimal
+activity was at pH 7.5 (Figure S3C). When
+the esterase assay was performed at temperatures above 37 °C,
+such as 42, 50, and 55 °C, the activity of PD3 stored at 37 °C
+increased with increasing temperature (Figure S3D). However, at temperatures of 50 °C or higher, PD3
+was degraded after 30 min. ¶ ¶ 3PET Hydrolytic Activity of PD Candidates ¶ Bis(benzoyloxyethyl)
+terephthalate (3PET), which is essentially a short chain of PET and
+thus represents a more relevant substrate than p-NPB, was utilized
+as a substrate for a measurement of PET hydrolytic activity. 3PET
+emulsions were introduced into the agar, and clear hydrolysis zones
+were observed surrounding the sample holes upon 3PET degradation.
+ICCG was employed as a positive control in this assay. Among the tested
+candidates, PD3 at a concentration of 1 mg/mL exhibited slight 3PET
+hydrolytic activity after 20 h of incubation at 30 °C (Figure 3A). No zones of clearance
+in the agar were observed around PD5 and PD8, indicating their lack
+of activity. ¶ Figure 3 ¶ 3PET hydrolytic activity of PD proteins. (A) Structure
+of 3PET and 3PET hydrolytic activity
+of PD proteins obser
 ```
 
 

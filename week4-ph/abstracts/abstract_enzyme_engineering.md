@@ -18,7 +18,7 @@ pH optimum and pH stability are routinely cited when selecting a hydrolase scaff
 engineering, yet the two are distinct properties and the literature frequently reports
 them in ways that are easy to conflate.
 
-We curated 67 pH measurements for plastic-active hydrolases from 30 open-access articles,
+We curated 68 pH measurements for plastic-active hydrolases from 31 open-access articles,
 covering esterases, lipases, cutinases, PETases and PHA, PHB, PCL and PVC depolymerases
 across pH 3.0–12.0. Each value was read against its source sentence.
 
@@ -27,7 +27,7 @@ active ranges are routinely interchanged: five records named the low end of an a
 interval as the optimum where the same sentence gave the true optimum, differing by
 0.5–2.0 pH units. Second, stability records are frequently sign-ambiguous — "pH stability
 10.0" appears both for enzymes stable at pH 10 and for enzymes destroyed by it; we
-recovered the direction for 52 records and the retained activity for 29. Third, optima
+recovered the direction for 53 records and the retained activity for 29. Third, optima
 skew alkaline (median pH 8.0), while acid-tolerant activity is represented by a single
 enzyme.
 

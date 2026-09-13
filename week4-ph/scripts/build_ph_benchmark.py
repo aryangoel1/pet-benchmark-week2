@@ -68,6 +68,8 @@ PAPER_ANNOT = {
     "PMC12741466": ("PCL depolymerase", "PCL"),
     "PMC8971842":  ("PCL depolymerase", "PCL"),
     "PMC11055803": ("cutinase", "cutin / polyester"),
+    # added when the exclusion re-read reinstated PD3 (see ph_curation.py)
+    "PMC11270687": ("esterase", "PET (3PET model substrate)"),
 }
 
 # Metadata corrections found by `deep_verify_ph.py`, which re-reads the publication year

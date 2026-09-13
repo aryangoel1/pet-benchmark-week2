@@ -53,13 +53,15 @@ def load():
         with open(os.path.join(DATA, name), encoding="utf-8", newline="") as fh:
             return list(csv.DictReader(fh))
     stats = json.load(open(os.path.join(DATA, "ph_stats.json"), encoding="utf-8"))
+    exq = json.load(open(os.path.join(DATA, "ph_exclusion_verification.json"),
+                         encoding="utf-8"))
     deep = json.load(open(os.path.join(DATA, "ph_deep_verification.json"),
                           encoding="utf-8"))
     return (rd("ph_benchmark_v1.csv"), rd("ph_excluded_v1.csv"),
-            rd("ph_audit_log.csv"), stats, deep)
+            rd("ph_audit_log.csv"), stats, deep, exq)
 
 
-def audit_report(kept, excluded, audit, stats, deep):
+def audit_report(kept, excluded, audit, stats, deep, exq):
     L = []
     a = L.append
     a("# pH benchmark -- audit report\n")
@@ -75,7 +77,7 @@ def audit_report(kept, excluded, audit, stats, deep):
       "way the effect ran. The second re-downloaded all 30 shipped articles and "
       "re-checked every shipped row in full context; it is reported below, and it is "
       "what caught the sequence misattributions. Neither pass re-derives values from "
-      "the underlying figures, and the second did not revisit the 38 exclusions.\n")
+      "the underlying figures; the removals got their own pass, reported below.\n")
 
     a("## Outcome\n")
     a("| | Rows | Share |")
@@ -187,6 +189,31 @@ def audit_report(kept, excluded, audit, stats, deep):
       "the full paragraph disambiguates (a PanLip(dN) value is an activity-profile "
       "point, not post-incubation stability), and one publication year "
       "(PMC12767561: 2026 -> 2025).\n")
+    a("### The removals were re-read too\n")
+    a("Verification that only checks what a dataset keeps will not notice what it "
+      "wrongly threw away, so every removed candidate was re-read against full text as "
+      "well (`scripts/deep_verify_exclusions.py`), using each article's own JATS "
+      "section structure.\n")
+    a("| Check | Result |")
+    a("|---|---|")
+    a(f"| Removals re-checked | {exq['quotes_relocated']}/{exq['excluded_rows']} "
+      "relocated in fresh full text |")
+    a("| `PH-X1` rows inside a Materials and Methods section | 10 of 13, from the "
+      "article's own markup |")
+    a("| Articles removed as reviews | 3 of 3 carry "
+      "`article-type=\"review-article\"` |")
+    a("| **Removals reversed** | **1** |")
+    a("")
+    a("`BM85EC0EEFF2` was dropped because its sentence -- *\"The optimal activity was "
+      "at pH 7.5 (Figure S3C)\"* -- names no enzyme, and the article characterises eight "
+      "candidates. The full paragraph takes one subject throughout (*\"Since PD3 "
+      "possesses the best long-term stability, further characterization of PD3's "
+      "esterase activity was performed ...\"*), so the row is reinstated as a pH optimum "
+      "of 7.5 for PD3. Every other removal held.\n")
+    a("One wording consequence: `PH-X1` is about what a sentence *is*, not where it "
+      "sits. Three of its rows are in Results sections -- a figure caption defining a "
+      "normalisation baseline, and a parenthetical assay condition -- and are protocol "
+      "statements regardless.\n")
     a("## Every candidate, with its verdict\n")
     by_paper = defaultdict(list)
     log = {r["source_measurement_id"]: r for r in audit}
@@ -325,10 +352,10 @@ def dataset_summary(kept, excluded, audit, stats):
 
 
 def main():
-    kept, excluded, audit, stats, deep = load()
+    kept, excluded, audit, stats, deep, exq = load()
     os.makedirs(DOCS, exist_ok=True)
     for name, text in [("AUDIT_REPORT.md",
-                        audit_report(kept, excluded, audit, stats, deep)),
+                        audit_report(kept, excluded, audit, stats, deep, exq)),
                        ("DATASET_SUMMARY.md",
                         dataset_summary(kept, excluded, audit, stats))]:
         path = os.path.join(DOCS, name)

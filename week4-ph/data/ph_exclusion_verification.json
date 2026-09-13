@@ -1,0 +1,35 @@
+{
+ "excluded_rows": 37,
+ "articles": 21,
+ "article_types": {
+  "research-article": 18,
+  "review-article": 3
+ },
+ "quotes_relocated": 37,
+ "challenges_by_kind": {
+  "X1_IN_RESULTS_SECTION": 3,
+  "X6_NO_OFFTARGET_TERM": 1
+ },
+ "challenges": [
+  {
+   "kind": "X1_IN_RESULTS_SECTION",
+   "row": "BM71030D2A05",
+   "detail": "PMC11651597: PH-X1 row sits under 'Results / Characterization of recombinant MLipA / Effect of pH on MLipA activity and stability'"
+  },
+  {
+   "kind": "X6_NO_OFFTARGET_TERM",
+   "row": "BM60E20E768C",
+   "detail": "PMC12766730: Controlled Self-Immolative Release of \u03b2\u2011Lapachone via an Optimized par"
+  },
+  {
+   "kind": "X1_IN_RESULTS_SECTION",
+   "row": "BM488F8758D1",
+   "detail": "PMC8265113: PH-X1 row sits under 'Results / Effect of pH and temperature on rXynS1 activity'"
+  },
+  {
+   "kind": "X1_IN_RESULTS_SECTION",
+   "row": "BM5B4789AA54",
+   "detail": "PMC8265113: PH-X1 row sits under 'Results / Effect of pH and temperature on rXynS1 activity'"
+  }
+ ]
+}

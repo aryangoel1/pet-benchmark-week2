@@ -20,7 +20,7 @@ why it is in the paper, and what has to change before submission.
 └──────────────────────────────┴────────────────────────────┘
 ```
 
-### Panel A — Reported pH optima (n = 24)
+### Panel A — Reported pH optima (n = 25)
 
 Stacked histogram, 0.5-unit bins from pH 3 to 9.5, coloured by enzyme class.
 
@@ -55,11 +55,11 @@ sparsity plainly and shows where it sits: clustered at pH 7–8.5 and 30–60 °
 nothing at the alkaline-and-hot corner where industrial PET depolymerisation actually
 runs. That gap is a finding, not a flaw to be hidden.
 
-### Panel D — What the audit removed, and why (n = 38 across 12 rules)
+### Panel D — What the audit removed, and why (n = 37 across 12 rules)
 
 Horizontal bars, one per exclusion rule, ordered by count, with the funnel stated above
-and below: 105 candidates → 38 removed → 67 shipped, of which 45 are scoreable on the pH
-axis and 10 by a sequence model.
+and below: 105 candidates → 37 removed → 68 shipped, of which 46 are scoreable on the pH
+axis and 7 by a sequence model.
 
 *Why it is in the paper.* A curation claim is only worth as much as its auditability. The
 panel converts "we cleaned the data" into a per-rule count a reader can check against
@@ -105,7 +105,7 @@ different subsets of the same 67 rows and a reader should never have to guess wh
 ## Draft caption
 
 > **Figure N. Composition and curation of the pH benchmark.**
-> (**A**) Distribution of reported pH optima across 24 measurements, binned at 0.5 pH
+> (**A**) Distribution of reported pH optima across 25 measurements, binned at 0.5 pH
 > units and coloured by enzyme class. The distribution is skewed alkaline (median pH 8.0),
 > consistent with base-favoured polyester hydrolysis, and acid-tolerant enzymes are
 > sparsely represented.
@@ -118,10 +118,11 @@ different subsets of the same 67 rows and a reader should never have to guess wh
 > Coverage clusters at pH 7–8.5 and 30–60 °C; the alkaline, high-temperature regime
 > relevant to industrial PET depolymerisation is not represented.
 > (**D**) Curation outcome. Of 105 candidate rows inherited from the parent conditions
-> benchmark, 38 (36%) were removed under 12 explicit rules, leaving 67 measurements from
-> 30 articles. The largest single class (`PH-X1`, 13 rows) is values extracted from
+> benchmark, 37 (35%) were removed under 12 explicit rules, leaving 68 measurements from
+> 31 articles. The largest single class (`PH-X1`, 13 rows) is values extracted from
 > methods or protocol sentences rather than from reported results — errors that pass any
-> check based on locating the number in the source text.
+> check based on locating the number in the source text; ten of those thirteen sit inside
+> a Materials and Methods section in the article's own markup.
 > All panels are generated from `data/ph_benchmark_v1.csv` by `scripts/make_figure.py`.
 
 ---

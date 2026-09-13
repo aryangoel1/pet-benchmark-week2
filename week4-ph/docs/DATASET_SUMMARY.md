@@ -6,21 +6,21 @@ Table 1 as it will appear in the paper, plus the breakdowns that support it. Gen
 
 | Property | Value |
 |---|---|
-| Measurements | **67** |
-| Source articles | **30** |
+| Measurements | **68** |
+| Source articles | **31** |
 | Publication years | 2015–2026 |
-| pH as the measured outcome | 57 |
+| pH as the measured outcome | 58 |
 | pH as a recorded assay covariate | 10 |
-| Scoreable on the pH axis | 45 |
+| Scoreable on the pH axis | 46 |
 | Scoreable by a sequence model | 7 |
 | Rows with a resolved protein sequence | 9 |
 | Distinct proteins | 3 |
 | Distinct accessions | 3 |
 | Distinct enzyme classes | 19 |
-| Rows naming a polymer substrate | 27 |
+| Rows naming a polymer substrate | 28 |
 | pH range covered | 3.0–12.0 (median 8.0) |
 | Rows carrying an outcome at the pH (% activity) | 29 |
-| Rows carrying the direction of the effect | 52 |
+| Rows carrying the direction of the effect | 53 |
 | Rows with temperature recorded as well | 22 |
 | Rows with an exposure time | 18 |
 | pH interval rows (in 10 range groups) | 12 |
@@ -30,7 +30,7 @@ Table 1 as it will appear in the paper, plus the breakdowns that support it. Gen
 
 | Type | Rows | pH is the... |
 |---|---:|---|
-| pH optimum | 24 | outcome |
+| pH optimum | 25 | outcome |
 | pH stability | 17 | outcome |
 | pH stability range | 9 | outcome |
 | temperature optimum | 9 | covariate |
@@ -43,14 +43,14 @@ Table 1 as it will appear in the paper, plus the breakdowns that support it. Gen
 | Tier | Rows | Meaning |
 |---|---:|---|
 | `A_fully_independent` | 9 | protein appears in none of the seven shared datasets and nowhere in Luke's data |
-| `C_conditions_only_no_sequence` | 58 | a real measurement whose enzyme could not be resolved to a sequence |
+| `C_conditions_only_no_sequence` | 59 | a real measurement whose enzyme could not be resolved to a sequence |
 
 ## Enzyme classes represented
 
 | Class | Rows | Polymer named |
 |---|---:|---|
 | lipase | 14 | polyester |
-| esterase | 9 | -- |
+| esterase | 10 | PET (3PET model substrate) |
 | feruloyl esterase | 8 | PET |
 | acetyl xylan esterase | 6 | -- |
 | esterase (HSL family IV) | 4 | -- |
@@ -95,6 +95,7 @@ Table 1 as it will appear in the paper, plus the breakdowns that support it. Gen
 | PMC13323979 | 2026 | 2 | -- | Spontaneous efficient degradation of polyesters in soil by an enzyme@MO... |
 | PMC10495362 | 2023 | 1 | PET46 | An archaeal lid-containing feruloyl esterase degrades polyethylene tere... |
 | PMC11055803 | 2024 | 1 | ANCUT1 | ANCUT1, a novel thermoalkaline cutinase from Aspergillus nidulans and i... |
+| PMC11270687 | 2024 | 1 | PD3 | Characterization of Potential Plastic-Degradation Enzymes from Marine B... |
 | PMC12741466 | 2025 | 1 | PCLase0801 | Degradation and ring-opening polymerization of poly(ε-caprolactone) by ... |
 | PMC12767561 | 2025 | 1 | TflNylA | Toward the Bioremediation of Nylon Waste Materials: Genome Mining Leads... |
 | PMC13035632 | 2026 | 1 | LipC | Co-expression, purification, and characterization of an acidophilic and... |
@@ -111,11 +112,11 @@ Table 1 as it will appear in the paper, plus the breakdowns that support it. Gen
 | 3.5 | # (1) |
 | 5 | # (1) |
 | 7 | ####### (7) |
-| 7.5 | ## (2) |
+| 7.5 | ### (3) |
 | 8 | ########## (10) |
 | 8.5 | ### (3) |
 
-Range 3.5–8.5; median 8; n = 24. The alkaline skew is real and expected -- polyester hydrolysis is base-favoured -- but it also means the benchmark tests acid-tolerant enzymes thinly.
+Range 3.5–8.5; median 8; n = 25. The alkaline skew is real and expected -- polyester hydrolysis is base-favoured -- but it also means the benchmark tests acid-tolerant enzymes thinly.
 
 ## What was removed, by rule
 
@@ -128,7 +129,7 @@ Range 3.5–8.5; median 8; n = 24. The alkaline skew is real and expected -- pol
 | `PH-X9` measurement_type_unsupported | 6 |
 | `PH-X10` duplicate_measurement | 3 |
 | `PH-X11` garbled_table_extraction | 3 |
-| `PH-X4` ambiguous_multi_enzyme | 3 |
+| `PH-X4` ambiguous_multi_enzyme | 2 |
 | `PH-X12` no_outcome_at_stated_pH | 1 |
 | `PH-X2` range_endpoint_as_optimum | 1 |
 | `PH-X5` model_predicted_value | 1 |

@@ -2,18 +2,18 @@
 
 Every one of the **105 candidate pH rows** inherited from the Week-2 benchmark carries an explicit verdict below. The verdicts live in `scripts/ph_curation.py`; this document is generated from them, so the two cannot drift apart.
 
-> **What this audit is.** Two passes. The first read each of the 105 candidates against the evidence sentence the Week-2 pipeline stored with it, judging whether the recorded number is the right reading of that text -- which enzyme it belongs to, whether it is a result or a protocol detail, and which way the effect ran. The second re-downloaded all 30 shipped articles and re-checked every shipped row in full context; it is reported below, and it is what caught the sequence misattributions. Neither pass re-derives values from the underlying figures, and the second did not revisit the 38 exclusions.
+> **What this audit is.** Two passes. The first read each of the 105 candidates against the evidence sentence the Week-2 pipeline stored with it, judging whether the recorded number is the right reading of that text -- which enzyme it belongs to, whether it is a result or a protocol detail, and which way the effect ran. The second re-downloaded all 30 shipped articles and re-checked every shipped row in full context; it is reported below, and it is what caught the sequence misattributions. Neither pass re-derives values from the underlying figures; the removals got their own pass, reported below.
 
 ## Outcome
 
 | | Rows | Share |
 |---|---:|---:|
 | Candidates inherited from Week 2 | 105 | 100% |
-| **Removed by the audit** | **38** | 36.2% |
-| **Shipped** | **67** | 63.8% |
-| Shipped rows carrying at least one correction | 65 | |
+| **Removed by the audit** | **37** | 35.2% |
+| **Shipped** | **68** | 64.8% |
+| Shipped rows carrying at least one correction | 66 | |
 
-Source articles went from 44 to **30**: 14 articles lost every row they contributed.
+Source articles went from 44 to **31**: 13 articles lost every row they contributed.
 
 ## Why rows were removed
 
@@ -26,20 +26,20 @@ Source articles went from 44 to **30**: 14 articles lost every row they contribu
 | `PH-X9` measurement_type_unsupported | the evidence contains no measurement of the type the row claims | 6 |
 | `PH-X10` duplicate_measurement | the same enzyme, article, measurement type and pH is already represented by a better-evidenced row | 3 |
 | `PH-X11` garbled_table_extraction | the evidence is a concatenated table cell with no recoverable field boundaries | 3 |
-| `PH-X4` ambiguous_multi_enzyme | the evidence covers two or more enzymes with different values, or names no enzyme at all, so the value cannot be attributed | 3 |
+| `PH-X4` ambiguous_multi_enzyme | the evidence covers two or more enzymes with different values, or names no enzyme at all, so the value cannot be attributed | 2 |
 | `PH-X12` no_outcome_at_stated_pH | a boundary word ('beyond', 'above') with no outcome actually measured at the recorded pH | 1 |
 | `PH-X2` range_endpoint_as_optimum | the row was typed as a pH optimum but the value is the endpoint of an activity range, and the source states a different optimum | 1 |
 | `PH-X5` model_predicted_value | the value is a model or response-surface prediction, not a measurement | 1 |
 | `PH-X8` analytical_method_pH | the pH belongs to an analytical procedure (chromatography, NMR), not to an enzyme assay | 1 |
 
-A row can fire more than one rule, so the column sums to more than 38.
+A row can fire more than one rule, so the column sums to more than 37.
 
 ## Corrections applied to rows that were kept
 
 | Rule | What it does | Rows |
 |---|---|---:|
-| `PH-C5` enzyme_named | enzyme name set, or corrected, from the evidence sentence | 52 |
-| `PH-C7` direction_set | direction of the effect recorded, so a stability row says whether activity was held or lost | 52 |
+| `PH-C5` enzyme_named | enzyme name set, or corrected, from the evidence sentence | 53 |
+| `PH-C7` direction_set | direction of the effect recorded, so a stability row says whether activity was held or lost | 53 |
 | `PH-C3` outcome_recovered | the outcome at that pH (residual or relative activity) recovered from the sentence into a field of its own | 29 |
 | `PH-C6` range_bounds_set | pH interval bounds set to the range the article states | 18 |
 | `PH-C2` type_reclassified | measurement type changed to match what the sentence actually reports | 17 |
@@ -60,13 +60,13 @@ A row can fire more than one rule, so the column sums to more than 38.
 
 ## Second pass: deep re-read against full text
 
-The verdicts above came from reading each row's stored evidence sentence. A second pass (`scripts/deep_verify_ph.py`) re-downloaded the full text of all 30 shipped articles from Europe PMC and re-checked every shipped row in context.
+The verdicts above came from reading each row's stored evidence sentence. A second pass (`scripts/deep_verify_ph.py`) re-downloaded the full text of all 31 shipped articles from Europe PMC and re-checked every shipped row in context.
 
 | Check | Result |
 |---|---|
-| Articles re-downloaded | 30/30 |
-| JATS `article-type` | 30/30 `research-article` -- no review or editorial survived |
-| Evidence sentences relocated in fresh text | 67/67 |
+| Articles re-downloaded | 31/31 |
+| JATS `article-type` | 31/31 `research-article` -- no review or editorial survived |
+| Evidence sentences relocated in fresh text | 68/68 |
 | Enzyme names occurring in their article | all |
 | Corrected pH optima found verbatim | 5/5 |
 | Open findings after correction | 0 |
@@ -86,6 +86,21 @@ Three of six accessions turned out to be cited rather than deposited. In every c
 The measurements themselves are sound, so those rows keep their values and lose their sequences. The sequence-carrying set went from 16 rows / 6 proteins to 9 rows / 3 proteins, each confirmed against an explicit deposit statement in its article's own text. The benchmark's only overlap with the held-out test split disappeared with them.
 
 Three smaller corrections came from the same pass: an enzyme named for its strain rather than itself (IBRL-CHS2 -> MLipA, 7 rows), a measurement type only the full paragraph disambiguates (a PanLip(dN) value is an activity-profile point, not post-incubation stability), and one publication year (PMC12767561: 2026 -> 2025).
+
+### The removals were re-read too
+
+Verification that only checks what a dataset keeps will not notice what it wrongly threw away, so every removed candidate was re-read against full text as well (`scripts/deep_verify_exclusions.py`), using each article's own JATS section structure.
+
+| Check | Result |
+|---|---|
+| Removals re-checked | 37/37 relocated in fresh full text |
+| `PH-X1` rows inside a Materials and Methods section | 10 of 13, from the article's own markup |
+| Articles removed as reviews | 3 of 3 carry `article-type="review-article"` |
+| **Removals reversed** | **1** |
+
+`BM85EC0EEFF2` was dropped because its sentence -- *"The optimal activity was at pH 7.5 (Figure S3C)"* -- names no enzyme, and the article characterises eight candidates. The full paragraph takes one subject throughout (*"Since PD3 possesses the best long-term stability, further characterization of PD3's esterase activity was performed ..."*), so the row is reinstated as a pH optimum of 7.5 for PD3. Every other removal held.
+
+One wording consequence: `PH-X1` is about what a sentence *is*, not where it sits. Three of its rows are in Results sections -- a figure caption defining a normalisation baseline, and a parenthetical assay condition -- and are protocol statements regardless.
 
 ## Every candidate, with its verdict
 
@@ -349,11 +364,11 @@ Three smaller corrections came from the same pass: an enzyme named for its strai
 |---|---|---|---:|---|---|
 | `BMF2FE995DB3` | KEEP | pH stability | 10.0 | PH-C3;PH-C5;PH-C7 | 'The pure enzyme retains its activity after 3 h at pH 10 above 85%'. The trailing clause ('but its activity decreases to below 50%') has no stated condition and is not used. |
 
-### PMC11270687 &mdash; 0 kept / 1 candidates
+### PMC11270687 &mdash; 1 kept / 1 candidates
 
 | Row | Verdict | Type as recorded | pH | Rules | Reason |
 |---|---|---|---:|---|---|
-| `BM85EC0EEFF2` | **drop** | pH optimum | 7.5 | PH-X4 | 'The optimal activity was at pH 7.5 (Figure S3C)' -- the sentence has no enzyme subject at all and the article characterises several marine-bacterial enzymes. |
+| `BM85EC0EEFF2` | KEEP | pH optimum | 7.5 | PH-C5;PH-C7 | REINSTATED by the deep re-read of the exclusions. Pass 1 dropped this under PH-X4 because the sentence 'The optimal activity was at pH 7.5 (Figure S3C)' carries no enzyme subject and the article characterises eight candidates. The full paragraph resolves it beyond doubt: 'Since PD3 possesses the best long-term stability, further characterization of PD3's esterase activity was performed ... Higher activities of PD3 were observed when using p-NPB and p-NPH at 42 deg C compared with 37 deg C (Figure S3B). The optimal activity was at pH 7.5 (Figure S3C).' Every sentence in the paragraph takes PD3 as its subject, and the figure panels run in sequence S3A-S3D on PD3. Attributed to PD3. |
 
 ### PMC12741466 &mdash; 1 kept / 1 candidates
 

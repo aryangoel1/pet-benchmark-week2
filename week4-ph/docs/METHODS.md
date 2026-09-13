@@ -26,7 +26,7 @@ Articles already mined by earlier phases of the project, and every article cited
 of the seven shared training datasets, were excluded **before** full text was retrieved,
 so the same measurement cannot re-enter the benchmark under a different enzyme name.
 
-After curation the benchmark comprises **67 measurements from 30 open-access articles**
+After curation the benchmark comprises **68 measurements from 31 open-access articles**
 published between 2015 and 2026.
 
 ### 2.x.2  Inclusion criteria
@@ -60,8 +60,8 @@ A candidate row was retained only if all of the following held.
 6. **The evidence is machine-readable as evidence.** Concatenated table cells with no
    recoverable field boundaries were excluded.
 
-Of 105 candidates, **38 (36.2%) failed one or more criteria** and were removed;
-14 of the 44 contributing articles lost every row they had supplied.
+Of 105 candidates, **37 (35.2%) failed one or more criteria** and were removed;
+13 of the 44 contributing articles lost every row they had supplied.
 
 ### 2.x.3  Cleaning and correction
 
@@ -71,8 +71,8 @@ itself states; the sentence travels with the row so each call is checkable.
 
 | Correction | Rows | What it does |
 |---|---:|---|
-| Direction recorded | 52 | whether activity was *held* or *lost* at that pH |
-| Enzyme named or corrected | 52 | the enzyme the evidence names is written into the row |
+| Direction recorded | 53 | whether activity was *held* or *lost* at that pH |
+| Enzyme named or corrected | 53 | the enzyme the evidence names is written into the row |
 | Outcome recovered | 29 | the residual or relative activity **at** that pH lifted into its own field |
 | pH interval bounds set | 18 | `pH_low` / `pH_high` set to the stated range |
 | Measurement type reclassified | 17 | e.g. a maximal-activity statement typed as a pH optimum rather than pH stability |
@@ -90,7 +90,7 @@ the quantity a screener is asked to predict.
 
 **Direction was missing from stability rows.** A row reading `pH stability = 10.0` is
 ambiguous between "stable at pH 10" and "loses activity at pH 10", and both occur in the
-corpus. Direction is now recorded on 52 of 67 rows and the residual activity itself on 29.
+corpus. Direction is now recorded on 53 of 68 rows and the residual activity itself on 29.
 
 ### 2.x.4  Duplicate removal
 
@@ -173,11 +173,11 @@ The checks above establish internal consistency and that each value appears in i
 sentence. They cannot establish that the *protein* a row names is the protein the article
 assayed, because an accession is typically stated in a deposit or methods section far from
 the sentence carrying the measurement. A second verification pass therefore re-downloaded
-the full text of all 30 shipped articles from Europe PMC and re-checked every row in
+the full text of all 31 shipped articles from Europe PMC and re-checked every row in
 context (`scripts/deep_verify_ph.py`).
 
-This pass confirmed that all 30 articles carry JATS `article-type="research-article"`
-(no review or editorial survived the curation), that all 67 evidence sentences relocate in
+This pass confirmed that all 31 articles carry JATS `article-type="research-article"`
+(no review or editorial survived the curation), that all 68 evidence sentences relocate in
 freshly downloaded text, that every enzyme name assigned during curation occurs in its
 article, and that all five corrected pH optima appear verbatim in the form recorded.
 
@@ -206,6 +206,31 @@ The reduction is the result. A benchmark that reports six proteins of which thre
 the wrong sequence is worse than one that reports three and is right, because a wrong
 sequence on a real measurement passes every automated check and fails silently at
 evaluation time.
+
+### 2.x.7b  Re-reading the removals
+
+Verification that only checks what a dataset keeps will not notice what it wrongly threw
+away. Every removed candidate was therefore also re-read against full text
+(`scripts/deep_verify_exclusions.py`), using each article's own JATS section structure.
+
+The section markup makes the largest exclusion class objectively checkable: of the
+thirteen rows removed because the value came from a protocol statement rather than a
+result, **ten sit inside a "Materials and Methods" section** in the article's own markup.
+The other three are protocol statements that happen to sit in Results — a figure caption
+defining a normalisation baseline (*"Specific lipase activity at pH 7 was set as 100%…"*)
+and a parenthetical assay condition (*"(assayed at pH 5.0)"*) — which is a point about
+how the rule is worded, not about whether it fired correctly. Independently, the three
+articles removed as reviews carry `article-type="review-article"` in their own metadata.
+
+**One removal was wrong and has been reversed.** `BM85EC0EEFF2` was dropped because its
+sentence — *"The optimal activity was at pH 7.5 (Figure S3C)"* — names no enzyme, and the
+article characterises eight candidates. Read in full, the surrounding paragraph takes a
+single subject throughout: *"Since PD3 possesses the best long-term stability, further
+characterization of PD3's esterase activity was performed … Higher activities of PD3 were
+observed … The optimal activity was at pH 7.5 (Figure S3C)."* The row is reinstated as a
+pH optimum of 7.5 for PD3, taking the benchmark to 68 measurements from 31 articles.
+
+Every other removal held. The final exclusion rate is 37 of 105 candidates (35%).
 
 ### 2.x.7  Independence from training data
 
@@ -237,7 +262,7 @@ For the Results, where the benchmark is first described:
 
 > We assembled an independent pH benchmark of 67 experimentally measured values from 30
 > open-access articles, spanning pH 3.0–12.0 and 19 enzyme classes. Every value was read
-> against the source sentence it was extracted from, and 38 of 105 candidate rows (36%)
+> against the source sentence it was extracted from, and 37 of 105 candidate rows (35%)
 > were removed for reasons recorded per row — most commonly because the value came from a
 > protocol sentence rather than a result (13 rows), the enzyme was out of scope (8), or
 > the sentence restated another study (7). No benchmark protein appears in the training

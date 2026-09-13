@@ -19,10 +19,10 @@ and evaluated on held-out splits of the same corpora. Both inherit one unexamine
 assumption: that a value verified to appear in its source article is correctly recorded.
 
 We tested that assumption while finalising an independent, test-only pH benchmark of 67
-measurements from 30 open-access articles, spanning pH 3.0–12.0 and sharing no protein
+measurements from 31 open-access articles, spanning pH 3.0–12.0 and sharing no protein
 with the training split. All 105 candidates had already passed automated source
 verification — each located verbatim in a freshly downloaded copy of its article.
-Re-reading each against that sentence removed 38 (36%) under twelve explicit rules,
+Re-reading each against that sentence removed 37 (35%) under twelve explicit rules,
 recorded per row.
 
 The failures were systematic, not stochastic. Thirteen rows took their value from a

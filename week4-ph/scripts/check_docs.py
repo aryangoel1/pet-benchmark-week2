@@ -46,27 +46,29 @@ def main():
     valid = json.load(open(os.path.join(DATA, "ph_validation.json"), encoding="utf-8"))
     deep = json.load(open(os.path.join(DATA, "ph_deep_verification.json"),
                          encoding="utf-8"))
+    exq = json.load(open(os.path.join(DATA, "ph_exclusion_verification.json"),
+                        encoding="utf-8"))
 
     print("claims made in the hand-written documents:\n")
 
     # README / METHODS / abstracts headline figures
-    assert_eq("67 measurements shipped", len(rows), 67)
-    assert_eq("30 source articles", stats["distinct_papers_shipped"], 30)
+    assert_eq("68 measurements shipped", len(rows), 68)
+    assert_eq("31 source articles", stats["distinct_papers_shipped"], 31)
     assert_eq("105 candidates audited", stats["candidates"], 105)
-    assert_eq("38 rows removed", len(excl), 38)
-    assert_eq("36% removal rate", round(stats["exclusion_rate_pct"]), 36)
+    assert_eq("37 rows removed", len(excl), 37)
+    assert_eq("35% removal rate", round(stats["exclusion_rate_pct"]), 35)
     assert_eq("44 candidate articles", stats["distinct_papers_candidates"], 44)
-    assert_eq("14 articles lost every row", stats["distinct_papers_dropped_entirely"], 14)
+    assert_eq("13 articles lost every row", stats["distinct_papers_dropped_entirely"], 13)
     assert_eq("pH range floor 3.0", stats["ph_min"], 3.0)
     assert_eq("pH range ceiling 12.0", stats["ph_max"], 12.0)
     assert_eq("median pH 8.0", stats["ph_median"], 8.0)
     assert_eq("19 enzyme classes", stats["enzyme_classes"], 19)
-    assert_eq("57 pH-outcome rows", stats["ph_outcome_rows"], 57)
+    assert_eq("58 pH-outcome rows", stats["ph_outcome_rows"], 58)
     assert_eq("10 pH-covariate rows", stats["ph_covariate_rows"], 10)
-    assert_eq("45 scoreable on the pH axis", stats["scored_condition_axis"], 45)
+    assert_eq("46 scoreable on the pH axis", stats["scored_condition_axis"], 46)
     assert_eq("7 scoreable by a sequence model", stats["scored_sequence_model"], 7)
     assert_eq("29 rows carry an outcome at the pH", stats["rows_with_outcome_pct"], 29)
-    assert_eq("52 rows carry a direction", stats["rows_with_direction"], 52)
+    assert_eq("53 rows carry a direction", stats["rows_with_direction"], 53)
     assert_eq("3 distinct proteins", stats["distinct_proteins"], 3)
     assert_eq("9 rows with a sequence", stats["rows_with_sequence"], 9)
     assert_eq("22 rows with pH and temperature", stats["rows_with_temperature"], 22)
@@ -84,7 +86,7 @@ def main():
     # correction counts quoted in METHODS
     co = stats["correction_rule_counts"]
     assert_eq("PH-C1 five corrected optima", co.get("PH-C1"), 5)
-    assert_eq("PH-C5 52 enzyme names set", co.get("PH-C5"), 52)
+    assert_eq("PH-C5 53 enzyme names set", co.get("PH-C5"), 53)
     assert_eq("PH-C3 reconciles with outcome rows",
               co.get("PH-C3"), stats["rows_with_outcome_pct"])
     assert_eq("PH-C7 reconciles with direction rows",
@@ -115,38 +117,43 @@ def main():
               sum(1 for r in rows
                   if r["enzyme_class"] in ("feruloyl esterase",
                                            "acetyl xylan esterase")), 14)
-    assert_eq("53 rows if those were dropped",
+    assert_eq("54 rows if those were dropped",
               len(rows) - sum(1 for r in rows
                               if r["enzyme_class"] in ("feruloyl esterase",
-                                                       "acetyl xylan esterase")), 53)
+                                                       "acetyl xylan esterase")), 54)
     assert_eq("7 multiple-enzyme rows", stats["multi_enzyme_attribution"], 7)
-    assert_eq("56 rows graded Low upstream",
-              sum(1 for r in rows if r["confidence"] == "Low"), 56)
+    assert_eq("57 rows graded Low upstream",
+              sum(1 for r in rows if r["confidence"] == "Low"), 57)
     assert_eq("1 row names its buffer", stats["rows_with_buffer"], 1)
     assert_eq("21 rows record an assay method",
               sum(1 for r in rows if r["assay_method"]), 21)
     assert_eq("1 internally contradicted row", stats["internal_conflict_rows"], 1)
-    assert_eq("10 articles contribute exactly one row",
-              sum(1 for _, n in Counter(r["pmcid"] for r in rows).items() if n == 1), 10)
+    assert_eq("11 articles contribute exactly one row",
+              sum(1 for _, n in Counter(r["pmcid"] for r in rows).items() if n == 1), 11)
     # deep re-read of the full articles
     assert_eq("3 sequence attributions rejected on deep re-read",
               len(SEQUENCE_REJECTIONS), 3)
-    assert_eq("30/30 shipped articles are research-articles",
-              deep["article_types"].get("research-article"), 30)
-    assert_eq("67/67 quotes relocated in fresh full text",
-              deep["quotes_relocated"], 67)
+    assert_eq("31/31 shipped articles are research-articles",
+              deep["article_types"].get("research-article"), 31)
+    assert_eq("68/68 quotes relocated in fresh full text",
+              deep["quotes_relocated"], 68)
     assert_eq("0 open deep-verification findings", len(deep["findings"]), 0)
     assert_eq("no tier-B rows remain",
               stats["tiers"].get("B_in_luke_heldout_test_only", 0), 0)
     assert_eq("9 tier-A rows", stats["tiers"]["A_fully_independent"], 9)
-    assert_eq("58 tier-C rows", stats["tiers"]["C_conditions_only_no_sequence"], 58)
+    assert_eq("59 tier-C rows", stats["tiers"]["C_conditions_only_no_sequence"], 59)
     assert_eq("busiest protein contributes 7 rows",
               max(Counter(r["protein_id_luke_join"] for r in rows
                           if r["sequence"]).values()), 7)
 
     # FIGURE_PLAN panel sizes
-    assert_eq("panel A: 24 pH optima",
-              sum(1 for r in rows if r["measurement_type"] == "pH optimum"), 24)
+    # exclusion re-read
+    assert_eq("37/37 exclusion quotes relocated",
+              exq["quotes_relocated"], 37)
+    assert_eq("1 exclusion reinstated (PD3)",
+              sum(1 for r in rows if "REINSTATED" in r["audit_note"]), 1)
+    assert_eq("panel A: 25 pH optima",
+              sum(1 for r in rows if r["measurement_type"] == "pH optimum"), 25)
     assert_eq("panel B: 29 rows with an outcome",
               sum(1 for r in rows if r["relative_activity_pct"]), 29)
     assert_eq("panel C: 22 rows with both axes",

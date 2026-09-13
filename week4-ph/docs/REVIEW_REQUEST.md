@@ -21,12 +21,12 @@ them later:
 | Departure | Why | If you disagree |
 |---|---|---|
 | `split_homology = "test_external"` — a value your data doesn't use | reusing `"test"` would silently merge this benchmark into your held-out split; `"train"` would be false. `!= "train"` filters still work | one line in `scripts/to_luke_format.py` |
-| `condition_quality = "Low"` — extends your High / Medium-High / Medium scale | 56 of 67 rows are `Low` upstream; promoting them to `Medium` would overstate them | same file |
+| `condition_quality = "Low"` — extends your High / Medium-High / Medium scale | 57 of 68 rows are `Low` upstream; promoting them to `Medium` would overstate them | same file |
 | `measurement_type = "pH property"` for point activity-vs-pH values | your vocabulary has no point-activity type, and `pH activity range` would be wrong | **this is the one I'd most like your call on** — adding `pH activity` to the vocabulary seems cleaner than overloading `pH property` |
 
 ### 1b. Note: three sequences were withdrawn after a deep re-read (5 min)
 
-Since the first draft, all 30 articles were re-downloaded and every row re-checked in
+Since the first draft, all 31 articles were re-downloaded and every row re-checked in
 context. Three of the six accessions turned out to be cited, not deposited — an AlphaFold
 modelling template (`P26495`), a phylogenetic-tree neighbour from another strain
 (`AAB51445.1`), and the IsPETase comparison enzyme standing in for the article's own
@@ -88,7 +88,7 @@ sentence gave the true optimum, and I corrected rather than dropped them:
 | `BM6E5147B1F9` | 7.0 | **7.5** | "reaching its optimal activity at approximately pH 7.5" |
 
 "Correct it" and "drop it" are both defensible. If you think dropping is safer, that is a
-one-line change each and takes the benchmark to 62 rows.
+one-line change each and takes the benchmark to 63 rows.
 
 **b. `BM6E5147B1F9` specifically.** This one also changes the enzyme. It was recorded as
 `Est1` with range 7.0–8.5, but 7.0–8.5 belongs to **Ces1-ET** in that sentence; Est1-ET's
@@ -98,7 +98,7 @@ second read of the quote — it's the most intricate call in the set.
 **c. Scope: are feruloyl and acetyl xylan esterases in or out?** 14 rows. I kept them
 because they are carboxylester hydrolases and because PET46 — in this benchmark — is an
 archaeal feruloyl esterase that degrades PET. A stricter reading drops them and the
-benchmark becomes 53 rows. This single decision moves the headline number more than any
+benchmark becomes 54 rows. This single decision moves the headline number more than any
 other.
 
 **d. The seven `multiple_enzymes_same_value` rows**, where a sentence gives one value for
@@ -124,7 +124,7 @@ hold up under your reading, the Discussion needs rewriting, and I'd rather know 
 On scope of verification, the accurate phrasing is: the audit read the evidence sentence
 for **all 105 candidates**, and the deep pass re-checked **all 67 shipped rows** against
 the freshly downloaded full article. It is not an independent domain expert re-deriving
-each value from the underlying figures, and it did not re-open the 38 exclusions at the
+each value from the underlying figures, and it did not re-open the 37 exclusions at the
 deeper level. If you see that overstated anywhere in the docs, flag it — I would rather
 under-claim than have a reviewer find the gap.
 
@@ -145,7 +145,7 @@ haven't verified against the actual calls for papers.
 cd week4-ph
 python3 scripts/validate_ph.py        # 22 checks, 0 hard failures
 python3 scripts/check_overlap_luke.py # 0 proteins in the training split
-python3 scripts/deep_verify_ph.py     # re-download all 30 articles, 0 findings
+python3 scripts/deep_verify_ph.py     # re-download all 31 articles, 0 findings
 python3 scripts/check_docs.py         # prose numbers match the data
 ```
 

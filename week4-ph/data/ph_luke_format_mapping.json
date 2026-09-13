@@ -1,6 +1,6 @@
 {
  "target_schema": "temp_pH_dataset_ML_homology.csv (24 columns)",
- "rows": 67,
+ "rows": 68,
  "source_datasets_tag": "pet_ph_benchmark_v1",
  "split_homology_value": "test_external",
  "measurement_type_map": {
@@ -14,7 +14,7 @@
  },
  "measurement_type_counts_after_mapping": {
   "pH activity range": 3,
-  "pH optimum": 24,
+  "pH optimum": 25,
   "temperature optimum": 9,
   "pH stability": 26,
   "pH property": 4,

@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1180" height="820" viewBox="0 0 1180 820">
 <rect width="1180" height="820" fill="#ffffff"/>
 <text x="40.0" y="34.0" font-family="Helvetica,Arial,sans-serif" font-size="17" fill="#1c1c1c" text-anchor="start" font-weight="bold" font-style="normal">The Week-4 pH benchmark for plastic-degrading enzymes</text>
-<text x="40.0" y="54.0" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#666666" text-anchor="start" font-weight="normal" font-style="normal">67 curated measurements - 30 open-access articles - every value read against its source sentence</text>
+<text x="40.0" y="54.0" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#666666" text-anchor="start" font-weight="normal" font-style="normal">68 curated measurements - 31 open-access articles - every value read against its source sentence</text>
 <text x="52.0" y="92.0" font-family="Helvetica,Arial,sans-serif" font-size="15" fill="#1c1c1c" text-anchor="start" font-weight="bold" font-style="normal">A</text>
-<text x="78.0" y="92.0" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#1c1c1c" text-anchor="start" font-weight="bold" font-style="normal">Reported pH optima  (n = 24)</text>
+<text x="78.0" y="92.0" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#1c1c1c" text-anchor="start" font-weight="bold" font-style="normal">Reported pH optima  (n = 25)</text>
 <line x1="78.0" y1="316.0" x2="548.0" y2="316.0" stroke="#1c1c1c" stroke-width="1.1"/>
 <line x1="78.0" y1="106.0" x2="78.0" y2="316.0" stroke="#1c1c1c" stroke-width="1.1"/>
 <line x1="78.0" y1="316.0" x2="548.0" y2="316.0" stroke="#dcdcdc" stroke-width="0.8"/>
@@ -18,19 +18,19 @@
 <text x="71.0" y="151.5" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#666666" text-anchor="end" font-weight="normal" font-style="normal">8</text>
 <line x1="78.0" y1="106.0" x2="548.0" y2="106.0" stroke="#dcdcdc" stroke-width="0.8"/>
 <text x="71.0" y="109.5" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#666666" text-anchor="end" font-weight="normal" font-style="normal">10</text>
-<rect x="115.7" y="295.0" width="33.2" height="21.0" fill="#2f6f9f" stroke="none" stroke-width="1" opacity="0.92" rx="0"/>
+<rect x="115.7" y="295.0" width="33.2" height="21.0" fill="#c2603d" stroke="none" stroke-width="1" opacity="0.92" rx="0"/>
 <rect x="224.1" y="295.0" width="33.2" height="21.0" fill="#8a6bab" stroke="none" stroke-width="1" opacity="0.92" rx="0"/>
-<rect x="332.6" y="295.0" width="33.2" height="21.0" fill="#2f6f9f" stroke="none" stroke-width="1" opacity="0.92" rx="0"/>
+<rect x="332.6" y="295.0" width="33.2" height="21.0" fill="#c2603d" stroke="none" stroke-width="1" opacity="0.92" rx="0"/>
 <rect x="368.7" y="295.0" width="33.2" height="21.0" fill="#2f6f9f" stroke="none" stroke-width="1" opacity="0.92" rx="0"/>
 <rect x="368.7" y="274.0" width="33.2" height="21.0" fill="#c2603d" stroke="none" stroke-width="1" opacity="0.92" rx="0"/>
 <rect x="368.7" y="253.0" width="33.2" height="21.0" fill="#5f9ea0" stroke="none" stroke-width="1" opacity="0.92" rx="0"/>
 <rect x="368.7" y="232.0" width="33.2" height="21.0" fill="#2f6f9f" stroke="none" stroke-width="1" opacity="0.92" rx="0"/>
 <rect x="368.7" y="211.0" width="33.2" height="21.0" fill="#5f9ea0" stroke="none" stroke-width="1" opacity="0.92" rx="0"/>
 <rect x="368.7" y="190.0" width="33.2" height="21.0" fill="#a8577a" stroke="none" stroke-width="1" opacity="0.92" rx="0"/>
-<rect x="404.9" y="295.0" width="33.2" height="21.0" fill="#c2603d" stroke="none" stroke-width="1" opacity="0.92" rx="0"/>
-<rect x="404.9" y="274.0" width="33.2" height="21.0" fill="#7a7a7a" stroke="none" stroke-width="1" opacity="0.92" rx="0"/>
-<rect x="441.0" y="295.0" width="33.2" height="21.0" fill="#2f6f9f" stroke="none" stroke-width="1" opacity="0.92" rx="0"/>
-<rect x="441.0" y="253.0" width="33.2" height="42.0" fill="#c2603d" stroke="none" stroke-width="1" opacity="0.92" rx="0"/>
+<rect x="404.9" y="274.0" width="33.2" height="42.0" fill="#2f6f9f" stroke="none" stroke-width="1" opacity="0.92" rx="0"/>
+<rect x="404.9" y="253.0" width="33.2" height="21.0" fill="#7a7a7a" stroke="none" stroke-width="1" opacity="0.92" rx="0"/>
+<rect x="441.0" y="274.0" width="33.2" height="42.0" fill="#2f6f9f" stroke="none" stroke-width="1" opacity="0.92" rx="0"/>
+<rect x="441.0" y="253.0" width="33.2" height="21.0" fill="#c2603d" stroke="none" stroke-width="1" opacity="0.92" rx="0"/>
 <rect x="441.0" y="232.0" width="33.2" height="21.0" fill="#4e8f5b" stroke="none" stroke-width="1" opacity="0.92" rx="0"/>
 <rect x="441.0" y="211.0" width="33.2" height="21.0" fill="#a8577a" stroke="none" stroke-width="1" opacity="0.92" rx="0"/>
 <rect x="441.0" y="190.0" width="33.2" height="21.0" fill="#c2603d" stroke="none" stroke-width="1" opacity="0.92" rx="0"/>
@@ -38,7 +38,7 @@
 <rect x="441.0" y="148.0" width="33.2" height="21.0" fill="#8a6bab" stroke="none" stroke-width="1" opacity="0.92" rx="0"/>
 <rect x="441.0" y="127.0" width="33.2" height="21.0" fill="#b8912f" stroke="none" stroke-width="1" opacity="0.92" rx="0"/>
 <rect x="441.0" y="106.0" width="33.2" height="21.0" fill="#7a7a7a" stroke="none" stroke-width="1" opacity="0.92" rx="0"/>
-<rect x="477.2" y="295.0" width="33.2" height="21.0" fill="#2f6f9f" stroke="none" stroke-width="1" opacity="0.92" rx="0"/>
+<rect x="477.2" y="295.0" width="33.2" height="21.0" fill="#c2603d" stroke="none" stroke-width="1" opacity="0.92" rx="0"/>
 <rect x="477.2" y="274.0" width="33.2" height="21.0" fill="#4e8f5b" stroke="none" stroke-width="1" opacity="0.92" rx="0"/>
 <rect x="477.2" y="253.0" width="33.2" height="21.0" fill="#b8912f" stroke="none" stroke-width="1" opacity="0.92" rx="0"/>
 <line x1="78.0" y1="316.0" x2="78.0" y2="320.0" stroke="#1c1c1c" stroke-width="1"/>
@@ -58,9 +58,9 @@
 <text x="313.0" y="352.0" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#1c1c1c" text-anchor="middle" font-weight="normal" font-style="normal">pH optimum</text>
 <text x="38.0" y="211.0" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#1c1c1c" text-anchor="middle" font-weight="normal" font-style="normal" transform="rotate(-90 38.0 211.0)">measurements</text>
 <rect x="398.0" y="104.0" width="9.0" height="9.0" fill="#2f6f9f" stroke="none" stroke-width="1" opacity="1.0" rx="0"/>
-<text x="412.0" y="112.0" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#1c1c1c" text-anchor="start" font-weight="normal" font-style="normal">lipase</text>
+<text x="412.0" y="112.0" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#1c1c1c" text-anchor="start" font-weight="normal" font-style="normal">esterase</text>
 <rect x="398.0" y="117.0" width="9.0" height="9.0" fill="#c2603d" stroke="none" stroke-width="1" opacity="1.0" rx="0"/>
-<text x="412.0" y="125.0" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#1c1c1c" text-anchor="start" font-weight="normal" font-style="normal">esterase</text>
+<text x="412.0" y="125.0" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#1c1c1c" text-anchor="start" font-weight="normal" font-style="normal">lipase</text>
 <rect x="398.0" y="130.0" width="9.0" height="9.0" fill="#4e8f5b" stroke="none" stroke-width="1" opacity="1.0" rx="0"/>
 <text x="412.0" y="138.0" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#1c1c1c" text-anchor="start" font-weight="normal" font-style="normal">acetyl xylan esterase</text>
 <rect x="398.0" y="143.0" width="9.0" height="9.0" fill="#8a6bab" stroke="none" stroke-width="1" opacity="1.0" rx="0"/>
@@ -195,7 +195,7 @@
 <line x1="523.3" y1="630.0" x2="523.3" y2="634.0" stroke="#1c1c1c" stroke-width="1"/>
 <text x="523.3" y="647.0" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#1c1c1c" text-anchor="middle" font-weight="normal" font-style="normal">12</text>
 <circle cx="127.5" cy="485.6" r="4.6" fill="#8a6bab" stroke="#ffffff" stroke-width="0.8" opacity="0.88"/>
-<circle cx="374.8" cy="538.1" r="4.6" fill="#2f6f9f" stroke="#ffffff" stroke-width="0.8" opacity="0.88"/>
+<circle cx="374.8" cy="538.1" r="4.6" fill="#c2603d" stroke="#ffffff" stroke-width="0.8" opacity="0.88"/>
 <circle cx="325.4" cy="472.5" r="4.6" fill="#a8577a" stroke="#ffffff" stroke-width="0.8" opacity="0.88"/>
 <circle cx="275.9" cy="498.8" r="4.6" fill="#5f9ea0" stroke="#ffffff" stroke-width="0.8" opacity="0.88"/>
 <circle cx="130.9" cy="485.6" r="4.6" fill="#8a6bab" stroke="#ffffff" stroke-width="0.8" opacity="0.88"/>
@@ -203,7 +203,7 @@
 <circle cx="279.3" cy="498.8" r="4.6" fill="#5f9ea0" stroke="#ffffff" stroke-width="0.8" opacity="0.88"/>
 <circle cx="350.1" cy="525.0" r="4.6" fill="#4e8f5b" stroke="#ffffff" stroke-width="0.8" opacity="0.88"/>
 <circle cx="325.4" cy="525.0" r="4.6" fill="#4e8f5b" stroke="#ffffff" stroke-width="0.8" opacity="0.88"/>
-<circle cx="266.0" cy="525.0" r="4.6" fill="#2f6f9f" stroke="#ffffff" stroke-width="0.8" opacity="0.88"/>
+<circle cx="266.0" cy="525.0" r="4.6" fill="#c2603d" stroke="#ffffff" stroke-width="0.8" opacity="0.88"/>
 <circle cx="325.4" cy="511.9" r="4.6" fill="#4e8f5b" stroke="#ffffff" stroke-width="0.8" opacity="0.88"/>
 <circle cx="328.8" cy="472.5" r="4.6" fill="#a8577a" stroke="#ffffff" stroke-width="0.8" opacity="0.88"/>
 <circle cx="275.9" cy="551.2" r="4.6" fill="#2f6f9f" stroke="#ffffff" stroke-width="0.8" opacity="0.88"/>
@@ -213,8 +213,8 @@
 <circle cx="353.5" cy="519.8" r="4.6" fill="#b8912f" stroke="#ffffff" stroke-width="0.8" opacity="0.88"/>
 <circle cx="332.2" cy="525.0" r="4.6" fill="#4e8f5b" stroke="#ffffff" stroke-width="0.8" opacity="0.88"/>
 <circle cx="78.0" cy="619.5" r="4.6" fill="#7a7a7a" stroke="#ffffff" stroke-width="0.8" opacity="0.88"/>
-<circle cx="269.4" cy="525.0" r="4.6" fill="#2f6f9f" stroke="#ffffff" stroke-width="0.8" opacity="0.88"/>
-<circle cx="226.4" cy="538.1" r="4.6" fill="#2f6f9f" stroke="#ffffff" stroke-width="0.8" opacity="0.88"/>
+<circle cx="269.4" cy="525.0" r="4.6" fill="#c2603d" stroke="#ffffff" stroke-width="0.8" opacity="0.88"/>
+<circle cx="226.4" cy="538.1" r="4.6" fill="#c2603d" stroke="#ffffff" stroke-width="0.8" opacity="0.88"/>
 <circle cx="279.3" cy="551.2" r="4.6" fill="#2f6f9f" stroke="#ffffff" stroke-width="0.8" opacity="0.88"/>
 <text x="313.0" y="666.0" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#1c1c1c" text-anchor="middle" font-weight="normal" font-style="normal">pH</text>
 <text x="86.0" y="436.0" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#666666" text-anchor="start" font-weight="normal" font-style="normal">temperature (°C)</text>
@@ -242,9 +242,9 @@
 <rect x="832.0" y="529.5" width="34.6" height="11.5" fill="#c2603d" stroke="none" stroke-width="1" opacity="0.82" rx="1.5"/>
 <text x="660.0" y="541.0" font-family="Helvetica,Arial,sans-serif" font-size="9.3" fill="#1c1c1c" text-anchor="start" font-weight="normal" font-style="normal">PH-X11  garbled table cell</text>
 <text x="870.6" y="541.0" font-family="Helvetica,Arial,sans-serif" font-size="9.3" fill="#1c1c1c" text-anchor="start" font-weight="normal" font-style="normal">3</text>
-<rect x="832.0" y="546.0" width="34.6" height="11.5" fill="#c2603d" stroke="none" stroke-width="1" opacity="0.82" rx="1.5"/>
+<rect x="832.0" y="546.0" width="23.1" height="11.5" fill="#c2603d" stroke="none" stroke-width="1" opacity="0.82" rx="1.5"/>
 <text x="660.0" y="557.5" font-family="Helvetica,Arial,sans-serif" font-size="9.3" fill="#1c1c1c" text-anchor="start" font-weight="normal" font-style="normal">PH-X4  ambiguous - several enzymes</text>
-<text x="870.6" y="557.5" font-family="Helvetica,Arial,sans-serif" font-size="9.3" fill="#1c1c1c" text-anchor="start" font-weight="normal" font-style="normal">3</text>
+<text x="859.1" y="557.5" font-family="Helvetica,Arial,sans-serif" font-size="9.3" fill="#1c1c1c" text-anchor="start" font-weight="normal" font-style="normal">2</text>
 <rect x="832.0" y="562.5" width="11.5" height="11.5" fill="#c2603d" stroke="none" stroke-width="1" opacity="0.82" rx="1.5"/>
 <text x="660.0" y="574.0" font-family="Helvetica,Arial,sans-serif" font-size="9.3" fill="#1c1c1c" text-anchor="start" font-weight="normal" font-style="normal">PH-X12  no outcome at that pH</text>
 <text x="847.5" y="574.0" font-family="Helvetica,Arial,sans-serif" font-size="9.3" fill="#1c1c1c" text-anchor="start" font-weight="normal" font-style="normal">1</text>
@@ -258,8 +258,8 @@
 <text x="660.0" y="623.5" font-family="Helvetica,Arial,sans-serif" font-size="9.3" fill="#1c1c1c" text-anchor="start" font-weight="normal" font-style="normal">PH-X8  analytical-method pH</text>
 <text x="847.5" y="623.5" font-family="Helvetica,Arial,sans-serif" font-size="9.3" fill="#1c1c1c" text-anchor="start" font-weight="normal" font-style="normal">1</text>
 <line x1="660.0" y1="646.0" x2="1080.0" y2="646.0" stroke="#dcdcdc" stroke-width="1"/>
-<text x="660.0" y="662.0" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#1c1c1c" text-anchor="start" font-weight="normal" font-style="normal">38 rows removed (36.2% of candidates)</text>
-<text x="660.0" y="678.0" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#1c1c1c" text-anchor="start" font-weight="bold" font-style="normal">67 rows shipped - 45 scoreable on the pH axis, 7 by a sequence model</text>
+<text x="660.0" y="662.0" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#1c1c1c" text-anchor="start" font-weight="normal" font-style="normal">37 rows removed (35.2% of candidates)</text>
+<text x="660.0" y="678.0" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#1c1c1c" text-anchor="start" font-weight="bold" font-style="normal">68 rows shipped - 46 scoreable on the pH axis, 7 by a sequence model</text>
 <text x="660.0" y="694.0" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#666666" text-anchor="start" font-weight="normal" font-style="normal">29 rows carry a recovered outcome (% activity) at their pH</text>
 <text x="40.0" y="802.0" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#666666" text-anchor="start" font-weight="normal" font-style="normal">Rows counted once per exclusion rule; a row can fire more than one rule. Generated by scripts/make_figure.py from data/ph_benchmark_v1.csv.</text>
 </svg>

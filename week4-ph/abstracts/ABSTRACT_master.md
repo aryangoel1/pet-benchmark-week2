@@ -23,10 +23,10 @@ needed to test them are scarce, and the literature-mined datasets that fill the 
 rarely audited beyond confirming that a reported number appears somewhere in the source
 article.
 
-We present an independent, test-only pH benchmark of 67 experimentally measured values
-from 30 open-access articles, spanning pH 3.0–12.0 and 19 enzyme classes, and screened to
+We present an independent, test-only pH benchmark of 68 experimentally measured values
+from 31 open-access articles, spanning pH 3.0–12.0 and 19 enzyme classes, and screened to
 contain no protein present in the screener's training split. Every candidate row was read
-against the source sentence it was extracted from. Of 105 candidates, 38 (36%) were
+against the source sentence it was extracted from. Of 105 candidates, 37 (35%) were
 removed under twelve explicit, published rules, each recorded per row with its reason.
 
 The removed rows were not random noise. They were systematic and directional. Thirteen
@@ -49,7 +49,7 @@ the article's own. A wrong sequence on a correct measurement passes every automa
 and fails silently only at evaluation.
 
 Curation also recovered a quantity the standard schema discards: the activity retained
-**at** each pH, present for 29 rows, plus the direction of the effect for 52. Without it,
+**at** each pH, present for 29 rows, plus the direction of the effect for 53. Without it,
 a stability record at pH 10 cannot distinguish an enzyme that tolerates alkali from one
 destroyed by it.
 
