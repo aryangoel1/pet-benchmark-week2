@@ -21,3 +21,7 @@ data/bench_std.json
 
 # Pipeline run logs
 data/*.log
+
+# Week-4: cached Europe PMC full text for the deep re-read (4.4 MB, re-downloads
+# in ~30 s via `python3 week4-ph/scripts/deep_verify_ph.py`)
+week4-ph/data/fulltext_xml/

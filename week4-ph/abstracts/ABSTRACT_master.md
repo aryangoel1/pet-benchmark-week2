@@ -41,8 +41,15 @@ predicted values. Every one of these defects is a correct quotation placed in th
 field, and every one survives an automated check that asks only whether the number is
 present in the article.
 
+A second pass re-read every shipped row against the freshly downloaded full article, and
+found a defect class the sentence-level audit could not see: three of six sequence
+attributions were accessions the articles *cite* rather than *deposit* — a structural
+modelling template, a phylogenetic-tree neighbour, and a comparison enzyme standing in for
+the article's own. A wrong sequence on a correct measurement passes every automated check
+and fails silently only at evaluation.
+
 Curation also recovered a quantity the standard schema discards: the activity retained
-**at** each pH, present for 29 rows, plus the direction of the effect for 54. Without it,
+**at** each pH, present for 29 rows, plus the direction of the effect for 52. Without it,
 a stability record at pH 10 cannot distinguish an enzyme that tolerates alkali from one
 destroyed by it.
 
@@ -61,6 +68,7 @@ reported as two separate quality metrics for any extracted dataset.
 | **Emphasise** | covariate shift vs training data; audit as a reproducible protocol; the two-metric proposal | pH optima and stability profiles; the optimum-vs-range error and why it matters for engineering targets; retained-activity data | coverage across polymer classes (PET, PHA, PHB, PCL, PVC, PLA, nylon, plasticisers); the alkaline-and-hot gap vs industrial depolymerisation |
 | **De-emphasise** | enzymology detail | schema and ML evaluation mechanics | per-rule audit breakdown |
 | **Keep verbatim** | the 36% figure and the systematic-not-random finding — it is the paper's central claim and should read identically everywhere |
+| **Sequence finding** | keep (it *is* the two-metric argument) | keep, framed as scaffold-identity risk | drop if space is tight |
 
 ---
 
@@ -88,3 +96,5 @@ submitting, and re-cut to the stated limit rather than trusting the numbers abov
    confirm.
 5. If the screener's pH results are ready in time, add one sentence of model performance.
    The abstracts are written so that sentence can be dropped in without restructuring.
+6. The three venue cuts predate the deep re-read and carry the headline numbers but not
+   the sequence-attribution finding. Decide per venue whether to spend the words on it.

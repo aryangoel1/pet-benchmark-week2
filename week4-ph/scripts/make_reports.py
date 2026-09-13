@@ -16,7 +16,8 @@ import sys
 from collections import Counter, defaultdict
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from ph_curation import EXCLUSION_RULES, CORRECTION_RULES  # noqa: E402
+from ph_curation import (EXCLUSION_RULES, CORRECTION_RULES,  # noqa: E402
+                         SEQUENCE_REJECTIONS)
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(HERE, "data")
@@ -52,10 +53,13 @@ def load():
         with open(os.path.join(DATA, name), encoding="utf-8", newline="") as fh:
             return list(csv.DictReader(fh))
     stats = json.load(open(os.path.join(DATA, "ph_stats.json"), encoding="utf-8"))
-    return rd("ph_benchmark_v1.csv"), rd("ph_excluded_v1.csv"), rd("ph_audit_log.csv"), stats
+    deep = json.load(open(os.path.join(DATA, "ph_deep_verification.json"),
+                          encoding="utf-8"))
+    return (rd("ph_benchmark_v1.csv"), rd("ph_excluded_v1.csv"),
+            rd("ph_audit_log.csv"), stats, deep)
 
 
-def audit_report(kept, excluded, audit, stats):
+def audit_report(kept, excluded, audit, stats, deep):
     L = []
     a = L.append
     a("# pH benchmark -- audit report\n")
@@ -64,13 +68,14 @@ def audit_report(kept, excluded, audit, stats):
       "carries an explicit verdict below. The verdicts live in "
       "`scripts/ph_curation.py`; this document is generated from them, so the two cannot "
       "drift apart.\n")
-    a("> **What this audit is.** Each candidate was read against the evidence sentence "
-      "that the Week-2 pipeline stored with it. That pipeline had already located every "
-      "sentence in a freshly downloaded copy of its article, so the quote is reliable as "
-      "*text*. What this pass adds is a judgement about whether the recorded number is "
-      "the right reading of that text -- which enzyme it belongs to, whether it is a "
-      "result or a protocol detail, and which way the effect ran. It is **not** a "
-      "re-reading of all 44 source articles end to end.\n")
+    a("> **What this audit is.** Two passes. The first read each of the 105 "
+      "candidates against the evidence sentence the Week-2 pipeline stored with it, "
+      "judging whether the recorded number is the right reading of that text -- which "
+      "enzyme it belongs to, whether it is a result or a protocol detail, and which "
+      "way the effect ran. The second re-downloaded all 30 shipped articles and "
+      "re-checked every shipped row in full context; it is reported below, and it is "
+      "what caught the sequence misattributions. Neither pass re-derives values from "
+      "the underlying figures, and the second did not revisit the 38 exclusions.\n")
 
     a("## Outcome\n")
     a("| | Rows | Share |")
@@ -141,6 +146,47 @@ def audit_report(kept, excluded, audit, stats):
     a("5. **A review article's comparison table produced three rows** on a garbled "
       "concatenated cell, labelled `IsPETase` but carrying PET46's accession.\n")
 
+    a("## Second pass: deep re-read against full text\n")
+    a("The verdicts above came from reading each row's stored evidence sentence. A "
+      "second pass (`scripts/deep_verify_ph.py`) re-downloaded the full text of all "
+      f"{stats['distinct_papers_shipped']} shipped articles from Europe PMC and "
+      "re-checked every shipped row in context.\n")
+    a("| Check | Result |")
+    a("|---|---|")
+    a(f"| Articles re-downloaded | {deep['articles_downloaded']}/{deep['articles']} |")
+    a("| JATS `article-type` | "
+      f"{deep['article_types'].get('research-article', 0)}/{deep['articles']} "
+      "`research-article` -- no review or editorial survived |")
+    a(f"| Evidence sentences relocated in fresh text | {deep['quotes_relocated']}/"
+      f"{stats['shipped']} |")
+    a("| Enzyme names occurring in their article | all |")
+    a("| Corrected pH optima found verbatim | 5/5 |")
+    a(f"| Open findings after correction | {len(deep['findings'])} |")
+    a("")
+    a("This pass catches what a sentence-level audit structurally cannot: an accession "
+      "is usually stated in a deposit or methods section far from the sentence carrying "
+      "the measurement, so whether the row names the right *protein* is invisible from "
+      "the quote alone.\n")
+    a("### Sequence attributions withdrawn\n")
+    a("Three of six accessions turned out to be cited rather than deposited. In every "
+      "case the recorded organism independently corroborates the error -- it is the "
+      "organism of the cited protein, not of the enzyme assayed.\n")
+    a("| Accession | Recorded as | Why it was withdrawn |")
+    a("|---|---|---|")
+    for acc, info in SEQUENCE_REJECTIONS.items():
+        a(f"| `{acc}` | {info['enzyme']} ({info['pmcid']}) | {info['reason']} |")
+    a("")
+    a("The measurements themselves are sound, so those rows keep their values and lose "
+      "their sequences. The sequence-carrying set went from 16 rows / 6 proteins to "
+      f"{stats['rows_with_sequence']} rows / {stats['distinct_proteins']} proteins, "
+      "each confirmed against an explicit deposit statement in its article's own text. "
+      "The benchmark's only overlap with the held-out test split disappeared with "
+      "them.\n")
+    a("Three smaller corrections came from the same pass: an enzyme named for its "
+      "strain rather than itself (IBRL-CHS2 -> MLipA, 7 rows), a measurement type only "
+      "the full paragraph disambiguates (a PanLip(dN) value is an activity-profile "
+      "point, not post-incubation stability), and one publication year "
+      "(PMC12767561: 2026 -> 2025).\n")
     a("## Every candidate, with its verdict\n")
     by_paper = defaultdict(list)
     log = {r["source_measurement_id"]: r for r in audit}
@@ -279,9 +325,10 @@ def dataset_summary(kept, excluded, audit, stats):
 
 
 def main():
-    kept, excluded, audit, stats = load()
+    kept, excluded, audit, stats, deep = load()
     os.makedirs(DOCS, exist_ok=True)
-    for name, text in [("AUDIT_REPORT.md", audit_report(kept, excluded, audit, stats)),
+    for name, text in [("AUDIT_REPORT.md",
+                        audit_report(kept, excluded, audit, stats, deep)),
                        ("DATASET_SUMMARY.md",
                         dataset_summary(kept, excluded, audit, stats))]:
         path = os.path.join(DOCS, name)

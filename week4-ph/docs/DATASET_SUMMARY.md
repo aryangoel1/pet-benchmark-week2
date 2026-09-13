@@ -12,15 +12,15 @@ Table 1 as it will appear in the paper, plus the breakdowns that support it. Gen
 | pH as the measured outcome | 57 |
 | pH as a recorded assay covariate | 10 |
 | Scoreable on the pH axis | 45 |
-| Scoreable by a sequence model | 10 |
-| Rows with a resolved protein sequence | 16 |
-| Distinct proteins | 6 |
-| Distinct accessions | 6 |
+| Scoreable by a sequence model | 7 |
+| Rows with a resolved protein sequence | 9 |
+| Distinct proteins | 3 |
+| Distinct accessions | 3 |
 | Distinct enzyme classes | 19 |
 | Rows naming a polymer substrate | 27 |
 | pH range covered | 3.0–12.0 (median 8.0) |
 | Rows carrying an outcome at the pH (% activity) | 29 |
-| Rows carrying the direction of the effect | 54 |
+| Rows carrying the direction of the effect | 52 |
 | Rows with temperature recorded as well | 22 |
 | Rows with an exposure time | 18 |
 | pH interval rows (in 10 range groups) | 12 |
@@ -31,20 +31,19 @@ Table 1 as it will appear in the paper, plus the breakdowns that support it. Gen
 | Type | Rows | pH is the... |
 |---|---:|---|
 | pH optimum | 24 | outcome |
-| pH stability | 18 | outcome |
+| pH stability | 17 | outcome |
 | pH stability range | 9 | outcome |
 | temperature optimum | 9 | covariate |
+| pH activity | 4 | outcome |
 | pH activity range | 3 | outcome |
-| pH activity | 3 | outcome |
 | thermostability | 1 | covariate |
 
 ## Independence tiers
 
 | Tier | Rows | Meaning |
 |---|---:|---|
-| `A_fully_independent` | 14 | protein appears in none of the seven shared datasets and nowhere in Luke's data |
-| `B_in_luke_heldout_test_only` | 2 | protein sits in Luke's held-out test split -- no training contamination, but not novel to the project |
-| `C_conditions_only_no_sequence` | 51 | a real measurement whose enzyme could not be resolved to a sequence |
+| `A_fully_independent` | 9 | protein appears in none of the seven shared datasets and nowhere in Luke's data |
+| `C_conditions_only_no_sequence` | 58 | a real measurement whose enzyme could not be resolved to a sequence |
 
 ## Enzyme classes represented
 
@@ -74,7 +73,7 @@ Table 1 as it will appear in the paper, plus the breakdowns that support it. Gen
 
 | PMCID | Year | Rows | Enzyme(s) | Title |
 |---|---:|---:|---|---|
-| PMC11651597 | 2024 | 7 | lipase IBRL-CHS2 | Characterization of a novel subfamily 1.4 lipase from Bacillus lichenif... |
+| PMC11651597 | 2024 | 7 | MLipA | Characterization of a novel subfamily 1.4 lipase from Bacillus lichenif... |
 | PMC10146132 | 2023 | 5 | KoFAE | Characterization of Feruloyl Esterase from <i>Klebsiella oxytoca</i> Z2... |
 | PMC9709933 | 2022 | 5 | -- | Heterologous expression, molecular studies and biochemical characteriza... |
 | PMC10385968 | 2023 | 4 | EstD04 | Enzymatic Characterization of a Novel HSL Family IV Esterase EstD04 fro... |
@@ -97,7 +96,7 @@ Table 1 as it will appear in the paper, plus the breakdowns that support it. Gen
 | PMC10495362 | 2023 | 1 | PET46 | An archaeal lid-containing feruloyl esterase degrades polyethylene tere... |
 | PMC11055803 | 2024 | 1 | ANCUT1 | ANCUT1, a novel thermoalkaline cutinase from Aspergillus nidulans and i... |
 | PMC12741466 | 2025 | 1 | PCLase0801 | Degradation and ring-opening polymerization of poly(ε-caprolactone) by ... |
-| PMC12767561 | 2026 | 1 | TflNylA | Toward the Bioremediation of Nylon Waste Materials: Genome Mining Leads... |
+| PMC12767561 | 2025 | 1 | TflNylA | Toward the Bioremediation of Nylon Waste Materials: Genome Mining Leads... |
 | PMC13035632 | 2026 | 1 | LipC | Co-expression, purification, and characterization of an acidophilic and... |
 | PMC7936011 | 2021 | 1 | Tan410 | A novel esterase from a soil metagenomic library displaying a broad sub... |
 | PMC8767016 | 2021 | 1 | PET27 | The Bacteroidetes <i>Aequorivita</i> sp. and <i>Kaistella jeonii</i> Pr... |

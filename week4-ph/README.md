@@ -2,8 +2,9 @@
 
 The finalised pH axis of the plastic-degrading enzyme benchmark: **67 curated
 measurements from 30 open-access articles**, spanning **pH 3.0–12.0** across **19 enzyme
-classes**, with every value read against the sentence it came from and a recorded verdict
-for all 105 candidates considered.
+classes**, with every value read against the sentence it came from, every shipped row
+re-checked against the freshly downloaded full article, and a recorded verdict for all
+105 candidates considered.
 
 > **Integrity statement.** Every value was measured in a laboratory and reported in a
 > peer-reviewed open-access article. Nothing is synthetic, predicted, interpolated or
@@ -26,11 +27,12 @@ for all 105 candidates considered.
 | Candidates audited | 105 |
 | Removed by the audit | 38 (36%) |
 | pH as the measured outcome / as an assay covariate | 57 / 10 |
-| Scoreable on the pH axis / by a sequence model | 45 / 10 |
+| Scoreable on the pH axis / by a sequence model | 45 / 7 |
 | Rows carrying the outcome **at** that pH | 29 |
-| Rows carrying the direction of the effect | 54 |
-| Distinct proteins | 6 |
+| Rows carrying the direction of the effect | 52 |
+| Distinct proteins | 3 |
 | Rows in Luke's training split | **0** |
+| Sequence attributions rejected on deep re-read | 3 of 6 |
 
 Full breakdowns: [`docs/DATASET_SUMMARY.md`](docs/DATASET_SUMMARY.md).
 
@@ -89,6 +91,7 @@ python3 scripts/check_overlap_luke.py    # the train-overlap check, on the pH su
 python3 scripts/to_luke_format.py        # convert to the standardized schema
 python3 scripts/make_reports.py          # regenerate AUDIT_REPORT + DATASET_SUMMARY
 python3 scripts/make_figure.py           # regenerate the figure
+python3 scripts/deep_verify_ph.py        # re-download all 30 articles, verify in context
 python3 scripts/check_docs.py            # assert the prose still matches the data
 ```
 
@@ -126,7 +129,9 @@ correctly?", and in this corpus the two answers differ for more than a third of 
 ## Validation status
 
 ```
-22 checks: 21 pass, 0 hard failures, 1 warning
+validate_ph.py      22 checks: 21 pass, 0 hard failures, 1 warning
+deep_verify_ph.py   30/30 articles re-downloaded, 67/67 quotes relocated, 0 findings
+check_docs.py       every number quoted in the prose matches the data
 ```
 
 The warning is expected and documented: 9 scored rows carry neither an enzyme name nor an
@@ -140,8 +145,12 @@ condition-axis analysis and are excluded from sequence-model scoring by construc
 Data, code, documentation, figure and abstracts are complete and self-consistent. What is
 **not** done:
 
-- The 105 curation verdicts are one reviewer's judgement and have not been independently
-  reviewed — that is the ask in `docs/REVIEW_REQUEST.md`.
+- The 105 curation verdicts, and the 3 sequence rejections from the deep re-read, are one
+  reviewer's judgement and have not been independently reviewed — that is the ask in
+  `docs/REVIEW_REQUEST.md`.
+- The deep re-read covered the 67 shipped rows, not the 38 exclusions.
+- Figures were not re-derived; rows resting on prose that summarises a figure are trusted
+  to describe their own figure correctly.
 - `cluster_id` is empty in the Luke-format export; it needs MMseqs2 over the full protein
   set, which is Luke's pipeline. `data/ph_benchmark.fasta` is ready for it.
 - Author list and order on the abstracts are unconfirmed.

@@ -77,6 +77,55 @@ CORRECTION_RULES = {
     "PH-C7": "direction_set",
 }
 
+# ---------------------------------------------------------------------------------
+# Sequence attributions rejected by the deep re-read of the full articles
+# (`scripts/deep_verify_ph.py`, 2026-09-12).
+#
+# The Week-2 pipeline accepted an accession when an article named exactly one hydrolase
+# record. That rule cannot tell an accession an article DEPOSITS (its own enzyme) from
+# one it CITES -- as a phylogenetic-tree neighbour, a structural-modelling template, or
+# a comparison enzyme. Re-reading each accession in full context found three that are
+# citations, not deposits. In every case the recorded ORGANISM independently corroborates
+# the error: it is the organism of the cited protein, not of the enzyme assayed.
+#
+# The measurements themselves are sound -- only the protein identity was wrong -- so the
+# rows keep their value and lose the sequence, dropping to the no-sequence tier.
+# ---------------------------------------------------------------------------------
+SEQUENCE_REJECTIONS = {
+    "P26495": {
+        "pmcid": "PMC10003648",
+        "enzyme": "PhaZ",
+        "reason": "P26495 is the AlphaFold structural-modelling TEMPLATE, not the "
+                  "article's enzyme: 'the poly(3-hydroxyalkanoate) depolymerase from "
+                  "Pseudomonas oleovorans (Alpha-Fold code AF-P26495-F1) was used as a "
+                  "template for modelling PhaZ'. The article's own PhaZ is from "
+                  "Pseudomonas chlororaphis PA23 (genome CP008696, locus EY04_*) and is "
+                  "not deposited under a standalone protein accession.",
+        "organism": "Pseudomonas chlororaphis PA23",
+    },
+    "AAB51445.1": {
+        "pmcid": "PMC10707221",
+        "enzyme": "SeLipC",
+        "reason": "AAB51445.1 is a phylogenetic-tree NEIGHBOUR, not the article's "
+                  "enzyme: 'SeM11Lip: Lipase from S. exfoliatus M11 (AAB51445.1)' in the "
+                  "Figure 9 caption -- a different strain's already-characterised lipase. "
+                  "SeLipC is lipC from the S. exfoliatus DSMZ 41693 draft genome "
+                  "(GenBank AZSS00000000, contig 334 nt 12616-13485).",
+        "organism": "Streptomyces exfoliatus DSMZ 41693",
+    },
+    "WP_054022242.1": {
+        "pmcid": "PMC11611003",
+        "enzyme": "SbPETase",
+        "reason": "WP_054022242 is IsPETase, the COMPARISON enzyme: 'The genes encoding "
+                  "IsPETase (accession number WP_054022242) and Kil protein were "
+                  "chemically synthesized'. The article's own enzyme, SbPETase, 'was "
+                  "amplified from the genome of S. brevitalea sp. nov.' and is a "
+                  "different protein. This was the only tier-B attribution, so removing "
+                  "it also removes the benchmark's only overlap with a held-out split.",
+        "organism": "Schlegelella brevitalea",
+    },
+}
+
 K = "KEEP"
 X = "EXCLUDE"
 
@@ -103,7 +152,7 @@ CURATION = {
 "BM0D67FCB6F6": _k(["PH-C2", "PH-C3", "PH-C6", "PH-C5"],
     "Range statement 'stable between pH 6 and pH 9, retaining 89-97%'. Typed as a "
     "pH-stability range; pH 9.0 is the upper endpoint of range group R-11651597-a.",
-    enzyme_name="lipase IBRL-CHS2", measurement_type="pH stability range",
+    enzyme_name="MLipA", measurement_type="pH stability range",
     pH_low=6.0, pH_high=9.0, pH_is_range="yes", ph_range_group="R-11651597-a",
     rel_pct=89.0, rel_pct_high=97.0, rel_qual="range", direction="stabilising",
     exposure_time_min=60.0, temperature_c=35.0),
@@ -111,18 +160,18 @@ CURATION = {
     "Lower endpoint of the same range statement as BM0D67FCB6F6 (range group "
     "R-11651597-a). Kept as a separate endpoint row to match Luke's one-row-per-endpoint "
     "convention for pH ranges.",
-    enzyme_name="lipase IBRL-CHS2", measurement_type="pH stability range",
+    enzyme_name="MLipA", measurement_type="pH stability range",
     pH_low=6.0, pH_high=9.0, pH_is_range="yes", ph_range_group="R-11651597-a",
     rel_pct=89.0, rel_pct_high=97.0, rel_qual="range", direction="stabilising",
     exposure_time_min=60.0, temperature_c=35.0),
 "BM499AE86AAE": _k(["PH-C2", "PH-C3", "PH-C5"],
     "'retaining 93% of its activity at pH 6 and 82% at pH 8' is the activity-vs-pH "
     "profile, not the post-incubation stability profile. Reclassified to pH activity.",
-    enzyme_name="lipase IBRL-CHS2", measurement_type="pH activity",
+    enzyme_name="MLipA", measurement_type="pH activity",
     rel_pct=82.0, rel_qual="exact"),
 "BMFBD1521130": _k(["PH-C2", "PH-C3", "PH-C5"],
     "Same sentence as BM499AE86AAE, pH 6 point. Reclassified to pH activity.",
-    enzyme_name="lipase IBRL-CHS2", measurement_type="pH activity",
+    enzyme_name="MLipA", measurement_type="pH activity",
     rel_pct=93.0, rel_qual="exact"),
 "BM71030D2A05": _x(["PH-X1"],
     "Normalisation sentence: 'activity at pH 7 was set as 100% ... for pH stability the "
@@ -130,17 +179,17 @@ CURATION = {
     "measured outcome. The optimum it implies is captured by the corrected BMDFDCB2C50A."),
 "BM73CD9BDECC": _k(["PH-C3", "PH-C5", "PH-C7"],
     "'further decline to 22% at pH 11' -- residual activity after 1 h.",
-    enzyme_name="lipase IBRL-CHS2", rel_pct=22.0, rel_qual="exact",
+    enzyme_name="MLipA", rel_pct=22.0, rel_qual="exact",
     direction="destabilising", exposure_time_min=60.0),
 "BMC31B27FC98": _k(["PH-C3", "PH-C5", "PH-C7"],
     "'only 51% residual activity observed after one h' at pH 10.",
-    enzyme_name="lipase IBRL-CHS2", rel_pct=51.0, rel_qual="exact",
+    enzyme_name="MLipA", rel_pct=51.0, rel_qual="exact",
     direction="destabilising", exposure_time_min=60.0),
 "BMDFDCB2C50A": _k(["PH-C1", "PH-C5", "PH-C6"],
     "Recorded pH optimum 5.0 was the LOW END of the activity range. The same sentence "
     "states 'optimal activity observed at pH 7'. Optimum corrected 5.0 -> 7.0, "
     "active range 5.0-9.0 retained as bounds.",
-    enzyme_name="lipase IBRL-CHS2", pH=7.0, pH_low=5.0, pH_high=9.0,
+    enzyme_name="MLipA", pH=7.0, pH_low=5.0, pH_high=9.0,
     value_std=7.0, direction="optimum"),
 
 # ---------------------------------------------------------------------------------
@@ -319,10 +368,14 @@ CURATION = {
 "BM097BBDB7F2": _x(["PH-X12"],
     "'A rapid decline in activity was detected beyond pH 8.0' -- no outcome is measured "
     "AT pH 8.0; the only quantified point in the sentence is pH 9.0 (BM51F74D231E)."),
-"BM51F74D231E": _k(["PH-C3", "PH-C5", "PH-C7"],
-    "'less than 15% residual activity at pH 9.0'. enzyme_name corrected CALB -> PanLipdN: "
-    "the article characterises a CALB-LIKE enzyme, not CALB.",
-    enzyme_name="PanLipdN", rel_pct=15.0, rel_qual="lte", direction="destabilising"),
+"BM51F74D231E": _k(["PH-C2", "PH-C3", "PH-C5"],
+    "'less than 15% residual activity at pH 9.0'. Deep re-read of the full paragraph "
+    "shows this is a point on the activity-vs-pH profile ('The effect of pH on the "
+    "catalytic activity ... was investigated in the pH range of 4.0-9.0'), not a "
+    "post-incubation stability assay, so the type is pH activity. enzyme_name corrected "
+    "CALB -> PanLipdN: the article characterises a CALB-LIKE enzyme, not CALB.",
+    enzyme_name="PanLipdN", measurement_type="pH activity",
+    rel_pct=15.0, rel_qual="lte"),
 "BMDC3A7C490D": _k(["PH-C5"],
     "'The maximum activity was observed at pH 8.0, indicating that PanLipdN is an "
     "alkaline-preferring lipase'. enzyme_name corrected CALB -> PanLipdN.",
@@ -490,11 +543,11 @@ CURATION = {
 "BME3583FB244": _k(["PH-C2", "PH-C5", "PH-C7"],
     "'EaEst2 showed its maximal activity at pH 7.0' is a pH OPTIMUM, not pH stability.",
     enzyme_name="EaEst2", measurement_type="pH optimum", direction="optimum"),
-"BM8D124B9FCE": _k(["PH-C2", "PH-C3", "PH-C5", "PH-C7"],
+"BM8D124B9FCE": _k(["PH-C2", "PH-C3", "PH-C5"],
     "'only ~40% of its maximal activity was retained at pH 8.0' is a point on the "
     "activity-pH profile.",
     enzyme_name="EaEst2", measurement_type="pH activity",
-    rel_pct=40.0, rel_qual="approx", direction="destabilising"),
+    rel_pct=40.0, rel_qual="approx"),
 
 # ---------------------------------------------------------------------------------
 # Single-row articles -- kept

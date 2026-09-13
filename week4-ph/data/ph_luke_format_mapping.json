@@ -16,8 +16,8 @@
   "pH activity range": 3,
   "pH optimum": 24,
   "temperature optimum": 9,
-  "pH stability": 27,
-  "pH property": 3,
+  "pH stability": 26,
+  "pH property": 4,
   "thermostability": 1
  },
  "field_rules": {

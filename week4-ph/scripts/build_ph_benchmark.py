@@ -27,7 +27,8 @@ import sqlite3
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from ph_curation import CURATION, EXCLUSION_RULES, CORRECTION_RULES  # noqa: E402
+from ph_curation import (CURATION, EXCLUSION_RULES, CORRECTION_RULES,  # noqa: E402
+                         SEQUENCE_REJECTIONS)
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(HERE, "..", "pet_benchmark_v2.csv")
@@ -67,6 +68,14 @@ PAPER_ANNOT = {
     "PMC12741466": ("PCL depolymerase", "PCL"),
     "PMC8971842":  ("PCL depolymerase", "PCL"),
     "PMC11055803": ("cutinase", "cutin / polyester"),
+}
+
+# Metadata corrections found by `deep_verify_ph.py`, which re-reads the publication year
+# out of every article's own JATS record. Keyed by PMCID, with the evidence.
+YEAR_OVERRIDES = {
+    # pub-date 2025-12-03 and DOI 10.1002/cssc.202501964; the article declares no 2026
+    # date anywhere. The Week-2 pipeline had recorded 2026.
+    "PMC12767561": "2025",
 }
 
 OUT_COLS = [
@@ -207,7 +216,23 @@ def main():
             return nz(src, default or field)
 
         mtype = g("measurement_type")
-        seq = nz(src, "sequence")
+
+        # A sequence attribution rejected by the deep re-read is stripped here: the
+        # measurement survives, the wrong protein identity does not.
+        acc = nz(src, "uniprot_accession")
+        rejected = SEQUENCE_REJECTIONS.get(acc)
+        if rejected:
+            seq, acc = "", ""
+            organism = rejected["organism"]
+            tier = "C_conditions_only_no_sequence"
+            seq_reject_note = (" SEQUENCE ATTRIBUTION REJECTED on deep re-read: "
+                               + rejected["reason"])
+        else:
+            seq = nz(src, "sequence")
+            organism = nz(src, "organism")
+            tier = nz(src, "benchmark_tier")
+            seq_reject_note = ""
+
         role = "outcome" if mtype.startswith("pH") else "covariate"
         conflict = setf.get("internal_conflict", "no")
         attribution = setf.get("attribution_certainty", "single_enzyme")
@@ -239,7 +264,7 @@ def main():
         kept.append({
             "ph_measurement_id": ph_id(mid),
             "source_measurement_id": mid,
-            "benchmark_tier": nz(src, "benchmark_tier"),
+            "benchmark_tier": tier,
             "ph_role": role,
             "scored_condition_axis": scored_axis,
             "scored_sequence_model": scored_seq,
@@ -248,9 +273,9 @@ def main():
             "enzyme_name_source": name_source,
             "enzyme_class": enzyme_class,
             "polymer_target": polymer,
-            "organism": nz(src, "organism"),
+            "organism": organism,
             "ec_number": nz(src, "ec_number"),
-            "uniprot_accession": nz(src, "uniprot_accession"),
+            "uniprot_accession": acc,
             "protein_id_luke_join": luke_protein_id(seq),
             "sequence_length": str(len(seq)) if seq else "",
             "sequence": seq,
@@ -279,14 +304,14 @@ def main():
             "doi": nz(src, "doi"),
             "paper_title": nz(src, "paper_title"),
             "journal": nz(src, "journal"),
-            "year": nz(src, "year"),
+            "year": YEAR_OVERRIDES.get(pmcid, nz(src, "year")),
             "evidence_quote": nz(src, "evidence_quote"),
             "confidence": nz(src, "confidence"),
             "internal_conflict": conflict,
             "audit_verdict": "KEEP",
             "audit_rules": ";".join(rules),
             "audit_rule_names": ";".join(CORRECTION_RULES.get(r, "") for r in rules),
-            "audit_note": cur["note"],
+            "audit_note": cur["note"] + seq_reject_note,
             "corrections_applied": ";".join(sorted(setf)) if setf else "",
             "source_verification": nz(src, "verification"),
             "overlap_rules_checked": nz(src, "overlap_rules_checked"),

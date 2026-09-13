@@ -42,7 +42,7 @@ articles. Reading each against that sentence still removed 38 (36%): values take
 assay protocols rather than results, activity-range endpoints reported as optima, enzymes
 outside the relevant catalytic classes, review articles restating other groups' results,
 and one response-surface prediction. Curation also recovered the activity actually
-retained at each pH for 29 records and the direction of the effect for 54 — information
+retained at each pH for 29 records and the direction of the effect for 52 — information
 routinely lost when a pH value is stored without its outcome, leaving a stability record
 that cannot distinguish alkali tolerance from alkali destruction.
 

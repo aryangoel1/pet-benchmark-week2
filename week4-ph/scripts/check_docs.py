@@ -17,6 +17,9 @@ import os
 import sys
 from collections import Counter
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from ph_curation import SEQUENCE_REJECTIONS  # noqa: E402
+
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(HERE, "data")
 
@@ -41,6 +44,8 @@ def main():
     overlap = json.load(open(os.path.join(DATA, "ph_overlap_luke.json"),
                              encoding="utf-8"))
     valid = json.load(open(os.path.join(DATA, "ph_validation.json"), encoding="utf-8"))
+    deep = json.load(open(os.path.join(DATA, "ph_deep_verification.json"),
+                         encoding="utf-8"))
 
     print("claims made in the hand-written documents:\n")
 
@@ -59,11 +64,11 @@ def main():
     assert_eq("57 pH-outcome rows", stats["ph_outcome_rows"], 57)
     assert_eq("10 pH-covariate rows", stats["ph_covariate_rows"], 10)
     assert_eq("45 scoreable on the pH axis", stats["scored_condition_axis"], 45)
-    assert_eq("10 scoreable by a sequence model", stats["scored_sequence_model"], 10)
+    assert_eq("7 scoreable by a sequence model", stats["scored_sequence_model"], 7)
     assert_eq("29 rows carry an outcome at the pH", stats["rows_with_outcome_pct"], 29)
-    assert_eq("54 rows carry a direction", stats["rows_with_direction"], 54)
-    assert_eq("6 distinct proteins", stats["distinct_proteins"], 6)
-    assert_eq("16 rows with a sequence", stats["rows_with_sequence"], 16)
+    assert_eq("52 rows carry a direction", stats["rows_with_direction"], 52)
+    assert_eq("3 distinct proteins", stats["distinct_proteins"], 3)
+    assert_eq("9 rows with a sequence", stats["rows_with_sequence"], 9)
     assert_eq("22 rows with pH and temperature", stats["rows_with_temperature"], 22)
 
     # exclusion-rule counts quoted in METHODS, the figure caption and the abstracts
@@ -88,10 +93,10 @@ def main():
     # independence claims
     assert_eq("0 proteins in Luke's training split",
               overlap["proteins_in_luke_train"], 0)
-    assert_eq("1 protein in Luke's held-out test split",
-              overlap["proteins_in_luke_test"], 1)
-    assert_eq("5 proteins new to the project",
-              overlap["proteins_new_to_the_project"], 5)
+    assert_eq("0 proteins in Luke's held-out test split",
+              overlap["proteins_in_luke_test"], 0)
+    assert_eq("3 proteins new to the project",
+              overlap["proteins_new_to_the_project"], 3)
 
     # validation claims quoted in README and METHODS
     kinds = Counter(r["kind"] for r in valid["results"])
@@ -123,6 +128,18 @@ def main():
     assert_eq("1 internally contradicted row", stats["internal_conflict_rows"], 1)
     assert_eq("10 articles contribute exactly one row",
               sum(1 for _, n in Counter(r["pmcid"] for r in rows).items() if n == 1), 10)
+    # deep re-read of the full articles
+    assert_eq("3 sequence attributions rejected on deep re-read",
+              len(SEQUENCE_REJECTIONS), 3)
+    assert_eq("30/30 shipped articles are research-articles",
+              deep["article_types"].get("research-article"), 30)
+    assert_eq("67/67 quotes relocated in fresh full text",
+              deep["quotes_relocated"], 67)
+    assert_eq("0 open deep-verification findings", len(deep["findings"]), 0)
+    assert_eq("no tier-B rows remain",
+              stats["tiers"].get("B_in_luke_heldout_test_only", 0), 0)
+    assert_eq("9 tier-A rows", stats["tiers"]["A_fully_independent"], 9)
+    assert_eq("58 tier-C rows", stats["tiers"]["C_conditions_only_no_sequence"], 58)
     assert_eq("busiest protein contributes 7 rows",
               max(Counter(r["protein_id_luke_join"] for r in rows
                           if r["sequence"]).values()), 7)

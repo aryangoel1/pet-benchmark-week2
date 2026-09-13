@@ -27,7 +27,7 @@ active ranges are routinely interchanged: five records named the low end of an a
 interval as the optimum where the same sentence gave the true optimum, differing by
 0.5–2.0 pH units. Second, stability records are frequently sign-ambiguous — "pH stability
 10.0" appears both for enzymes stable at pH 10 and for enzymes destroyed by it; we
-recovered the direction for 54 records and the retained activity for 29. Third, optima
+recovered the direction for 52 records and the retained activity for 29. Third, optima
 skew alkaline (median pH 8.0), while acid-tolerant activity is represented by a single
 enzyme.
 

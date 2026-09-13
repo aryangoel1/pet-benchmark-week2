@@ -24,10 +24,23 @@ them later:
 | `condition_quality = "Low"` — extends your High / Medium-High / Medium scale | 56 of 67 rows are `Low` upstream; promoting them to `Medium` would overstate them | same file |
 | `measurement_type = "pH property"` for point activity-vs-pH values | your vocabulary has no point-activity type, and `pH activity range` would be wrong | **this is the one I'd most like your call on** — adding `pH activity` to the vocabulary seems cleaner than overloading `pH property` |
 
+### 1b. Note: three sequences were withdrawn after a deep re-read (5 min)
+
+Since the first draft, all 30 articles were re-downloaded and every row re-checked in
+context. Three of the six accessions turned out to be cited, not deposited — an AlphaFold
+modelling template (`P26495`), a phylogenetic-tree neighbour from another strain
+(`AAB51445.1`), and the IsPETase comparison enzyme standing in for the article's own
+SbPETase (`WP_054022242.1`). Those rows keep their measurements and lose their sequences.
+
+Two consequences for you: the FASTA is now **3 proteins, not 6**, and the benchmark no
+longer overlaps your held-out test split at all — the single tier-B protein *was* the
+misattributed IsPETase. Proof in `data/ph_deep_verification.json` and `SEQUENCE_REJECTIONS`
+in `scripts/ph_curation.py`.
+
 ### 2. Run the cluster assignment (10 min, your pipeline)
 
 `cluster_id` is empty because homology clustering needs MMseqs2 over your full protein
-set. `data/ph_benchmark.fasta` has all 6 proteins with `protein_id` in the header.
+set. `data/ph_benchmark.fasta` has all 3 proteins with `protein_id` in the header.
 
 The train-overlap check you asked for in `DATA_READINESS_HANDOFF.md` **has** been run, on
 the pH subset specifically rather than inherited from the Week-2 build
@@ -35,8 +48,8 @@ the pH subset specifically rather than inherited from the Week-2 build
 
 ```
 in Luke's TRAIN split        : 0
-in Luke's held-out TEST split: 1   (SbPETase, P58458fbad1df -> tiered B)
-new to the project           : 5
+in Luke's held-out TEST split: 0
+new to the project           : 3
 ```
 
 ### 3. Sanity-check the schema argument before it goes in a paper (20 min)
@@ -92,7 +105,11 @@ other.
 two or more enzymes ("LIP3 and PhaZ … optimal activity at pH 8"). Kept, flagged, excluded
 from sequence-model scoring. Drop them instead?
 
-**e. Spot-check the exclusions.** `data/ph_excluded_v1.csv` has all 38 with their evidence
+**e. The three withdrawn sequence attributions.** `SEQUENCE_REJECTIONS` in
+`scripts/ph_curation.py` quotes the sentence justifying each. If you read any of them as a
+genuine deposit rather than a citation, that row's sequence should come back.
+
+**f. Spot-check the exclusions.** `data/ph_excluded_v1.csv` has all 38 with their evidence
 quotes. If any look like they should have survived, say which.
 
 ---
@@ -104,10 +121,12 @@ random noise** — protocol sentences read as results (13 rows), range endpoints
 optima (5), wrong enzyme attached (6), secondhand sentences (7). If that pattern doesn't
 hold up under your reading, the Discussion needs rewriting, and I'd rather know now.
 
-The related claim is narrower than it sounds and I've tried to word it carefully
-everywhere: this audit **read the evidence sentence stored with each row**, not all 44
-source articles end to end. It should not be described as expert re-reading of the
-papers. If you see that overstated anywhere in the docs, flag it.
+On scope of verification, the accurate phrasing is: the audit read the evidence sentence
+for **all 105 candidates**, and the deep pass re-checked **all 67 shipped rows** against
+the freshly downloaded full article. It is not an independent domain expert re-deriving
+each value from the underlying figures, and it did not re-open the 38 exclusions at the
+deeper level. If you see that overstated anywhere in the docs, flag it — I would rather
+under-claim than have a reviewer find the gap.
 
 ---
 
@@ -126,6 +145,8 @@ haven't verified against the actual calls for papers.
 cd week4-ph
 python3 scripts/validate_ph.py        # 22 checks, 0 hard failures
 python3 scripts/check_overlap_luke.py # 0 proteins in the training split
+python3 scripts/deep_verify_ph.py     # re-download all 30 articles, 0 findings
+python3 scripts/check_docs.py         # prose numbers match the data
 ```
 
 | If you want… | Open |

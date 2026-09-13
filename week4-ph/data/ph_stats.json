@@ -6,15 +6,15 @@
  "distinct_papers_candidates": 44,
  "distinct_papers_shipped": 30,
  "distinct_papers_dropped_entirely": 14,
- "distinct_proteins": 6,
- "distinct_accessions": 6,
- "rows_with_sequence": 16,
+ "distinct_proteins": 3,
+ "distinct_accessions": 3,
+ "rows_with_sequence": 9,
  "ph_outcome_rows": 57,
  "ph_covariate_rows": 10,
  "scored_condition_axis": 45,
- "scored_sequence_model": 10,
+ "scored_sequence_model": 7,
  "rows_with_outcome_pct": 29,
- "rows_with_direction": 54,
+ "rows_with_direction": 52,
  "rows_with_temperature": 22,
  "rows_with_buffer": 1,
  "rows_with_exposure_time": 18,
@@ -26,17 +26,16 @@
  "multi_enzyme_attribution": 7,
  "measurement_types": {
   "pH optimum": 24,
-  "pH stability": 18,
+  "pH stability": 17,
   "pH stability range": 9,
   "temperature optimum": 9,
+  "pH activity": 4,
   "pH activity range": 3,
-  "pH activity": 3,
   "thermostability": 1
  },
  "tiers": {
-  "A_fully_independent": 14,
-  "B_in_luke_heldout_test_only": 2,
-  "C_conditions_only_no_sequence": 51
+  "A_fully_independent": 9,
+  "C_conditions_only_no_sequence": 58
  },
  "years": {
   "2015": 3,
@@ -44,8 +43,8 @@
   "2022": 16,
   "2023": 19,
   "2024": 10,
-  "2025": 7,
-  "2026": 10
+  "2025": 8,
+  "2026": 9
  },
  "exclusion_rule_counts": {
   "PH-X1": 13,
@@ -63,12 +62,12 @@
  },
  "correction_rule_counts": {
   "PH-C1": 5,
-  "PH-C2": 16,
+  "PH-C2": 17,
   "PH-C3": 29,
   "PH-C4": 4,
   "PH-C5": 52,
   "PH-C6": 18,
-  "PH-C7": 54
+  "PH-C7": 52
  },
  "ph_min": 3.0,
  "ph_max": 12.0,

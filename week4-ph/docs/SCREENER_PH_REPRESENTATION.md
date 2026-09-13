@@ -34,7 +34,7 @@ That is coherent for role 2 and lossy for roles 1 and 3. Two consequences:
   "less than 15% residual at pH 9" carry the actual signal, and the schema keeps only the
   10 and the 9.
 
-The pH benchmark recovers that information for 29 of 67 rows and records direction on 54.
+The pH benchmark recovers that information for 29 of 67 rows and records direction on 52.
 The representation below is what lets the screener use it.
 
 ---
@@ -175,5 +175,5 @@ where the mapping had to make a choice, all recorded in
 This benchmark is for the **final external test only** — not training, not tuning, not
 feature selection, not threshold selection. That is the rule in Luke's
 `DATA_READINESS_HANDOFF.md` and it applies unchanged to the pH subset. Zero benchmark
-proteins are in the training split; the one that sits in Luke's held-out test split is
-tiered `B` so it can be excluded with a single filter.
+proteins are in the training split, and after the deep re-read removed a misattributed
+sequence, none sits in his held-out test split either.

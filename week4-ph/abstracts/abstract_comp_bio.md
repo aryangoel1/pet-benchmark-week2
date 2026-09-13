@@ -33,7 +33,7 @@ carried a response-surface prediction. Each is a correct quotation in the wrong 
 invisible to string-level verification.
 
 Curation also recovered activity retained at each pH (29 rows) and the direction of the
-effect (54) — quantities the standard schema cannot represent, without which a stability
+effect (52) — quantities the standard schema cannot represent, without which a stability
 record is sign-ambiguous. Benchmark pH differs sharply from training data (median 8.0
 versus a training mode of 7.0–7.5), so pH should not be standardised against training
 statistics.

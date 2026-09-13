@@ -2,7 +2,7 @@
 
 Every one of the **105 candidate pH rows** inherited from the Week-2 benchmark carries an explicit verdict below. The verdicts live in `scripts/ph_curation.py`; this document is generated from them, so the two cannot drift apart.
 
-> **What this audit is.** Each candidate was read against the evidence sentence that the Week-2 pipeline stored with it. That pipeline had already located every sentence in a freshly downloaded copy of its article, so the quote is reliable as *text*. What this pass adds is a judgement about whether the recorded number is the right reading of that text -- which enzyme it belongs to, whether it is a result or a protocol detail, and which way the effect ran. It is **not** a re-reading of all 44 source articles end to end.
+> **What this audit is.** Two passes. The first read each of the 105 candidates against the evidence sentence the Week-2 pipeline stored with it, judging whether the recorded number is the right reading of that text -- which enzyme it belongs to, whether it is a result or a protocol detail, and which way the effect ran. The second re-downloaded all 30 shipped articles and re-checked every shipped row in full context; it is reported below, and it is what caught the sequence misattributions. Neither pass re-derives values from the underlying figures, and the second did not revisit the 38 exclusions.
 
 ## Outcome
 
@@ -38,11 +38,11 @@ A row can fire more than one rule, so the column sums to more than 38.
 
 | Rule | What it does | Rows |
 |---|---|---:|
-| `PH-C7` direction_set | direction of the effect recorded, so a stability row says whether activity was held or lost | 54 |
 | `PH-C5` enzyme_named | enzyme name set, or corrected, from the evidence sentence | 52 |
+| `PH-C7` direction_set | direction of the effect recorded, so a stability row says whether activity was held or lost | 52 |
 | `PH-C3` outcome_recovered | the outcome at that pH (residual or relative activity) recovered from the sentence into a field of its own | 29 |
 | `PH-C6` range_bounds_set | pH interval bounds set to the range the article states | 18 |
-| `PH-C2` type_reclassified | measurement type changed to match what the sentence actually reports | 16 |
+| `PH-C2` type_reclassified | measurement type changed to match what the sentence actually reports | 17 |
 | `PH-C1` optimum_corrected | pH optimum reset to the value the article states, where the pipeline had stored a range endpoint instead | 5 |
 | `PH-C4` buffer_cleared | a buffer removed that the evidence does not name and that cannot hold the recorded pH | 4 |
 
@@ -57,6 +57,35 @@ A row can fire more than one rule, so the column sums to more than 38.
 4. **Thirteen rows were assay protocol, not results** -- buffer pH read as a pH optimum, incubation temperature read as thermostability, the range of temperatures tested read as the optimum, and in one case a substrate loading (*"2.9% loading by mass of amorphous PET film"*) parsed as 2.9% relative activity.
 
 5. **A review article's comparison table produced three rows** on a garbled concatenated cell, labelled `IsPETase` but carrying PET46's accession.
+
+## Second pass: deep re-read against full text
+
+The verdicts above came from reading each row's stored evidence sentence. A second pass (`scripts/deep_verify_ph.py`) re-downloaded the full text of all 30 shipped articles from Europe PMC and re-checked every shipped row in context.
+
+| Check | Result |
+|---|---|
+| Articles re-downloaded | 30/30 |
+| JATS `article-type` | 30/30 `research-article` -- no review or editorial survived |
+| Evidence sentences relocated in fresh text | 67/67 |
+| Enzyme names occurring in their article | all |
+| Corrected pH optima found verbatim | 5/5 |
+| Open findings after correction | 0 |
+
+This pass catches what a sentence-level audit structurally cannot: an accession is usually stated in a deposit or methods section far from the sentence carrying the measurement, so whether the row names the right *protein* is invisible from the quote alone.
+
+### Sequence attributions withdrawn
+
+Three of six accessions turned out to be cited rather than deposited. In every case the recorded organism independently corroborates the error -- it is the organism of the cited protein, not of the enzyme assayed.
+
+| Accession | Recorded as | Why it was withdrawn |
+|---|---|---|
+| `P26495` | PhaZ (PMC10003648) | P26495 is the AlphaFold structural-modelling TEMPLATE, not the article's enzyme: 'the poly(3-hydroxyalkanoate) depolymerase from Pseudomonas oleovorans (Alpha-Fold code AF-P26495-F1) was used as a template for modelling PhaZ'. The article's own PhaZ is from Pseudomonas chlororaphis PA23 (genome CP008696, locus EY04_*) and is not deposited under a standalone protein accession. |
+| `AAB51445.1` | SeLipC (PMC10707221) | AAB51445.1 is a phylogenetic-tree NEIGHBOUR, not the article's enzyme: 'SeM11Lip: Lipase from S. exfoliatus M11 (AAB51445.1)' in the Figure 9 caption -- a different strain's already-characterised lipase. SeLipC is lipC from the S. exfoliatus DSMZ 41693 draft genome (GenBank AZSS00000000, contig 334 nt 12616-13485). |
+| `WP_054022242.1` | SbPETase (PMC11611003) | WP_054022242 is IsPETase, the COMPARISON enzyme: 'The genes encoding IsPETase (accession number WP_054022242) and Kil protein were chemically synthesized'. The article's own enzyme, SbPETase, 'was amplified from the genome of S. brevitalea sp. nov.' and is a different protein. This was the only tier-B attribution, so removing it also removes the benchmark's only overlap with a held-out split. |
+
+The measurements themselves are sound, so those rows keep their values and lose their sequences. The sequence-carrying set went from 16 rows / 6 proteins to 9 rows / 3 proteins, each confirmed against an explicit deposit statement in its article's own text. The benchmark's only overlap with the held-out test split disappeared with them.
+
+Three smaller corrections came from the same pass: an enzyme named for its strain rather than itself (IBRL-CHS2 -> MLipA, 7 rows), a measurement type only the full paragraph disambiguates (a PanLip(dN) value is an activity-profile point, not post-incubation stability), and one publication year (PMC12767561: 2026 -> 2025).
 
 ## Every candidate, with its verdict
 
@@ -162,7 +191,7 @@ A row can fire more than one rule, so the column sums to more than 38.
 | Row | Verdict | Type as recorded | pH | Rules | Reason |
 |---|---|---|---:|---|---|
 | `BM097BBDB7F2` | **drop** | pH stability | 8.0 | PH-X12 | 'A rapid decline in activity was detected beyond pH 8.0' -- no outcome is measured AT pH 8.0; the only quantified point in the sentence is pH 9.0 (BM51F74D231E). |
-| `BM51F74D231E` | KEEP | pH stability | 9.0 | PH-C3;PH-C5;PH-C7 | 'less than 15% residual activity at pH 9.0'. enzyme_name corrected CALB -> PanLipdN: the article characterises a CALB-LIKE enzyme, not CALB. |
+| `BM51F74D231E` | KEEP | pH stability | 9.0 | PH-C2;PH-C3;PH-C5 | 'less than 15% residual activity at pH 9.0'. Deep re-read of the full paragraph shows this is a point on the activity-vs-pH profile ('The effect of pH on the catalytic activity ... was investigated in the pH range of 4.0-9.0'), not a post-incubation stability assay, so the type is pH activity. enzyme_name corrected CALB -> PanLipdN: the article characterises a CALB-LIKE enzyme, not CALB. |
 | `BMDC3A7C490D` | KEEP | pH optimum | 8.0 | PH-C5;PH-C7 | 'The maximum activity was observed at pH 8.0, indicating that PanLipdN is an alkaline-preferring lipase'. enzyme_name corrected CALB -> PanLipdN. |
 
 ### PMC13316681 &mdash; 0 kept / 3 candidates
@@ -209,7 +238,7 @@ A row can fire more than one rule, so the column sums to more than 38.
 
 | Row | Verdict | Type as recorded | pH | Rules | Reason |
 |---|---|---|---:|---|---|
-| `BM8D124B9FCE` | KEEP | pH stability | 8.0 | PH-C2;PH-C3;PH-C5;PH-C7 | 'only ~40% of its maximal activity was retained at pH 8.0' is a point on the activity-pH profile. |
+| `BM8D124B9FCE` | KEEP | pH stability | 8.0 | PH-C2;PH-C3;PH-C5 | 'only ~40% of its maximal activity was retained at pH 8.0' is a point on the activity-pH profile. |
 | `BME3583FB244` | KEEP | pH stability | 7.0 | PH-C2;PH-C5;PH-C7 | 'EaEst2 showed its maximal activity at pH 7.0' is a pH OPTIMUM, not pH stability. |
 
 ### PMC10607177 &mdash; 2 kept / 2 candidates

@@ -71,11 +71,11 @@ itself states; the sentence travels with the row so each call is checkable.
 
 | Correction | Rows | What it does |
 |---|---:|---|
-| Direction recorded | 54 | whether activity was *held* or *lost* at that pH |
+| Direction recorded | 52 | whether activity was *held* or *lost* at that pH |
 | Enzyme named or corrected | 52 | the enzyme the evidence names is written into the row |
 | Outcome recovered | 29 | the residual or relative activity **at** that pH lifted into its own field |
 | pH interval bounds set | 18 | `pH_low` / `pH_high` set to the stated range |
-| Measurement type reclassified | 16 | e.g. a maximal-activity statement typed as a pH optimum rather than pH stability |
+| Measurement type reclassified | 17 | e.g. a maximal-activity statement typed as a pH optimum rather than pH stability |
 | pH optimum corrected | 5 | optimum reset from a range endpoint to the stated optimum |
 | Incompatible buffer cleared | 4 | a buffer the evidence does not name and that cannot hold the recorded pH |
 
@@ -90,7 +90,7 @@ the quantity a screener is asked to predict.
 
 **Direction was missing from stability rows.** A row reading `pH stability = 10.0` is
 ambiguous between "stable at pH 10" and "loses activity at pH 10", and both occur in the
-corpus. Direction is now recorded on 54 of 67 rows and the residual activity itself on 29.
+corpus. Direction is now recorded on 52 of 67 rows and the residual activity itself on 29.
 
 ### 2.x.4  Duplicate removal
 
@@ -167,6 +167,46 @@ The buffer-compatibility check earns its place: it is what surfaced MES — whic
 pH 5.5–6.7 — attached to rows recorded at pH 7 and pH 8. Those buffers were not named in
 the evidence and have been cleared.
 
+### 2.x.7  Deep verification against full text
+
+The checks above establish internal consistency and that each value appears in its source
+sentence. They cannot establish that the *protein* a row names is the protein the article
+assayed, because an accession is typically stated in a deposit or methods section far from
+the sentence carrying the measurement. A second verification pass therefore re-downloaded
+the full text of all 30 shipped articles from Europe PMC and re-checked every row in
+context (`scripts/deep_verify_ph.py`).
+
+This pass confirmed that all 30 articles carry JATS `article-type="research-article"`
+(no review or editorial survived the curation), that all 67 evidence sentences relocate in
+freshly downloaded text, that every enzyme name assigned during curation occurs in its
+article, and that all five corrected pH optima appear verbatim in the form recorded.
+
+It also found defects invisible to the first pass. Most consequentially, **three of six
+sequence attributions were accessions the articles cite rather than deposit**:
+
+| Accession | Recorded as | What the article actually says |
+|---|---|---|
+| `P26495` | PhaZ, *Ectopseudomonas oleovorans* | *"the poly(3-hydroxyalkanoate) depolymerase from Pseudomonas oleovorans (Alpha-Fold code AF-P26495-F1) was used as a **template for modelling** PhaZ"* — the article's PhaZ is from *P. chlororaphis* PA23 |
+| `AAB51445.1` | SeLipC, *Streptomyces* sp. | *"SeM11Lip: Lipase from S. exfoliatus **M11** (AAB51445.1)"* — a phylogenetic-tree neighbour from a different strain |
+| `WP_054022242.1` | SbPETase, *Pseudideonella sakaiensis* | *"The genes encoding **IsPETase** (accession number WP_054022242) … were chemically synthesized"* — the comparison enzyme, not the article's SbPETase |
+
+In each case the recorded *organism* independently corroborates the error: it is the
+organism of the cited protein, not of the enzyme assayed. The measurements themselves are
+sound, so the affected rows retain their values and lose their sequence, moving to the
+no-sequence tier. This reduces the sequence-carrying set from 16 rows and 6 proteins to
+**9 rows and 3 proteins**, each of the three confirmed against an explicit deposit
+statement in its article's own text.
+
+Three smaller corrections followed from the same pass: an enzyme named for its strain
+rather than itself (IBRL-CHS2 → MLipA, 7 rows), a measurement type that only the full
+paragraph disambiguates (a PanLipΔN value is a point on the activity-vs-pH profile, not
+post-incubation stability), and one publication year (PMC12767561: 2026 → 2025).
+
+The reduction is the result. A benchmark that reports six proteins of which three carry
+the wrong sequence is worse than one that reports three and is right, because a wrong
+sequence on a real measurement passes every automated check and fails silently at
+evaluation time.
+
 ### 2.x.7  Independence from training data
 
 Luke's handoff specifies the check: recompute each benchmark sequence's `protein_id` as
@@ -175,9 +215,10 @@ Luke's handoff specifies the check: recompute each benchmark sequence's `protein
 the pH subset alone (`scripts/check_overlap_luke.py`) rather than inherited from the
 parent build.
 
-Of 6 distinct proteins: **0 fall in the training split**, 1 (SbPETase, `P58458fbad1df`)
-sits in the held-out test split and is tiered `B` accordingly, and 5 appear nowhere in
-the project's existing data. The benchmark is released for final external testing only —
+Of the 3 distinct proteins remaining after §2.x.7: **0 fall in the training split**,
+**0** fall in the held-out test split, and all 3 appear nowhere in the project's existing
+data. The single held-out-test overlap the benchmark previously reported was the
+misattributed IsPETase sequence, and it disappeared with the attribution. The benchmark is released for final external testing only —
 not for training, tuning, feature selection or threshold selection.
 
 ### 2.x.8  Availability
