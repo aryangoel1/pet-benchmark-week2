@@ -1,0 +1,137 @@
+{
+ "rows": 67,
+ "results": [
+  {
+   "check": "unique_ph_measurement_id",
+   "kind": "HARD",
+   "status": "PASS",
+   "detail": "67 ids, 67 distinct"
+  },
+  {
+   "check": "unique_source_measurement_id",
+   "kind": "HARD",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "pH_within_0_14",
+   "kind": "HARD",
+   "status": "PASS",
+   "detail": "offenders: []"
+  },
+  {
+   "check": "pH_bounds_ordered",
+   "kind": "HARD",
+   "status": "PASS",
+   "detail": "offenders: []"
+  },
+  {
+   "check": "value_std_equals_pH_for_pH_types",
+   "kind": "HARD",
+   "status": "PASS",
+   "detail": "offenders: []"
+  },
+  {
+   "check": "pH_present_in_evidence_quote",
+   "kind": "HARD",
+   "status": "PASS",
+   "detail": "offenders: []"
+  },
+  {
+   "check": "relative_activity_sane",
+   "kind": "HARD",
+   "status": "PASS",
+   "detail": "offenders: []"
+  },
+  {
+   "check": "measurement_type_vocabulary",
+   "kind": "HARD",
+   "status": "PASS",
+   "detail": "unexpected: []"
+  },
+  {
+   "check": "direction_vocabulary",
+   "kind": "HARD",
+   "status": "PASS",
+   "detail": "unexpected: []"
+  },
+  {
+   "check": "qualifier_vocabulary",
+   "kind": "HARD",
+   "status": "PASS",
+   "detail": "unexpected: []"
+  },
+  {
+   "check": "tier_vocabulary",
+   "kind": "HARD",
+   "status": "PASS",
+   "detail": "unexpected: []"
+  },
+  {
+   "check": "provenance_complete",
+   "kind": "HARD",
+   "status": "PASS",
+   "detail": "offenders: []"
+  },
+  {
+   "check": "luke_protein_id_recomputes",
+   "kind": "HARD",
+   "status": "PASS",
+   "detail": "offenders: []"
+  },
+  {
+   "check": "sequences_are_amino_acids",
+   "kind": "HARD",
+   "status": "PASS",
+   "detail": "offenders: []"
+  },
+  {
+   "check": "no_model_predicted_values",
+   "kind": "HARD",
+   "status": "PASS",
+   "detail": "offenders: []"
+  },
+  {
+   "check": "no_duplicate_scored_measurements",
+   "kind": "HARD",
+   "status": "PASS",
+   "detail": "duplicates: []"
+  },
+  {
+   "check": "range_groups_consistent",
+   "kind": "HARD",
+   "status": "PASS",
+   "detail": "inconsistent: []"
+  },
+  {
+   "check": "range_rows_have_bounds",
+   "kind": "HARD",
+   "status": "PASS",
+   "detail": "offenders: []"
+  },
+  {
+   "check": "buffer_compatible_with_pH",
+   "kind": "WARN",
+   "status": "PASS",
+   "detail": "incompatible: []"
+  },
+  {
+   "check": "stability_rows_have_direction",
+   "kind": "WARN",
+   "status": "PASS",
+   "detail": "offenders: []"
+  },
+  {
+   "check": "scored_rows_identify_an_enzyme",
+   "kind": "WARN",
+   "status": "WARN",
+   "detail": "offenders: ['PH61E1621B', 'PH5B1747D5', 'PH98AC194B', 'PH8E4CFDA8', 'PHF243F422', 'PH5CC632AC', 'PHB6258D2E', 'PH044B97A7', 'PH8C46C95B']"
+  },
+  {
+   "check": "all_rows_source_verified_upstream",
+   "kind": "HARD",
+   "status": "PASS",
+   "detail": "offenders: []"
+  }
+ ]
+}

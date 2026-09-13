@@ -66,6 +66,24 @@ tuning.
 | salinity effect | 1 |
 | ionic strength effect | 1 |
 
+## Week 4 — the pH benchmark
+
+The pH axis of this benchmark has been finalised, audited and converted to Luke's
+standardized format. See **[`week4-ph/`](week4-ph/)**.
+
+Of the 105 rows here that record a pH, 38 (36%) were removed on re-reading each against
+its own evidence sentence, leaving **67 curated measurements from 30 articles**. All 105
+had already passed the automated source verification described below — which answers
+"is this number in the article?" but not "is this number recorded correctly?".
+
+| | |
+|---|---|
+| [`week4-ph/README.md`](week4-ph/README.md) | start here |
+| [`week4-ph/docs/AUDIT_REPORT.md`](week4-ph/docs/AUDIT_REPORT.md) | every verdict, row by row |
+| [`week4-ph/docs/METHODS.md`](week4-ph/docs/METHODS.md) | publication-ready Methods |
+| [`week4-ph/docs/SCREENER_PH_REPRESENTATION.md`](week4-ph/docs/SCREENER_PH_REPRESENTATION.md) | how pH is represented in the unified screener |
+| [`week4-ph/data/ph_benchmark_luke_format.csv`](week4-ph/data/ph_benchmark_luke_format.csv) | the benchmark in the standardized 24-column schema |
+
 ## Files
 
 | File | What it is |

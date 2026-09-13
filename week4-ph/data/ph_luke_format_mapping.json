@@ -1,0 +1,47 @@
+{
+ "target_schema": "temp_pH_dataset_ML_homology.csv (24 columns)",
+ "rows": 67,
+ "source_datasets_tag": "pet_ph_benchmark_v1",
+ "split_homology_value": "test_external",
+ "measurement_type_map": {
+  "pH optimum": "pH optimum",
+  "pH stability": "pH stability",
+  "pH stability range": "pH stability",
+  "pH activity range": "pH activity range",
+  "pH activity": "pH property",
+  "temperature optimum": "temperature optimum",
+  "thermostability": "thermostability"
+ },
+ "measurement_type_counts_after_mapping": {
+  "pH activity range": 3,
+  "pH optimum": 24,
+  "temperature optimum": 9,
+  "pH stability": 27,
+  "pH property": 3,
+  "thermostability": 1
+ },
+ "field_rules": {
+  "record_id": "PHB####, assigned in (pmcid, type, pH, source id) order",
+  "protein_id": "P + sha1(sequence.upper().replace('*',''))[:12] -- Luke's hash",
+  "measured_value": "the pH for pH-type rows, the temperature for T-type rows -- follows his pH_enzyme_db convention",
+  "method": "assay_method when the article states one, else 'not specified in sentence' / 'not specified in table'",
+  "condition_quality": "carried across from the benchmark's confidence field",
+  "source_id": "PubMed ID, as in his pH_enzyme_db rows",
+  "cluster_id": "left empty -- needs MMseqs2 over his full protein set",
+  "mutation/position/wt_aa/mut_aa/pdb_id": "empty; all pH rows are wild-type"
+ },
+ "departures_from_his_file": [
+  "split_homology = 'test_external' (new value; avoids merging into his test split while keeping '!= train' filters correct)",
+  "condition_quality = 'Low' (extends his High/Medium-High/Medium scale)",
+  "cluster_id empty (his clustering step, not ours)",
+  "measurement_type 'pH property' used for point activity-vs-pH values, which his vocabulary has no exact term for"
+ ],
+ "not_representable_in_his_schema": [
+  "outcome at the pH (residual/relative activity %) -> ext_relative_activity_pct",
+  "direction of the effect -> ext_direction",
+  "pH interval bounds -> ext_pH_low / ext_pH_high / ext_ph_range_group",
+  "exposure time of a stability assay -> ext_exposure_time_min",
+  "buffer identity -> ext_buffer_name",
+  "evidence sentence and audit trail -> ext_evidence_quote / ext_audit_rules"
+ ]
+}

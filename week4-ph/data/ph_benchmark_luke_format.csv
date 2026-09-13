@@ -1,0 +1,68 @@
+record_id,source_datasets,protein_id,uniprot_id,pdb_id,organism,ec_number,protein_name,mutation,position,wt_aa,mut_aa,temperature_c,pH,method,measurement_type,measured_value,has_temp,has_pH,has_both,condition_quality,source_id,cluster_id,split_homology
+PHB0001,pet_ph_benchmark_v1,P68a9967d6982,P26495,,Ectopseudomonas oleovorans,3.1.1.-,PhaZ,,,,,,8.0,not specified in sentence,pH activity range,8.0,0,1,0,Medium,36901931,,test_external
+PHB0002,pet_ph_benchmark_v1,P68a9967d6982,P26495,,Ectopseudomonas oleovorans,3.1.1.-,PhaZ,,,,,45.0,8.0,not specified in sentence,pH optimum,8.0,1,1,1,High,36901931,,test_external
+PHB0003,pet_ph_benchmark_v1,P68a9967d6982,P26495,,Ectopseudomonas oleovorans,3.1.1.-,PhaZ,,,,,45.0,8.0,not specified in sentence,temperature optimum,45.0,1,1,1,High,36901931,,test_external
+PHB0004,pet_ph_benchmark_v1,,,,,,KoFAE,,,,,,10.0,not specified in sentence,pH stability,10.0,0,1,0,Low,37110412,,test_external
+PHB0005,pet_ph_benchmark_v1,,,,,,KoFAE,,,,,,8.0,not specified in sentence,pH stability,8.0,0,1,0,Low,37110412,,test_external
+PHB0006,pet_ph_benchmark_v1,,,,,,KoFAE,,,,,,9.0,not specified in sentence,pH stability,9.0,0,1,0,Low,37110412,,test_external
+PHB0007,pet_ph_benchmark_v1,,,,,,KoFAE,,,,,,3.0,not specified in sentence,pH stability,3.0,0,1,0,Low,37110412,,test_external
+PHB0008,pet_ph_benchmark_v1,,,,,,KoFAE,,,,,,6.0,not specified in sentence,pH stability,6.0,0,1,0,Low,37110412,,test_external
+PHB0009,pet_ph_benchmark_v1,,,,,,EstD04,,,,,,8.0,not specified in sentence,pH optimum,8.0,0,1,0,Low,37513282,,test_external
+PHB0010,pet_ph_benchmark_v1,,,,,,EstD04,,,,,,11.0,not specified in sentence,pH stability,11.0,0,1,0,Low,37513282,,test_external
+PHB0011,pet_ph_benchmark_v1,,,,,,EstD04,,,,,,8.0,not specified in sentence,pH stability,8.0,0,1,0,Low,37513282,,test_external
+PHB0012,pet_ph_benchmark_v1,,,,,,EstD04,,,,,40.0,8.0,not specified in sentence,temperature optimum,40.0,1,1,1,Low,37513282,,test_external
+PHB0013,pet_ph_benchmark_v1,,,,,,EaEst2,,,,,,8.0,not specified in sentence,pH property,8.0,0,1,0,Low,37569396,,test_external
+PHB0014,pet_ph_benchmark_v1,,,,,,EaEst2,,,,,,7.0,not specified in sentence,pH optimum,7.0,0,1,0,Low,37569396,,test_external
+PHB0015,pet_ph_benchmark_v1,P38c8a8bef0c1,RLI42440.1,,Candidatus Bathyarchaeota archaeon,,PET46,,,,,,5.0,not specified in sentence,pH stability,5.0,0,1,0,Medium,37697032,,test_external
+PHB0016,pet_ph_benchmark_v1,,,,,,,,,,,50.0,7.0,not specified in sentence,pH optimum,7.0,1,1,1,Medium,37895132,,test_external
+PHB0017,pet_ph_benchmark_v1,,,,,,,,,,,50.0,7.0,not specified in sentence,temperature optimum,50.0,1,1,1,Medium,37895132,,test_external
+PHB0018,pet_ph_benchmark_v1,P6f81adc82011,AAB51445.1,,Streptomyces sp.,,SeLipC,,,,,,8.5,spectrophotometric p-nitrophenol release,pH optimum,8.5,0,1,0,Medium,38069394,,test_external
+PHB0019,pet_ph_benchmark_v1,P6f81adc82011,AAB51445.1,,Streptomyces sp.,,SeLipC,,,,,,10.0,spectrophotometric p-nitrophenol release,pH stability,10.0,0,1,0,Medium,38069394,,test_external
+PHB0020,pet_ph_benchmark_v1,,,,,,ANCUT1,,,,,,10.0,not specified in sentence,pH stability,10.0,0,1,0,Low,38416309,,test_external
+PHB0021,pet_ph_benchmark_v1,P58458fbad1df,WP_054022242.1,,Pseudideonella sakaiensis,,SbPETase,,,,,30.0,7.0,HPLC/UPLC product release,pH optimum,7.0,1,1,1,Medium-High,39628843,,test_external
+PHB0022,pet_ph_benchmark_v1,P58458fbad1df,WP_054022242.1,,Pseudideonella sakaiensis,,SbPETase,,,,,30.0,7.0,HPLC/UPLC product release,temperature optimum,30.0,1,1,1,Medium-High,39628843,,test_external
+PHB0023,pet_ph_benchmark_v1,Pf9cc9f72d7db,AOT80658.1,,Bacillus licheniformis,,lipase IBRL-CHS2,,,,,,6.0,not specified in sentence,pH property,6.0,0,1,0,Low,39689112,,test_external
+PHB0024,pet_ph_benchmark_v1,Pf9cc9f72d7db,AOT80658.1,,Bacillus licheniformis,,lipase IBRL-CHS2,,,,,,8.0,not specified in sentence,pH property,8.0,0,1,0,Low,39689112,,test_external
+PHB0025,pet_ph_benchmark_v1,Pf9cc9f72d7db,AOT80658.1,,Bacillus licheniformis,,lipase IBRL-CHS2,,,,,,7.0,not specified in sentence,pH optimum,7.0,0,1,0,Low,39689112,,test_external
+PHB0026,pet_ph_benchmark_v1,Pf9cc9f72d7db,AOT80658.1,,Bacillus licheniformis,,lipase IBRL-CHS2,,,,,,10.0,not specified in sentence,pH stability,10.0,0,1,0,Low,39689112,,test_external
+PHB0027,pet_ph_benchmark_v1,Pf9cc9f72d7db,AOT80658.1,,Bacillus licheniformis,,lipase IBRL-CHS2,,,,,,11.0,not specified in sentence,pH stability,11.0,0,1,0,Low,39689112,,test_external
+PHB0028,pet_ph_benchmark_v1,Pf9cc9f72d7db,AOT80658.1,,Bacillus licheniformis,,lipase IBRL-CHS2,,,,,35.0,6.0,not specified in sentence,pH stability,6.0,1,1,1,Low,39689112,,test_external
+PHB0029,pet_ph_benchmark_v1,Pf9cc9f72d7db,AOT80658.1,,Bacillus licheniformis,,lipase IBRL-CHS2,,,,,35.0,9.0,not specified in sentence,pH stability,9.0,1,1,1,Low,39689112,,test_external
+PHB0030,pet_ph_benchmark_v1,,,,,,,,,,,60.0,8.0,not specified in sentence,pH optimum,8.0,1,1,1,Low,39898275,,test_external
+PHB0031,pet_ph_benchmark_v1,,,,,,,,,,,60.0,8.0,not specified in sentence,temperature optimum,60.0,1,1,1,Low,39898275,,test_external
+PHB0032,pet_ph_benchmark_v1,,,,,,Savinase,,,,,42.0,8.5,not specified in sentence,pH optimum,8.5,1,1,1,Low,40575345,,test_external
+PHB0033,pet_ph_benchmark_v1,,,,,,Savinase,,,,,42.0,8.5,not specified in sentence,temperature optimum,42.0,1,1,1,Low,40575345,,test_external
+PHB0034,pet_ph_benchmark_v1,,,,,,DehpH,,,,,,8.0,not specified in sentence,pH optimum,8.0,0,1,0,Low,40943065,,test_external
+PHB0035,pet_ph_benchmark_v1,,,,,,DehpH,,,,,4.0,3.0,not specified in sentence,pH stability,3.0,1,1,1,Low,40943065,,test_external
+PHB0036,pet_ph_benchmark_v1,,,,,,PanLipdN,,,,,,8.0,not specified in sentence,pH optimum,8.0,0,1,0,Low,41440913,,test_external
+PHB0037,pet_ph_benchmark_v1,,,,,,PanLipdN,,,,,,9.0,not specified in sentence,pH stability,9.0,0,1,0,Low,41440913,,test_external
+PHB0038,pet_ph_benchmark_v1,,,,,,PCLase0801,,,,,,8.0,not specified in sentence,pH optimum,8.0,0,1,0,Low,41458911,,test_external
+PHB0039,pet_ph_benchmark_v1,,,,,,TflNylA,,,,,,5.5,HPLC/UPLC product release,pH activity range,5.5,0,1,0,Low,41340193,,test_external
+PHB0040,pet_ph_benchmark_v1,,,,,,rEST-24,,,,,,7.0,spectrophotometric p-nitrophenol release,pH optimum,7.0,0,1,0,Low,41677747,,test_external
+PHB0041,pet_ph_benchmark_v1,,,,,,rEST-24,,,,,,4.0,spectrophotometric p-nitrophenol release,pH stability,4.0,0,1,0,Low,41677747,,test_external
+PHB0042,pet_ph_benchmark_v1,,,,,,Ces1-ET,,,,,,7.5,not specified in sentence,pH optimum,7.5,0,1,0,Low,41683795,,test_external
+PHB0043,pet_ph_benchmark_v1,,,,,,Plp1-ET,,,,,,8.0,not specified in sentence,pH optimum,8.0,0,1,0,Low,41683795,,test_external
+PHB0044,pet_ph_benchmark_v1,,,,,,CaFaeA,,,,,,8.0,HPLC/UPLC product release,pH optimum,8.0,0,1,0,Low,41781769,,test_external
+PHB0045,pet_ph_benchmark_v1,,,,,,CaFaeA,,,,,,10.0,HPLC/UPLC product release,pH stability,10.0,0,1,0,Low,41781769,,test_external
+PHB0046,pet_ph_benchmark_v1,,,,,,LipC,,,,,,3.5,spectrophotometric p-nitrophenol release,pH optimum,3.5,0,1,0,Low,41904273,,test_external
+PHB0047,pet_ph_benchmark_v1,,,,,,,,,,,40.0,6.8,not specified in sentence,pH optimum,6.8,1,1,1,Low,42034609,,test_external
+PHB0048,pet_ph_benchmark_v1,,,,,,,,,,,40.0,6.8,not specified in sentence,temperature optimum,40.0,1,1,1,Low,42034609,,test_external
+PHB0049,pet_ph_benchmark_v1,,,,,,PHAZ(Pen),,,,,,5.0,spectrophotometric p-nitrophenol release,pH optimum,5.0,0,1,0,Low,28324398,,test_external
+PHB0050,pet_ph_benchmark_v1,,,,,,PHAZ(Pen),,,,,55.0,4.0,spectrophotometric p-nitrophenol release,pH stability,4.0,1,1,1,Low,28324398,,test_external
+PHB0051,pet_ph_benchmark_v1,,,,,,PHAZ(Pen),,,,,55.0,4.0,spectrophotometric p-nitrophenol release,thermostability,55.0,1,1,1,Low,28324398,,test_external
+PHB0052,pet_ph_benchmark_v1,,,,,,Tan410,,,,,,7.0,not specified in sentence,pH optimum,7.0,0,1,0,Low,33666762,,test_external
+PHB0053,pet_ph_benchmark_v1,,,,,,PET27,,,,,,7.0,not specified in sentence,pH activity range,7.0,0,1,0,Low,35069509,,test_external
+PHB0054,pet_ph_benchmark_v1,,,,,,PCLase I,,,,,,12.0,not specified in sentence,pH stability,12.0,0,1,0,Low,35372294,,test_external
+PHB0055,pet_ph_benchmark_v1,,,,,,BaAXE,,,,,40.0,8.0,spectrophotometric p-nitrophenol release,pH optimum,8.0,1,1,1,Low,35566348,,test_external
+PHB0056,pet_ph_benchmark_v1,,,,,,BaAXE,,,,,,7.0,spectrophotometric p-nitrophenol release,pH stability,7.0,0,1,0,Low,35566348,,test_external
+PHB0057,pet_ph_benchmark_v1,,,,,,BaAXE,,,,,40.0,8.0,spectrophotometric p-nitrophenol release,temperature optimum,40.0,1,1,1,Low,35566348,,test_external
+PHB0058,pet_ph_benchmark_v1,P4f184191e5ea,QIT07223.1,,Lysinibacillus sp.,,EstRag,,,,,,8.0,not specified in sentence,pH optimum,8.0,0,1,0,Medium,36070019,,test_external
+PHB0059,pet_ph_benchmark_v1,,,,,,AXE-HAS10,,,,,40.0,8.5,not specified in sentence,pH optimum,8.5,1,1,1,Low,36289146,,test_external
+PHB0060,pet_ph_benchmark_v1,,,,,,AXE-HAS10,,,,,,8.0,not specified in sentence,pH stability,8.0,0,1,0,Low,36289146,,test_external
+PHB0061,pet_ph_benchmark_v1,,,,,,AXE-HAS10,,,,,40.0,8.5,not specified in sentence,temperature optimum,40.0,1,1,1,Low,36289146,,test_external
+PHB0062,pet_ph_benchmark_v1,,,,,,,,,,,,11.0,spectrophotometric p-nitrophenol release,pH stability,11.0,0,1,0,Low,36545586,,test_external
+PHB0063,pet_ph_benchmark_v1,,,,,,,,,,,,4.0,spectrophotometric p-nitrophenol release,pH stability,4.0,0,1,0,Low,36545586,,test_external
+PHB0064,pet_ph_benchmark_v1,,,,,,,,,,,,6.0,spectrophotometric p-nitrophenol release,pH stability,6.0,0,1,0,Low,36545586,,test_external
+PHB0065,pet_ph_benchmark_v1,,,,,,,,,,,,7.0,spectrophotometric p-nitrophenol release,pH stability,7.0,0,1,0,Low,36545586,,test_external
+PHB0066,pet_ph_benchmark_v1,,,,,,,,,,,,8.0,spectrophotometric p-nitrophenol release,pH stability,8.0,0,1,0,Low,36545586,,test_external
+PHB0067,pet_ph_benchmark_v1,,,,,,,,,,,,7.5,not specified in sentence,pH optimum,7.5,0,1,0,Low,36587193,,test_external

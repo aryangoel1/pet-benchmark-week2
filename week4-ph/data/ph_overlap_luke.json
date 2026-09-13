@@ -1,0 +1,92 @@
+{
+ "luke_folder": "C:\\Users\\worki\\Downloads\\Week 2_ temperature_ph_dataset_v2-20260913T050402Z-1-001\\Week 2_ temperature_ph_dataset_v2",
+ "luke_proteins_indexed": 37448,
+ "benchmark_rows": 67,
+ "benchmark_rows_with_sequence": 16,
+ "benchmark_rows_without_sequence": 51,
+ "benchmark_distinct_proteins": 6,
+ "proteins_in_luke_train": 0,
+ "proteins_in_luke_test": 1,
+ "proteins_new_to_the_project": 5,
+ "verdict": "CLEAN - no benchmark protein appears in Luke's training split",
+ "per_protein": [
+  {
+   "protein_id": "Pf9cc9f72d7db",
+   "split_homology": "not_in_lukes_data",
+   "rows": 7,
+   "tier": "A_fully_independent",
+   "organism": "Bacillus licheniformis",
+   "accessions": [
+    "AOT80658.1"
+   ],
+   "enzymes": [
+    "lipase IBRL-CHS2"
+   ]
+  },
+  {
+   "protein_id": "P68a9967d6982",
+   "split_homology": "not_in_lukes_data",
+   "rows": 3,
+   "tier": "A_fully_independent",
+   "organism": "Ectopseudomonas oleovorans",
+   "accessions": [
+    "P26495"
+   ],
+   "enzymes": [
+    "PhaZ"
+   ]
+  },
+  {
+   "protein_id": "P6f81adc82011",
+   "split_homology": "not_in_lukes_data",
+   "rows": 2,
+   "tier": "A_fully_independent",
+   "organism": "Streptomyces sp.",
+   "accessions": [
+    "AAB51445.1"
+   ],
+   "enzymes": [
+    "SeLipC"
+   ]
+  },
+  {
+   "protein_id": "P58458fbad1df",
+   "split_homology": "test",
+   "rows": 2,
+   "tier": "B_in_luke_heldout_test_only",
+   "organism": "Pseudideonella sakaiensis",
+   "accessions": [
+    "WP_054022242.1"
+   ],
+   "enzymes": [
+    "SbPETase"
+   ]
+  },
+  {
+   "protein_id": "P4f184191e5ea",
+   "split_homology": "not_in_lukes_data",
+   "rows": 1,
+   "tier": "A_fully_independent",
+   "organism": "Lysinibacillus sp.",
+   "accessions": [
+    "QIT07223.1"
+   ],
+   "enzymes": [
+    "EstRag"
+   ]
+  },
+  {
+   "protein_id": "P38c8a8bef0c1",
+   "split_homology": "not_in_lukes_data",
+   "rows": 1,
+   "tier": "A_fully_independent",
+   "organism": "Candidatus Bathyarchaeota archaeon",
+   "accessions": [
+    "RLI42440.1"
+   ],
+   "enzymes": [
+    "PET46"
+   ]
+  }
+ ]
+}
